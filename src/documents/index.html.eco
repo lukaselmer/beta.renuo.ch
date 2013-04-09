@@ -1,0 +1,502 @@
+--- yaml
+layout: 'default'
+title: 'Renuo GmbH'
+---
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="/">
+                Renuo GmbH
+            </a>
+            <ul class="nav">
+                <li class="active"><a href="#focus">Fokus</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#technologies">Technologien</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><%= link_to "AGB", "/pdfs/agb.pdf" %></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" id="center-main" style="padding: 0 0 0 10px;">
+
+<div style="padding-top: 80px;">
+
+<div class="row-fluid">
+    <div class="span12">
+        <a class="brand" href="/">
+            image_tag "logo.png"
+        </a>
+
+        <h3>Internet Solutions</h3>
+    </div>
+</div>
+
+<div id="focus"></div>
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Fokus
+                <small> und was wir Ihnen bieten können</small>
+            </h1>
+        </div>
+        <div>
+            Wir sind Ihr Spezialist in den Bereichen:
+        </div>
+        <dl>
+            <dt>Web</dt>
+            <dd>vom kleinen Auftritt bis zur grossen Plattform</dd>
+            <dt>Neuentwicklung</dt>
+            <dd>alter Systeme mit Fokus auf Usability</dd>
+            <dt>Projektmanagement</dt>
+            <dd>von Softwareprojekten / Agile Softwareentwicklung</dd>
+            <dt>Innovative Software</dt>
+            <dd>mithilfe moderner Technologien (bsp. Ruby on Rails, jQuery, Android, HTML5)</dd>
+        </dl>
+    </div>
+</div>
+
+<!-- Team -->
+
+<div id="team"></div>
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Team
+                <small> jung und dynamisch &ndash; aber keineswegs unerfahren</small>
+            </h1>
+        </div>
+        <p>Sie kennen Ihr Business. Und Sie erwarten, dass auch wir unser Business kennen. Und genau so ist das
+            auch.</p>
+        <br/>
+    </div>
+</div>
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div>
+
+            <div class="span6">
+                <div><%= image_tag 'lukas.png' %></div>
+                <h3>Lukas Elmer (<%= age(Date.new(1988, 2, 23)) %>)</h3>
+
+                <p>Gründer, Projektleiter, Web Entwickler<br/>
+                    <a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></p>
+                <br/>
+
+                <blockquote>Mein Ziel ist es, in enger Zusammenarbeit mit dem Kunden nachhaltige Software zu
+                    entwickleln, die funktioniert.
+                    <small>Lukas Elmer</small>
+                </blockquote>
+                <br/>
+
+                <p>
+                    <strong>Kurzprofil</strong>
+                </p>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2003-2006</th>
+                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
+                    </tr>
+                    <tr>
+                        <th>2006-2009</th>
+                        <td><strong>Web Entwicklung</strong> (PHP, Ruby on Rails), Projektleitung, Zimtkorn GmbH, Zürich
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2009-2012</th>
+                        <td><strong>Bachelor Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2010-2011</th>
+                        <td>Teilzeit verschiedene <strong>Projekte mit Ruby on Rails</strong> und PHP realisiert</td>
+                    </tr>
+                    <tr>
+                        <th>2011</th>
+                        <td><strong>Gründung</strong> der Renuo GmbH mit Diego Steiner</td>
+                    </tr>
+                    <tr>
+                        <th>2011-jetzt</th>
+                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2012-jetzt</th>
+                        <td><strong>Master Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule
+                            ETH, Zürich
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <a href="https://www.xing.com/profile/Lukas_Elmer" target="_blank">Vollständiges Xing Profil</a>
+            </div>
+
+            <div class="span6">
+                <div><%= image_tag 'diego.png' %></div>
+                <h3>Diego P. Steiner (<%= age(Date.new(1987, 10, 26)) %>)</h3>
+
+                <p>Gründer, Projektleiter, Web Entwickler<br/>
+                    <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
+
+                <br/>
+
+                <blockquote>Ich möchte, dass der Kunde mit meiner Arbeit höchstzufrieden ist. Zusätzlich möchte ich
+                    nachhaltige,
+                    gut wartbare und erweiterbare Software schreiben.
+                    <small>Diego Steiner</small>
+                </blockquote>
+
+                <p>
+                    <strong>Kurzprofil</strong>
+                </p>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2003-2006</th>
+                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
+                    </tr>
+                    <tr>
+                        <th>2006-2008</th>
+                        <td><strong>Web Entwicklung</strong> (ASP.net), Mathys & Scheitlin AG, Bern</td>
+                    </tr>
+                    <tr>
+                        <th>2009-2010</th>
+                        <td><strong>Web Entwicklung</strong> (PHP, Zend Framework), Trekksoft AG, Bern</td>
+                    </tr>
+                    <tr>
+                        <th>2009-2012</th>
+                        <td><strong>Bachelor Teilzeit Studium Informatik</strong> an der Hochschule für Technik HSR,
+                            Rapperswil
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2011</th>
+                        <td><strong>Gründung</strong> der Renuo GmbH mit Lukas Elmer</td>
+                    </tr>
+                    <tr>
+                        <th>2011-jetzt</th>
+                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <a href="https://www.xing.com/profile/DiegoP_Steiner" target="_blank">Vollständiges Xing Profil</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div>
+            <div class="span6">
+                <div><%= image_tag 'samuel.png' %></div>
+                <h3>Samuel Steiner (<%= age(Date.new(1987, 10, 26)) %>)</h3>
+
+                <p>Projektleiter, Mitglied der Geschäftsleitung<br/>
+                    <a href="mailto:samuel.steiner@renuo.ch">samuel.steiner@renuo.ch</a></p>
+                <br/>
+
+                <blockquote>Den Kunden in das Zentrum der Zusammenarbeit rücken und damit Kosten senken, langfristige
+                    Werte
+                    generieren und Freude bereiten.
+                    <small>Samuel Steiner</small>
+                </blockquote>
+
+                <p>
+                    <strong>Kurzprofil</strong>
+                </p>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2007-2009</th>
+                        <td><strong>IT-Projektmanagement</strong> bei der St.Galler Kantonalbank</td>
+                    </tr>
+                    <tr>
+                        <th>2007-2010</th>
+                        <td><strong>Bachelor Studium Betriebswirtschaftslehre</strong> an der Universität St.Gallen
+                            (HSG)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2010-2013</th>
+                        <td><strong>Geschäftsleitung</strong> bei der Verbandspool AG (<a href="https://shariando.com"
+                                                                                          target="_blank">shariando.com</a>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2011-2013</th>
+                        <td><strong>Master Studium</strong> Informations-, Medien- und Technologiemanagement an der
+                            Universität St.
+                            Gallen (HSG)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2013-jetzt</th>
+                        <td><strong>Anstellung als Projektleiter</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <a href="https://www.xing.com/profile/Samuel_Steiner3" target="_blank">Vollständiges Xing Profil</a>
+            </div>
+
+            <div class="span6">
+                <div><%= image_tag 'ueli.png' %></div>
+                <h3>Ueli Kunz (<%= age(Date.new(1986, 3, 5)) %>)</h3>
+
+                <p>Web Entwickler<br/>
+                    <a href="mailto:ueli.kunz@renuo.ch">ueli.kunz@renuo.ch</a></p>
+
+                <br/>
+
+                <blockquote>Ich erstelle hochwertige Software für individuelle Bedürfnisse.
+                    Das wird erreicht durch enge Zusammenarbeit mit dem Kunden und effizienzsteigernde Automatisierung.
+                    <small>Ueli Kunz</small>
+                </blockquote>
+
+                <p>
+                    <strong>Kurzprofil</strong>
+                </p>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2002-2012</th>
+                        <td>Selbststäniger Nebenverdienst mit <strong>Webprojekten</strong> (PHP)</td>
+                    </tr>
+                    <tr>
+                        <th>2002-2005</th>
+                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Graubünden, Chur</td>
+                    </tr>
+                    <tr>
+                        <th>2005-2009</th>
+                        <td><strong>Software Entwicklung</strong> (Sharepoint, ASP.net, C#.net)</td>
+                    </tr>
+                    <tr>
+                        <th>2009-2012</th>
+                        <td><strong>Bachelor Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2012-jetzt</th>
+                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <a href="https://www.xing.com/profile/Ueli_Kunz" target="_blank">Vollständiges Xing Profil</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<%# Technologien %>
+
+<div id="technologies"></div>
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Technologien
+                <small> Damit arbeiten wir gerne</small>
+            </h1>
+        </div>
+        <p>Um eine Internet Plattform oder eine Software Lösung zu entwickeln, setzen wir verschiedene Technologien ein.
+            Wir
+            wählen unter anderem anhand folgender Kriterien die Technologien aus:</p>
+        <ul>
+            <li><strong>Kosteneffizienz: </strong> Wieviel kostet die Entwicklung?</li>
+            <li><strong>Geschwindigkeit: </strong> Wie schnell kann die gewünschte Lösung entwickelt werden?</li>
+            <li><strong>Stabilität: </strong> Wie kann eine genügend hohe Stabilität erreicht werden?</li>
+            <li><strong>Wartbarkeit: </strong> Wie teuer ist die Software im Unterhalt?</li>
+            <li><strong>Agilität: </strong> Wie einfach können Änderungen durchgeführt werden?</li>
+            <li><strong>Verbreitung und Community: </strong> Wie verbreitet ist die Technologie und wie schnell
+                entwickelt
+                sich diese weiter?
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="row-fluid" style="margin-top: 30px;">
+    <div class="span4">
+        <h2>
+            Web
+            <small>HTML5, CSS3 und Javascript</small>
+        </h2>
+        <p>Wir arbeiten mit modernsten Web Technologien, weil heute der grösste Teil der Bevölkerung Internetfähige
+            Geräte
+            (PC, Laptop, Handy, ...) besitzt, mit
+            denen das Internet genutzt werden kann. Zudem entwickeln sich diese Technologien sehr schnell, wodurch immer
+            wieder neue Möglichkeiten für neue Produkte
+            und Lösungen bietet und Raum für Innovation lässt.</p>
+
+        <p>Mit HTML5, CSS3 und Javascript ist es für einen Nutzer möglich, ohne eine zusätzliche Softwareinstallation
+            direkt
+            auf die Services zuzugreifen.</p>
+
+        <p>Diese Technologien sind auch am meisten verbreitet, wodurch sehr viele Endgeräte angesprochen werden können,
+            vom
+            IPhone über ein Android Tablet
+            bis zum Desktop PC zuhause oder im Büro.</p>
+    </div>
+    <div class="span4">
+        <h2>Ruby on Rails
+            <small>Schnelle Entwicklung</small>
+        </h2>
+        <p>Um der Applikation ein kräftiges Backend zu verleihen, das schnell, einfach und kosteneffizient entwickelt
+            werden
+            kann, setzen wir auf Ruby on Rails.</p>
+
+        <p>Durch Konvention über Konfiguration ist es den Entwicklern möglich, dank logischen Standardwerten nur die
+            Werte
+            anzupassen, die für die spezifische
+            Lösung benötigt werden. Dadurch wird weniger Code produziert, wodurch die Entwicklung beschleunigt und die
+            Wartung
+            effizienter wird.</p>
+
+        <p>Ruby on Rails wurde schon in vielen Projekten eingesetzt
+            (zum Beispiel bei <a href="http://www.twitter.com/" target="_blank">Twitter</a>,
+            <a href="http://www.groupon.com/" target="_blank">Groupon</a>,
+            <a href="http://www.xing.com" target="_blank">Xing</a>, usw.)
+            und überzeugt immer wieder mit Innovation.
+            Weitere Informationen zu Ruby on Rails finden Sie unter:
+            <a href="http://rubyonrails.org/applications" target="_blank">http://rubyonrails.org</a></p>
+    </div>
+    <div class="span4">
+        <h2>jQuery
+            <small>DIE Javascript Bibliothek</small>
+        </h2>
+        <p>Während früher Internetseiten meistens statisch und ohne Javascript funktionierten, ist es heute nicht mehr
+            wegzudenken, ohne Javascript zu arbeiten. Da viele
+            verschiedene Endgeräte und Browser unterstützt werden müssen, setzen wir jQuery ein.</p>
+
+        <p>jQuery vereinfacht die Bearbeitung von HTML direkt auf dem Endgerät. Dadurch ist es z.B. möglich, Animationen
+            oder Dialoge einzublenden. Weiter ermöglicht
+            jQuery sogenannte AJAX Abfragen, damit nicht immer die ganze Seite neu geladen werden muss, sondern nur ein
+            kleiner Teil bearbeitet wird.</p>
+
+        <p>Die Verbreitung von jQuery im Web spricht für sich (je nach Quelle bei 50% oder mehr Internetseiten
+            verwendet).
+            Die aktive Community entwickelt diese Bibliothek
+            auch stetig weiter, damit neue Browser und neue Standards stehts unterstützt werden.</p>
+    </div>
+</div>
+
+
+<div id="contact"></div>
+<div class="row-fluid page-header-element">
+
+    <div class="span8">
+        <div>
+            <div class="page-header">
+                <h1>Kontakt
+                    <small> So erreichen Sie uns</small>
+                </h1>
+            </div>
+            <div>
+                <p>Wir sind bereit! Sie auch? Dann würden wir uns gerne zu einem unverbindlichen Beratungsgespräch
+                    treffen,
+                    damit wir Ihnen ein faires Angebot unterbreiten dürfen, das auf Ihre Bedürfnisse zugeschnitten
+                    ist.</p>
+
+                <p>Sie erreichen uns am Besten per Email unter <a href="mailto:info@renuo.ch">info@renuo.ch</a>.</p>
+            </div>
+        </div>
+        <div>
+            <div class="span4">
+                <address>
+                    <b>Renuo GmbH</b><br/>
+                    Hungerbergstrasse 26<br/>
+                    8046 Zürich<br/><br/>
+                </address>
+            </div>
+            <div class="span6">
+                <dl class="dl-horizontal" style="margin-top: 0;">
+                    <dt>Telefon</dt>
+                    <dd><a href="tel:+41443701536">+41 44 370 15 36</a></dd>
+                    <dt>Email</dt>
+                    <dd><a href="mailto:info@renuo.ch">info@renuo.ch</a></dd>
+                    <dt>Web</dt>
+                    <dd><a href="http://www.renuo.ch">www.renuo.ch</a></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="span4">
+        <div id="map_canvas" style="width: 100%; height: 300px;">
+            Google Maps konnte nicht geladen werden.
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        var myLatlng = new google.maps.LatLng(47.421761, 8.499641);
+        var mapOptions = {
+            zoom: 14,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            draggable: false,
+            zoomControl: false,
+            scrollwheel: false,
+            disableDoubleClickZoom: false,
+            keyboardShortcuts: false,
+            overviewMapControl: false,
+            panControl: false,
+            rotateControl: false,
+            scaleControl: false,
+            streetViewControl: false,
+            mapTypeControl: false
+        }
+        var map = new google.maps.Map($('#map_canvas')[0], mapOptions);
+
+        var myLatlng = new google.maps.LatLng(47.4194, 8.499308);
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Renuo GmbH',
+            clickable: true,
+            onclick: function () {
+                alert(this);
+            }
+        });
+
+        google.maps.event.addListener(marker, 'click', function () {
+            window.open('https://maps.google.ch/maps?q=Renuo+GmbH,+Hungerbergstrasse+26,+Z%C3%BCrich&hl=de&ie=UTF8&hq=Renuo+GmbH,&hnear=Hungerbergstrasse+26,+Kreis+11,+8046+Z%C3%BCrich&t=m&z=16&iwloc=A');
+        });
+    });
+
+</script>
+
+</div>
+</div>
+
