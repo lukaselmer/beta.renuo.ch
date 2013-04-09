@@ -80,7 +80,7 @@ title: 'Renuo GmbH'
 
             <div class="span6">
                 <div><%= image_tag 'lukas.png' %></div>
-                <h3>Lukas Elmer (<%= age(Date.new(1988, 2, 23)) %>)</h3>
+                <h3>Lukas Elmer (<%= age(1988, 2, 23) %>)</h3>
 
                 <p>Gründer, Projektleiter, Web Entwickler<br/>
                     <a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></p>

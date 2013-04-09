@@ -1,0 +1,44 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require_self
+*= require_tree .
+*/
+
+$baseFontSize: 13px;
+$baseLineHeight: 18px;
+
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+body {
+  background: image-url('bg-transparent.png') no-repeat fixed;
+}
+
+@media (min-width: 1720px) {
+  body {
+    background: image-url('bg.png') no-repeat fixed;
+  }
+}
+
+.page-header-element {
+  margin-top: 70px;
+}
+
+.fb-like-box {
+  border: 1px gainsboro solid;
+  padding: 40px 0 0 0;
+  background: #fff;
+}
+
+#map_canvas {
+  height: 100%;
+}
+
