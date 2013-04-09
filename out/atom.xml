@@ -37,7 +37,7 @@
     &lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad&quot;/&gt;
 
     &lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
 
     &lt;!-- Icons --&gt;
     &lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;
@@ -52,7 +52,7 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Styles --&gt;
-    &lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+    &lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
     &lt;!-- Markup --&gt;

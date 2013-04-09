@@ -19,7 +19,7 @@
 	<%- @getBlock('meta').toHTML() %>
 
 	<!-- Mobile viewport optimized: h5bp.com/viewport -->
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Icons -->
     <link rel="shortcut icon" href="ico/favicon.ico">
@@ -34,7 +34,7 @@
 	<![endif]-->
 
 	<!-- Styles -->
-	<%- @getBlock('styles').add(["/vendor/twitter-bootstrap/css/bootstrap.css","/vendor/twitter-bootstrap/css/bootstrap-responsive.css","/styles/style.css"]).toHTML() %>
+	<%- @getBlock('styles').add(["/vendor/twitter-bootstrap/css/bootstrap.css","/styles/style.css"]).toHTML() %>
 </head>
 <body>
 	<!-- Markup -->
