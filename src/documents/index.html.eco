@@ -14,7 +14,7 @@ title: 'Renuo GmbH'
                 <li><a href="#team">Team</a></li>
                 <li><a href="#technologies">Technologien</a></li>
                 <li><a href="#contact">Kontakt</a></li>
-                <li><%= link_to "AGB", "/pdfs/agb.pdf" %></li>
+                <li>< % = link_to "AGB", "/pdfs/agb.pdf" %></li>
             </ul>
         </div>
     </div>
@@ -79,8 +79,8 @@ title: 'Renuo GmbH'
         <div>
 
             <div class="span6">
-                <div><%= image_tag 'lukas.png' %></div>
-                <h3>Lukas Elmer (<%= age(1988, 2, 23) %>)</h3>
+                <div>< %= image_tag 'lukas.png' %></div>
+                <h3>Lukas Elmer (<%= @age(1988, 2, 23) %>)</h3>
 
                 <p>Gründer, Projektleiter, Web Entwickler<br/>
                     <a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></p>
@@ -142,8 +142,8 @@ title: 'Renuo GmbH'
             </div>
 
             <div class="span6">
-                <div><%= image_tag 'diego.png' %></div>
-                <h3>Diego P. Steiner (<%= age(Date.new(1987, 10, 26)) %>)</h3>
+                <div>< %= image_tag 'diego.png' %></div>
+                <h3>Diego P. Steiner (< %= age(Date.new(1987, 10, 26)) %>)</h3>
 
                 <p>Gründer, Projektleiter, Web Entwickler<br/>
                     <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
@@ -206,8 +206,8 @@ title: 'Renuo GmbH'
     <div class="span12">
         <div>
             <div class="span6">
-                <div><%= image_tag 'samuel.png' %></div>
-                <h3>Samuel Steiner (<%= age(Date.new(1987, 10, 26)) %>)</h3>
+                <div>< %= image_tag 'samuel.png' %></div>
+                <h3>Samuel Steiner (< %= age(Date.new(1987, 10, 26)) %>)</h3>
 
                 <p>Projektleiter, Mitglied der Geschäftsleitung<br/>
                     <a href="mailto:samuel.steiner@renuo.ch">samuel.steiner@renuo.ch</a></p>
@@ -264,8 +264,8 @@ title: 'Renuo GmbH'
             </div>
 
             <div class="span6">
-                <div><%= image_tag 'ueli.png' %></div>
-                <h3>Ueli Kunz (<%= age(Date.new(1986, 3, 5)) %>)</h3>
+                <div>< %= image_tag 'ueli.png' %></div>
+                <h3>Ueli Kunz (< %= age(Date.new(1986, 3, 5)) %>)</h3>
 
                 <p>Web Entwickler<br/>
                     <a href="mailto:ueli.kunz@renuo.ch">ueli.kunz@renuo.ch</a></p>

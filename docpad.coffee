@@ -67,6 +67,14 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
+		age: (y,m,d)->
+      m = m - 1
+      date = new Date()
+      minus_year = 0
+      age = date.getFullYear() - y
+      minus_year = 1 if date.getMonth() < m
+      minus_year = 1 if date.getMonth() == m && date.getDate() < d
+      age - minus_year
 
 	# =================================
 	# Collections
@@ -109,6 +117,7 @@ docpadConfig = {
 					res.redirect(newUrl+req.url, 301)
 				else
 					next()
+
 }
 
 
