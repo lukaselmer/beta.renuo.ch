@@ -4,3 +4,4 @@ beta.renuo.ch
 * npm install -g punch
 * punch s
 * Open Browser at http://127.0.0.1:9009
+* git pull renuo master
