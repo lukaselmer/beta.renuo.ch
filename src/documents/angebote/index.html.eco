@@ -1,0 +1,113 @@
+--- yaml
+layout: 'default'
+title: 'Angebote'
+---
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Angebote
+                <small> .....</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="row-fluid">
+
+    <div class="span3">
+        Konzeption
+        <img src="http://placehold.it/250x150"/>
+    </div>
+
+    <div class="span3">
+        Design
+        <img src="http://placehold.it/250x150"/>
+    </div>
+
+    <div class="span3">
+        Entwicklung
+        <img src="http://placehold.it/250x150"/>
+    </div>
+
+    <div class="span3">
+        Betrieb
+        <img src="http://placehold.it/250x150"/>
+    </div>
+</div>
+
+<div class="row-fluid">
+
+    <div class="span6">
+        <h2>Konzeption</h2>
+
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra vehicula sem, ut vulputate magna
+            varius vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            Integer eros est, gravida tristique aliquet non, aliquam eu urna. Pellentesque viverra mauris non arcu
+            consequat elementum rutrum elit ullamcorper. Nulla laoreet metus id mauris ultrices tempus at eget orci.
+            Praesent sodales vulputate dui, elementum adipiscing dolor euismod nec. Aliquam ornare eros id arcu
+            dignissim et porta erat tristique. Praesent justo purus, aliquet accumsan commodo et, pretium vitae lectus.
+            Nulla eget nibh sed nisl volutpat suscipit. Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Morbi et scelerisque tortor. Cras ultricies molestie molestie. Praesent diam leo,
+            bibendum nec tempus id, pretium non ipsum. Nulla vitae augue sit amet arcu laoreet pharetra ac accumsan
+            diam. Etiam sollicitudin purus euismod lacus laoreet non euismod mauris pulvinar.
+        </div>
+    </div>
+
+    <div class="span6">
+        <h2>Design</h2>
+
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra vehicula sem, ut vulputate magna
+            varius vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            Integer eros est, gravida tristique aliquet non, aliquam eu urna. Pellentesque viverra mauris non arcu
+            consequat elementum rutrum elit ullamcorper. Nulla laoreet metus id mauris ultrices tempus at eget orci.
+            Praesent sodales vulputate dui, elementum adipiscing dolor euismod nec. Aliquam ornare eros id arcu
+            dignissim et porta erat tristique. Praesent justo purus, aliquet accumsan commodo et, pretium vitae lectus.
+            Nulla eget nibh sed nisl volutpat suscipit. Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Morbi et scelerisque tortor. Cras ultricies molestie molestie. Praesent diam leo,
+            bibendum nec tempus id, pretium non ipsum. Nulla vitae augue sit amet arcu laoreet pharetra ac accumsan
+            diam. Etiam sollicitudin purus euismod lacus laoreet non euismod mauris pulvinar.
+        </div>
+    </div>
+
+</div>
+
+<div class="row-fluid">
+
+    <div class="span6">
+        <h2>Entwicklung</h2>
+
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra vehicula sem, ut vulputate magna
+            varius vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            Integer eros est, gravida tristique aliquet non, aliquam eu urna. Pellentesque viverra mauris non arcu
+            consequat elementum rutrum elit ullamcorper. Nulla laoreet metus id mauris ultrices tempus at eget orci.
+            Praesent sodales vulputate dui, elementum adipiscing dolor euismod nec. Aliquam ornare eros id arcu
+            dignissim et porta erat tristique. Praesent justo purus, aliquet accumsan commodo et, pretium vitae lectus.
+            Nulla eget nibh sed nisl volutpat suscipit. Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Morbi et scelerisque tortor. Cras ultricies molestie molestie. Praesent diam leo,
+            bibendum nec tempus id, pretium non ipsum. Nulla vitae augue sit amet arcu laoreet pharetra ac accumsan
+            diam. Etiam sollicitudin purus euismod lacus laoreet non euismod mauris pulvinar.
+        </div>
+    </div>
+
+    <div class="span6">
+        <h2>Betrieb</h2>
+
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra vehicula sem, ut vulputate magna
+            varius vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            Integer eros est, gravida tristique aliquet non, aliquam eu urna. Pellentesque viverra mauris non arcu
+            consequat elementum rutrum elit ullamcorper. Nulla laoreet metus id mauris ultrices tempus at eget orci.
+            Praesent sodales vulputate dui, elementum adipiscing dolor euismod nec. Aliquam ornare eros id arcu
+            dignissim et porta erat tristique. Praesent justo purus, aliquet accumsan commodo et, pretium vitae lectus.
+            Nulla eget nibh sed nisl volutpat suscipit. Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Morbi et scelerisque tortor. Cras ultricies molestie molestie. Praesent diam leo,
+            bibendum nec tempus id, pretium non ipsum. Nulla vitae augue sit amet arcu laoreet pharetra ac accumsan
+            diam. Etiam sollicitudin purus euismod lacus laoreet non euismod mauris pulvinar.
+        </div>
+    </div>
+</div>
