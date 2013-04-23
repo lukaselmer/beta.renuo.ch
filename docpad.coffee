@@ -102,6 +102,12 @@ docpadConfig =
         date: -1
       ])
 
+    projects: (database) ->
+      database.findAllLive({tags:
+        $has: ['project']}, [
+        position: 1
+      ])
+
 
 # =================================
 # DocPad Events
@@ -138,7 +144,6 @@ docpadConfig =
   # rendered as the page is regenerated *before* the source file
   # has completed updating: in this case increase this value.
   regenerateDelay: 2000
-
 
 
 # Export our DocPad Configuration

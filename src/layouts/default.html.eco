@@ -42,7 +42,7 @@
   <![endif]-->
 
   <!-- Styles -->
-  <%- @getBlock('styles').add(["/vendor/twitter-bootstrap/css/bootstrap.css", "/styles/style.css"]).toHTML() %>
+  <%- @getBlock('styles').add(["/vendor/twitter-bootstrap/css/bootstrap.css", "/styles/style.css", "/styles/application.css"]).toHTML() %>
 </head>
 <body>
 <div id="fb-root"></div>

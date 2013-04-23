@@ -1,0 +1,85 @@
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+body {
+  background: image-url('bg-transparent.png') no-repeat fixed;
+}
+
+@media (min-width: 1720px) {
+  body {
+    background: image-url('bg.png') no-repeat fixed;
+  }
+}
+
+.page-header-element {
+  margin-top: 70px;
+}
+
+.fb-like-box {
+  border: 1px gainsboro solid;
+  padding: 40px 0 0 0;
+  background: #fff;
+}
+
+#map_canvas {
+  height: 100%;
+}
+
+.project-box-link {
+  display: block;
+
+  max-width: 370px;
+
+  color: inherit;
+
+  border-radius: 4px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+
+  &:focus, &:hover {
+    text-decoration: none;
+    color: inherit;
+
+    border-color: #0088cc;
+    box-shadow: 0 1px 30px rgba(0, 105, 214, 0.25);
+    outline: 0;
+    outline: thin dotted    \9;
+    /* IE6-9 */
+
+  }
+}
+
+.project-box {
+  @media (min-width: 768px){
+    height: 220px;
+  }
+  @media (min-width: 980px){
+    height: 240px;
+  }
+  @media (min-width: 1200px) {
+    height: 277px;
+  }
+
+  background: lightgrey;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+  strong {
+    color: #0088cc;
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  .short-description {
+    padding: 10px;
+  }
+}

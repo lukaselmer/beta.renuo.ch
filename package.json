@@ -34,7 +34,8 @@
     "docpad-plugin-stylus": "2.x",
     "docpad-plugin-text": "2.x",
     "docpad-plugin-related": "2.x",
-    "docpad-plugin-livereload": "2.x"
+    "docpad-plugin-livereload": "2.x",
+    "docpad-plugin-sass": "~2.4.5"
   },
   "main": "node_modules/docpad/bin/docpad-server"
 }

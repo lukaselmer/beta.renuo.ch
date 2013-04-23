@@ -1,0 +1,35 @@
+--- yaml
+layout: 'default'
+title: 'Referenzen'
+---
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Referenzen
+                <small> .....</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+<% index = 0 %>
+<% for page in @getCollection("projects").toJSON(): %>
+<%- '<div class="row-fluid">' if((index % 3) == 0) %>
+<div class="span4">
+    <a href="<%- page.url %>" class="project-box-link">
+        <div class="project-box">
+            <img src="<%- page.image_path %>"/>
+
+            <div class="short-description">
+                <span class="text-info"><%= page.name %> (<%= page.position %>)</span> xxxx
+            </div>
+        </div>
+    </a>
+</div>
+<% ++index %>
+<%- '</div>' if((index % 3) == 0) %>
+<% end %>
+
+<%- '</div>' if((index % 3) != 0) %>
+
