@@ -1,6 +1,8 @@
 --- yaml
 layout: 'default'
 title: 'Referenzen'
+isMainNavi: 1
+position: 2
 ---
 
 <div class="row-fluid page-header-element">

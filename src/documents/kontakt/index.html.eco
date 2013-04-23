@@ -1,0 +1,92 @@
+--- yaml
+layout: 'default'
+title: 'Kontakt'
+isMainNavi: 1
+position: 4
+---
+
+
+<div class="row-fluid page-header-element">
+
+    <div class="span8">
+        <div>
+            <div class="page-header">
+                <h1>Kontakt
+                    <small> So erreichen Sie uns</small>
+                </h1>
+            </div>
+            <div>
+                <p>Wir sind bereit! Sie auch? Dann würden wir uns gerne zu einem unverbindlichen Beratungsgespräch
+                    treffen,
+                    damit wir Ihnen ein faires Angebot unterbreiten dürfen, das auf Ihre Bedürfnisse zugeschnitten
+                    ist.</p>
+
+                <p>Sie erreichen uns am Besten per Email unter <a href="mailto:info@renuo.ch">info@renuo.ch</a>.</p>
+            </div>
+        </div>
+        <div>
+            <div class="span4">
+                <address>
+                    <b>Renuo GmbH</b><br/>
+                    Hungerbergstrasse 26<br/>
+                    8046 Zürich<br/><br/>
+                </address>
+            </div>
+            <div class="span6">
+                <dl class="dl-horizontal" style="margin-top: 0;">
+                    <dt>Telefon</dt>
+                    <dd><a href="tel:+41443701536">+41 44 370 15 36</a></dd>
+                    <dt>Email</dt>
+                    <dd><a href="mailto:info@renuo.ch">info@renuo.ch</a></dd>
+                    <dt>Web</dt>
+                    <dd><a href="http://www.renuo.ch">www.renuo.ch</a></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="span4">
+        <div id="map_canvas" style="width: 100%; height: 300px;">
+            Google Maps konnte nicht geladen werden.
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        var myLatlng = new google.maps.LatLng(47.421761, 8.499641);
+        var mapOptions = {
+            zoom: 14,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            draggable: false,
+            zoomControl: false,
+            scrollwheel: false,
+            disableDoubleClickZoom: false,
+            keyboardShortcuts: false,
+            overviewMapControl: false,
+            panControl: false,
+            rotateControl: false,
+            scaleControl: false,
+            streetViewControl: false,
+            mapTypeControl: false
+        }
+        var map = new google.maps.Map($('#map_canvas')[0], mapOptions);
+
+        var myLatlng = new google.maps.LatLng(47.4194, 8.499308);
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Renuo GmbH',
+            clickable: true,
+            onclick: function () {
+                alert(this);
+            }
+        });
+
+        google.maps.event.addListener(marker, 'click', function () {
+            window.open('https://maps.google.ch/maps?q=Renuo+GmbH,+Hungerbergstrasse+26,+Z%C3%BCrich&hl=de&ie=UTF8&hq=Renuo+GmbH,&hnear=Hungerbergstrasse+26,+Kreis+11,+8046+Z%C3%BCrich&t=m&z=16&iwloc=A');
+        });
+    });
+
+</script>
+

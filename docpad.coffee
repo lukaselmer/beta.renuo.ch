@@ -102,6 +102,12 @@ docpadConfig =
         date: -1
       ])
 
+    main_navi: (database) ->
+      database.findAllLive({isMainNavi:
+        $exists: true}, [
+        position: 1
+      ])
+
     projects: (database) ->
       database.findAllLive({tags:
         $has: ['project']}, [

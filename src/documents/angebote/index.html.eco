@@ -1,6 +1,8 @@
 --- yaml
 layout: 'default'
 title: 'Angebote'
+isMainNavi: 1
+position: 1
 ---
 
 <div class="row-fluid page-header-element">

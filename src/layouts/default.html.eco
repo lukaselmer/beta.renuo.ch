@@ -56,10 +56,12 @@
                 Renuo GmbH
             </a>
             <ul class="nav">
-                <li class="active"><a href="/angebote">Angebote</a></li>
-                <li><a href="/referenzen">Referenzen</a></li>
-                <li><a href="/ueber-uns">Über uns</a></li>
-                <li><a href="/kontakt">Kontakt</a></li>
+                <% for document in @getCollection('main_navi').toJSON() : %>
+                <li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active' if @document.url is document.url %>">
+                    <a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
+                </li>
+                <% end %>
+
             </ul>
         </div>
     </div>

@@ -1,0 +1,263 @@
+--- yaml
+layout: 'default'
+title: 'Über uns'
+isMainNavi: 1
+position: 3
+---
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Team
+                <small> jung und dynamisch &ndash; aber keineswegs unerfahren</small>
+            </h1>
+        </div>
+        <p>Sie kennen Ihr Business. Und Sie erwarten, dass auch wir unser Business kennen. Und genau so ist das
+            auch.</p>
+        <br/>
+    </div>
+</div>
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div>
+
+            <div class="span6">
+                <div><%- @image_tag 'lukas.png' %></div>
+                <h3>Lukas Elmer (<%= @age(1988, 2, 23) %>)</h3>
+
+                <p>Gründer, Projektleiter, Web Entwickler<br/>
+                    <a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></p>
+                <br/>
+
+                <blockquote>Mein Ziel ist es, in enger Zusammenarbeit mit dem Kunden nachhaltige Software zu
+                    entwickleln, die funktioniert.
+                    <small>Lukas Elmer</small>
+                </blockquote>
+                <br/>
+
+                <p>
+                    <strong>Kurzprofil</strong>
+                </p>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2003-2006</th>
+                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
+                    </tr>
+                    <tr>
+                        <th>2006-2009</th>
+                        <td><strong>Web Entwicklung</strong> (PHP, Ruby on Rails), Projektleitung, Zimtkorn GmbH, Zürich
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2009-2012</th>
+                        <td><strong>Bachelor Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2010-2011</th>
+                        <td>Teilzeit verschiedene <strong>Projekte mit Ruby on Rails</strong> und PHP realisiert</td>
+                    </tr>
+                    <tr>
+                        <th>2011</th>
+                        <td><strong>Gründung</strong> der Renuo GmbH mit Diego Steiner</td>
+                    </tr>
+                    <tr>
+                        <th>2011-jetzt</th>
+                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2012-jetzt</th>
+                        <td><strong>Master Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule
+                            ETH, Zürich
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <a href="https://www.xing.com/profile/Lukas_Elmer" target="_blank">Vollständiges Xing Profil</a>
+            </div>
+
+            <div class="span6">
+                <div><%- @image_tag 'diego.png' %></div>
+                <h3>Diego P. Steiner (<%= @age(1987, 10, 26) %>)</h3>
+
+                <p>Gründer, Projektleiter, Web Entwickler<br/>
+                    <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
+
+                <br/>
+
+                <blockquote>Ich möchte, dass der Kunde mit meiner Arbeit höchstzufrieden ist. Zusätzlich möchte ich
+                    nachhaltige,
+                    gut wartbare und erweiterbare Software schreiben.
+                    <small>Diego Steiner</small>
+                </blockquote>
+
+                <p>
+                    <strong>Kurzprofil</strong>
+                </p>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2003-2006</th>
+                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
+                    </tr>
+                    <tr>
+                        <th>2006-2008</th>
+                        <td><strong>Web Entwicklung</strong> (ASP.net), Mathys & Scheitlin AG, Bern</td>
+                    </tr>
+                    <tr>
+                        <th>2009-2010</th>
+                        <td><strong>Web Entwicklung</strong> (PHP, Zend Framework), Trekksoft AG, Bern</td>
+                    </tr>
+                    <tr>
+                        <th>2009-2012</th>
+                        <td><strong>Bachelor Teilzeit Studium Informatik</strong> an der Hochschule für Technik HSR,
+                            Rapperswil
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2011</th>
+                        <td><strong>Gründung</strong> der Renuo GmbH mit Lukas Elmer</td>
+                    </tr>
+                    <tr>
+                        <th>2011-jetzt</th>
+                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <a href="https://www.xing.com/profile/DiegoP_Steiner" target="_blank">Vollständiges Xing Profil</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div>
+            <div class="span6">
+                <div><%- @image_tag 'samuel.png' %></div>
+                <h3>Samuel Steiner (<%= @age(1987, 10, 26) %>)</h3>
+
+                <p>Projektleiter, Mitglied der Geschäftsleitung<br/>
+                    <a href="mailto:samuel.steiner@renuo.ch">samuel.steiner@renuo.ch</a></p>
+                <br/>
+
+                <blockquote>Den Kunden in das Zentrum der Zusammenarbeit rücken und damit Kosten senken, langfristige
+                    Werte
+                    generieren und Freude bereiten.
+                    <small>Samuel Steiner</small>
+                </blockquote>
+
+                <p>
+                    <strong>Kurzprofil</strong>
+                </p>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2007-2009</th>
+                        <td><strong>IT-Projektmanagement</strong> bei der St.Galler Kantonalbank</td>
+                    </tr>
+                    <tr>
+                        <th>2007-2010</th>
+                        <td><strong>Bachelor Studium Betriebswirtschaftslehre</strong> an der Universität St.Gallen
+                            (HSG)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2010-2013</th>
+                        <td><strong>Geschäftsleitung</strong> bei der Verbandspool AG (<a href="https://shariando.com"
+                                                                                          target="_blank">shariando.com</a>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2011-2013</th>
+                        <td><strong>Master Studium</strong> Informations-, Medien- und Technologiemanagement an der
+                            Universität St.
+                            Gallen (HSG)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2013-jetzt</th>
+                        <td><strong>Anstellung als Projektleiter</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <a href="https://www.xing.com/profile/Samuel_Steiner3" target="_blank">Vollständiges Xing Profil</a>
+            </div>
+
+            <div class="span6">
+                <div><%- @image_tag 'ueli.png' %></div>
+                <h3>Ueli Kunz (<%= @age(1986, 3, 5) %>)</h3>
+
+                <p>Web Entwickler<br/>
+                    <a href="mailto:ueli.kunz@renuo.ch">ueli.kunz@renuo.ch</a></p>
+
+                <br/>
+
+                <blockquote>Ich erstelle hochwertige Software für individuelle Bedürfnisse.
+                    Das wird erreicht durch enge Zusammenarbeit mit dem Kunden und effizienzsteigernde Automatisierung.
+                    <small>Ueli Kunz</small>
+                </blockquote>
+
+                <p>
+                    <strong>Kurzprofil</strong>
+                </p>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2002-2012</th>
+                        <td>Selbststäniger Nebenverdienst mit <strong>Webprojekten</strong> (PHP)</td>
+                    </tr>
+                    <tr>
+                        <th>2002-2005</th>
+                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Graubünden, Chur</td>
+                    </tr>
+                    <tr>
+                        <th>2005-2009</th>
+                        <td><strong>Software Entwicklung</strong> (Sharepoint, ASP.net, C#.net)</td>
+                    </tr>
+                    <tr>
+                        <th>2009-2012</th>
+                        <td><strong>Bachelor Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2012-jetzt</th>
+                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <a href="https://www.xing.com/profile/Ueli_Kunz" target="_blank">Vollständiges Xing Profil</a>
+            </div>
+
+        </div>
+    </div>
+</div>
