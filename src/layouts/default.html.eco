@@ -47,7 +47,27 @@
 <body>
 <div id="fb-root"></div>
 
-<!-- Markup -->
+
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="/">
+                Renuo GmbH
+            </a>
+            <ul class="nav">
+                <li class="active"><a href="/angebote">Angebote</a></li>
+                <li><a href="/referenzen">Referenzen</a></li>
+                <li><a href="/ueber-uns">Über uns</a></li>
+                <li><a href="/kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="center-main" style="padding: 0 0 0 10px;">
+
+<!-- Markup - - >
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
@@ -62,6 +82,8 @@
     </div>
   </div>
 </div>
+-->
+
 <div id="outer-main">
   <section id="content" class="content">
     <%- @content %>
@@ -73,6 +95,11 @@
     <div style="background: #e4eef6;">
       <div class="container" style="padding: 30px 0 50px 10px;">
         <div class="row-fluid">
+            <div class="span4">
+                <ul>
+                    <li><%- @link_to "AGB", "/pdfs/agb.pdf" %></li>
+                </ul>
+            </div>
           <div class="span4">
             <div class="g-plus" data-href="//plus.google.com/115826926887062492943?rel=publisher"></div>
           </div>
