@@ -1,41 +1,40 @@
 {
-	"name": "beta.renuo.ch",
-	"version": "0.0.1",
-	"description": "Renuo GmbH.",
-	"homepage": "https://beta.renuo.ch",
-	"keywords": [
-	],
-	"author": "Lukas Elmer <lukas.elmer@renuo.ch> (https://renuo.ch)",
-	"maintainers": [
-		"Lukas Elmer <lukas.elmer@renuo.ch> (https://renuo.ch)"
-	],
-	"contributors": [
-		"Lukas Elmer <lukas.elmer@renuo.ch> (https://renuo.ch)"
-	],
-	"bugs": {
-		"url": "https://github.com/renuo/beta.renuo.ch/issues"
-	},
-	"repository" : {
-		"type" : "git",
-		"url" : "http://github.com/renuo/beta.renuo.ch.git"
-	},
-	"engines" : {
-		"node": "0.10.x",
-		"npm": "1.2.x"
-	},
-	"dependencies": {
-		"docpad": "6.x",
-		"docpad-plugin-cleanurls": "2.x",
-		"docpad-plugin-coffeescript": "2.x",
-		"docpad-plugin-eco": "2.x",
-		"docpad-plugin-less": "2.x",
-		"docpad-plugin-marked": "2.x",
-		"docpad-plugin-partials": "2.x",
-		"docpad-plugin-stylus": "2.x",
-		"docpad-plugin-text": "2.x"
-	},
-	"devDependencies": {
-		"docpad-plugin-livereload": "2.x"
-	},
-	"main": "node_modules/docpad/bin/docpad-server"
+  "name": "beta.renuo.ch",
+  "version": "0.0.1",
+  "description": "Renuo GmbH.",
+  "homepage": "https://beta.renuo.ch",
+  "keywords": [],
+  "author": "Lukas Elmer <lukas.elmer@renuo.ch> (https://renuo.ch)",
+  "maintainers": [
+    "Lukas Elmer <lukas.elmer@renuo.ch> (https://renuo.ch)"
+  ],
+  "contributors": [
+    "Lukas Elmer <lukas.elmer@renuo.ch> (https://renuo.ch)"
+  ],
+  "bugs": {
+    "url": "https://github.com/renuo/beta.renuo.ch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/renuo/beta.renuo.ch.git"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "docpad": "6.x",
+    "docpad-plugin-downloader": "2.x",
+    "docpad-plugin-cleanurls": "2.x",
+    "docpad-plugin-coffeescript": "2.x",
+    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-less": "2.x",
+    "docpad-plugin-marked": "2.x",
+    "docpad-plugin-partials": "~2.6.2",
+    "docpad-plugin-stylus": "2.x",
+    "docpad-plugin-text": "2.x",
+    "docpad-plugin-related": "2.x",
+    "docpad-plugin-livereload": "2.x",
+  },
+  "main": "node_modules/docpad/bin/docpad-server"
 }
