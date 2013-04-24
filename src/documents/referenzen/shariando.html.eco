@@ -2,7 +2,7 @@
 title: Shariando
 name: Shariando
 short_description: lorem ipsum dolor sit amet, consectetur adipiscing elit.
-image_path: http://placehold.it/370x215
+image_path: http://placehold.it/370x215/ffcccc?&text=Shariando
 layout: default
 position: 1
 tags: ['project']
