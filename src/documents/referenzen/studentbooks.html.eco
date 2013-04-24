@@ -2,7 +2,7 @@
 title: Studentbooks
 name: Studentbooks
 short_description: xxxx yyyyyy dolor sit amet, consectetur adipiscing elit.
-image_path: http://placehold.it/370x215
+image_path: http://placehold.it/370x215/ccccff?&text=Studentbooks
 layout: default
 position: 2
 tags: ['project']
