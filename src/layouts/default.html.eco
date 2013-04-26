@@ -110,7 +110,7 @@
 <!-- /container -->
 
 <!-- Scripts -->
-<%- @getBlock('scripts').add(["/vendor/lib/jquery.js", "/vendor/log.js", "/vendor/modernizr.js", "/scripts/script.js"]).toHTML() %>
+<%- @getBlock('scripts').add(["/scripts.js"]).toHTML() %>
 
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 

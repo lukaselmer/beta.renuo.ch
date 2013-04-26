@@ -114,7 +114,6 @@ docpadConfig =
         position: 1
       ])
 
-
 # =================================
 # DocPad Events
 
@@ -142,8 +141,40 @@ docpadConfig =
         else
           next()
 
+    writeAfter: (opts,next) ->
 
-  # Regenerate Delay
+      balUtil = require "bal-util"
+
+      # Prepare
+      docpad = @docpad
+      rootPath = docpad.config.rootPath
+      outPath = docpad.config.outPath
+
+      # Bundle the scripts the editor uses together
+      command = """
+      #{rootPath}/node_modules/.bin/browserify
+      #{outPath}/vendor/log.js
+      #{outPath}/vendor/lib/jquery.js
+      #{outPath}/scripts/script.js
+                -o #{outPath}/scripts.js
+                """.replace(/\n/g,' ')
+
+      # Execute
+      balUtil.exec(command, {cwd:rootPath,output:true}, next)
+
+
+      # Perform the grunt `min` task
+      # https://github.com/gruntjs/grunt/blob/0.3-stable/docs/task_min.md
+      #command = ["#{rootPath}/node_modules/.bin/grunt", 'min']
+
+      # Execute
+      #balUtil.spawn(command, {cwd:rootPath,output:true}, next)
+
+      # Chain
+      @
+
+
+# Regenerate Delay
   # The time (in milliseconds) to wait after a source file has
   # changed before using it to regenerate. Updating over the
   # network (e.g. via FTP) can cause a page to be partially
