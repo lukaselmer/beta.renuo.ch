@@ -110,22 +110,9 @@
 <!-- /container -->
 
 <!-- Scripts -->
-<%- @getBlock('scripts').add(["/vendor/jquery.js", "/vendor/log.js", "/vendor/modernizr.js", "/scripts/script.js"]).toHTML() %>
+<%- @getBlock('scripts').add(["/vendor/lib/jquery.js", "/vendor/log.js", "/vendor/modernizr.js", "/scripts/script.js"]).toHTML() %>
 
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
-
-<!-- <script>
-    var _gaq = [
-        ['_setAccount', 'UA-34098642-1'],
-        ['_trackPageview']
-    ];
-    (function (d, t) {
-        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g, s)
-    }(document, 'script'));
-</script> -->
-
 
 <script type="text/javascript">
     window.___gcfg = {lang: 'de'};
@@ -144,7 +131,7 @@
     if (d.getElementById(id)) return;
     js = d.createElement(s);
     js.id = id;
-    js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1&appId=233996693304627";
+    js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1&appId=441435712612765";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
