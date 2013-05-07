@@ -51,7 +51,7 @@ position: 1
             identifizieren, Ideen sammeln und diese bewerten. Sobald zwischen Ihnen und uns ein klares Verständnis
             hergestellt worden ist, werden wir in einem zweiten Schritt die Anforderungen in technische und funktionale
             Konzepte übersetzen. Wir zeigen Ihnen Lösungsvarianten und beschreiben, inwiefern bestehende Lösungen
-            integriert werden können.<br>
+            integriert werden können.
         </div>
     </div>
 
@@ -66,7 +66,7 @@ position: 1
             sowie einen gezielten Einsatz von visuellen Eye-Catchern. Neben einem ansprechenden Äusseren ist die
             richtige Umsetzung aber ebenso entscheidend. Wir entwickeln nach aktuellen Webstandards und sichern
             Ihnen so nicht nur eine identische Darstellung in diversen Browsern, sondern legen auch den Grundstein
-            für eine gute Platzierung in Suchmaschinen.<br>         
+            für eine gute Platzierung in Suchmaschinen.         
         </div>
     </div>
 
@@ -78,16 +78,13 @@ position: 1
         <h2>Entwicklung</h2>
 
         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra vehicula sem, ut vulputate magna
-            varius vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-            Integer eros est, gravida tristique aliquet non, aliquam eu urna. Pellentesque viverra mauris non arcu
-            consequat elementum rutrum elit ullamcorper. Nulla laoreet metus id mauris ultrices tempus at eget orci.
-            Praesent sodales vulputate dui, elementum adipiscing dolor euismod nec. Aliquam ornare eros id arcu
-            dignissim et porta erat tristique. Praesent justo purus, aliquet accumsan commodo et, pretium vitae lectus.
-            Nulla eget nibh sed nisl volutpat suscipit. Cum sociis natoque penatibus et magnis dis parturient montes,
-            nascetur ridiculus mus. Morbi et scelerisque tortor. Cras ultricies molestie molestie. Praesent diam leo,
-            bibendum nec tempus id, pretium non ipsum. Nulla vitae augue sit amet arcu laoreet pharetra ac accumsan
-            diam. Etiam sollicitudin purus euismod lacus laoreet non euismod mauris pulvinar.
+            <h3><small>Innovative Software mithilfe modernster Technologien</small></h3>Die Entwicklung innovativer
+            Software im Web ist unsere Kernkompetenz. In der Entwicklungsphase wird der eigentliche Code geschrieben 
+            und getestet. Auf einer Testumgebung können Sie unseren Fortschritt stets beobachten und laufend feedbacken. 
+            So stellen wir sicher, dass Sie mit dem Endprodukt zufrieden sind und die Kosten so tief wie möglich 
+            gehalten werden. Automatisierte Tests stellen zudem sicher, dass allfällige Fehler automatisch und sofort aufgedeckt 
+            und behoben werden können. In wöchentlichen Abstimmungsmeetings zwischen Ihnen und uns planen wir jeweils 
+            die nächsten Schritte.
         </div>
     </div>
 
@@ -95,16 +92,11 @@ position: 1
         <h2>Betrieb</h2>
 
         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra vehicula sem, ut vulputate magna
-            varius vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-            Integer eros est, gravida tristique aliquet non, aliquam eu urna. Pellentesque viverra mauris non arcu
-            consequat elementum rutrum elit ullamcorper. Nulla laoreet metus id mauris ultrices tempus at eget orci.
-            Praesent sodales vulputate dui, elementum adipiscing dolor euismod nec. Aliquam ornare eros id arcu
-            dignissim et porta erat tristique. Praesent justo purus, aliquet accumsan commodo et, pretium vitae lectus.
-            Nulla eget nibh sed nisl volutpat suscipit. Cum sociis natoque penatibus et magnis dis parturient montes,
-            nascetur ridiculus mus. Morbi et scelerisque tortor. Cras ultricies molestie molestie. Praesent diam leo,
-            bibendum nec tempus id, pretium non ipsum. Nulla vitae augue sit amet arcu laoreet pharetra ac accumsan
-            diam. Etiam sollicitudin purus euismod lacus laoreet non euismod mauris pulvinar.
+            <h3><small>Sicherheit, Überwachung, Aktualisierung und Ausbau.</small></h3>Stillstand ist Rückschritt! 
+            Nach der Fertigstellung Ihrer Webplattform kümmern wir uns um die Wartung Ihrer Applikation sowie um
+            dessen kontinuierliche Weiterentwicklung. Das beinhaltet z.B. das Schliessen von Sicherheitslücken, das
+            Updaten von Software, proaktive Belastbarkeitstests um der wachsenden Useranzahl gerecht zu werden sowie
+            das Hinzuprogrammieren von weiteren Anforderungen. 
         </div>
     </div>
 </div>
