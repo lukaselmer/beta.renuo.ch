@@ -1,14 +1,14 @@
 ---
 title: Shariando
 name: Shariando
-short_description: lorem ipsum dolor sit amet, consectetur adipiscing elit.
-image_path: http://placehold.it/370x215/ffcccc&text=Shariando
+short_description: Internationale Cashback-Plattform mit knapp 1'000 online Shops.
+image_path: https://new.renuo.ch/images/Shariando.png
 layout: default
 position: 1
 tags: ['project']
 ---
 
-<h1>Shariando ...</h1>
+<h1>Shariando</h1>
 
 <p>
     Text und Bilder...
