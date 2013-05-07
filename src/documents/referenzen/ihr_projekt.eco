@@ -1,12 +1,13 @@
 ---
-title: Linguaservice
-name: Linguaservice: Usability, Filterung und Benutzerfreundlichkeit
-short_description: Implementierung und grafische Aufbereitung effizienter Suche
-image_path: https://new.renuo.ch/images/Linguaservice.png
+title: Ihr Projekt?
+name: Ihr Projekt?
+short_description: Sie haben eine Idee und suchen technische Unterstützung?
+image_path: https://new.renuo.ch/images/Sie.png
 layout: project
-position: 4
+position: 6
 tags: ['project']
 ---
+
 
 <div class="row-fluid">
     <div class="span4">
@@ -54,3 +55,4 @@ tags: ['project']
         </div>
     </div>
 </div>
+

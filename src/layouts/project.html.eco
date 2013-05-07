@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+
+<div class="row-fluid page-header-element">
+
+    <div class="span12">
+        <div>
+            <div class="page-header">
+                <h1>@document.title
+                    <small>@document.short_description</small>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<%- @content %>
