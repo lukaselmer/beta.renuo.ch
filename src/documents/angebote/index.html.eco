@@ -45,16 +45,13 @@ position: 1
         <h2>Konzeption</h2>
 
         <div>
-            <h3><small>Klares Konzept und zielgerichtete Strategie mit Blick in die Zukunft</small></h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra vehicula sem, ut vulputate magna
-            varius vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-            Integer eros est, gravida tristique aliquet non, aliquam eu urna. Pellentesque viverra mauris non arcu
-            consequat elementum rutrum elit ullamcorper. Nulla laoreet metus id mauris ultrices tempus at eget orci.
-            Praesent sodales vulputate dui, elementum adipiscing dolor euismod nec. Aliquam ornare eros id arcu
-            dignissim et porta erat tristique. Praesent justo purus, aliquet accumsan commodo et, pretium vitae lectus.
-            Nulla eget nibh sed nisl volutpat suscipit. Cum sociis natoque penatibus et magnis dis parturient montes,
-            nascetur ridiculus mus. Morbi et scelerisque tortor. Cras ultricies molestie molestie. Praesent diam leo,
-            bibendum nec tempus id, pretium non ipsum. Nulla vitae augue sit amet arcu laoreet pharetra ac accumsan
-            diam. Etiam sollicitudin purus euismod lacus laoreet non euismod mauris pulvinar.
+            <h3><small>Zielgerichtete Strategie mit Blick in die Zukunft</small></h3>In der 
+            Konzeptionsphase geht es darum zu verstehen, wohin Sie wollen. Was sind Ihre Ziele, welche Nutzergruppen 
+            sprechen Sie an und was für Bedürfnisse haben diese? Zusammen mit Ihnen werden wir die Anforderungen 
+            identifizieren, Ideen sammeln und diese bewerten. Sobald zwischen Ihnen und uns ein klares Verständnis
+            hergestellt worden ist, werden wir in einem zweiten Schritt die Anforderungen in technische und funktionale
+            Konzepte übersetzen. Wir zeigen Ihnen Lösungsvarianten und beschreiben, inwiefern bestehende Lösungen
+            integriert werden können. 
         </div>
     </div>
 
@@ -62,16 +59,14 @@ position: 1
         <h2>Design</h2>
 
         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra vehicula sem, ut vulputate magna
-            varius vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-            Integer eros est, gravida tristique aliquet non, aliquam eu urna. Pellentesque viverra mauris non arcu
-            consequat elementum rutrum elit ullamcorper. Nulla laoreet metus id mauris ultrices tempus at eget orci.
-            Praesent sodales vulputate dui, elementum adipiscing dolor euismod nec. Aliquam ornare eros id arcu
-            dignissim et porta erat tristique. Praesent justo purus, aliquet accumsan commodo et, pretium vitae lectus.
-            Nulla eget nibh sed nisl volutpat suscipit. Cum sociis natoque penatibus et magnis dis parturient montes,
-            nascetur ridiculus mus. Morbi et scelerisque tortor. Cras ultricies molestie molestie. Praesent diam leo,
-            bibendum nec tempus id, pretium non ipsum. Nulla vitae augue sit amet arcu laoreet pharetra ac accumsan
-            diam. Etiam sollicitudin purus euismod lacus laoreet non euismod mauris pulvinar.
+            <h3><small>Individuelles Design mit Fokus auf Usability</small></h3>In der Informationsflut des Internets
+            ist es nicht einfach, aufzufallen und gesehen zu werden. Das richtige Web Design hilft Ihnen dabei, sich
+            im Internet gut zu präsentieren und den Besuchern einen visuell ansprechender Auftritt zu bieten. Das 
+            beinhaltet das Abstimmen von Elementen, eine klare und einfache Benutzerführung, die Farb- und Schriftwahl
+            sowie einen gezielten Einsatz von visuellen Eye-Catchern. Neben einem ansprechenden Äusseren ist die
+            richtige Umsetzung aber ebenso entscheidend. Wir entwickeln nach aktuellen Webstandards und sichern
+            Ihnen so nicht nur eine identische Darstellung in diversen Browsern, sondern legen auch den Grundstein
+            für eine gute Platzierung in Suchmaschinen.            
         </div>
     </div>
 
