@@ -1,11 +1,11 @@
 ---
-title: Project 4
-name: Project 4
-short_description: xxxx yyyyyy dolor sit amet, consectetur adipiscing elit.
-image_path: http://placehold.it/370x215
+title: Quevita
+name: Consulting für Quevita AG
+short_description: Ruby Consulting für Quevita AG
+image_path: https://new.renuo.ch/images/Quevita.png
 layout: default
 position: 3
 tags: ['project']
 ---
 
-<h1>Project 4 ...</h1>
+<h1>Quevita</h1>
