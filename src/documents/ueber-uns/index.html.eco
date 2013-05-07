@@ -29,7 +29,7 @@ position: 4
                     <a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></p>
                 <br/>
 
-                <blockquote>Mein Ziel ist es, in enger Zusammenarbeit mit dem Kunden nachhaltige Software zu
+                <blockquote>Mein Ziel ist es, in enger Zusammenarbeit mit dem Kunden solide Software zu
                     entwickleln, die funktioniert.
                     <small>Lukas Elmer</small>
                 </blockquote>
@@ -47,13 +47,22 @@ position: 4
                     </thead>
                     <tbody>
                     <tr>
-                        <th>2003-2006</th>
-                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
+                        <th>2012-jetzt</th>
+                        <td><strong>Master Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule
+                            ETH, Zürich
+                        </td>
                     </tr>
                     <tr>
-                        <th>2006-2009</th>
-                        <td><strong>Web Entwicklung</strong> (PHP, Ruby on Rails), Projektleitung, Zimtkorn GmbH, Zürich
-                        </td>
+                        <th>2011-jetzt</th>
+                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2011</th>
+                        <td><strong>Gründung</strong> der Renuo GmbH mit Diego Steiner</td>
+                    </tr>
+                    <tr>
+                        <th>2010-2011</th>
+                        <td>Teilzeit verschiedene <strong>Projekte mit Ruby on Rails</strong> und PHP realisiert</td>
                     </tr>
                     <tr>
                         <th>2009-2012</th>
@@ -61,23 +70,15 @@ position: 4
                         </td>
                     </tr>
                     <tr>
-                        <th>2010-2011</th>
-                        <td>Teilzeit verschiedene <strong>Projekte mit Ruby on Rails</strong> und PHP realisiert</td>
-                    </tr>
-                    <tr>
-                        <th>2011</th>
-                        <td><strong>Gründung</strong> der Renuo GmbH mit Diego Steiner</td>
-                    </tr>
-                    <tr>
-                        <th>2011-jetzt</th>
-                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
-                    </tr>
-                    <tr>
-                        <th>2012-jetzt</th>
-                        <td><strong>Master Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule
-                            ETH, Zürich
+                        <th>2006-2009</th>
+                        <td><strong>Web Entwicklung</strong> (PHP, Ruby on Rails), Projektleitung, Zimtkorn GmbH, Zürich
                         </td>
                     </tr>
+                    <tr>
+                        <th>2003-2006</th>
+                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
+                    </tr>
+
                     </tbody>
                 </table>
 
@@ -111,30 +112,30 @@ position: 4
                     </thead>
                     <tbody>
                     <tr>
-                        <th>2003-2006</th>
-                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
-                    </tr>
-                    <tr>
-                        <th>2006-2008</th>
-                        <td><strong>Web Entwicklung</strong> (ASP.net), Mathys & Scheitlin AG, Bern</td>
-                    </tr>
-                    <tr>
-                        <th>2009-2010</th>
-                        <td><strong>Web Entwicklung</strong> (PHP, Zend Framework), Trekksoft AG, Bern</td>
-                    </tr>
-                    <tr>
-                        <th>2009-2012</th>
-                        <td><strong>Bachelor Teilzeit Studium Informatik</strong> an der Hochschule für Technik HSR,
-                            Rapperswil
-                        </td>
+                        <th>2011-jetzt</th>
+                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
                     </tr>
                     <tr>
                         <th>2011</th>
                         <td><strong>Gründung</strong> der Renuo GmbH mit Lukas Elmer</td>
                     </tr>
                     <tr>
-                        <th>2011-jetzt</th>
-                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                        <th>2009-jetzt</th>
+                        <td><strong>Bachelor Teilzeit Studium Informatik</strong> an der Hochschule für Technik HSR,
+                            Rapperswil
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2009-2010</th>
+                        <td><strong>Web Entwicklung</strong> (PHP, Zend Framework), Trekksoft AG, Bern</td>
+                    </tr>
+                    <tr>
+                        <th>2006-2008</th>
+                        <td><strong>Web Entwicklung</strong> (ASP.net), Mathys & Scheitlin AG, Bern</td>
+                    </tr>
+                    <tr>
+                        <th>2003-2006</th>
+                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
                     </tr>
                     </tbody>
                 </table>
@@ -174,20 +175,8 @@ position: 4
                     </thead>
                     <tbody>
                     <tr>
-                        <th>2007-2009</th>
-                        <td><strong>IT-Projektmanagement</strong> bei der St.Galler Kantonalbank</td>
-                    </tr>
-                    <tr>
-                        <th>2007-2010</th>
-                        <td><strong>Bachelor Studium Betriebswirtschaftslehre</strong> an der Universität St.Gallen
-                            (HSG)
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2010-2013</th>
-                        <td><strong>Geschäftsleitung</strong> bei der Verbandspool AG (<a href="https://shariando.com"
-                                                                                          target="_blank">shariando.com</a>)
-                        </td>
+                        <th>2013-jetzt</th>
+                        <td><strong>Anstellung als Projektleiter</strong> bei der Renuo GmbH</td>
                     </tr>
                     <tr>
                         <th>2011-2013</th>
@@ -197,8 +186,20 @@ position: 4
                         </td>
                     </tr>
                     <tr>
-                        <th>2013-jetzt</th>
-                        <td><strong>Anstellung als Projektleiter</strong> bei der Renuo GmbH</td>
+                        <th>2010-2013</th>
+                        <td><strong>Geschäftsleitung</strong> bei der Verbandspool AG (<a href="https://shariando.com"
+                                                                                          target="_blank">shariando.com</a>)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2007-2010</th>
+                        <td><strong>Bachelor Studium Betriebswirtschaftslehre</strong> an der Universität St.Gallen
+                            (HSG)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>2007-2009</th>
+                        <td><strong>IT-Projektmanagement</strong> bei der St.Galler Kantonalbank</td>
                     </tr>
                     </tbody>
                 </table>
@@ -232,16 +233,8 @@ position: 4
                     </thead>
                     <tbody>
                     <tr>
-                        <th>2002-2012</th>
-                        <td>Selbststäniger Nebenverdienst mit <strong>Webprojekten</strong> (PHP)</td>
-                    </tr>
-                    <tr>
-                        <th>2002-2005</th>
-                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Graubünden, Chur</td>
-                    </tr>
-                    <tr>
-                        <th>2005-2009</th>
-                        <td><strong>Software Entwicklung</strong> (Sharepoint, ASP.net, C#.net)</td>
+                        <th>2012-jetzt</th>
+                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
                     </tr>
                     <tr>
                         <th>2009-2012</th>
@@ -249,8 +242,16 @@ position: 4
                         </td>
                     </tr>
                     <tr>
-                        <th>2012-jetzt</th>
-                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                        <th>2005-2009</th>
+                        <td><strong>Software Entwicklung</strong> (Sharepoint, ASP.net, C#.net)</td>
+                    </tr>
+                    <tr>
+                        <th>2002-2005</th>
+                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Graubünden, Chur</td>
+                    </tr>
+                    <tr>
+                        <th>2002-2012</th>
+                        <td>Selbststäniger Nebenverdienst mit <strong>Webprojekten</strong> (PHP)</td>
                     </tr>
                     </tbody>
                 </table>
