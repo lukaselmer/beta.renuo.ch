@@ -8,4 +8,12 @@ position: 2
 tags: ['project']
 ---
 
-<h1>Studentbooks</h1>
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Studentbooks
+                <small>Performance bei über 10 Mio. Artikeln</small>
+            </h1>
+        </div>
+    </div>
+</div>
