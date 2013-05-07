@@ -1,11 +1,11 @@
 ---
 title: Studentbooks
 name: Studentbooks
-short_description: xxxx yyyyyy dolor sit amet, consectetur adipiscing elit.
-image_path: http://placehold.it/370x215/ccccff&text=Studentbooks
+short_description: Ein Schweizer Online Shop mit über 10 Mio. Büchern.
+image_path: https://new.renuo.ch/images/Studentbooks.png
 layout: default
 position: 2
 tags: ['project']
 ---
 
-<h1>Studentbooks ...</h1>
+<h1>Studentbooks</h1>
