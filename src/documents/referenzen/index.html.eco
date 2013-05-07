@@ -24,7 +24,7 @@ position: 2
             <img src="<%- page.image_path %>"/>
 
             <div class="short-description">
-                <span class="text-info"><%= page.name %> (<%= page.position %>)</span>
+                <span class="text-info"><%= page.name %> </span>
             </div>
         </div>
     </a>
