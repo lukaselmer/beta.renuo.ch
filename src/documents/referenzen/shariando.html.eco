@@ -8,15 +8,5 @@ position: 1
 tags: ['project']
 ---
 
-<div class="row-fluid page-header-element">
-    <div class="span12">
-        <div class="page-header">
-            <h1>Shariando
-                <small>Unser Know-How in Ihrem Büro</small>
-            </h1>
-        </div>
-        <p>Internationale Cashback-Plattform mit knapp 1'000 online Shops.</p>
-        <br/>
-    </div>
-</div>
+<h1>Shariando</h1>
 
