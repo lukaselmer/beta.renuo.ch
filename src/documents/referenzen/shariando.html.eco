@@ -10,7 +10,7 @@ tags: ['project']
 
 <div class="row-fluid">
     <div class="span4">
-        <h2>Bla...</h2>
+        <h2>Ausgangslage</h2>
 
         <div>
             TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
@@ -25,7 +25,7 @@ tags: ['project']
     </div>
 
     <div class="span4">
-        <h2>Blub...</h2>
+        <h2>Lösung</h2>
 
         <div>
             TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
@@ -40,17 +40,14 @@ tags: ['project']
     </div>
 
     <div class="span4">
-        <h2>Und so weiter...</h2>
+        <h2>Auftraggeber</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            <p>Verbandspool AG<br>
+            Hauptstrasse 53<br>
+            9053 Teufen AR<br></p>
+            <p>Ansprechperson: Gerd Bringewatt<br>
+            Tel: +41 71 333 45 45</p>
         </div>
     </div>
 </div>
