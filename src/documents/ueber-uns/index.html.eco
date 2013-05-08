@@ -262,3 +262,60 @@ position: 4
         </div>
     </div>
 </div>
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Agiles Projektmanagement
+                <small> Schritt um Schritt zum Ziel</small>
+            </h1>
+        </div>
+        <p>Aufgrund von Missverständnissen in der Spezifikation, Interpretationsdifferenzen, sowie weiteren 
+        Ungenauigkeiten sind Software-Projekte mit klassischen Modellen nur mit hohem administrativen Aufwand
+        durchgängig planbar. In den letzten Jahren hat sich Scrum als leistungsstarke und agile Alternative 
+        immer stärker durchgesetzt.</p>
+        <p>Statt von einem klassischen, wasserfallbasierten Arbeitsstrukturplan (Analyse, Design, Programmierung, Tests)
+        wird von regelmässigen Iterationen, so genannten “Sprints”, ausgegangen. Ein Sprint besteht aus diversen 
+        Arbeitspaketen, welche immer vor dessen Beginn zusammen mit dem Kunden festgelegt werden und dauert jeweils 1-2
+        Wochen. An dessen Ende steht jeweils eine lauffähige Software zur Verfügung, welche vom Kunden getestet, 
+        abgenommen und eingesetzt werden kann.</p>
+        <p>Auf Basis des Kundenfeedbacks wird die Entwicklung laufend überprüft und angepasst. Ebenso besteht auch 
+        die Möglichkeit, Arbeitspakete anders zu priorisieren, neue Funktionen einzuplanen und nicht mehr benötigte 
+        Anforderungen fallen zu lassen.</p>
+        <p>Bei der Renuo hat sich Scrum sehr bewährt, weshalb wir voll auf diese Arbeitsmethode setzen. Weitere 
+        Informationen zu Scrum entnehmen Sie bitte dem entsprechenden Wikipedia-Artikel: <a href="https://de.wikipedia.org/wiki/Scrum" target="_blank">https://de.wikipedia.org/wiki/Scrum</a></p>
+        <br/>
+    </div>
+</div>
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Enge Zusammenarbeit
+                <small> Kontrolle ist besser als Vertrauen</small>
+            </h1>
+        </div>
+        <p>Uns liegt die Zusammenarbeit mit dem Kunden sehr am Herzen. Wir planen die Sprints in enger Zusammenarbeit 
+        mit dem Kunden und kommunizieren die Ergebnisse im wöchentlichen Statusrapport. So ist der Kunde stets im 
+        Bild über den Stand der Arbeiten und hat das Budget im Griff.</p>
+        <br/>
+    </div>
+</div>
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Werte der Renuo
+                <small> unsere DNA</small>
+            </h1>
+        </div>
+        <p>Die Renuo GmbH unterstützt das agile Manifest und vertritt dessen Werte:</p>
+        <ul>
+            <li>Individuen und Interaktionen sind stärker zu gewichten als Prozesse und Tools.</li>
+            <li>Funktionierende Software ist stärker zu gewichten als umfassende Dokumentation.</li>
+            <li>Zusammenarbeit mit Kunden ist stärker zu gewichten als Vertragsverhandlungen.</li>
+            <li>Reaktion auf Änderungen ist stärker zu gewichten als einen Plan zu befolgen.</li>
+        </ul>
+        <br/>
+    </div>
+</div>
