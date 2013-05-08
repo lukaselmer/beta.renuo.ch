@@ -73,7 +73,7 @@ title: 'Renuo GmbH'
     <div class="span4">
         <h2>
             Web
-            <small>HTML5, CSS3 und Javascript</small>
+            <br><small>HTML5, CSS3 und Javascript</small>
         </h2>
         <p>Wir arbeiten mit modernsten Web Technologien, weil heute der grösste Teil der Bevölkerung Internetfähige
             Geräte
@@ -93,7 +93,7 @@ title: 'Renuo GmbH'
     </div>
     <div class="span4">
         <h2>Ruby on Rails
-            <small>Schnelle Entwicklung</small>
+            <br><small>Schnelle Entwicklung</small>
         </h2>
         <p>Um der Applikation ein kräftiges Backend zu verleihen, das schnell, einfach und kosteneffizient entwickelt
             werden
@@ -116,7 +116,7 @@ title: 'Renuo GmbH'
     </div>
     <div class="span4">
         <h2>jQuery
-            <small>DIE Javascript Bibliothek</small>
+            <br><small>DIE Javascript Bibliothek</small>
         </h2>
         <p>Während früher Internetseiten meistens statisch und ohne Javascript funktionierten, ist es heute nicht mehr
             wegzudenken, ohne Javascript zu arbeiten. Da viele
