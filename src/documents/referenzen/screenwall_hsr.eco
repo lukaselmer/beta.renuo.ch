@@ -1,8 +1,8 @@
 ---
-title: Quevita
-name: Consulting für Quevita AG
-short_description: Ruby Consulting für Quevita AG
-image_path: https://new.renuo.ch/images/Quevita.png
+title: Screenwall HSR
+name: Screenwall HSR
+short_description: Grosse Monitorkonstellation, welche körpergesteuert ist
+image_path: https://new.renuo.ch/images/screenwall.png
 layout: project
 position: 3
 tags: ['project']
@@ -14,11 +14,14 @@ tags: ['project']
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Quevita AG entwickelt hochstehende Applikationen im Web- sowie Mobilbereich wie z.B. running.COACH
-            oder body.COACH. Für ein Finanzportal einer deutschen Finanzunternehmung brauchte Quevita AG 
-            zusätzliche Ruby on Rails Entwickler, welche dem bestehenden Team unter die Arme greifen kann.</p>
-            <p>Das Ziel der Partnerschaft ist es, das Entwicklungsteam kurzfristig und ohne Verpflichtungen für 
-            Quevita zu unterstützen. </p>
+            <p>Grosse Monitorkonstellationen bieten die Möglichkeit, Inhalte auf attraktive und imposante Weise zu
+            präsentieren. Mittels Microsoft Kinect ergibt sich eine neue Art der Steuerung:Eine Anwendung kann mit
+            Körperbewegungen anstatt Tastatur, Maus oder Touch bedient werden. Die Vereinigung von einer Monitorwand
+            und Kinect – nachfolgend als Videowall bezeichnet – bietet eine neuartige Präsentations- und 
+            Interaktionsmöglichkeit.</p>
+            Die HSR wollte die technische Machbarkeit einer solchen Videowall und deren Nutzen für die Hochschule 
+            abklären. 
+</p>
         </div>
     </div>
 
@@ -26,9 +29,11 @@ tags: ['project']
         <h2>Lösung</h2>
 
         <div>
-            <p>Die Renuo GmbH hat Quevita AG während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
-            sowohl vor Ort wie auch remote im Projekt mitwirken. Die Projektleitung sowie dessen Administration
-            bleiben bei Quevita.</p>
+            <p>Die Arbeit beinhaltet Abklärungen in drei Bereichen Technologie Grafikkarten / Auflösung, 
+            Nutzerbedürfnisse und Interaktion sowie Softwaretechnologie. Um zu demonstrieren, wie
+            Softwarekomponenten dynamisch in die Applikation eingebracht werden können, wurde ein Plug-in
+            System aufbauend auf C# mit MEF und Unity entwickelt.
+</p>
         </div>
     </div>
 
@@ -36,14 +41,14 @@ tags: ['project']
         <h2>Auftraggeber</h2>
 
         <div>
-            <p>Quevita AG<br>
-            Industriestrasse 78<br>
-            4600 Olten<br></p>
-            <p>Ansprechperson: Ettore Weilenmann<br>
+            <p>Hochschule für Technik Rapperswil<br>
+            Oberseestrasse 10<br>
+            8046 Zürichsee<br></p>
+            <p>Ansprechperson: Prof. Dr. Markus Stolze<br>
             Tel: +41 62 296 10 50 </p>
-            <p>Link: <a href="https://www.quevita.com" target="_blank">https://www.quevita.com</a></p>
-            <p>Die Partnerschaft dauert von Mai 2013 bis mind. Juni 2013.</p>
-            <div><%- @image_tag 'quevita_logo.jpg' %></div>
+            <p>Link: <a href="https://www.hsr.ch" target="_blank">https://www.hsr.ch</a></p>
+            <p>Die Studie wurde während des Frühjahrs 2012 erstellt</p>
+            <div><%- @image_tag 'hsr_logo.jpg' %></div>
         </div>
     </div>
 </div>
