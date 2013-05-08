@@ -13,22 +13,24 @@ tags: ['project']
         <h2>Ausgangslage</h2>
 
         <div>
-            Beim Projekt sharinado.com handelt es sich um die Weiterentwicklung der bestehenden shopübergreifenden Einkaufsplattform sowie den Betrieb dessen, auf welcher die Mitglieder vergünstigten Zugang zu mehreren hundert online Shops finden. Die Erstellung der Plattform beinhaltet einen kundenseitigen Zugang, Schnittstellen zu Affiliate-Anbietern, länderübergreifendes Verwaltungs- und Berechtigungskonzept, individuelles CMS sowie zahlreiche Sicherheitsmassnahmen. 
+            <p>Beim Projekt sharinado.com handelt es sich um die Weiterentwicklung der bestehenden shopübergreifenden 
+            Einkaufsplattform sowie den Betrieb dessen, auf welcher die Mitglieder vergünstigten Zugang zu mehreren 
+            hundert online Shops finden.</p>
+            <p>Das Ziel der Entwicklung der Applikation ist eine qualitativ hochstehende Software, welche 
+            allen zukünftigen Entwicklungen standhalten vermag und vorhandene Ressourcen wirtschaftlich bestmöglich 
+            einsetzt.</p>
         </div>
     </div>
 
     <div class="span4">
-        <h2>Lösung</h2>
+        <h2>Produkt</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            <p>Die Erstellung der Plattform beinhaltet einen kundenseitigen Zugang, Schnittstellen zu Affiliate-Anbietern, 
+            länderübergreifendes Verwaltungs- und Berechtigungskonzept, Mehrsprachenfähigkeit, individuelles CMS sowie 
+            zahlreiche Sicherheitsmassnahmen.</p>
+            <p>Die Erstellung, Anpassung und Weiterentwicklung der Applikation geschieht agil, sodass auf veränderte 
+            Bedürfnisse flexibel und unabhängig reagiert werden kann.</p>
         </div>
     </div>
 
@@ -41,6 +43,7 @@ tags: ['project']
             9053 Teufen AR<br></p>
             <p>Ansprechperson: Gerd Bringewatt<br>
             Tel: +41 71 333 45 45</p>
+            <p>Link: https://www.shariando.com</p>
         </div>
     </div>
 </div>
