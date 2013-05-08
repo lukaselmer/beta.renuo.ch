@@ -10,47 +10,36 @@ tags: ['project']
 
 <div class="row-fluid">
     <div class="span4">
-        <h2>Bla...</h2>
+        <h2>Ausgangslage</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            <p>Der Stör Koch Service ist eine Cateringagentur, welche sich bei den potentiellen
+            Kunden ideal präsentieren will.</p>
         </div>
     </div>
 
     <div class="span4">
-        <h2>Blub...</h2>
+        <h2>Produkt</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            <p>Der Arbeitsfokus liegt bei diesem Webauftritt auf einem responsive Layout und der damit verbundenen 
+            Optimierung für Tablets. Responsive Layout bedeutet, dass sich je nach Bildschirmgrösse eine Webseite
+            anders zeigt. Versuchen Sie es mal mit der Webseite von Renuo aus!</p>
         </div>
     </div>
 
     <div class="span4">
-        <h2>Und so weiter...</h2>
+        <h2>Auftraggeber</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            <p>Stör Koch Service GmbH<br>
+            Klichbergstrasse 12a<br>
+            8134 Adliswil<br></p>
+            <p>Ansprechperson: <br>
+            Tel: +41 79 / 425 08 32</p>
+            <p>Link: <a href="https://www.stoerkochservice.ch" target="_blank">https://www.stoerkochservice.ch</a></p>
+            <p>Der Auftrag dauerte von Juli 2012 bis Oktober 2012</p>
+            <div><%- @image_tag 'stoerkochservice_logo.jpg' %></div>
         </div>
     </div>
 </div>
