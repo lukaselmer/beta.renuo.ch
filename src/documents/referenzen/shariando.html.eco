@@ -26,9 +26,12 @@ tags: ['project']
         <h2>Produkt</h2>
 
         <div>
-            <p>Die Erstellung der Plattform beinhaltet einen kundenseitigen Zugang, Schnittstellen zu Affiliate-Anbietern, 
-            länderübergreifendes Verwaltungs- und Berechtigungskonzept, Mehrsprachenfähigkeit, individuelles CMS sowie 
-            zahlreiche Sicherheitsmassnahmen.</p>
+            <p>Die Erstellung der Plattform beinhaltet die Einbettung des Designs, einen kundenseitigen Zugang, 
+            Schnittstellen zu Affiliate-Anbietern, länderübergreifendes Verwaltungs- und Berechtigungskonzept, 
+            Mehrsprachenfähigkeit, individuelles CMS sowie zahlreiche Sicherheitsmassnahmen.</p>
+            <p>Registrierte Kunden könenn via Shariando auf knapp 1'000 online Shops zugreifen. Die nachfolgenden
+            Einkäufe werden durch Shariando getrackt und einen Prozentsatz des Warenkorbes wird dem Online Shopper
+            auf dem Shariando-Konto gutgeschrieben. Diesen Betrag kann sich dieser über das Portal bar auszahlen lassen.</p>
             <p>Die Erstellung, Anpassung und Weiterentwicklung der Applikation geschieht agil, sodass auf veränderte 
             Bedürfnisse flexibel und unabhängig reagiert werden kann.</p>
         </div>
