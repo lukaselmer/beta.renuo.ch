@@ -1,7 +1,7 @@
 ---
 title: Ihr Projekt?
-name: Ihr Projekt?
-short_description: Sie haben eine Idee und suchen technische Unterstützung?
+name: Sie brauchen Unterstützung?
+short_description: Warum sich die Zusammenarbeit mit uns lohnt
 image_path: https://new.renuo.ch/images/Sie.png
 layout: project
 position: 6
@@ -10,48 +10,53 @@ tags: ['project']
 
 
 <div class="row-fluid">
-    <div class="span4">
-        <h2>Bla...</h2>
+    <div class="span6">
+        <h2>Agile Arbeitsweise</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            Im Gegensatz zu grossen und schwerfälligen Firmen arbeitet die Renuo GmbH mit den Projektmethoden aus Scrum
+            weitere Informationen unter <a href="http://de.wikipedia.org/wiki/Scrum" target="_blank">http://de.wikipedia.org/wiki/Scrum</a>) und bietet so unter ständiger Einbeziehung 
+            des Kunden die Flexibilität und Anpassungsfähigkeit für den erfolgreichen Abschluss eines Projektes.
+        </div>
+    </div>
+
+    <div class="span6">
+        <h2>Langjährige Erfahrung</h2>
+
+        <div>
+            Trotz der noch jungen Geschichte der Renuo GmbH steckt viel Erfahrung in den Personen der Firma. 
+            Alle Mitarbeiter verfügen über eine langjährige Entwicklungserfahrung in diversen Webtechnologien an 
+            vorderster Front bzw. in der Führung und Begleitung von IT und Webprojekten.
         </div>
     </div>
 
     <div class="span4">
-        <h2>Blub...</h2>
+        <h2>Expertennetzwerk</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            Um den Kunden die optimalen Lösungen anbieten zu können konzentriert sich die Renuo GmbH stets auf ihre 
+            Kernkompetenz: SoftwareEngineering im Web. In Bereichen wie Projektmanagement, Betreuung, Konzeption, 
+            Usability und dem Design, hat die Renuo GmbH ein Netzwerk von lokalen Experten, die mit ihrem Fachwissen
+            zum Gelingen des Gesamtwerkes beitragen.
         </div>
     </div>
 
     <div class="span4">
-        <h2>Und so weiter...</h2>
+        <h2>Qualität</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            Den grössten Stellenwert der Arbeit der Renuo GmbH hat die Qualität. Mit automatisierten Tests und Reviews 
+            stellen wir die Codequalität jederzeit nachvollziehbar sicher. Wir sind daran interessiert, langfristige 
+            Kundenbeziehungen aufzubauen und gleichzeitig den nachhaltigen Erfolg unserer Kunden sicherzustellen.
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Junges und ehrgeiziges Team</h2>
+
+        <div>
+            Als junges Team von vier Personen sind wir hungrig und bereit, für jeden Kunden die Extrameile zu gehen. 
+            Nicht ein einseitiger Profit, sondern die langfristige Zufriedenstellung des Kunden liegt im Zentrum.
         </div>
     </div>
 </div>
