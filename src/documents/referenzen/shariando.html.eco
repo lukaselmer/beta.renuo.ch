@@ -43,7 +43,7 @@ tags: ['project']
             9053 Teufen AR<br></p>
             <p>Ansprechperson: Gerd Bringewatt<br>
             Tel: +41 71 333 45 45</p>
-            <p>Link: <%- @link_to "https://www.shariando.com", "https://www.shariando.com" %></p>
+            <p>Link: <a href="https://www.shariando.com" target="_blank">https://www.shariando.com</a></p>
         </div>
     </div>
 </div>
