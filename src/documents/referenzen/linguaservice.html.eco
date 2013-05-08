@@ -10,47 +10,37 @@ tags: ['project']
 
 <div class="row-fluid">
     <div class="span4">
-        <h2>Bla...</h2>
+        <h2>Ausgangslage</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            <p>LinguaService bietet Dienstleistungen für Sprachreisende auf der ganzen Welt. Aus diesem Grund
+            musste eine Webseite her, in welcher die einfache und effiziente Auffindbarkeit einer passenden
+            Destination bzw. Sprachschule im Mittelpunkt steht.</p>
         </div>
     </div>
 
     <div class="span4">
-        <h2>Blub...</h2>
+        <h2>Produkt</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            <p>Verschiedene Filterkriterien helfen dem Nutzer beim Finden der passenden Schule. Zudem werden die
+            Suchresultate grafisch aufbereitet und auf einer Landkarte angezeigt. Eine übersichtliche Menustruktur
+            erhöht die Usability weiter.</p>
         </div>
     </div>
 
     <div class="span4">
-        <h2>Und so weiter...</h2>
+        <h2>Auftraggeber</h2>
 
         <div>
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo TodoTodoTodo To o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo To TodoTod oTodo TodoTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod ooTodoTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
-            TodoTodo TodoTodoTodo TodoTodoTodo TodoTod oTodo TodoTod oTodo doTodo TodoTodoTodo TodoTodoTod o TodoTodoTo do TodoTodoTod o TodoTodoTodo Todo
+            <p>LinguaService<br>
+            Poststrasse 22<br>
+            7000 Chur<br></p>
+            <p>Ansprechperson: <br>
+            Tel: +41 81 353 47 86</p>
+            <p>Link: <a href="https://www.linguaservice.ch" target="_blank">https://www.linguaservice.ch</a></p>
+            <p>Der Auftrag dauerte von Juli 2012 bis Oktober 2012</p>
+            <div><%- @image_tag 'linguaservice_logo.jpg' %></div>
         </div>
     </div>
 </div>
