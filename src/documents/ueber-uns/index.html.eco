@@ -7,9 +7,9 @@ position: 4
 <div class="row-fluid page-header-element">
     <div class="span12">
         <div class="page-header">
-            <h1>Wer wir sind
+            <h2>Wer wir sind
                 <small> und was unser Hintergrund ist</small>
-            </h1>
+            </h2>
         </div>
     </div>
 </div>
@@ -17,8 +17,8 @@ position: 4
 <div class="row-fluid page-header-element">
     <div class="span4">
         <div class="page-header">
-            <h1>Fähigkeiten
-            </h1>
+            <h2>Fähigkeiten
+            </h2>
         </div>
         <p>Der Fokus der Dienstleistungen von Renuo GmbH liegt in der Entwicklung von kundenspezifischen Lösungen, 
         welche Prozesse vereinfachen und dem Endnutzer eine grösstmögliche Usability bieten. Mit Hilfe moderner 
@@ -29,8 +29,8 @@ position: 4
 
     <div class="span4">
         <div class="page-header">
-            <h1>Fokus
-            </h1>
+            <h2>Fokus
+            </h2>
         </div>
         <p>Die Stärke von Renuo liegt in der Entwicklung von komplexen Webprojekten auf Grundlage modernster 
         Technologien. Um diese Stärke zu bewahren, fokussieren wir uns ausschliesslich darauf und arbeiten in 
@@ -39,8 +39,8 @@ position: 4
 
     <div class="span4">
         <div class="page-header">
-            <h1>Team
-            </h1>
+            <h2>Team
+            </h2>
         </div>
         <p>Im sich rasant entwickelnden Webbereich präsentieren wir uns als Team jung, frisch und dynamisch. 
         Diese Werte sind nicht nur eine Voraussetzung in SoftwareEntwicklungsprojekten, sondern sie spiegeln 
@@ -310,9 +310,9 @@ position: 4
 <div class="row-fluid page-header-element">
     <div class="span12">
         <div class="page-header">
-            <h1>Agiles Projektmanagement
+            <h2>Agiles Projektmanagement
                 <small> Schritt um Schritt zum Ziel</small>
-            </h1>
+            </h2>
         </div>
         <p>Aufgrund von Missverständnissen in der Spezifikation, Interpretationsdifferenzen, sowie weiteren 
         Ungenauigkeiten sind Software-Projekte mit klassischen Modellen nur mit hohem administrativen Aufwand
@@ -335,9 +335,9 @@ position: 4
 <div class="row-fluid page-header-element">
     <div class="span6">
         <div class="page-header">
-            <h1>Enge Zusammenarbeit
+            <h2>Enge Zusammenarbeit
                 <small> Kontrolle ist besser als Vertrauen</small>
-            </h1>
+            </h2>
         </div>
         <p>Uns liegt die Zusammenarbeit mit dem Kunden sehr am Herzen. Wir planen die Sprints in enger Zusammenarbeit 
         mit dem Kunden und kommunizieren die Ergebnisse im wöchentlichen Statusrapport. So ist der Kunde stets im 
@@ -347,9 +347,9 @@ position: 4
 
     <div class="span6">
         <div class="page-header">
-            <h1>Werte der Renuo
+            <h2>Werte der Renuo
                 <small> unsere DNA</small>
-            </h1>
+            </h2>
         </div>
         <p>Die Renuo GmbH unterstützt das agile Manifest und vertritt dessen Werte:</p>
         <ul>
