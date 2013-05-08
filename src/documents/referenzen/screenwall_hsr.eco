@@ -1,0 +1,49 @@
+---
+title: Quevita
+name: Consulting für Quevita AG
+short_description: Ruby Consulting für Quevita AG
+image_path: https://new.renuo.ch/images/Quevita.png
+layout: project
+position: 3
+tags: ['project']
+---
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Quevita AG entwickelt hochstehende Applikationen im Web- sowie Mobilbereich wie z.B. running.COACH
+            oder body.COACH. Für ein Finanzportal einer deutschen Finanzunternehmung brauchte Quevita AG 
+            zusätzliche Ruby on Rails Entwickler, welche dem bestehenden Team unter die Arme greifen kann.</p>
+            <p>Das Ziel der Partnerschaft ist es, das Entwicklungsteam kurzfristig und ohne Verpflichtungen für 
+            Quevita zu unterstützen. </p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>Die Renuo GmbH hat Quevita AG während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
+            sowohl vor Ort wie auch remote im Projekt mitwirken. Die Projektleitung sowie dessen Administration
+            bleiben bei Quevita.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Quevita AG<br>
+            Industriestrasse 78<br>
+            4600 Olten<br></p>
+            <p>Ansprechperson: Ettore Weilenmann<br>
+            Tel: +41 62 296 10 50 </p>
+            <p>Link: <a href="https://www.quevita.com" target="_blank">https://www.quevita.com</a></p>
+            <p>Die Partnerschaft dauert von Mai 2013 bis mind. Juni 2013.</p>
+            <div><%- @image_tag 'quevita_logo.jpg' %></div>
+        </div>
+    </div>
+</div>
