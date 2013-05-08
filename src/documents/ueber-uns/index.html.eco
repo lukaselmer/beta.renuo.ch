@@ -6,8 +6,17 @@ position: 4
 ---
 
 <div class="row-fluid page-header-element">
-    <div class="span4">
+    <div class="span12">
         <div class="page-header">
+            <h1>Unser Hintergrund
+                <small> und was Sie erwarten dürfen</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid" style="margin-top: 30px;">
+    <div class="span4">
             <h2>Fähigkeiten
             </h2>
         </div>
@@ -19,7 +28,6 @@ position: 4
     </div>
 
     <div class="span4">
-        <div class="page-header">
             <h2>Fokus
             </h2>
         </div>
@@ -29,7 +37,6 @@ position: 4
     </div>
 
     <div class="span4">
-        <div class="page-header">
             <h2>Team
             </h2>
         </div>
@@ -43,7 +50,7 @@ position: 4
 <div class="row-fluid page-header-element">
     <div class="span12">
         <div class="page-header">
-            <h1>Das sind wir
+            <h1>Sie gestatten?
                 <small> jung und dynamisch &ndash; aber keineswegs unerfahren</small>
             </h1>
         </div>
