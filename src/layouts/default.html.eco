@@ -91,7 +91,7 @@
             <div class="row-fluid">
                 <div class="span4">
                     <ul>
-                        <li><%- @link_to "AGB", "/pdfs/agb.pdf" %></li>
+                        <li><%- @link_to "AGB", "/pdfs/agb.pdf", "_blank" %></li>
                         <li><%- @link_to "NDA", "/pdfs/nda.pdf" %></li>
                     </ul>
                 </div>
