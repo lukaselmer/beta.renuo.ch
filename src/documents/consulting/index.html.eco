@@ -6,7 +6,7 @@ position: 2
 ---
 
 <div class="row-fluid page-header-element">
-    <div class="span8">
+    <div class="span7">
         <div class="page-header">
             <h1>Consulting
                 <small>Unser Know-How in Ihrem Büro</small>
@@ -16,7 +16,7 @@ position: 2
         <br/>
     </div>
 	
-	<div class="span3">
+	<div class="span4">
     <img src="https://new.renuo.ch/images/consulting.png">
     </div>
 </div>
