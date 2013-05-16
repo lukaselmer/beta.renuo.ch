@@ -2,7 +2,7 @@
 title: Pfadiheimverzeichnis
 name: Pfadiheimverzeichnis für die Pfadibewegung Schweiz
 short_description: für die Pfadibewegung Schweiz
-image_path: https://new.renuo.ch/images/pfadiheimverzeichnis.png
+image_path: /images/pfadiheimverzeichnis.png
 layout: project
 position: 4
 tags: ['project']

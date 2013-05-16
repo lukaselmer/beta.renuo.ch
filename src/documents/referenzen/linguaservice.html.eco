@@ -2,7 +2,7 @@
 title: Linguaservice
 name: Linguaservice: Usability, Filterung und Benutzerfreundlichkeit
 short_description: Implementierung und grafische Aufbereitung effizienter Suche
-image_path: https://new.renuo.ch/images/linguaservice.png
+image_path: /images/linguaservice.png
 layout: project
 position: 6
 tags: ['project']

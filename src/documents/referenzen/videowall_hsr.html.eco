@@ -2,7 +2,7 @@
 title: Videowall HSR
 name: Videowall HSR
 short_description: Grosse Monitorkonstellation, welche körpergesteuert ist
-image_path: https://new.renuo.ch/images/videowall.png
+image_path: /images/videowall.png
 layout: project
 position: 3
 tags: ['project']

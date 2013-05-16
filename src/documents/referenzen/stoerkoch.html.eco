@@ -2,7 +2,7 @@
 title: Störkoch Service
 name: Responsive Design für Störkochservice
 short_description: Responsive Webdesign und Optimierung für Tablets
-image_path: https://new.renuo.ch/images/stoerkochservice.png
+image_path: /images/stoerkochservice.png
 layout: project
 position: 7
 tags: ['project']

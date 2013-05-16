@@ -2,7 +2,7 @@
 title: Sie brauchen Unterstützung?
 name: Ihr Projekt?
 short_description: Warum sich die Zusammenarbeit mit uns lohnt
-image_path: https://new.renuo.ch/images/sie.png
+image_path: /images/sie.png
 layout: project
 position: 8
 tags: ['project']

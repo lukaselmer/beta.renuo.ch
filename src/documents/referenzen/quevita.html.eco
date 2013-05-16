@@ -2,7 +2,7 @@
 title: Quevita
 name: Consulting für Quevita AG
 short_description: Ruby Consulting für Quevita AG
-image_path: https://new.renuo.ch/images/quevita.png
+image_path: /images/quevita.png
 layout: project
 position: 5
 tags: ['project']

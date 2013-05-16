@@ -20,22 +20,22 @@ position: 1
 
     <div class="span3">
         Konzeption
-        <img src="https://new.renuo.ch/images/Konzeption.png">
+        <img src="/images/konzeption_transparent.png">
     </div>
 
     <div class="span3">
         Design
-        <img src="https://new.renuo.ch/images/Design.png">
+        <img src="/images/design_transparent.png">
     </div>
 
     <div class="span3">
         Entwicklung
-        <img src="https://new.renuo.ch/images/Entwicklung.png">
+        <img src="/images/entwicklung_transparent.png">
     </div>
 
     <div class="span3">
         Betrieb
-        <img src="https://new.renuo.ch/images/Betrieb.png">
+        <img src="/images/betrieb_transparent.png">
     </div>
 </div>
 <br>
