@@ -18,23 +18,23 @@ position: 1
 
 <div class="row-fluid">
 
-    <div class="span3">
-        Konzeption
+    <div class="span3" align="center">
+        <h4>Konzeption</h4>
         <img src="/images/konzeption_transparent.png">
     </div>
 
-    <div class="span3">
-        Design
+    <div class="span3" align="center">
+        <h4>Design</h4>
         <img src="/images/design_transparent.png">
     </div>
 
-    <div class="span3">
-        Entwicklung
+    <div class="span3" align="center">
+        <h4>Entwicklung</h4>
         <img src="/images/entwicklung_transparent.png">
     </div>
 
-    <div class="span3">
-        Betrieb
+    <div class="span3" align="center">
+        <h4>Betrieb</h4>
         <img src="/images/betrieb_transparent.png">
     </div>
 </div>
