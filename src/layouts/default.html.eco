@@ -90,10 +90,8 @@
         <div class="container" style="padding: 30px 0 50px 10px;">
             <div class="row-fluid">
                 <div class="span4">
-                    <ul>
-                        <li><%- @link_to "AGB", "/pdfs/agb.pdf" %></li>
-                        <li><%- @link_to "NDA", "/pdfs/nda.pdf" %></li>
-                    </ul>
+                    <%- @link_to "AGB", "/pdfs/agb.pdf" %>
+                    <%- @link_to "NDA", "/pdfs/nda.pdf" %>
                 </div>
                 <div class="span4">
                     <div class="g-plus" data-href="//plus.google.com/115826926887062492943?rel=publisher"></div>
