@@ -76,14 +76,23 @@ body {
   .short-description {
     padding: 10px;
   }
+}
 
-  @media (min-width: 768px){
+@media (min-width: 768px) {
+  .project-box {
     height: 220px;
   }
-  @media (min-width: 980px){
+}
+@media (min-width: 980px) {
+  .project-box {
     height: 240px;
   }
-  @media (min-width: 1200px) {
+}
+@media (min-width: 1200px) {
+  .project-box {
     height: 277px;
   }
 }
+
+
+
