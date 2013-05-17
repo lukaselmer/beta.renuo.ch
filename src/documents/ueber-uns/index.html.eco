@@ -349,13 +349,17 @@ position: 4
                 <br><small> unsere DNA</small>
             </h2>
         </div>
-        <p>Die Renuo GmbH unterstützt das agile Manifest und vertritt dessen Werte:</p>
+        <p>Die Renuo GmbH unterstützt <a href="http://agilemanifesto.org/iso/de/">das agile Manifest</a> und vertritt dessen Werte:</p>
         <ul>
             <li>Individuen und Interaktionen sind stärker zu gewichten als Prozesse und Tools.</li>
             <li>Funktionierende Software ist stärker zu gewichten als umfassende Dokumentation.</li>
             <li>Zusammenarbeit mit Kunden ist stärker zu gewichten als Vertragsverhandlungen.</li>
             <li>Reaktion auf Änderungen ist stärker zu gewichten als einen Plan zu befolgen.</li>
         </ul>
+        <div>
+            Das heisst, obwohl wir die Werte auf der rechten Seite wichtig finden,
+            schätzen wir die Werte auf der linken Seite höher ein.
+        </div>
         <br/>
     </div>
 </div>
