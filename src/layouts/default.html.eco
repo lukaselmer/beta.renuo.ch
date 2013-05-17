@@ -90,7 +90,7 @@
         <div class="container" style="padding: 30px 0 50px 10px;">
             <div class="row-fluid">
                 <div class="span4">
-                    <%- @link_to "AGB", "/pdfs/agb.pdf" %>
+                    <%- @link_to "AGB", "/pdfs/agb.pdf" %><br>
                     <%- @link_to "NDA", "/pdfs/nda.pdf" %>
                 </div>
                 <div class="span4">
