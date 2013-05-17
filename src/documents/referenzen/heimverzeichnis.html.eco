@@ -1,6 +1,7 @@
 ---
 title: Pfadiheimverzeichnis
-name: Pfadiheimverzeichnis für die Pfadibewegung Schweiz
+box_name: Pfadiheimverzeichnis
+box_description: für die Pfadibewegung Schweiz
 short_description: für die Pfadibewegung Schweiz
 image_path: /images/pfadiheimverzeichnis.png
 layout: project

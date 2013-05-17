@@ -1,7 +1,8 @@
 ---
 title: Sie brauchen Unterstützung?
-name: Ihr Projekt?
-short_description: Warum sich die Zusammenarbeit mit uns lohnt
+box_name: Ihr Projekt?
+box_description: Weshalb sich die Zusammenarbeit mit uns lohnt
+short_description: Weshalb sich die Zusammenarbeit mit uns lohnt
 image_path: /images/sie.png
 layout: project
 position: 8

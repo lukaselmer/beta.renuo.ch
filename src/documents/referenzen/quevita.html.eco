@@ -1,6 +1,7 @@
 ---
 title: Quevita
-name: Consulting für Quevita AG
+box_name: Quevita AG
+box_description: Consulting für Quevita AG
 short_description: Ruby Consulting für Quevita AG
 image_path: /images/quevita.png
 layout: project

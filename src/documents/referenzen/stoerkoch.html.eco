@@ -1,6 +1,7 @@
 ---
 title: Störkoch Service
-name: Responsive Design für Störkochservice
+box_name: Störkochservice
+box_description: Responsive Design
 short_description: Responsive Webdesign und Optimierung für Tablets
 image_path: /images/stoerkochservice.png
 layout: project

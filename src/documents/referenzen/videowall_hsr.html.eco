@@ -1,6 +1,7 @@
 ---
-title: Videowall HSR
-name: Videowall HSR
+title: HSR Videowall
+box_name: HSR Videowall
+box_description: Machbarkeitsstudie und Prototyp
 short_description: Grosse Monitorkonstellation, welche körpergesteuert ist
 image_path: /images/videowall.png
 layout: project
@@ -15,13 +16,14 @@ tags: ['project']
 
         <div>
             <p>Grosse Monitorkonstellationen bieten die Möglichkeit, Inhalte auf attraktive und imposante Weise zu
-            präsentieren. Mittels Microsoft Kinect ergibt sich eine neue Art der Steuerung:Eine Anwendung kann mit
-            Körperbewegungen anstatt Tastatur, Maus oder Touch bedient werden. Die Vereinigung von einer Monitorwand
-            und Kinect – nachfolgend als Videowall bezeichnet – bietet eine neuartige Präsentations- und 
-            Interaktionsmöglichkeit.</p>
-            Die HSR wollte die technische Machbarkeit einer solchen Videowall und deren Nutzen für die Hochschule 
-            abklären. 
-</p>
+                präsentieren. Mittels Microsoft Kinect ergibt sich eine neue Art der Steuerung:Eine Anwendung kann mit
+                Körperbewegungen anstatt Tastatur, Maus oder Touch bedient werden. Die Vereinigung von einer Monitorwand
+                und Kinect – nachfolgend als Videowall bezeichnet – bietet eine neuartige Präsentations- und
+                Interaktionsmöglichkeit.</p>
+
+            <p>Die HSR wollte die technische Machbarkeit einer solchen Videowall und deren Nutzen für die Hochschule
+                abklären.</p>
+            </p>
         </div>
     </div>
 
@@ -29,11 +31,15 @@ tags: ['project']
         <h2>Lösung</h2>
 
         <div>
-            <p>Die Arbeit beinhaltet Abklärungen in drei Bereichen Technologie Grafikkarten / Auflösung, 
-            Nutzerbedürfnisse und Interaktion sowie Softwaretechnologie. Um zu demonstrieren, wie
-            Softwarekomponenten dynamisch in die Applikation eingebracht werden können, wurde ein Plug-in
-            System aufbauend auf C# mit MEF und Unity entwickelt.
-</p>
+            <p>
+                Die Arbeit beinhaltet Abklärungen in drei Bereichen Technologie Grafikkarten / Auflösung,
+                Nutzerbedürfnisse und Interaktion sowie Softwaretechnologie. Um zu demonstrieren, wie
+                Softwarekomponenten dynamisch in die Applikation eingebracht werden können, wurde ein Plug-in
+                System aufbauend auf C# mit MEF und Unity entwickelt.
+            </p>
+            <p>
+                Weitere Informationen zur Lösung: <a href="https://videowall.renuo.ch/">https://videowall.renuo.ch/</a>
+            </p>
         </div>
     </div>
 
@@ -42,12 +48,16 @@ tags: ['project']
 
         <div>
             <p>Hochschule für Technik Rapperswil<br>
-            Oberseestrasse 10<br>
-            8046 Zürichsee<br></p>
+                Oberseestrasse 10<br>
+                8046 Zürichsee<br></p>
+
             <p>Ansprechperson: Prof. Dr. Markus Stolze<br>
-            Tel: +41 62 296 10 50 </p>
-            <p>Link: <a href="https://www.hsr.ch" target="_blank">https://www.hsr.ch</a></p>
-            <p>Die Studie wurde während des Frühjahrs 2012 erstellt</p>
+                Tel: +41 62 296 10 50 </p>
+
+            <p>Links: <a href="https://www.hsr.ch">https://www.hsr.ch</a></p>
+
+            <p>Die Studie wurde durch eine Bachelor Arbeit während des Frühjahrs 2012 erstellt.</p>
+
             <div><%- @image_tag 'hsr_logo.jpg' %></div>
         </div>
     </div>

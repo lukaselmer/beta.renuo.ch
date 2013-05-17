@@ -1,7 +1,8 @@
 ---
 title: Studentbooks
-name: Studentbooks: Performance bei über 10 Mio. Artikeln
-short_description: Ein Schweizer Online Shop mit über 10 Mio. Büchern.
+box_name: Studentbooks
+box_description: Performance bei über 18 Mio. Artikeln
+short_description: Ein Schweizer Online Shop mit über 18 Mio. Artikeln.
 image_path: /images/studentbooks.png
 layout: project
 position: 2
@@ -21,7 +22,7 @@ tags: ['project']
         <h2>Produkt</h2>
 
         <div>
-            <p>Studentbooks ist ein moderner Onlinebüchershop für Studenten mit einer Sortiment von > 10 Mio. Artikeln.
+            <p>Studentbooks ist ein moderner Onlinebüchershop für Studenten mit einer Sortiment von > 18 Mio. Artikeln.
              </p>
         </div>
     </div>
