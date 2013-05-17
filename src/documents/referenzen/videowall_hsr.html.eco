@@ -3,6 +3,7 @@ title: HSR Videowall
 box_name: HSR Videowall
 box_description: Machbarkeitsstudie und Prototyp
 short_description: Grosse Monitorkonstellation, welche körpergesteuert ist
+long_description: Dieses Projekt wurde im Rahmen einer Bachelorarbeit durchgeführt.
 image_path: /images/videowall.png
 layout: project
 position: 3
