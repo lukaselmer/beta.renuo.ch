@@ -12,6 +12,9 @@ layout: default
                     <small><%= @document.short_description %></small>
                 </h1>
             </div>
+            <p>
+                <%= @document.long_description %>
+            </p>
         </div>
     </div>
 
