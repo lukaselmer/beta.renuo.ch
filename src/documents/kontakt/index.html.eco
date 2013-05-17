@@ -5,7 +5,7 @@ isMainNavi: 1
 position: 5
 ---
 
-<div class="row-fluid page-header-element">
+<div class="row-fluid page-header-element page-section">
 
     <div class="span8">
         <div>

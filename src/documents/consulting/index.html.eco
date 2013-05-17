@@ -5,7 +5,7 @@ isMainNavi: 1
 position: 2
 ---
 
-<div class="row-fluid page-header-element">
+<div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div class="page-header">
             <h1>Consulting
@@ -18,7 +18,12 @@ position: 2
 <div class="row-fluid">
 
     <div class="span8">
-        <p>Sie entwickeln selbst Software, Ihnen fehlt aber in einigen Bereichen das Wissen oder Sie brauchen für Ihre Projekte zusätzliche Kapazitäten? Wir unterstützen Sie und leihen Ihnen hochqualifizierte Entwickler und Berater aus, indem wir uns in bestehende Strukturen einfügen. Ihr Vorteil? Sie übernehmen als Unternehmen keine Pflichten als Arbeitgeber, sondern stellen nur den Arbeitsplatz vor Ort zur Verfügung. Reagieren Sie somit schnell auf Engpässe, ohne das Risiko einer neuen Anstellung einzugehen. Ein Engagement dauert typischerweise mehrere Wochen bis Monate - je nach Ihrem Bedarf.</p>
+        <p>Sie entwickeln selbst Software, Ihnen fehlt aber in einigen Bereichen das Wissen oder Sie brauchen für
+            Ihre Projekte zusätzliche Kapazitäten? Wir unterstützen Sie und leihen Ihnen hochqualifizierte Entwickler
+            und Berater aus, indem wir uns in bestehende Strukturen einfügen. Ihr Vorteil? Sie übernehmen als
+            Unternehmen keine Pflichten als Arbeitgeber, sondern stellen nur den Arbeitsplatz vor Ort zur Verfügung.
+            Reagieren Sie somit schnell auf Engpässe, ohne das Risiko einer neuen Anstellung einzugehen. Ein Engagement
+            dauert typischerweise mehrere Wochen bis Monate - je nach Ihrem Bedarf.</p>
     </div>
 
     <div class="span4">

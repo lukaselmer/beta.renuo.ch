@@ -15,7 +15,7 @@ position: 4
     </div>
 </div>
 
-<div class="row-fluid" style="margin-top: 30px;">
+<div class="row-fluid page-section" style="margin-top: 30px;">
     <div class="span4">
             <h2>Fähigkeiten
             </h2>
@@ -44,7 +44,7 @@ position: 4
     </div>
 </div>
 
-<div class="row-fluid page-header-element">
+<div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div class="page-header">
             <h1>Sie gestatten?
@@ -55,7 +55,8 @@ position: 4
             auch.</p>
     </div>
 </div>
-<div class="row-fluid page-header-element">
+
+<div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div>
 
@@ -186,7 +187,8 @@ position: 4
         </div>
     </div>
 </div>
-<div class="row-fluid page-header-element">
+
+<div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div>
             <div class="span6">
@@ -305,7 +307,7 @@ position: 4
     </div>
 </div>
 
-<div class="row-fluid page-header-element">
+<div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div class="page-header">
             <h2>Agiles Projektmanagement
@@ -326,21 +328,19 @@ position: 4
         Anforderungen fallen zu lassen.</p>
         <p>Bei der Renuo hat sich Scrum sehr bewährt, weshalb wir voll auf diese Arbeitsmethode setzen. Weitere 
         Informationen zu Scrum entnehmen Sie bitte dem entsprechenden Wikipedia-Artikel: <a href="https://de.wikipedia.org/wiki/Scrum" target="_blank">https://de.wikipedia.org/wiki/Scrum</a></p>
-        <br/>
     </div>
 </div>
 
-<div class="row-fluid page-header-element">
+<div class="row-fluid page-header-element page-section">
     <div class="span6">
         <div class="page-header">
             <h2>Enge Zusammenarbeit
-                <br><small> Kontrolle ist besser als Vertrauen</small>
+                <br><small> Vertrauen ist gut, Kontrolle ist besser</small>
             </h2>
         </div>
         <p>Uns liegt die Zusammenarbeit mit dem Kunden sehr am Herzen. Wir planen die Sprints in enger Zusammenarbeit 
-        mit dem Kunden und kommunizieren die Ergebnisse im wöchentlichen Statusrapport. So ist der Kunde stets im 
+        mit dem Kunden und kommunizieren die Ergebnisse im <strong>wöchentlichen Statusrapport</strong>. So ist der Kunde stets im
         Bild über den Stand der Arbeiten und hat das Budget im Griff.</p>
-        <br/>
     </div>
 
     <div class="span6">
@@ -356,10 +356,9 @@ position: 4
             <li>Zusammenarbeit mit Kunden ist stärker zu gewichten als Vertragsverhandlungen.</li>
             <li>Reaktion auf Änderungen ist stärker zu gewichten als einen Plan zu befolgen.</li>
         </ul>
-        <div>
+        <p>
             Das heisst, obwohl wir die Werte auf der rechten Seite wichtig finden,
             schätzen wir die Werte auf der linken Seite höher ein.
-        </div>
-        <br/>
+        </p>
     </div>
 </div>

@@ -5,7 +5,7 @@ isMainNavi: 1
 position: 3
 ---
 
-<div class="row-fluid page-header-element">
+<div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div class="page-header">
             <h1>Referenzen
@@ -16,7 +16,6 @@ position: 3
         welche international und mehrsprachig betrieben werden. Unsere Kunden sind meistens mittelgrosse
         Unternehmen, welche ein IT-Projekt realisieren oder Start-Ups, welche mit uns eine IT-Vision
         verwirklichen.</p>
-        <br/>
     </div>
 </div>
 

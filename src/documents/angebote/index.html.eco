@@ -16,7 +16,7 @@ position: 1
 </div>
 
 
-<div class="row-fluid">
+<div class="row-fluid page-section">
 
     <div class="span3" align="center">
         <h4>Konzeption</h4>
@@ -38,12 +38,11 @@ position: 1
         <img src="/images/betrieb_transparent.png">
     </div>
 </div>
-<br/>
-<div class="row-fluid">
+
+<div class="row-fluid page-section">
 
     <div class="span6">
         <h2>Konzeption</h2>
-
         <div>
             <h3><small>Zielgerichtete Strategie mit Blick in die Zukunft</small></h3>In der 
             Konzeptionsphase geht es darum zu verstehen, wohin Sie wollen. Was sind Ihre Ziele, welche Nutzergruppen 
@@ -57,7 +56,6 @@ position: 1
 
     <div class="span6">
         <h2>Design</h2>
-
         <div>
             <h3><small>Individuelles Design mit Fokus auf Usability</small></h3>In der Informationsflut des Internets
             ist es nicht einfach, aufzufallen und gesehen zu werden. Das richtige Web Design hilft Ihnen dabei, sich
@@ -72,11 +70,10 @@ position: 1
 
 </div>
 
-<div class="row-fluid">
+<div class="row-fluid page-section">
 
     <div class="span6">
         <h2>Entwicklung</h2>
-
         <div>
             <h3><small>Innovative Software mithilfe modernster Technologien</small></h3>Die Entwicklung innovativer
             Software im Web ist unsere Kernkompetenz. In der Entwicklungsphase wird der eigentliche Code geschrieben 
@@ -90,7 +87,6 @@ position: 1
 
     <div class="span6">
         <h2>Betrieb</h2>
-
         <div>
             <h3><small>Sicherheit, Überwachung, Aktualisierung und Ausbau.</small></h3>Stillstand ist Rückschritt! 
             Nach der Fertigstellung Ihrer Webplattform kümmern wir uns um die Wartung Ihrer Applikation sowie um
@@ -99,4 +95,5 @@ position: 1
             das Hinzuprogrammieren von weiteren Anforderungen. 
         </div>
     </div>
+
 </div>
