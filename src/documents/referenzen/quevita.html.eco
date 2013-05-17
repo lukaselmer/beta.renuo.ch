@@ -43,7 +43,7 @@ tags: ['project']
             <p>Ansprechperson: Ettore Weilenmann<br>
             Tel: +41 62 296 10 50 </p>
             <p>Link: <a href="https://www.quevita.com" target="_blank">https://www.quevita.com</a></p>
-            <p>Die Partnerschaft dauert von Mai 2013 bis mind. Juni 2013.</p>
+            <p>Die Partnerschaft dauert von Mai 2013 bis jetzt.</p>
             <div><%- @image_tag 'quevita_logo.jpg' %></div>
         </div>
     </div>
