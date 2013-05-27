@@ -11,6 +11,11 @@ tags: ['project']
 
 
 <div class="row-fluid">
+
+    <div class="span4">
+        <img src="/images/5reasons.png">
+    </div>
+	
     <div class="span4">
         <h2>Agile Arbeitsweise</h2>
 
