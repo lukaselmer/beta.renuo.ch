@@ -16,6 +16,7 @@ docpadConfig =
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
+        'renuo.ch',
         'www.beta.renuo.ch',
         'beta_renuo.herokuapp.com'
       ]
