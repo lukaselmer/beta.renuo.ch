@@ -36,7 +36,7 @@ docpadConfig =
                 """
 
       # The website author's name
-      author: "Renuo GmbH | info@renuo.ch | https://renuo.ch"
+      author: "Renuo GmbH | info@renuo.ch | http://www.renuo.ch"
 
       # The website author's email
       email: "info@renuo.ch"
