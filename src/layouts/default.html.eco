@@ -7,8 +7,7 @@
 
   <meta name="robots" content="index, follow"/>
 
-  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
-     More info: h5bp.com/i/378 -->
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues. More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
   <!-- Our site title and description -->
@@ -31,7 +30,6 @@
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico/apple-touch-icon-57-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon.png">
 
-
   <!--[if ie]>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <![endif]-->
@@ -45,10 +43,10 @@
   <%- @getBlock('styles').add(["/vendor/twitter-bootstrap/css/bootstrap.css", "/styles/style.css", "/styles/application.css"]).toHTML() %>
 
   <script type="text/javascript">
-    var analytics=analytics||[];(function(){var e=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group"],t=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)analytics[e[n]]=t(e[n])})(),analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
-    analytics.load("a3k2sm1zgp");
+    var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-34098642-1']);_gaq.push(['_setDomainName', 'renuo.ch']);_gaq.push(['_trackPageview']);
+    (function(){var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();
   </script>
-
+  
 </head>
 <body>
 <div id="fb-root"></div>
