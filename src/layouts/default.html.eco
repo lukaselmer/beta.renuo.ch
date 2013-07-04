@@ -118,8 +118,11 @@
     <div style="background: #fff;">
         <div class="container" style="padding: 10px 0 0 10px;">
             <div class="row-fluid">
-                <div class="span4">
+                <div class="span10">
                     © <script> document.write(new Date().getFullYear().toString()); </script> Renuo GmbH. Alle Rechte vorbehalten. <%- @link_to "AGB", "/pdfs/agb.pdf" %>.
+                </div>
+                <div class="span2" style="text-align: right;">
+                    <a href="http://www.swissmadesoftware.org/"><img src="/images/swiss-made-software.png"></a>
                 </div>
             </div>
         </div>
