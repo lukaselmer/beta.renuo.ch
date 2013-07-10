@@ -47,9 +47,9 @@
     <div class="navbar-inner">
         <div class="container">
             <a class="brand" href="/">
-                Renuo GmbH
+                <img src="/images/logo.png" style="height: 25px;" />
             </a>
-            <ul class="nav">
+            <ul class="nav pull-right">
                 <% for document in @getCollection('main_navi').toJSON() : %>
                 <li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active' if @document.url is document.url %>">
                     <a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
@@ -61,7 +61,7 @@
     </div>
 </div>
 
-<div class="container" id="center-main" style="padding: 0 0 0 10px;">
+<div class="container" id="center-main">
    <div id="outer-main">
       <section id="content" class="content">
         <%- @content %>
