@@ -122,8 +122,8 @@ position: 4
                 </table>
 
                 <div class="profile-social-links">
-                    <a href="https://github.com/lukaselmer"><i class="icon-github-sign icon-4x"></i></a>
-                    <a href="https://www.xing.com/profile/Lukas_Elmer"><i class="icon-xing-sign icon-4x"></i></a>
+                    <a href="https://github.com/lukaselmer"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://www.xing.com/profile/Lukas_Elmer"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
                 </div>
             </div>
 
@@ -182,8 +182,10 @@ position: 4
                     </tbody>
                 </table>
 
-                <a href="https://github.com/diegosteiner"><img alt="Zum Github Profil" title="Zum Github Profil" src="/images/github.png"></a>
-				<a href="https://www.xing.com/profile/DiegoP_Steiner"><img alt="Zum Xing Profil" title="Zum Xing Profil" src="/images/xing.png"></a>
+                <div class="profile-social-links">
+                    <a href="https://github.com/diegosteiner"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://www.xing.com/profile/DiegoP_Steiner"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                </div>
             </div>
 
         </div>
@@ -248,8 +250,10 @@ position: 4
                     </tbody>
                 </table>
 
-                <a href="https://github.com/samuelsteiner"><img alt="Zum Github Profil" title="Zum Github Profil" src="/images/github.png"></a>
-				<a href="https://www.xing.com/profile/Samuel_Steiner3"><img alt="Zum Xing Profil" title="Zum Xing Profil" src="/images/xing.png"></a>
+                <div class="profile-social-links">
+                    <a href="https://github.com/samuelsteiner"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://www.xing.com/profile/Samuel_Steiner3"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                </div>
             </div>
 
             <div class="span6">
@@ -301,8 +305,10 @@ position: 4
                     </tbody>
                 </table>
 
-                <a href="https://github.com/ideadapt"><img alt="Zum Github Profil" title="Zum Github Profil" src="/images/github.png"></a>
-				<a href="https://www.xing.com/profile/Ueli_Kunz"><img alt="Zum Xing Profil" title="Zum Xing Profil" src="/images/xing.png"></a>
+                <div class="profile-social-links">
+                    <a href="https://github.com/ideadapt"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://www.xing.com/profile/Ueli_Kunz"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                </div>
             </div>
 
         </div>
