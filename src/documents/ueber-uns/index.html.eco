@@ -121,7 +121,7 @@ position: 4
                     </tbody>
                 </table>
 
-                <div>
+                <div class="profile-social-links">
                     <a href="https://github.com/lukaselmer"><i class="icon-github-sign icon-4x"></i></a>
                     <a href="https://www.xing.com/profile/Lukas_Elmer"><i class="icon-xing-sign icon-4x"></i></a>
                 </div>
