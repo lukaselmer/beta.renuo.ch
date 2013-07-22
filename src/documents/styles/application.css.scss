@@ -88,6 +88,12 @@ body {
   }
 }
 
+.profile-social-links {
+  a {
+    text-decoration: none;
+  }
+}
+
 @media (min-width: 768px) {
   .project-box {
     height: 220px;
