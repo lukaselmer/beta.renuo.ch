@@ -22,7 +22,7 @@ docpadConfig =
       ]
 
       # The default title of our website
-      title: "Your Website"
+      title: "Internet Solutions"
 
       # When your website appears in search results in say Google, the text here will be shown underneath your website's title.
       # The website description (for SEO)
@@ -32,7 +32,7 @@ docpadConfig =
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-                Renuo, Internet soulutions, Web, Websites, Homepages, Consulting, Software Engineering, Ruby, Ruby on Rails, mobile, mobile apps,
+                Renuo, Internet soulutions, Web, Websites, Webseite, Webseiten, Homepages, Consulting, Software Engineering, Ruby, Ruby on Rails, mobile, mobile apps,
                 javascript, nodejs, node, android, ipad, iphone, rails, professional, Webagentur, Websiten, Web 2.0, CMS, Web-Applikationen, E-Commerce Lösungen
                 """
 
