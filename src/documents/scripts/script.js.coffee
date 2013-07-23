@@ -29,4 +29,6 @@ $ ->
 
       google.maps.event.addListener marker, 'click', () ->
         window.open('https://maps.google.ch/maps?q=Renuo+GmbH,+Hungerbergstrasse+26,+Z%C3%BCrich&hl=de&ie=UTF8&hq=Renuo+GmbH,&hnear=Hungerbergstrasse+26,+Kreis+11,+8046+Z%C3%BCrich&t=m&z=16&iwloc=A');
-        
+
+  $(document).ready ->
+    $('.carousel').carousel()

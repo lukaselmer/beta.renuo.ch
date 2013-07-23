@@ -7,6 +7,22 @@ image_path: /images/vfs.png
 layout: project
 position: 5
 tags: ['project-hidden']
+slider:
+    -
+        image: http://lohith.page4.me/living-technology-2560x1024_2560_1024.jpg
+        image_alt: A green usb stick
+        title: Shariando Title 1
+        subtitle: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    -
+        image: http://images.freepicturesweb.com/img1/01/03/15.jpg
+        image_alt: The internet
+        title: title3
+        subtitle: subtitle3
+    -
+        image: http://upload.wikimedia.org/wikipedia/commons/4/46/A_burst_of_solar_material_leaps_off_the_left_side_of_the_sun_in_what%E2%80%99s_known_as_a_prominence_eruption.jpg
+        image_alt: The sun
+        title: title2
+        subtitle: subtitle2
 ---
 
 
@@ -32,7 +48,7 @@ tags: ['project-hidden']
 
         <div>
             <p>TODO</p>
-            <div><%- @image_tag 'quevita_logo.jpg' %></div>
+            <div><%- @image_tag 'todo.jpg' %></div>
         </div>
     </div>
 </div>
