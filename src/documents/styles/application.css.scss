@@ -65,7 +65,7 @@ body {
     border-color: #0088cc;
     box-shadow: 0 1px 30px rgba(0, 105, 214, 0.25);
     outline: 0;
-    outline: thin dotted      \9;
+    outline: thin dotted        \9;
     /* IE6-9 */
 
   }
@@ -92,6 +92,11 @@ body {
   a {
     text-decoration: none;
   }
+}
+
+.profile-collapse-summary a{
+  text-decoration: none;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {

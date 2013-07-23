@@ -152,12 +152,13 @@ docpadConfig =
       outPath = docpad.config.outPath
 
       # Bundle the scripts the editor uses together
+      # #{outPath}/vendor/lib/jquery.js
       command = """
       #{rootPath}/node_modules/.bin/browserify
+      #{outPath}/vendor/jquery.collapse.js
       #{outPath}/vendor/log.js
-      #{outPath}/vendor/lib/jquery.js
       #{outPath}/scripts/script.js
-                -o #{outPath}/scripts.js
+                | #{rootPath}/node_modules/.bin/uglifyjs > #{outPath}/scripts.js
                 """.replace(/\n/g,' ')
 
       # Execute

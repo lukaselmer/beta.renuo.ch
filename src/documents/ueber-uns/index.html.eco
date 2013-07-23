@@ -19,9 +19,9 @@ position: 4
     <div class="span4">
             <h2>Fähigkeiten
             </h2>
-        <p>Der Fokus der Dienstleistungen von Renuo GmbH liegt in der Entwicklung von kundenspezifischen Lösungen, 
-        welche Prozesse vereinfachen und dem Endnutzer eine grösstmögliche Usability bieten. Mit Hilfe moderner 
-        Technologien und agilem SoftwareEngineering stellen wir sicher, dass das Bedürfnis unseres Kunden stets 
+        <p>Der Fokus der Dienstleistungen von Renuo GmbH liegt in der Entwicklung von kundenspezifischen Lösungen,
+        welche Prozesse vereinfachen und dem Endnutzer eine grösstmögliche Usability bieten. Mit Hilfe moderner
+        Technologien und agilem SoftwareEngineering stellen wir sicher, dass das Bedürfnis unseres Kunden stets
         befriedigt wird. Die Mehrzahl an realisierten Projekten liegt in der Neuentwicklung alter Systeme oder
         in der Weiterentwicklung bestehender Systeme.</p>
     </div>
@@ -29,16 +29,16 @@ position: 4
     <div class="span4">
             <h2>Fokus
             </h2>
-        <p>Die Stärke von Renuo liegt in der Entwicklung von komplexen Webprojekten auf Grundlage modernster 
-        Technologien. Um diese Stärke zu bewahren, fokussieren wir uns ausschliesslich darauf und arbeiten in 
+        <p>Die Stärke von Renuo liegt in der Entwicklung von komplexen Webprojekten auf Grundlage modernster
+        Technologien. Um diese Stärke zu bewahren, fokussieren wir uns ausschliesslich darauf und arbeiten in
         allen anderen Bereichen mit externen Partnern zusammen.</p>
     </div>
 
     <div class="span4">
             <h2>Team
             </h2>
-        <p>Im sich rasant entwickelnden Webbereich präsentieren wir uns als Team jung, frisch und dynamisch. 
-        Diese Werte sind nicht nur eine Voraussetzung in SoftwareEntwicklungsprojekten, sondern sie spiegeln 
+        <p>Im sich rasant entwickelnden Webbereich präsentieren wir uns als Team jung, frisch und dynamisch.
+        Diese Werte sind nicht nur eine Voraussetzung in SoftwareEntwicklungsprojekten, sondern sie spiegeln
         gleichzeitig unsere Persönlichkeiten und Mentalitäten wieder.</p>
         <p>Die Renuo GmbH wurde im Juli 2011 gegründet.</p>
     </div>
@@ -72,54 +72,57 @@ position: 4
                     entwickeln, die funktioniert.
                     <small>Lukas Elmer</small>
                 </blockquote>
+
+                <div data-collapse>
+                    <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+                    <div>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Jahr</th>
+                                <th>Aktivität</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>2012-jetzt</th>
+                                <td><strong>Master Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule
+                                    ETH, Zürich
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>2011-jetzt</th>
+                                <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                            </tr>
+                            <tr>
+                                <th>2011</th>
+                                <td><strong>Gründung</strong> der Renuo GmbH mit Diego Steiner</td>
+                            </tr>
+                            <tr>
+                                <th>2010-2011</th>
+                                <td>Teilzeit verschiedene <strong>Projekte mit Ruby on Rails</strong> und PHP realisiert</td>
+                            </tr>
+                            <tr>
+                                <th>2009-2012</th>
+                                <td><strong>Bachelor Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>2006-2009</th>
+                                <td><strong>Web Entwicklung</strong> (PHP, Ruby on Rails), Projektleitung, Zimtkorn GmbH, Zürich
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>2003-2006</th>
+                                <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
                 <br/>
-
-                <p>
-                    <strong>Kurzprofil</strong>
-                </p>
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>Jahr</th>
-                        <th>Aktivität</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>2012-jetzt</th>
-                        <td><strong>Master Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule
-                            ETH, Zürich
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2011-jetzt</th>
-                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
-                    </tr>
-                    <tr>
-                        <th>2011</th>
-                        <td><strong>Gründung</strong> der Renuo GmbH mit Diego Steiner</td>
-                    </tr>
-                    <tr>
-                        <th>2010-2011</th>
-                        <td>Teilzeit verschiedene <strong>Projekte mit Ruby on Rails</strong> und PHP realisiert</td>
-                    </tr>
-                    <tr>
-                        <th>2009-2012</th>
-                        <td><strong>Bachelor Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2006-2009</th>
-                        <td><strong>Web Entwicklung</strong> (PHP, Ruby on Rails), Projektleitung, Zimtkorn GmbH, Zürich
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2003-2006</th>
-                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
-                    </tr>
-
-                    </tbody>
-                </table>
 
                 <div class="profile-social-links">
                     <a href="https://github.com/lukaselmer"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
@@ -133,7 +136,6 @@ position: 4
 
                 <p>Gründer, Projektleiter, Web Entwickler<br/>
                     <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
-
                 <br/>
 
                 <blockquote>Ich möchte, dass der Kunde mit meiner Arbeit höchstzufrieden ist. Zusätzlich möchte ich
@@ -142,45 +144,48 @@ position: 4
                     <small>Diego Steiner</small>
                 </blockquote>
 
-                <p>
-                    <strong>Kurzprofil</strong>
-                </p>
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>Jahr</th>
-                        <th>Aktivität</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>2011-jetzt</th>
-                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
-                    </tr>
-                    <tr>
-                        <th>2011</th>
-                        <td><strong>Gründung</strong> der Renuo GmbH mit Lukas Elmer</td>
-                    </tr>
-                    <tr>
-                        <th>2009-jetzt</th>
-                        <td><strong>Bachelor Teilzeit Studium Informatik</strong> an der Hochschule für Technik HSR,
-                            Rapperswil
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2009-2010</th>
-                        <td><strong>Web Entwicklung</strong> (PHP, Zend Framework), Trekksoft AG, Bern</td>
-                    </tr>
-                    <tr>
-                        <th>2006-2008</th>
-                        <td><strong>Web Entwicklung</strong> (ASP.net), Mathys & Scheitlin AG, Bern</td>
-                    </tr>
-                    <tr>
-                        <th>2003-2006</th>
-                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
-                    </tr>
-                    </tbody>
-                </table>
+                <div data-collapse>
+                    <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+                    <div>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Jahr</th>
+                                <th>Aktivität</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>2011-jetzt</th>
+                                <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                            </tr>
+                            <tr>
+                                <th>2011</th>
+                                <td><strong>Gründung</strong> der Renuo GmbH mit Lukas Elmer</td>
+                            </tr>
+                            <tr>
+                                <th>2009-jetzt</th>
+                                <td><strong>Bachelor Teilzeit Studium Informatik</strong> an der Hochschule für Technik HSR,
+                                    Rapperswil
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>2009-2010</th>
+                                <td><strong>Web Entwicklung</strong> (PHP, Zend Framework), Trekksoft AG, Bern</td>
+                            </tr>
+                            <tr>
+                                <th>2006-2008</th>
+                                <td><strong>Web Entwicklung</strong> (ASP.net), Mathys & Scheitlin AG, Bern</td>
+                            </tr>
+                            <tr>
+                                <th>2003-2006</th>
+                                <td><strong>Informatikmittelschule</strong> an der Kantonsschule Hottingen, Zürich</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <br/>
 
                 <div class="profile-social-links">
                     <a href="https://github.com/diegosteiner"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
@@ -209,46 +214,49 @@ position: 4
                     <small>Samuel Steiner</small>
                 </blockquote>
 
-                <p>
-                    <strong>Kurzprofil</strong>
-                </p>
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>Jahr</th>
-                        <th>Aktivität</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>2013-jetzt</th>
-                        <td><strong>Anstellung als Projektleiter</strong> bei der Renuo GmbH</td>
-                    </tr>
-                    <tr>
-                        <th>2011-2013</th>
-                        <td><strong>Master Studium</strong> Informations-, Medien- und Technologiemanagement an der
-                            Universität St.
-                            Gallen (HSG)
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2010-2013</th>
-                        <td><strong>Geschäftsleitung</strong> bei der Verbandspool AG (<a href="https://shariando.com"
-                                                                                          target="_blank">shariando.com</a>)
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2007-2010</th>
-                        <td><strong>Bachelor Studium Betriebswirtschaftslehre</strong> an der Universität St.Gallen
-                            (HSG)
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2007-2009</th>
-                        <td><strong>IT-Projektmanagement</strong> bei der St.Galler Kantonalbank</td>
-                    </tr>
-                    </tbody>
-                </table>
+                <div data-collapse>
+                    <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+                    <div>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Jahr</th>
+                                <th>Aktivität</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>2013-jetzt</th>
+                                <td><strong>Anstellung als Projektleiter</strong> bei der Renuo GmbH</td>
+                            </tr>
+                            <tr>
+                                <th>2011-2013</th>
+                                <td><strong>Master Studium</strong> Informations-, Medien- und Technologiemanagement an der
+                                    Universität St.
+                                    Gallen (HSG)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>2010-2013</th>
+                                <td><strong>Geschäftsleitung</strong> bei der Verbandspool AG (<a href="https://shariando.com"
+                                                                                                  target="_blank">shariando.com</a>)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>2007-2010</th>
+                                <td><strong>Bachelor Studium Betriebswirtschaftslehre</strong> an der Universität St.Gallen
+                                    (HSG)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>2007-2009</th>
+                                <td><strong>IT-Projektmanagement</strong> bei der St.Galler Kantonalbank</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <br/>
 
                 <div class="profile-social-links">
                     <a href="https://github.com/samuelsteiner"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
@@ -270,40 +278,44 @@ position: 4
                     <small>Ueli Kunz</small>
                 </blockquote>
 
-                <p>
-                    <strong>Kurzprofil</strong>
-                </p>
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>Jahr</th>
-                        <th>Aktivität</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>2012-jetzt</th>
-                        <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
-                    </tr>
-                    <tr>
-                        <th>2009-2012</th>
-                        <td><strong>Bachelor Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2005-2009</th>
-                        <td><strong>Software Entwicklung</strong> (Sharepoint, ASP.net, C#.net)</td>
-                    </tr>
-                    <tr>
-                        <th>2002-2005</th>
-                        <td><strong>Informatikmittelschule</strong> an der Kantonsschule Graubünden, Chur</td>
-                    </tr>
-                    <tr>
-                        <th>2002-2012</th>
-                        <td>Selbststäniger Nebenverdienst mit <strong>Webprojekten</strong> (PHP)</td>
-                    </tr>
-                    </tbody>
-                </table>
+
+                <div data-collapse>
+                    <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+                    <div>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Jahr</th>
+                                <th>Aktivität</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>2012-jetzt</th>
+                                <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                            </tr>
+                            <tr>
+                                <th>2009-2012</th>
+                                <td><strong>Bachelor Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>2005-2009</th>
+                                <td><strong>Software Entwicklung</strong> (Sharepoint, ASP.net, C#.net)</td>
+                            </tr>
+                            <tr>
+                                <th>2002-2005</th>
+                                <td><strong>Informatikmittelschule</strong> an der Kantonsschule Graubünden, Chur</td>
+                            </tr>
+                            <tr>
+                                <th>2002-2012</th>
+                                <td>Selbststäniger Nebenverdienst mit <strong>Webprojekten</strong> (PHP)</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <br/>
 
                 <div class="profile-social-links">
                     <a href="https://github.com/ideadapt"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
@@ -322,19 +334,19 @@ position: 4
                 <small> Schritt um Schritt zum Ziel</small>
             </h2>
         </div>
-        <p>Aufgrund von Missverständnissen in der Spezifikation, Interpretationsdifferenzen, sowie weiteren 
+        <p>Aufgrund von Missverständnissen in der Spezifikation, Interpretationsdifferenzen, sowie weiteren
         Ungenauigkeiten sind Software-Projekte mit klassischen Modellen nur mit hohem administrativen Aufwand
-        durchgängig planbar. In den letzten Jahren hat sich Scrum als leistungsstarke und agile Alternative 
+        durchgängig planbar. In den letzten Jahren hat sich Scrum als leistungsstarke und agile Alternative
         immer stärker durchgesetzt.</p>
         <p>Statt von einem klassischen, wasserfallbasierten Arbeitsstrukturplan (Analyse, Design, Programmierung, Tests)
-        wird von regelmässigen Iterationen, so genannten “Sprints”, ausgegangen. Ein Sprint besteht aus diversen 
+        wird von regelmässigen Iterationen, so genannten “Sprints”, ausgegangen. Ein Sprint besteht aus diversen
         Arbeitspaketen, welche immer vor dessen Beginn zusammen mit dem Kunden festgelegt werden und dauert jeweils 1-2
-        Wochen. An dessen Ende steht jeweils eine lauffähige Software zur Verfügung, welche vom Kunden getestet, 
+        Wochen. An dessen Ende steht jeweils eine lauffähige Software zur Verfügung, welche vom Kunden getestet,
         abgenommen und eingesetzt werden kann.</p>
-        <p>Auf Basis des Kundenfeedbacks wird die Entwicklung laufend überprüft und angepasst. Ebenso besteht auch 
-        die Möglichkeit, Arbeitspakete anders zu priorisieren, neue Funktionen einzuplanen und nicht mehr benötigte 
+        <p>Auf Basis des Kundenfeedbacks wird die Entwicklung laufend überprüft und angepasst. Ebenso besteht auch
+        die Möglichkeit, Arbeitspakete anders zu priorisieren, neue Funktionen einzuplanen und nicht mehr benötigte
         Anforderungen fallen zu lassen.</p>
-        <p>Bei der Renuo hat sich Scrum sehr bewährt, weshalb wir voll auf diese Arbeitsmethode setzen. Weitere 
+        <p>Bei der Renuo hat sich Scrum sehr bewährt, weshalb wir voll auf diese Arbeitsmethode setzen. Weitere
         Informationen zu Scrum entnehmen Sie bitte dem entsprechenden Wikipedia-Artikel: <a href="https://de.wikipedia.org/wiki/Scrum" target="_blank">https://de.wikipedia.org/wiki/Scrum</a></p>
     </div>
 </div>
@@ -346,7 +358,7 @@ position: 4
                 <br><small> Vertrauen ist gut, Kontrolle ist besser</small>
             </h2>
         </div>
-        <p>Uns liegt die Zusammenarbeit mit dem Kunden sehr am Herzen. Wir planen die Sprints in enger Zusammenarbeit 
+        <p>Uns liegt die Zusammenarbeit mit dem Kunden sehr am Herzen. Wir planen die Sprints in enger Zusammenarbeit
         mit dem Kunden und kommunizieren die Ergebnisse im <strong>wöchentlichen Statusrapport</strong>. So ist der Kunde stets im
         Bild über den Stand der Arbeiten und hat das Budget im Griff.</p>
     </div>

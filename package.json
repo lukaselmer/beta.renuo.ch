@@ -37,7 +37,8 @@
     "docpad-plugin-sass": "~2.6.0",
     "bal-util": "~2.0.5",
     "grunt": "~0.4.1",
-    "browserify": "~2.13.2"
+    "browserify": "~2.13.2",
+    "uglify-js": "~2.3.6"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "devDependencies": {}
