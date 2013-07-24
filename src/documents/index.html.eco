@@ -68,7 +68,7 @@ title: 'Renuo GmbH'
 
 <div id="technologies"></div>
 <div class="row-fluid page-header-element">
-    <div class="span12">
+    <div class="span8">
         <div class="page-header">
             <h1>Technologien
                 <small> Damit arbeiten wir gerne</small>
@@ -85,6 +85,26 @@ title: 'Renuo GmbH'
           <li><i class="icon-li icon-ok"></i><strong> Verbreitung und Community: </strong> Wie verbreitet ist die Technologie und wie schnell entwickelt sich diese weiter?</li>
         </ul>
     </div>
+	
+	<div class="span4">
+		slider:
+			-
+				image: /images/rubyonrails.png
+				image_alt: Ruby on Rails Logo
+			-
+				image: /images/html5.png
+				image_alt: HTML5 Logo
+			-
+				image: /images/css3.png
+				image_alt: CSS3 Logo
+			-
+				image: /images/javascript.png
+				image_alt: JavaScript Logo
+			-
+				image: /images/jquery.png
+				image_alt: jQuery Logo				
+    </div>
+	
 </div>
 
 <div class="row-fluid" style="margin-top: 30px;">
