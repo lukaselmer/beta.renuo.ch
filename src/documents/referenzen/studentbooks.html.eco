@@ -7,6 +7,23 @@ image_path: /images/studentbooks.png
 layout: project
 position: 2
 tags: ['project']
+slider:
+    -
+        image: /images/studentbooks/landingpage.jpg
+        image_alt: Studentbook's Landingpage
+        title: Online Shop mit über 18 Mio. Artikel
+        subtitle: Auf Studenbooks können über 18 Mio. Bücher gesucht und gekauft werden. Für alle Bücher ist ein Lieferstatus vorhanden, welcher stets aktualisiert wird.
+    -
+        image: /images/studentbooks/isbnupload.jpg
+        image_alt: Verkauf von Bücher
+        title: User können gebrauchte Bücher verkaufen
+        subtitle: Durch die Eingabe von ISBN-Nummer können User eigene, gebrauchte Bücher verkaufen. Anhand der ISBN-Nummer werden Informationen über das Buch geladen, die User ergänzen mit Informationen über Zustand sowie Verkaufspreis etc.
+	-
+        image: /images/studentbooks/listen.jpg
+        image_alt: Unterlagen von Hochschulen
+        title: Unterlagen von Fachhochschulen und Universitäten
+        subtitle: Über die Eingabe der Fachhochschule oder Universität kann nach spezifischen Unterlagen von Dozenten und Schulen gesucht werden.
+
 ---
 
 <div class="row-fluid">
