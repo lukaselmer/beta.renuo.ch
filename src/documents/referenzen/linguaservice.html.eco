@@ -7,8 +7,25 @@ image_path: /images/linguaservice.png
 layout: project
 position: 6
 tags: ['project']
----
+slider:
+    -
+        image: /images/linguaservice/menustruktur.jpg
+        image_alt: Landingpage von Linguaservice
+        title: Übersichtliche Menustruktur bei Linguaservice
+        subtitle: Eine übersichtliche Menustruktur und ein frisches Auftreten sichert das rasche Auffinden der gewünschten Information.
+    -
+        image: /images/linguaservice/auswahl.jpg
+        image_alt: Auswahl nach Karte
+        title: Interaktive Karte
+        subtitle: Über eine interaktive Karte können Sprachschulen auf der ganzen Welt ausgewählt werden.
+	-
+        image: /images/linguaservice/australien.jpg
+        image_alt: Auswahl nach Karte
+        title: Interaktive Karten
+        subtitle: Über eine interaktive Karte können Sprachschulen auf der ganzen Welt ausgewählt werden.
 
+---
+<br>
 <div class="row-fluid">
     <div class="span4">
         <h2>Ausgangslage</h2>
@@ -39,7 +56,7 @@ tags: ['project']
             7000 Chur<br></p>
             <p>Ansprechperson: <br>
             Tel: +41 81 353 47 86</p>
-            <p>Link: <a href="https://www.linguaservice.ch" target="_blank">https://www.linguaservice.ch</a></p>
+            <p>Link: <a href="http://www.linguaservice.ch" target="_blank">http://www.linguaservice.ch</a></p>
             <p>Der Auftrag dauerte von Juli 2012 bis Oktober 2012</p>
             <div><%- @image_tag 'linguaservice_logo.jpg' %></div>
         </div>
