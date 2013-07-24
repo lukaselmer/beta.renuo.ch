@@ -1,0 +1,27 @@
+<div id="<%= @sliderId %>" class="carousel slide">
+    <ol class="carousel-indicators">
+        <% index = 0 %>
+        <% for slider in @slider: %>
+        <li data-target="#<%= @sliderId %>" data-slide-to="<%= index %>"<%- ' class="active"' if index == 0 %>></li>
+        <% ++index %>
+        <% end %>
+    </ol>
+    <div class="carousel-inner">
+        <% index = 0 %>
+        <% for slider in @slider: %>
+        <div class="item<%- ' active' if index == 0 %>">
+            <img src="<%- slider.image %>" alt="<%= slider.image_alt %>" />
+            <% if slider.title || slider.subtitle: %>
+                <div class="carousel-caption">
+                    <h4><%= slider.title %></h4>
+                    <p><%= slider.subtitle %></p>
+                </div>
+            <% end %>
+        </div>
+        <% ++index %>
+        <% end %>
+    </div>
+    <a class="left carousel-control" href="#<%= @sliderId %>" data-slide="prev">‹</a>
+    <a class="right carousel-control" href="#<%= @sliderId %>" data-slide="next">›</a>
+</div>
+

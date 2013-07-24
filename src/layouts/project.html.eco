@@ -18,33 +18,10 @@ layout: default
     </div>
 </div>
 
-
 <% if @document.slider: %>
-
 <div class="row-fluid">
-    <div id="projectCarousel" class="carousel slide span12">
-        <ol class="carousel-indicators">
-            <% index = 0 %>
-            <% for slider in @document.slider: %>
-            <li data-target="#projectCarousel" data-slide-to="<%= index %>"<%- ' class="active"' if index == 0 %>></li>
-            <% ++index %>
-            <% end %>
-        </ol>
-        <div class="carousel-inner">
-            <% index = 0 %>
-            <% for slider in @document.slider: %>
-                <div class="item<%- ' active' if index == 0 %>">
-                    <img src="<%- slider.image %>" alt="<%= slider.image_alt %>" />
-                    <div class="carousel-caption">
-                        <h4><%= slider.title %></h4>
-                        <p><%= slider.subtitle %></p>
-                    </div>
-                </div>
-            <% ++index %>
-            <% end %>
-        </div>
-        <a class="left carousel-control" href="#projectCarousel" data-slide="prev">‹</a>
-        <a class="right carousel-control" href="#projectCarousel" data-slide="next">›</a>
+    <div class="span12">
+        <%- @getSlider('projectCarousel', @document.slider) %>
     </div>
 </div>
 <% end %>

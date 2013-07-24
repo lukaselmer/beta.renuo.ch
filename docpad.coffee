@@ -83,6 +83,13 @@ docpadConfig =
       minus_year = 1 if date.getMonth() == m && date.getDate() < d
       age - minus_year
 
+    getSlider: (id, data)->
+      return '' unless data
+      fs  = require 'fs'
+      eco = require "eco"
+      template = fs.readFileSync "#{docpad.config.rootPath}/src/helpers/slider.html.eco", "utf-8"
+      eco.render template, sliderId: id, slider: data
+
 
 # =================================
 # Collections
