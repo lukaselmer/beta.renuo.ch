@@ -37,7 +37,7 @@ slider:
         <div>
             <p>Um den Administrativen Aufwand für Rechnungen zu minimieren, werden die Artikel, sobald in einer Rechnung erfasst, automatisch in einer Datenbank gespeichert. Dadurch können bereits verwendete Artikel in neuen Rechnungen per <a href="http://twitter.github.io/typeahead.js/">Typeahead</a> und einen intelligenten Algorithmus durchsucht werden, was eine gute Usability ermöglicht.</p>
             <p>Die Applikation generiert nach der Bearbeitung automatisch druckfertige PDF's, die für den Seitenumbruch von Rechnungen optimiert sind. Weiter können die Rechnungen gemäss Verarbeitungsstatus (Entwuf, Bezahlt, usw.) verwaltet werden, wodurch Kreditoren auf eine einfache Weise verwaltet werden können.</p>
-            <p>Durch den Einsatz dieses Tools konnte der Aufwand, Rechnungen zu schreiben, drucken, und kontrollieren, massiv verringert werden.</p>
+            <p>Durch den Einsatz dieses Tools konnte der Aufwand, Rechnungen zu schreiben, drucken, und kontrollieren, massiv verringert werden. Zusätzlich werden Fehlberechnungen von Preisen, Rabatt, Skonti, MwST, usw. vermieden, da diese Berechnung automatisch vorgenommen wird.</p>
         </div>
     </div>
 
