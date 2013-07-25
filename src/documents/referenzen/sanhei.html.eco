@@ -1,0 +1,58 @@
+---
+title: Studentbooks
+box_name: Sanhei Rechnungen
+box_description: Intelligentes Rechnungstool zur Erhöhung der Produktivität
+short_description: Ein intelligentes Rechnungstool, das die Produktivität erhöht.
+image_path: /images/sanhei.png
+layout: project
+position: 99
+tags: ['project-hidden']
+slider:
+    -
+        image: /images/sanhei/slider1.jpg
+        image_alt: TODO
+        title: TODO
+        subtitle: TODO
+    -
+        image: /images/sanhei/slider2.jpg
+        image_alt: TODO
+        title: TODO
+        subtitle: TODO
+
+
+---
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Die Sanhei AG ist ein Sanitärunternehmen, das viele verschiedene Rechnungen an Kunden stellt. Da die Artikel von verschiedenen Händlern eingekauft werden, mussten die Artikel bei jeder Rechnung von Hand aus den Herstellerkatalogen gesucht werden. Und obwohl viele Artikel immer wieder verkauft werden, müssen diese entweder manuell aus einer alten Rechnung kopiert oder aus aus den Katalogen herausgesucht werden.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Produkt</h2>
+
+        <div>
+            <p>Um den Administrativen Aufwand für Rechnungen zu minimieren, werden die Artikel, sobald in einer Rechnung erfasst, automatisch in einer Datenbank gespeichert. Dadurch können bereits verwendete Artikel in neuen Rechnungen per <a href="http://twitter.github.io/typeahead.js/">Typeahead</a> und einen intelligenten Algorithmus durchsucht werden, was eine gute Usability ermöglicht.</p>
+            <p>Die Applikation generiert nach der Bearbeitung automatisch druckfertige PDF's, die für den Seitenumbruch von Rechnungen optimiert sind. Weiter können die Rechnungen gemäss Verarbeitungsstatus (Entwuf, Bezahlt, usw.) verwaltet werden, wodurch Kreditoren auf eine einfache Weise verwaltet werden können.</p>
+            <p>Durch den Einsatz dieses Tools konnte der Aufwand, Rechnungen zu schreiben, drucken, und kontrollieren, massiv verringert werden.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Sanhei AG<br>
+            Georg-Kempfstr. 26<br>
+            8046 Zürich<br></p>
+            <p>Ansprechperson: Christina Elmer<br>
+            Tel: +41 44 341 05 10</p>
+            <p><a href="https://www.sanhei.ch" target="_blank">https://www.sanhei.ch</a></p>
+            <p>Die Partnerschaft dauert von Juli 2011 bis heute.</p>
+            <div><%- @image_tag 'sanhei_logo.jpg' %></div>
+        </div>
+    </div>
+</div>
