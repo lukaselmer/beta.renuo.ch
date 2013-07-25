@@ -32,6 +32,15 @@ slider:
 
         <div>
             <p>Mit hohen Nutzerzahlen im Hintergrund steht eine gute Skalierung und eine starke Suche im Fokus.</p>
+            <p>Speziell auf Studenten ausgerichtet stellt Studentbooks ein Onlineshop für verschiedene Artikel, speziell 
+            Bücher, zur Verfügung.</p>
+            <p>Um den administrativen Aufwand zu minimieren, sind
+            <ul>
+            	<li>eine Anbindung an verschiedene Artikel Datenquellen für den automatischen Datenabgleich</li>
+                <li>eine Anbindung an ein ERP/CRM System für Bestellungen</li>
+            </ul>
+            nötig.</p>
+            <p>Speziell während der Bestellphase ist es wichtig, einen unterbruchsfreien Betrieb zu gewährleisten.</p>
         </div>
     </div>
 
@@ -39,8 +48,9 @@ slider:
         <h2>Produkt</h2>
 
         <div>
-            <p>Studentbooks ist ein moderner Onlinebüchershop für Studenten mit einer Sortiment von > 18 Mio. Artikeln.
-             </p>
+            <p>Die Artikel im Shop werden von verschiedenen Datenquellen täglich automatisch aktualisiert, damit immer die aktuellsten Produkte und Lieferstati angezeigt werden können. Dabei werden sowohl das ERP von Studentbooks sowie ein Drittanbieter miteinbezogen.</p>
+            <p>Darüber hinaus müssen > 18 Mio. Artikel indexiert und per Volltextsuche schnell durchsucht werden können, während die Serverkosten tief gehalten werden müssen.</p>
+            <p>Für das Hosting managed die Renuo GmbH einen Linux Server, der von einem Drittanbieter physisch bereitgestellt wird. Um den Service zu überwachen, wird ein Überwachungstool von NewRelic eingesetzt. Auf diese Weise wird die Renuo GmbH sofort informiert, falls etwas nicht stimmen sollte, und kann entsprechend sofort reagieren.</p>
         </div>
     </div>
 
