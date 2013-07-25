@@ -6,23 +6,23 @@ short_description: Ein intelligentes Rechnungstool, das die Produktivität erhö
 image_path: /images/sanhei.png
 layout: project
 position: 99
-tags: ['project-hidden']
+tags: ['project']
 slider:
     -
-        image: /images/sanhei/slider1.jpg
-        image_alt: TODO
-        title: TODO
-        subtitle: TODO
+        image: /images/sanhei/uebersicht.png
+        image_alt: Landingpage
+        title: Einfache Übersicht
+        subtitle: Mit einer einfachen Übersicht kann der Überblick über offene, gestellte und bezahlte Rechnungen behalten werden. Diese können direkt angelegt oder editiert werden.
     -
-        image: /images/sanhei/slider2.jpg
-        image_alt: TODO
-        title: TODO
-        subtitle: TODO
+        image: /images/sanhei/rechnung.png
+        image_alt: Ansicht einer Beispielrechnung
+        title: Automatisches Generieren von Rechnungen
+        subtitle: Anhand einer Datenbank können verkaufte Objekte direkt in die Rechnung gezogen werden und die Faktura wird automatisch erstellt und berechnet. Massiv reduzierte Komplexität und Fehleranfälligkeit sind die Resultate.
     -
-        image: /images/sanhei/slider3.jpg
-        image_alt: TODO
-        title: TODO
-        subtitle: TODO
+        image: /images/sanhei/filter.png
+        image_alt: Suchfunktion
+        title: Einfache Übersicht
+        subtitle: Mit Filterkriterien und einer Suchfunktion können Rechnungen gefiltert, gesucht und vor allem gefunden werden. 
 
 
 ---
