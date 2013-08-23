@@ -64,7 +64,7 @@ position: 4
                 <div><%- @image_tag 'lukas.png' %></div>
                 <h3>Lukas Elmer</h3>
 
-                <p>Gründer, Projektleiter, Web Entwickler<br/>
+                <p>Gründer, Web Entwickler<br/>
                     <a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></p>
                 <br/>
 
@@ -134,7 +134,7 @@ position: 4
                 <div><%- @image_tag 'diego.png' %></div>
                 <h3>Diego P. Steiner</h3>
 
-                <p>Gründer, Projektleiter, Web Entwickler<br/>
+                <p>Gründer, Web Entwickler<br/>
                     <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
                 <br/>
 
@@ -204,7 +204,7 @@ position: 4
                 <div><%- @image_tag 'samuel.png' %></div>
                 <h3>Samuel Steiner</h3>
 
-                <p>Projektleiter, Mitglied der Geschäftsleitung<br/>
+                <p>Partner, Projektleiter<br/>
                     <a href="mailto:samuel.steiner@renuo.ch">samuel.steiner@renuo.ch</a></p>
                 <br/>
 
