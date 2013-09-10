@@ -1,0 +1,72 @@
+---
+title: Schuler Auktionen
+box_name: Schuler Auktionen Zürich
+box_description: Betreuung und Weiterentwicklung der Webseite
+short_description: Komplexe Homepage zur Darstellung aller Auktionsobjekte und mehr
+image_path: /images/schuler.png
+layout: project
+position: 8
+tags: ['project']
+slider:
+    -
+        image: /images/schuler/home.png
+        image_alt: Schuler's Landingpage
+        title: Landingpage der Schuler Auktionen AG
+        subtitle: Tausende von Auktionsobjekten inkl. Foto, Mehrsprachigkeit, individuelle Newsletter, Merkliste!
+    -
+        image: /images/fischer/uebersicht.png
+        image_alt: Auktionsobjekte in der Übersicht
+        title: Übersicht der Auktionsobjekte
+        subtitle: Eine übersichtliche Darstellung der Auktionsobjekte gibt dem Besucher einen schnellen Überblick
+        der bevorstehenden Auktion.
+    -
+        image: /images/fischer/admin.png
+        image_alt: Backend-Ansicht von Schuler
+        title: Backend-Ansicht von Schuler
+        subtitle: Simples, auf die Bedürfnisse von Schuler ausgerichtetes CMS, mit welchem sich verschiedene Auktionen, 
+        tausende Objekte und Bilder, Termine u.v.m. editieren lassen.
+---
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Durch die Übernahme der Firma HotFeet GmbH im Juli 2013 durften wir die Betreuung und Weiterentwicklung 
+            des Webauftritts der Firma Schuler Auktionen AG übernehmen.</p>
+            <p>Es ist unser Anspruch, Schuler Auktionen AG in sämtlichen IT-Belangen zu unterstützen. Der 
+            Schwerpunkt liegt in einer effizienten Webapplikation, welche die internen Prozesse unterstützt sowie 
+            von den heute verfügbaren Technologien Gebrauch macht.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Produkt</h2>
+
+        <div>
+            <p>Die Webseite des Auktionshauses Schuler ist komplex. Das Herzstück bildet der Upload eines aus dem
+            lokalen ERP generierten Files, mit welchem das Auktionshaus die diversen Auktionsobjekte hochladen kann. 
+            Dazugehörende Bilder werden über ein FTP-Server automatisch gematcht. Automatisch generierte Metadaten
+            aus den Auktionsobjekten sorgen für eine gute Suchmaschinenoptimierung.</p>
+            <p>Die Renuo GmbH entwickelt den Webauftritt besonders in der Suchmaschinenoptimierung (SEO) weiter.
+            Unter anderem ist es geplant, die Seite auf HTML5 upzugraden. Weitere Verbesserungen wie ein Rebrush
+            des Designs sowie responsive Design sind geplant.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Schuler Auktionen AG<br>
+            Seestrasse 341<br>
+            8038 Zürich<br></p>
+            <p>Ansprechperson: Michael Abegg<br>
+            Tel: +41 43 399 70 10</p>
+            <p>Link: <a href="http://www.schulerauktionen.ch" target="_blank">http://www.schulerauktionen.ch</a></p>
+            <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
+            <div><%- @image_tag 'schuler_logo.png' %></div>
+        </div>
+    </div>
+</div>
