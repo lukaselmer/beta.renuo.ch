@@ -5,3 +5,4 @@ beta.renuo.ch
 * docpad run
 * Open Browser at http://127.0.0.1:9778
 * git pull renuo master
+* 
