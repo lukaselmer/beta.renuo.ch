@@ -15,8 +15,8 @@ slider:
         subtitle: "Tausende von Auktionsobjekten inkl. Foto, Mehrsprachigkeit, individuelle Newsletter, Merkliste!"
     -
         image: /images/fischer/uebersicht.png
-        image_alt: 'Auktionsobjekte in der Übersicht'
-        title: Übersicht der Auktionsobjekte
+        image_alt: "Auktionsobjekte in der Übersicht"
+        title: "Übersicht der Auktionsobjekte"
         subtitle: "Eine übersichtliche Darstellung der Auktionsobjekte gibt dem Besucher einen schnellen Überblick
         der bevorstehenden Auktion."
     -
