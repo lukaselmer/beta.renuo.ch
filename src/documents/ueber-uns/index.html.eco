@@ -132,7 +132,7 @@ position: 4
 
             <div class="span6">
                 <div><%- @image_tag 'diego.png' %></div>
-                <h3>Diego P. Steiner</h3>
+                <h3>Diego Steiner</h3>
 
                 <p>Gründer, Web Entwickler<br/>
                     <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
