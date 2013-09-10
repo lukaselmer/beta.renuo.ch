@@ -5,7 +5,7 @@ box_description: Betreuung und Weiterentwicklung der Webseite
 short_description: Komplexe Homepage zur Darstellung aller Auktionsobjekte und mehr
 image_path: /images/schuler.png
 layout: project
-position: 8
+position: 9
 tags: ['project']
 slider:
     -
