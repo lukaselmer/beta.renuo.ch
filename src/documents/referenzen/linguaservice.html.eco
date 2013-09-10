@@ -5,7 +5,7 @@ box_description: Usability, Filterung und Benutzerfreundlichkeit
 short_description: Implementierung und grafische Aufbereitung effizienter Suche
 image_path: /images/linguaservice.png
 layout: project
-position: 6
+position: 50
 tags: ['project']
 slider:
     -
