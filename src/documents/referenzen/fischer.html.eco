@@ -1,0 +1,74 @@
+---
+title: Galerie Fischer
+box_name: Galerie Fischer Auktionen AG
+box_description: Betreuung und Weiterentwicklung der Webseite
+short_description: Komplexe Homepage zur Darstellung aller Auktionsobjekte und mehr
+image_path: /images/fischer.png
+layout: project
+position: 8
+tags: ['project']
+slider:
+    -
+        image: /images/fischer/home.png
+        image_alt: Fischer's Landingpage
+        title: Landingpage der Galerie Fischer Auktionen AG
+        subtitle: Tausende von Auktionsobjekten inkl. Foto, Mehrsprachigkeit, individuelle Newsletter, Merkliste!
+    -
+        image: /images/fischer/detail.png
+        image_alt: Auktionsobjekt im Detail
+        title: Detailansicht eines Auktionsobjekts
+        subtitle: Pro Objekt wird automatisch eine Detailansicht geschrieben. Ein Objekt kann mehreren Kategorien
+        angehören und mehrere auch hochauflösende Bilder beinhalten. Über eine Merkliste lassen sich spannende
+        Objekte speichern und persönlich sortieren.
+    -
+        image: /images/fischer/admin.png
+        image_alt: Backend-Ansicht von Fischer
+        title: Backend-Ansicht von Germann
+        subtitle: Simples, auf die Bedürfnisse von Fischer ausgerichtetes CMS, mit welchem sich verschiedene Auktionen, 
+        tausende Objekte und Bilder, Termine u.v.m. editieren lassen.
+---
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Durch die Übernahme der Firma HotFeet GmbH im Juli 2013 durften wir die Betreuung und Weiterentwicklung 
+            des Webauftritts der Firma Galerie Fischer Auktionen AG übernehmen.</p>
+            <p>Es ist unser Anspruch, Galerie Fischer Auktionen AG in sämtlichen IT-Belangen zu unterstützen. Der 
+            Schwerpunkt liegt in einer effizienten Webapplikation, welche die internen Prozesse unterstützt sowie 
+            von den heute verfügbaren Technologien Gebrauch macht.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Produkt</h2>
+
+        <div>
+            <p>Die Webseite des Auktionshauses Fischer ist komplex. Das Herzstück bildet der Upload eines aus dem
+            lokalen ERP generierten Files, mit welchem das Auktionshaus die diversen Auktionsobjekte hochladen kann. 
+            Dazugehörende Bilder werden über ein FTP-Server automatisch gematcht. Ein über ein Passwort geschützen 
+            Bereich erlaubt es Fischer, die Auktionen vor der Öffentlichkeit live anzuschauen und ggf. zu korrigieren.
+            Über ein simples CMS sind natürlich sind auch die restlichen Bereiche eiditierbar. </p>
+            <p>Die Renuo GmbH hat den Webauftritt besonders in der Usabilty weiterentwickelt. Einerseits wurde
+            die Bilderansicht optimiert und Prozesse, etwa die Auktionsvorschau sowie die effektive Auktion vereinheitlicht.
+            Des Weiteren laufen Bestrebungen und Weiterentwicklungen im Bereich Newsletter-Marketing.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Galerie Fischer Auktionen AG<br>
+            Haldenstrasse 19<br>
+            6006 Luzern<br></p>
+            <p>Ansprechperson: Dr. Kuno Fischer<br>
+            Tel: +41 41 418 10 10</p>
+            <p>Link: <a href="http://www.fischerauktionen.ch" target="_blank">http://www.fischerauktionen.ch</a></p>
+            <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
+            <div><%- @image_tag 'fischer_logo.png' %></div>
+        </div>
+    </div>
+</div>
