@@ -10,22 +10,22 @@ tags: ['project']
 slider:
     -
         image: /images/fischer/home.png
-        image_alt: Fischer's Landingpage
+        image_alt: "Fischer's Landingpage"
         title: Landingpage der Galerie Fischer Auktionen AG
-        subtitle: Tausende von Auktionsobjekten inkl. Foto, Mehrsprachigkeit, individuelle Newsletter, Merkliste!
+        subtitle: 'Tausende von Auktionsobjekten inkl. Foto, Mehrsprachigkeit, individuelle Newsletter, Merkliste!'
     -
         image: /images/fischer/detail.png
         image_alt: Auktionsobjekt im Detail
         title: Detailansicht eines Auktionsobjekts
-        subtitle: Pro Objekt wird automatisch eine Detailansicht geschrieben. Ein Objekt kann mehreren Kategorien
+        subtitle: 'Pro Objekt wird automatisch eine Detailansicht geschrieben. Ein Objekt kann mehreren Kategorien
         angehören und mehrere auch hochauflösende Bilder beinhalten. Über eine Merkliste lassen sich spannende
-        Objekte speichern und persönlich sortieren.
+        Objekte speichern und persönlich sortieren.'
     -
         image: /images/fischer/admin.png
         image_alt: Backend-Ansicht von Fischer
         title: Backend-Ansicht von Germann
-        subtitle: Simples, auf die Bedürfnisse von Fischer ausgerichtetes CMS, mit welchem sich verschiedene Auktionen, 
-        tausende Objekte und Bilder, Termine u.v.m. editieren lassen.
+        subtitle: 'Simples, auf die Bedürfnisse von Fischer ausgerichtetes CMS, mit welchem sich verschiedene Auktionen, 
+        tausende Objekte und Bilder, Termine u.v.m. editieren lassen.'
 ---
 
 
