@@ -17,14 +17,12 @@ slider:
         image: /images/fischer/uebersicht.png
         image_alt: "Auktionsobjekte in der Übersicht"
         title: "Übersicht der Auktionsobjekte"
-        subtitle: "Eine übersichtliche Darstellung der Auktionsobjekte gibt dem Besucher einen schnellen Überblick
-        der bevorstehenden Auktion."
+        subtitle: "Eine übersichtliche Darstellung der Auktionsobjekte gibt dem Besucher einen schnellen Überblick der bevorstehenden Auktion."
     -
         image: /images/fischer/admin.png
         image_alt: Backend-Ansicht von Schuler
         title: Backend-Ansicht von Schuler
-        subtitle: "Simples, auf die Bedürfnisse von Schuler ausgerichtetes CMS, mit welchem sich verschiedene Auktionen, 
-        tausende Objekte und Bilder, Termine u.v.m. editieren lassen."
+        subtitle: "Simples, auf die Bedürfnisse von Schuler ausgerichtetes CMS, mit welchem sich verschiedene Auktionen, tausende Objekte und Bilder, Termine u.v.m. editieren lassen."
 ---
 
 
