@@ -10,15 +10,15 @@ tags: ['project']
 slider:
     -
         image: /images/germann/home.png
-        image_alt: Germann's Landingpage
+        image_alt: "Germann's Landingpage"
         title: Landingpage des Auktionshauses Germann
-        subtitle: Tausende von Auktionsobjekten inkl. Foto, Mehrsprachigkeit, individuelle Newsletter, Merkliste!
+        subtitle: 'Tausende von Auktionsobjekten inkl. Foto, Mehrsprachigkeit, individuelle Newsletter, Merkliste!'
     -
         image: /images/germann/cms.png
-        image_alt: Backend-Ansicht von Germann
+        image_alt: 'Backend-Ansicht von Germann'
         title: Backend-Ansicht von Germann
-        subtitle: Simples, auf die Bedürfnisse von Germann ausgerichtetes CMS, mit welchem sich verschiedene Auktionen, 
-        tausende Objekte und Bilder, Termine u.v.m. editieren lassen.
+        subtitle: 'Simples, auf die Bedürfnisse von Germann ausgerichtetes CMS, mit welchem sich verschiedene Auktionen, 
+        tausende Objekte und Bilder, Termine u.v.m. editieren lassen.'
 ---
 
 
