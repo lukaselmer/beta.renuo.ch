@@ -102,6 +102,7 @@
                     <h5>Downloads</h5>
                     <ul class="unstyled">
                         <li><%- @link_to "Allgemeine Geschäftsbedingungen (AGB)", "/pdfs/agb.pdf" %></li>
+						<li><%- @link_to "Allgemeine Geschäftsbedingungen Hosting", "/pdfs/agbhosting.pdf" %></li>
                         <li><%- @link_to "Geheimhaltungsvereinbarung (NDA)", "/pdfs/nda.pdf" %></li>
                     </ul>
                 </div>
