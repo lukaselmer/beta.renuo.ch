@@ -23,7 +23,7 @@ slider:
         image_alt: Bearbeitungsmodus einer Rechnung
         title: Bearbeitunsmodus einer Rechnung
         subtitle: "Über einen simplen Editor kann der Kunde seine Rechnungen verwalten und editieren. Durch das Automatisieren entstehen keine Fehler."
-		-
+    -
         image: /images/dvmportal/client_activity_filter.png
         image_alt: Aktivitäten Log
         title: Aktivitäten Log
