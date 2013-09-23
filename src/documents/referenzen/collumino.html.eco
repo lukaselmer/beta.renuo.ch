@@ -12,7 +12,7 @@ slider:
         image: /images/dvmportal/client_dashboard.png
         image_alt: "Ansprechendes Dashboard"
         title: Ansprechendes Dashboard für den Kunden
-        subtitle: "Ein übersichtliches Dashboard informiert dne Kunden über seine Zahlungen und lässt ihn diese effizient planen."
+        subtitle: "Ein übersichtliches Dashboard informiert den Kunden über seine Zahlungen und lässt ihn diese effizient planen."
     -
         image: /images/dvmportal/client_documents.png
         image_alt: Dokumentsübersicht
@@ -37,7 +37,7 @@ slider:
 
         <div>
             <p>collumino GmbH entwickelt hochstehende Applikationen im Web- sowie Mobilbereich. Für ein Finanzportal der Deutschen Verrechnungsstelle Mittelland brauchte collumino GmbH 
-            zusätzliche Ruby on Rails Entwickler, welche dem bestehenden Team unter die Arme greifen kann.</p>
+            zusätzliche Ruby on Rails Entwickler, welche dem bestehenden Team unter die Arme greifen können.</p>
             <p>Das Ziel der Partnerschaft ist es, das Entwicklungsteam kurzfristig und ohne Verpflichtungen für 
             collumino GmbH zu unterstützen. </p>
         </div>
