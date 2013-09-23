@@ -18,22 +18,22 @@ slider:
         image_alt: Top Shops von Shariando
         title: Anbindung von mehreren hundert online Shops
         subtitle: User, welche über Shariando auf online Shops zugreifen, erhalten nach dem Einkauf einen Cashback gut geschrieben!
-	-
+    -
         image: /images/shariando/login.jpg
         image_alt: Ansicht nach Login
         title: Kontoansicht nach Login
         subtitle: Übersichtliche Darstellung der gesammelten Cashbacks. Jedes Konto gehört einer Organisation an, welche jedes Mal auch Cashbacks erhaltet.
-	-
+    -
         image: /images/shariando/bfv.jpg
         image_alt: Individuelle Gestaltung durch BFV
         title: Organisationen können Design anpassen
         subtitle: Teilnehmende Organisationen erhalten ihre eigene URL und haben die Möglichkeit, darin das Design anzupassen. Hier wird das Beispiel vom Bayerischen Fussballverband BFV gezeigt.
-	-
+    -
         image: /images/shariando/kontoansicht.jpg
         image_alt: Kontoansicht der Cashbacks
         title: Live Tracking von gemachten Einkäufen
         subtitle: Alle Einkäufe, welche via Shariando statt gefunden haben, werden innert kurzer Zeit auf Shariando angezeigt und vergütet.
-	-
+    -
         image: /images/shariando/suchfunktion.jpg
         image_alt: Suchfunktion
         title: Durchsuchen von Produktdatenbanken von über 1'000 online Shops
