@@ -3,7 +3,7 @@ title: Studentbooks
 box_name: Studentbooks
 box_description: Performance bei über 18 Mio. Artikeln
 short_description: Ein Schweizer Online Shop mit über 18 Mio. Artikeln.
-image_path: /images/studentbooks.png
+image_path: /images/studentbooks/studentbooks.png
 layout: project
 position: 2
 tags: ['project']
@@ -65,7 +65,7 @@ slider:
             Tel: +41 52 209 00 20</p>
             <p>Link: <a href="https://www.studentbooks.ch" target="_blank">https://www.studentbooks.ch</a></p>
             <p>Die Partnerschaft dauert von April 2012 bis heute.</p>
-            <div><%- @image_tag 'studentbooks_logo.jpg' %></div>
+            <div><%- @image_tag '/studentbooks/studentbooks_logo.jpg' %></div>
         </div>
     </div>
 </div>

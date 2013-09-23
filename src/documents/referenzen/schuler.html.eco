@@ -3,7 +3,7 @@ title: Schuler Auktionen
 box_name: Schuler Auktionen Zürich
 box_description: Betreuung und Weiterentwicklung der Webseite
 short_description: Komplexe Homepage zur Darstellung aller Auktionsobjekte und mehr
-image_path: /images/schuler.png
+image_path: /images/schuler/schuler.png
 layout: project
 position: 6
 tags: ['project']
@@ -64,7 +64,7 @@ slider:
             Tel: +41 43 399 70 10</p>
             <p>Link: <a href="http://www.schulerauktionen.ch" target="_blank">http://www.schulerauktionen.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
-            <div><%- @image_tag 'schuler_logo.png' %></div>
+            <div><%- @image_tag '/schuler/schuler_logo.png' %></div>
         </div>
     </div>
 </div>

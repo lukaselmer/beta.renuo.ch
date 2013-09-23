@@ -1,0 +1,70 @@
+---
+title: collumino
+box_name: collumino GmbH
+box_description: Consulting für collumino GmbH
+short_description: Ruby Consulting für collumino GmbH
+image_path: /images/dvmportal/collumino.png
+layout: project
+position: 3
+tags: ['project']
+slider:
+    -
+        image: /images/dvmportal/client_dashboard.png
+        image_alt: "Ansprechendes Dashboard"
+        title: Ansprechendes Dashboard für den Kunden
+        subtitle: "Ein übersichtliches Dashboard informiert dne Kunden über seine Zahlungen und lässt ihn diese effizient planen."
+    -
+        image: /images/dvmportal/client_documents.png
+        image_alt: Dokumentsübersicht
+        title: Dokumentsübersicht
+        subtitle: "Der Kunde kann seine mit den Zahlungen in Zusammenhang stehende Dokumente nach Datum sortiert verwalten, editieren oder exportieren."
+    -
+        image: /images/dvmportal/client_invoice.png
+        image_alt: Bearbeitungsmodus einer Rechnung
+        title: Bearbeitunsmodus einer Rechnung
+        subtitle: "Über einen simplen Editor kann der Kunde seine Rechnungen verwalten und editieren. Durch das Automatisieren entstehen keine Fehler."
+		-
+        image: /images/dvmportal/client_activity_filter.png
+        image_alt: Aktivitäten Log
+        title: Aktivitäten Log
+        subtitle: "Über einen Log lässt sich verfolgen, wann was erstellt oder bearbeitet wurde. Zahlreiche Filter unterstützen den Kunden."
+---
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>collumino GmbH entwickelt hochstehende Applikationen im Web- sowie Mobilbereich. Für ein Finanzportal der Deutschen Verrechnungsstelle Mittelland brauchte collumino GmbH 
+            zusätzliche Ruby on Rails Entwickler, welche dem bestehenden Team unter die Arme greifen kann.</p>
+            <p>Das Ziel der Partnerschaft ist es, das Entwicklungsteam kurzfristig und ohne Verpflichtungen für 
+            collumino GmbH zu unterstützen. </p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>Die Renuo GmbH hat collumino GmbH während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
+            sowohl vor Ort wie auch remote im Projekt mitwirken. Die Projektleitung sowie dessen Administration
+            bleiben bei collumino GmbH.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>collumino GmbH<br>
+            Industriestrasse 78<br>
+            4600 Olten<br></p>
+            <p>Ansprechperson: Ettore Weilenmann<br>
+            Tel: +41 62 296 10 50 </p>
+            <p>Link: <a href="https://www.collumino.com" target="_blank">https://www.collumino.com</a></p>
+            <p>Die Partnerschaft dauert von Mai 2013 bis Juli 2013.</p>
+            <div><%- @image_tag '/dvmportal/collumino_logo.png' %></div>
+        </div>
+    </div>
+</div>

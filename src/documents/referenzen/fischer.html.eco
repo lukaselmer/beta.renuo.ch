@@ -3,7 +3,7 @@ title: Galerie Fischer
 box_name: Galerie Fischer Auktionen AG
 box_description: Betreuung und Weiterentwicklung der Webseite
 short_description: Komplexe Homepage zur Darstellung aller Auktionsobjekte und mehr
-image_path: /images/fischer.png
+image_path: /images/fischer/fischer.png
 layout: project
 position: 4
 tags: ['project']
@@ -65,7 +65,7 @@ slider:
             Tel: +41 41 418 10 10</p>
             <p>Link: <a href="http://www.fischerauktionen.ch" target="_blank">http://www.fischerauktionen.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
-            <div><%- @image_tag 'fischer_logo.png' %></div>
+            <div><%- @image_tag '/fischer/fischer_logo.png' %></div>
         </div>
     </div>
 </div>

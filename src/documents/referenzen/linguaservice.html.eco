@@ -3,7 +3,7 @@ title: Linguaservice
 box_name: Linguaservice
 box_description: Usability, Filterung und Benutzerfreundlichkeit
 short_description: Implementierung und grafische Aufbereitung effizienter Suche
-image_path: /images/linguaservice.png
+image_path: /images/linguaservice/linguaservice.png
 layout: project
 position: 50
 tags: ['project']
@@ -58,7 +58,7 @@ slider:
             Tel: +41 81 353 47 86</p>
             <p>Link: <a href="http://www.linguaservice.ch" target="_blank">http://www.linguaservice.ch</a></p>
             <p>Der Auftrag dauerte von Juli 2012 bis Oktober 2012</p>
-            <div><%- @image_tag 'linguaservice_logo.jpg' %></div>
+            <div><%- @image_tag '/linguaservice/linguaservice_logo.jpg' %></div>
         </div>
     </div>
 </div>

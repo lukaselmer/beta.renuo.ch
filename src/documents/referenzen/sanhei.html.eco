@@ -3,7 +3,7 @@ title: Sanhei AG Rechnungs- und Offertentool
 box_name: Sanhei Rechnungen
 box_description: Intelligentes Rechnungstool zur Erhöhung der Produktivität
 short_description: Ein intelligentes Rechnungstool, das die Produktivität erhöht.
-image_path: /images/sanhei.png
+image_path: /images/sanhei/sanhei.png
 layout: project
 position: 60
 tags: ['project']
@@ -57,7 +57,7 @@ slider:
             Tel: +41 44 341 05 10</p>
             <p><a href="https://www.sanhei.ch" target="_blank">https://www.sanhei.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2011 bis heute.</p>
-            <div><%- @image_tag 'sanhei_logo.jpg' %></div>
+            <div><%- @image_tag '/sanhei/sanhei_logo.jpg' %></div>
         </div>
     </div>
 </div>

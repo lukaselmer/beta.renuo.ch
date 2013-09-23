@@ -3,7 +3,7 @@ title: 'M. Züblin AG'
 box_name: 'M. Züblin AG'
 box_description: Betreuung und Weiterentwicklung der Webseite
 short_description: Komplexe Homepage mit mehreren hundert Produkten, Kategorien und mehreren Sprachen
-image_path: /images/zublin.png
+image_path: /images/zublin/zublin.png
 layout: project
 position: 7
 tags: ['project']
@@ -54,7 +54,7 @@ slider:
             Tel: +41 44 878 22 22</p>
             <p>Link: <a href="http://www.zublin.ch" target="_blank">http://www.zublin.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
-            <div><%- @image_tag 'zublin_logo.png' %></div>
+            <div><%- @image_tag '/zublin/zublin_logo.png' %></div>
         </div>
     </div>
 </div>

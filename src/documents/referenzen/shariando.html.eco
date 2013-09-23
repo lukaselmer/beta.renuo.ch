@@ -3,7 +3,7 @@ title: Shariando
 box_name: Shariando
 box_description: Mehrsprachiges internationales Cashback-System
 short_description: Internationale Cashback-Plattform mit knapp 1'000 online Shops.
-image_path: /images/shariando2.png
+image_path: /images/shariando/shariando2.png
 layout: project
 position: 1
 tags: ['project']
@@ -86,7 +86,7 @@ slider:
             Tel: +41 71 333 45 45</p>
             <p>Link: <a href="https://www.shariando.com" target="_blank">https://www.shariando.com</a></p>
             <p>Die Partnerschaft dauert von Juli 2011 bis heute.</p>
-            <div><%- @image_tag 'shariando_logo.jpg' %></div>
+            <div><%- @image_tag '/shariando/shariando_logo.jpg' %></div>
         </div>
     </div>
 </div>
