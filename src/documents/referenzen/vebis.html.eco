@@ -1,0 +1,65 @@
+---
+title: VeBiS ETH
+box_name: VeBiS ETH
+box_description: Responsive Typo3 Plattform
+short_description: Responsive Typo3 Plattform
+long_description: Typo3 Plattform für den Verein der Biologiestudierenden der ETH.
+image_path: /images/vebis/vebis.png
+layout: project
+position: 12
+tags: ['project']
+slider:
+    -
+        image: /images/vebis/responsive.png
+        image_alt: Responsive Layout
+        title: Responsive Layout
+        subtitle: Die ganze Applikation ist responsiv geschrieben. Dies bedeutet, dass sich die Webpage auf alle mobile Geräte anpasst. 
+    -
+        image: /images/vebis/vebis_landing.png
+        image_alt: Landingpage von VeBiS
+        title: Übersichtliche Landingpage bei VeBiS
+        subtitle: Eine übersichtliche Landingpage lassen die Besucher schnell die relevanten Informationen finden. Das aufgerufene Menu wird hervorgehoben und der Nutzer wird grafisch geführt.
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Die Webseite des Verein der Biologiestudierenden war veraltet und entsprach nicht mehr den Anforderungen der Studierenden sowie des Vereinsvorstands. Aus diesem Grund musste eine neue Webseite programmiert werden.</p>
+
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>
+               Basierend auf dem Typo3-Framework und PHP wurden zahlreiche Features entwickelt, welche dem Verein helfen, die Webseite aktuell zu halten. Neben einem Loginbereich für Studierende gibt es einen Eventkalender, Downloadarea uvm.
+			   Die Homepage ist durchgängig responsive, basiert auf einem Flat-Ansatz und ist durchgängig mobile first programmiert.
+            </p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>VeBiS<br>
+                HXE B 25<br>
+				Postfach 142<br>
+				ETH Hönggerberg<br>
+                8093 Zürich<br></p>
+
+            <p>Ansprechperson: Aline Renz<br>
+                Email: aline[at]vebis.ch</p>
+
+            <p>Links: <a href="https://www.vebis.ch">https://www.vebis.ch</a></p>
+
+            <div><%- @image_tag '/vebis/vebis_logo.jpg' %></div>
+        </div>
+    </div>
+</div>

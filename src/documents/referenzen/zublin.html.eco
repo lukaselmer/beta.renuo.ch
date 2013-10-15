@@ -5,7 +5,7 @@ box_description: Betreuung und Weiterentwicklung der Webseite
 short_description: Komplexe Homepage mit mehreren hundert Produkten, Kategorien und mehreren Sprachen
 image_path: /images/zublin/zublin.png
 layout: project
-position: 7
+position: 32
 tags: ['project']
 slider:
     -

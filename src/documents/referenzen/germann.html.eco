@@ -5,7 +5,7 @@ box_description: Betreuung und Weiterentwicklung der Webseite
 short_description: Komplexe Homepage zur Darstellung aller Auktionsobjekte und mehr
 image_path: /images/germann/germann.png
 layout: project
-position: 5
+position: 22
 tags: ['project']
 slider:
     -
