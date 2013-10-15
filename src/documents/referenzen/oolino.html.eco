@@ -1,0 +1,74 @@
+---
+title: oolino Umfrage-Tool
+box_name: oolino Umfrage-Tool
+box_description: Individuelle Umfrageapplikation mit Reporting
+short_description: Individuelle Umfrageapplikation mit Reporting
+long_description: Kleinere Applikation zur individuellen Erstellung von Umfragen sowie Auswertung derer.
+image_path: /images/oolino/oolino.png
+layout: project
+position: 15
+tags: ['project']
+slider:
+    -
+        image: /images/oolino/umfrage.png
+        image_alt: Generieren von individuellen Umfragen
+        title: Generieren von individuellen Umfragen
+        subtitle: Endkunden können über ein simples Interface Umfragen ausfüllen. Diese werden im Hintergrund gespeichert und nach Umfrage abgespeichert, ausgewertet und automatisch verglichen.
+    -
+        image: /images/oolino/mobil.png
+        image_alt: Responsive Layout
+        title: Die Umfragen sind mobil optimiert
+        subtitle: Damit die Umfragen möglichst optimal auf mobilen Geräten erscheinen ist das ganze Frontend der Umfrage responsiv programmiert. Ändert sich die Bildschirmauflösung, ändert sich auch das Aussehen der Applikation.
+    -
+        image: /images/oolino/fragen.png
+        image_alt: Ansicht des Backends
+        title: Simple Administrierung per Drag und Drop
+        subtitle: Fragen können auf einfache Weise angelegt und mutiert werden. Damit sich das Ganze auch noch gut anfühlt, wurde ein Drag und Drop Editor verwendet.
+	-
+        image: /images/oolino/auswertung.png
+        image_alt: Automatische Auswertung
+        title: Automatische Auswertung mit Branchenvergleich
+        subtitle: Die Umfrageresulate werden automatisch ausgewertet und grafisch aufbereitet. Die Umfrageresultate werden mit dem Branchendurchscnitt verglichen. Der Branchendurchschnitt ist jener Wert, welche ähnliche Firmen in derselben Frage erzielt haben.
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Die ooselo gmbh berät Unternehmen hinsichtlich Prozessmanagement. Um einfacher an Neukunden zu kommen möchten sie ein individuelles Umfragetool, mit welchem sie Unternehmen kostenlos befragen. Diese Resultate sollen dann die Grundlage für ein erstes Beratungsgespräch darstellen.</p>
+
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>
+               Die Renuo GmbH entwickelte eine kleinere Applikation, mit welcher ein Administrator verschiedene Umfragebereiche, dazu gehörende Fragen sowie Unternehmen erfassen kann. Pro Unternehmung können verschiedene Umfragen gestartet werden. Die Resultate werden in eine Datenbank gespeichert und mit anderen erzielten Resultaten verglichen. Die Resultate sind als *.csv downloadbar und werden aber auch automatisch grafisch aubereitet und als PDF zur Verfügung gestellt.
+            </p>
+			<p>
+			   Weil man annehmen kann, dass die meisten Leute die Umfragen unterwegs ausfüllen, ist der Frontend-Bereich der Seite für mobile Geräte optimiert. Damit die Umfrageresultate sicher abgespeichert sind, wird die ganze Seite verschlüsselt betrieben.
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>ooselo gmbh<br>
+                Wiesenstrasse 5<br>
+                8603 Schwerzenbach<br></p>
+
+            <p>Ansprechperson: Dipl.-Ing. Johannes Christ<br>
+                Telefon: +41 43 443 19 04</p>
+
+            <p>Links: Da die Umfragen nur für ausgewählte Personen verfügbar sind, können wir keine Links zur Verfügung stellen</p>
+
+            <div><%- @image_tag '/oolino/oolino_logo.png' %></div>
+        </div>
+    </div>
+</div>
