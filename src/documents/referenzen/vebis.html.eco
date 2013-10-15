@@ -59,7 +59,7 @@ slider:
 
             <p>Links: <a href="https://www.vebis.ch">https://www.vebis.ch</a></p>
 
-            <div><%- @image_tag '/vebis/vebis_logo.jpg' %></div>
+            <div><%- @image_tag '/vebis/vebis_logo.png' %></div>
         </div>
     </div>
 </div>
