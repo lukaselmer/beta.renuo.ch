@@ -43,7 +43,7 @@ technologySlider:
 
 <div id="focus"></div>
 <div class="row-fluid page-header-element">
-    <div class="span4">
+    <div class="span8">
         <div class="page-header">
             <h1>Fokus
                 <small> und was wir anbieten</small>
@@ -53,37 +53,18 @@ technologySlider:
             Wir sind Ihr Spezialist in den Bereichen:
         </div>
         <dl>
-            <dt>Web</dt>
+            <dt>Individuelle Webprojekte</dt>
             <dd>vom kleinen Auftritt bis zur grossen Plattform</dd>
-            <dt>Neuentwicklung</dt>
-            <dd>alter Systeme mit Fokus auf Usability</dd>
-            <dt>Projektmanagement</dt>
-            <dd>von Softwareprojekten / Agile Softwareentwicklung</dd>
-            <dt>Innovative Software</dt>
-            <dd>mithilfe moderner Technologien (bsp. Ruby on Rails, jQuery, Android, HTML5)</dd>
+            <dt>mobile Applikationen</dt>
+            <dd>iOS, Android, Windows oder webbasierte mobile Apps für B2C und B2B</dd>
+            <dt>Content Management</dt>
+            <dd>einfach zu bedienende Websites, ob lokal oder global</dd>
+            <dt>Responsive Webdesign</dt>
+            <dd>Webseiten, die in jeder Auflösung gut dastehen</dd>
         </dl>
     </div>
 	
-	<div class="span4">
-        <div class="page-header">
-            <h1>to renew
-                <small> /rɪˈnjuː/</small>
-            </h1>
-        </div>
-        <blockquote>
-		    <ol>
-				<li>give fresh life or strength to</li>
-				<li>replace (something that is broken or worn out)</li>
-			</ol>
-			<small>Oxford Dictionaries</small>
-        </blockquote>
-        <br/>
-        <p>Renuo leitet sich vom englischen Wort <b>to renew</b> ab. Warum?<br>
-		Weil wir genau darin stark sind:<br>
-		Überarbeitung und Neuentwicklung von Systemen.
-		</p>
-    </div>
-    
+  
     <div class="span4">
         <div class="page-header">
             <h1>Übernahme
