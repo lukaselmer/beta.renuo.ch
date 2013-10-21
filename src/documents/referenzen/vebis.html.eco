@@ -1,9 +1,9 @@
 ---
 title: VeBiS ETH
 box_name: VeBiS ETH
-box_description: Responsive Typo3 Plattform
-short_description: Responsive Typo3 Plattform
-long_description: Typo3 Plattform für den Verein der Biologiestudierenden der ETH.
+box_description: Responsive Wordpress Plattform
+short_description: Responsive Wordpress Plattform
+long_description: Wordpress Plattform für den Verein der Biologiestudierenden der ETH.
 image_path: /images/vebis/vebis.png
 layout: project
 position: 12
@@ -38,7 +38,7 @@ slider:
 
         <div>
             <p>
-               Basierend auf dem Typo3-Framework und PHP wurden zahlreiche Features entwickelt, welche dem Verein helfen, die Webseite aktuell zu halten. Neben einem Loginbereich für Studierende gibt es einen Eventkalender, Downloadarea uvm.
+               Basierend auf dem Wordpress-Framework und PHP wurden zahlreiche Features entwickelt, welche dem Verein helfen, die Webseite aktuell zu halten. Neben einem Loginbereich für Studierende gibt es einen Eventkalender, Forumsbereich, Downloadarea uvm.
 			   Die Homepage ist durchgängig responsive, basiert auf einem Flat-Ansatz und ist durchgängig mobile first programmiert.
             </p>
         </div>
