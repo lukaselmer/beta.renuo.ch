@@ -81,7 +81,7 @@ position: 1
             So stellen wir sicher, dass Sie mit dem Endprodukt zufrieden sind und die Kosten so tief wie möglich 
             gehalten werden. Automatisierte Tests stellen zudem sicher, dass allfällige Fehler automatisch und sofort aufgedeckt 
             und behoben werden können. In wöchentlichen Abstimmungsmeetings zwischen Ihnen und uns planen wir jeweils 
-            die nächsten Schritte. Konkret entwickeln wir folgende Produkte:</p>
+            die nächsten Schritte.</p> <p>Konkret entwickeln wir folgende Produkte:</p>
         <ul class="icons-ul">
           <li><i class="icon-li icon-ok"></i><strong> Individuelle Webprojekte: </strong> vom kleinen Auftritt bis zur grossen Plattform</li>
           <li><i class="icon-li icon-ok"></i><strong> mobile Applikationen: </strong> iOS, Android, Windows oder webbasierte mobile Apps für B2C und B2B</li>
@@ -94,11 +94,11 @@ position: 1
     <div class="span6">
         <h2>Betrieb</h2>
         <div>
-            <h3><small>Sicherheit, Überwachung, Aktualisierung und Ausbau.</small></h3>Stillstand ist Rückschritt! 
+            <h3><small>Sicherheit, Überwachung, Aktualisierung und Ausbau.</small></h3><p>Stillstand ist Rückschritt! 
             Nach der Fertigstellung Ihrer Webplattform kümmern wir uns um die Wartung Ihrer Applikation sowie um
             dessen kontinuierliche Weiterentwicklung. Das beinhaltet z.B. das Schliessen von Sicherheitslücken, das
             Updaten von Software, proaktive Belastbarkeitstests um der wachsenden Useranzahl gerecht zu werden sowie
-            das Hinzuprogrammieren von weiteren Anforderungen. Wir bieten Ihnen in diesem Rahmen verschiedene Monitoringservices an. Sie erlauben einen sicheren Betrieb, welcher keinem Blindflug entspricht.<br>
+            das Hinzuprogrammieren von weiteren Anforderungen.</p> <p>Wir bieten Ihnen in diesem Rahmen verschiedene Monitoringservices an. Sie erlauben einen sicheren Betrieb, welcher keinem Blindflug entspricht.<br></p>
         <ul class="icons-ul">
           <li><i class="icon-li icon-ok"></i><strong> Fehler-Monitoring: </strong> Die einfachste Art, Fehler zu überwachen, sind sogenannte Exception Notifications. Falls beim Ablauf einer Routine auf dem Server ein Fehler auftritt, wird ein Mail versandt.</li>
           <li><i class="icon-li icon-ok"></i><strong> JavaScript-Monitoring: </strong> Javascript wird einerseits immer wichtiger, da immer mehr Dinge per Javascript gemacht werden (Bsp. Animationen, Layout, interaktive Dinge). Andererseits gibt es aber auch immer mehr Browser und Geräte, die Javascript unterschiedlich unterstützen. So wird das Einsatzgebiet stets grösser, während die Komplexität gleichzeitig wächst.
