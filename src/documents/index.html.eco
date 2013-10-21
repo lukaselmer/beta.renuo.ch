@@ -43,7 +43,7 @@ technologySlider:
 
 <div id="focus"></div>
 <div class="row-fluid page-header-element">
-    <div class="span8">
+    <div class="span4">
         <div class="page-header">
             <h1>Fokus
                 <small> und was wir anbieten</small>
@@ -63,7 +63,26 @@ technologySlider:
             <dd>Webseiten, die in jeder Auflösung gut dastehen</dd>
         </dl>
     </div>
-	
+
+	<div class="span4">
+        <div class="page-header">
+            <h1>to renew
+                <small> /rɪˈnjuː/</small>
+            </h1>
+        </div>
+        <blockquote>
+		    <ol>
+				<li>give fresh life or strength to</li>
+				<li>replace (something that is broken or worn out)</li>
+			</ol>
+			<small>Oxford Dictionaries</small>
+        </blockquote>
+        <br/>
+        <p>Renuo leitet sich vom englischen Wort <b>to renew</b> ab. Warum?<br>
+		Weil wir genau darin stark sind:<br>
+		Überarbeitung und Neuentwicklung von Systemen.
+		</p>
+    </div>	
   
     <div class="span4">
         <div class="page-header">
