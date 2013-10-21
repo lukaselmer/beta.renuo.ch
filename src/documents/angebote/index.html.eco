@@ -75,13 +75,13 @@ position: 1
     <div class="span6">
         <h2>Entwicklung</h2>
         <div>
-            <h3><small>Innovative Software mithilfe modernster Technologien</small></h3>Die Entwicklung innovativer
+            <h3><small>Innovative Software mithilfe modernster Technologien</small></h3><p>Die Entwicklung innovativer
             Software im Web ist unsere Kernkompetenz. In der Entwicklungsphase wird der eigentliche Code geschrieben 
             und getestet. Auf einer Testumgebung können Sie unseren Fortschritt stets beobachten und laufend feedbacken. 
             So stellen wir sicher, dass Sie mit dem Endprodukt zufrieden sind und die Kosten so tief wie möglich 
             gehalten werden. Automatisierte Tests stellen zudem sicher, dass allfällige Fehler automatisch und sofort aufgedeckt 
             und behoben werden können. In wöchentlichen Abstimmungsmeetings zwischen Ihnen und uns planen wir jeweils 
-            die nächsten Schritte. Konkret entwickeln wir folgende Produkte:<br>
+            die nächsten Schritte. Konkret entwickeln wir folgende Produkte:</p>
         <ul class="icons-ul">
           <li><i class="icon-li icon-ok"></i><strong> Individuelle Webprojekte: </strong> vom kleinen Auftritt bis zur grossen Plattform</li>
           <li><i class="icon-li icon-ok"></i><strong> mobile Applikationen: </strong> iOS, Android, Windows oder webbasierte mobile Apps für B2C und B2B</li>
