@@ -1,4 +1,4 @@
---- yaml
+ï»¿--- yaml
 layout: 'default'
 title: 'News'
 isMainNavi: 1
@@ -20,10 +20,10 @@ position: 5
     <div class="span8">
 	<h3>26.10.2013 Renuo am StartUp Weekend</h3>
         <p>
-		"Engagement ist uns wichtig. Nicht nur in unserer eigenen Programmierung."
+		Engagement ist uns wichtig. Nicht nur in unserer eigenen Programmierung.
 		</p>
 		<p>
-			"Die Renuo ist heute und morgen am StartUp Weekend in St. Gallen tätig. Wir coachen Gründer und Gründungswillige in den Bereichen Web und IT. Wir freuen uns, Gründer kennen zu lernen und die innovative Luft des StartUp Weekends zu schnuppern."
+			Die Renuo ist heute und morgen am StartUp Weekend in St. Gallen tÃ¤tig. Wir coachen GrÃ¼nder und GrÃ¼ndungswillige in den Bereichen Web und IT. Wir freuen uns, GrÃ¼nder kennen zu lernen und die innovative Luft des StartUp Weekends zu schnuppern.
         </p>
 		<p>
 			"Mehr Informationen über das StartUp Weekend St. Gallen findet man unter: <a href="http://www.startupweekend.ch/de/startstgallen/">http://www.startupweekend.ch/de/startstgallen/</a>"
