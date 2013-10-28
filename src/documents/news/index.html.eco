@@ -18,7 +18,7 @@ position: 5
 <div class="row-fluid">
 
     <div class="span8">
-	<h3>26.10.2013 Renuo am StartUp Weekend</h3>
+	<h3>26.10.2013: Renuo am StartUp Weekend</h3>
         <p>
 		Engagement ist uns wichtig. Nicht nur in unserer eigenen Programmierung.
 		</p>
@@ -26,14 +26,12 @@ position: 5
 			Die Renuo ist heute und morgen am StartUp Weekend in St. Gallen tätig. Wir coachen Gründer und Gründungswillige in den Bereichen Web und IT. Wir freuen uns, Gründer kennen zu lernen und die innovative Luft des StartUp Weekends zu schnuppern.
         </p>
 		<p>
-			Mehr Informationen über das StartUp Weekend St. Gallen findet man unter: <a href="http://www.startupweekend.ch/de/startstgallen/">http://www.startupweekend.ch/de/startstgallen/</a>
-			<br>
-			<br>			
+			Mehr Informationen über das StartUp Weekend St. Gallen findet man unter: <a href="http://www.startupweekend.ch/de/startstgallen/">http://www.startupweekend.ch/de/startstgallen/</a>			
         </p>
     </div>
 	
 	<div class="span3">
-        <img src="/images/news/startupweekend.jpg">
+        <img src="/images/news/startupweekend.png">
     </div>
 
 </div>
@@ -41,7 +39,7 @@ position: 5
 <div class="row-fluid">
 
     <div class="span8">
-	<h3>01.09.2013 Offizieller Partner von STARTFELD</h3>
+	<h3>01.09.2013: Offizieller Partner von STARTFELD</h3>
         <p>
 			Die Renuo wird offizieller Partner von STARTFELD St. Gallen!  
 		</p>
@@ -50,8 +48,6 @@ position: 5
         </p>
 		<p>
 			Die Renuo steht somit allen Gründungswilligen als Berater zur Seite und ist als <a href="http://www.startfeld.ch/uber-uns/akkreditierte-dienstleister/">akkreditierter Dienstleister</a> ein Partner für alle vom STARTFELD geförderten StartUps.
-			<br>
-			<br>
         </p>
     </div>
 	
@@ -64,7 +60,7 @@ position: 5
 <div class="row-fluid">
 
     <div class="span8">
-	<h3>01.07.2013 Renuo übernimmt Kunden der HotFeet GmbH</h3>
+	<h3>01.07.2013: Renuo übernimmt Kunden der HotFeet GmbH</h3>
         <p>
 			Nach mehr als 15 Jahren stellt die HotFeet GmbH ihren erfolgreichen Betrieb ein. Zusammen mit der Renuo GmbH kann die HotFeet GmbH eine gelungene Nachfolgelösung präsentieren.   
 		</p>
@@ -72,9 +68,7 @@ position: 5
 			Wir führen das Hosting, den Betrieb und die Weiterentwicklung der Applikationen aller Kunden weiter. Für die bevorstehende Zusammenarbeit möchten wir betonen, dass sich am Hosting, den Mails sowie an den Webseiten ändern wird. Ab dem 1. Juli wird der Betrieb nahtlos durch uns sichergestellt. Auch preislich bleibt alles bestehen.
         </p>
 		<p>
-			Als Kunde der HotFeet GmbH wurden sie in den vergangenen Wochen schriftlich informiert. In absehbarer Zukunft werden auch noch weitere Schreiben durch uns erfolgen. Wir freuen uns auf die Zusammenarbeit!
-			<br>
-			<br>			
+			Als Kunde der HotFeet GmbH wurden sie in den vergangenen Wochen schriftlich informiert. In absehbarer Zukunft werden auch noch weitere Schreiben durch uns erfolgen. Wir freuen uns auf die Zusammenarbeit!			
         </p>
     </div>
 	
@@ -87,7 +81,7 @@ position: 5
 <div class="row-fluid">
 
     <div class="span8">
-	<h3>12.02.2013 Renuo gewinnt Green Hackathon Zürich</h3>
+	<h3>12.02.2013: Renuo gewinnt Green Hackathon Zürich</h3>
         <p>
 			Die Renuo gewinnt den Green Hackathon 2013 in Zürich!
 		</p>
@@ -98,8 +92,6 @@ position: 5
 		</p>
 		<p>
 			Mehr Informationen findet man unter <a href="http://greenbyte.ch/12631/ict4s2013/">http://greenbyte.ch/12631/ict4s2013/</a> sowie unter <a href="http://www.greenhackathon.com/">http://www.greenhackathon.com/</a>
-			<br>
-			<br>
         </p>
     </div>
 
