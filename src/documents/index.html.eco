@@ -86,15 +86,20 @@ technologySlider:
   
     <div class="span4">
         <div class="page-header">
-            <h1>Übernahme
-                <small> der HotFeet</small>
+            <h1>News
+                <small> über die Renuo</small>
             </h1>
         </div>
         <div>
-            <p>Nach mehr als 15 Jahren stellt die HotFeet GmbH ihren erfolgreichen Betrieb ein. Zusammen mit der
-            Renuo GmbH kann die HotFeet GmbH eine gelungene Nachfolgelösung präsentieren.</p> 
-            <p>Wir führen das Hosting, den Betrieb und die Weiterentwicklung der Applikationen aller Kunden weiter 
-            und freuen uns sehr auf die Zusammenarbeit!</p>
+            <p>
+			<b>26.10.2013</b> Renuo am StartUp Weekend<br> 
+            <b>01.09.2013</b> Offizieller Partner von STARTFELD<br>
+            <b>01.07.2013</b> Renuo übernimmt Hotfeet-Kunden<br>
+            <b>12.02.2013</b> Renuo gewinnt Green-Hackathon<br>
+			</p>
+			<p>
+			<a href="/news">alle News anzeigen</a>
+			</p>
         </div>
         
     </div>    
