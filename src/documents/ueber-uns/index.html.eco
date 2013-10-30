@@ -1,6 +1,7 @@
 --- yaml
 layout: 'default'
 title: 'Über uns'
+description: 'Jung, bestens ausgebildet, ehrgeizig und dynamisch. Wir unsterstützen das agile Manifest und arbeiten nach SCRUM.'
 isMainNavi: 1
 position: 4
 ---

@@ -1,6 +1,7 @@
 --- yaml
 layout: 'default'
 title: 'Kontakt'
+description: 'Kontaktieren Sie uns via Telefon, E-Mail oder Brieftaube. Wir sind in Zürich stationiert und nennen das Web unser zu Hause.'
 isMainNavi: 1
 position: 6
 ---

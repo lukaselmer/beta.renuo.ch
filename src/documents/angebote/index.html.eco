@@ -1,6 +1,7 @@
 --- yaml
 layout: 'default'
 title: 'Kompetenzen'
+description: 'Das Angebot der Renuo erstreckt sich von der Konzeption, dem Design, der Entwicklung bis zur langfristigen Betreuung von Webapplikationen aus einer Hand.'
 isMainNavi: 1
 position: 1
 ---
