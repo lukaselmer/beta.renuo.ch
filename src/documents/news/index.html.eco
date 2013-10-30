@@ -24,7 +24,7 @@ position: 5
 		Engagement ist uns wichtig. Nicht nur in unserer eigenen Programmierung.
 		</p>
 		<p>
-			Die Renuo ist heute und morgen am StartUp Weekend in St. Gallen tätig. Wir coachen Gründer und Gründungswillige in den Bereichen Web und IT. Wir freuen uns, Gründer kennen zu lernen und die innovative Luft des StartUp Weekends zu schnuppern.
+			Die Renuo war am 26. und 27. Oktober 2013 am StartUp Weekend in St. Gallen tätig. Wir coachen Gründer und Gründungswillige in den Bereichen Web und IT. Wir freuen uns, Gründer kennen zu lernen und die innovative Luft des StartUp Weekends zu schnuppern.
         </p>
 		<p>
 			Mehr Informationen über das StartUp Weekend St. Gallen findet man unter: <a href="http://www.startupweekend.ch/de/startstgallen/">http://www.startupweekend.ch/de/startstgallen/</a>			
@@ -37,6 +37,9 @@ position: 5
 	<div class="span3">
         <img src="/images/news/startupweekend.png">
     </div>
+</div>	
+
+<div class="row-fluid">
 	
 	<div class="span3">
         <img src="/images/news/startupweekend/178.jpg">
