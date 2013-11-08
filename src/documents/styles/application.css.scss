@@ -81,8 +81,8 @@ body {
     a#startfeld {
         display: block;
         width: 195px;
-        height: 51px;
-        background: url('/images/startfeld.png') top no-repeat;
+        height: 52px;
+        background: url('/images/startfeld.png') 0px -1px no-repeat;
         text-indent: -99999px;
 
         &:hover {
