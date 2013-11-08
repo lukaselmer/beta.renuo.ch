@@ -53,16 +53,12 @@ technologySlider:
         <div>
             Wir sind Ihr Spezialist in den Bereichen:
         </div>
-        <dl>
-            <dt>Individuelle Webprojekte</dt>
-            <dd>vom kleinen Auftritt bis zur grossen Plattform</dd>
-            <dt>mobile Applikationen</dt>
-            <dd>iOS, Android, Windows oder webbasierte mobile Apps für B2C und B2B</dd>
-            <dt>Content Management</dt>
-            <dd>einfach zu bedienende Websites, ob lokal oder global</dd>
-            <dt>Responsive Webdesign</dt>
-            <dd>Webseiten, die in jeder Auflösung gut dastehen</dd>
-        </dl>
+        <ul class="icons-ul">
+          <li><i class="icon-li icon-ok"></i><strong> Individuelle Webprojekte</strong><br>vom kleinen Auftritt bis zur grossen Plattform</li>
+          <li><i class="icon-li icon-ok"></i><strong> mobile Applikationen</strong><br>iOS, Android, Windows oder webbasierte mobile Apps für B2C und B2B</li>
+          <li><i class="icon-li icon-ok"></i><strong> Content Management</strong><br>einfach zu bedienende Websites, ob lokal oder global</li>
+          <li><i class="icon-li icon-ok"></i><strong> Responsive Webdesign</strong><br>Webseiten, die in jeder Auflösung gut dastehen</li>
+         </ul>
     </div>
 
 	<div class="span4">
