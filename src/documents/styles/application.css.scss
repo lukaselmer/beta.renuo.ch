@@ -82,11 +82,11 @@ body {
         display: block;
         width: 195px;
         height: 51px;
-        background: url('/images/startfeld.png') top no repeat;
+        background: url('/images/startfeld.png') top no-repeat;
         text-indent: -99999px;
 
         &:hover {
-	    background-position: bottom;
+	    background-position: 0px 52px;
         }
     }
 }
