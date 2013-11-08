@@ -80,13 +80,13 @@ body {
 
     a#startfeld {
         display: block;
-        width: 193px;
+        width: 195px;
         height: 51px;
-        background: url('/images/startfeld.png') top;
+        background: url('/images/startfeld.png') top no repeat;
         text-indent: -99999px;
 
         &:hover {
-	    background-position: 0 51px;
+	    background-position: bottom;
         }
     }
 }
