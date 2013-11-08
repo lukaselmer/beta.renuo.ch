@@ -114,8 +114,8 @@
                     <a href="https://www.xing.com/companies/renuogmbh?literal=renuo%20gmbh"><i class="icon-xing-sign icon-4x"></i></a>
                 
                     <div class="partners">
-                        <h5 style="margin-top: 2em;">Akkredierte Partner</h5>
-                        <a href="http://www.startfeld.ch/"></a>
+                        <h5>Akkredierte Partner</h5>
+                        <a id="startfeld" href="http://www.startfeld.ch/"></a>
                     </div>
                 </div>
             </div>
