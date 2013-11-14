@@ -62,7 +62,7 @@ slider:
             4600 Olten<br></p>
             <p>Ansprechperson: Ettore Weilenmann<br>
             Tel: +41 62 296 10 50 </p>
-            <p>Link: <a href="https://www.collumino.com" target="_blank">https://www.collumino.com</a></p>
+            <p>Link: <a href="http://www.collumino.com" target="_blank">http://www.collumino.com</a></p>
             <p>Die Partnerschaft dauert von Mai 2013 bis Juli 2013.</p>
             <div><%- @image_tag '/dvmportal/collumino_logo.png' %></div>
         </div>
