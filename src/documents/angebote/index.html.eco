@@ -108,7 +108,7 @@ Aus diesem Grund ist ein Monitoring der JavaScript Funktionen sehr wichtig.</li>
           <li><i class="icon-li icon-ok"></i><strong> Security-Monitoring: </strong> Grundsätzlich muss davon ausgegangen werden, dass jede Software (also auch Bibliotheken und Frameworks, die als Grundlage jeder Software und jedes Servers dienen) Sicherheitslücken beinhalten. Da eine Webapplikation auf solchen Bibliotheken aufbaut, macht es Sinn, diese Bibliotheken zu überwachen und entsprechend zu aktualisieren, sollte eine Sicherheitslücke gefunden werden. Im Security-Monitoring informieren wir Sie stets über verfügbare Updates und beraten Sie, wie wichtig ein solches Update ist.</li>
           <li><i class="icon-li icon-ok"></i><strong> SEO-Monitoring: </strong> Über die Webmaster Tools / Google Analytics von Google kann überwacht werden, welche Stichworte bei einer Seite relevant sind. Wir begleiten Sie in der Erstellung, Überwachung und Auswertung Ihrer SEO-Daten, damit Sie zielgerichtet handeln können.</li>
          </ul>
-		<p>Weitere Informationen zu den Monitoring-Services findet man <a href="pdfs/monitoring_services.pdf">hier</a>.</p>	
+		<p>Weitere Informationen zu den Monitoring-Services findet man <a href="https://renuo.ch/pdfs/monitoring_services.pdf">hier</a>.</p>	
         </div>
     </div>
 
