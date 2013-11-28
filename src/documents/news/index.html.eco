@@ -19,6 +19,37 @@ position: 5
 <div class="row-fluid">
 
     <div class="span8">
+	<h3>25.11.2013: Diverse Monitoring-Services</h3>
+        <p>
+		Langfristige Unterstützung unserer Kunden ist uns wichtig. Aus diesem Grund haben wir diverse Monitoring-Services lanciert.
+		</p>
+		<p>
+			Für unsere Kunden bieten wir neu folgende Services an:
+			<ul class="icons-ul">
+          <li><i class="icon-li icon-ok"></i><strong> Verfügbarkeis-Monitoring: </strong> Ist meine Seite up?</li>
+          <li><i class="icon-li icon-ok"></i><strong> Fehler-Monitoring: </strong> Läuft meine Seite einwandfrei?</li>
+          <li><i class="icon-li icon-ok"></i><strong> Java-Script-Monitoring: </strong> Sind Darstellungsfehler vorhanden?</li>
+          <li><i class="icon-li icon-ok"></i><strong> Performance-Monitoring: </strong> Gibt es Performance-Schwachstellen?</li>
+          <li><i class="icon-li icon-ok"></i><strong> Security-Monitoring: </strong> Bestehen neue Sicherheitslücken?</li>
+          <li><i class="icon-li icon-ok"></i><strong> SEO-Monitoring: </strong> Wie werde ich besser gefunden?</li>
+        </ul>
+        </p>
+		<p>
+			Mehr Informationen und Kostenübersicht über unsere Services findet man <a href="pdfs/monitoring_services.pdf">in diesem Dokument</a>.			
+        </p>
+    </div>
+	
+	<div class="span1">
+    </div>		
+	
+	<div class="span3">
+        <img src="/images/news/monitoring.png">
+    </div>
+</div>	
+
+<div class="row-fluid">
+
+    <div class="span8">
 	<h3>26.10.2013: Renuo am StartUp Weekend</h3>
         <p>
 		Engagement ist uns wichtig. Nicht nur in unserer eigenen Programmierung.
