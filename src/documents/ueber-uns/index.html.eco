@@ -18,7 +18,7 @@ position: 4
 
 <div class="row-fluid page-section" style="margin-top: 15px;">
     <div class="span12">
-        <div><%- @image_tag 'renuo_team.jpg' %></div>
+        <div><%- @image_tag 'renuo_team2.jpg' %></div>
     </div>
 </div>	
 	
