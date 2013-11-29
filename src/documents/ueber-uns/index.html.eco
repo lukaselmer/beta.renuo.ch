@@ -62,7 +62,7 @@ position: 4
         <div>
 
             <div class="span6">
-                <div><%- @image_tag 'lukas.png' %></div>
+                <div><%- @image_tag 'lukas.jpg' %></div>
                 <h3>Lukas Elmer</h3>
 
                 <p>Web Entwickler, Gründer, B.Sc.<br/>
@@ -132,7 +132,7 @@ position: 4
             </div>
 
             <div class="span6">
-                <div><%- @image_tag 'diego.png' %></div>
+                <div><%- @image_tag 'diego.jpg' %></div>
                 <h3>Diego P. Steiner</h3>
 
                 <p>Gründer, Web Entwickler<br/>
@@ -202,7 +202,7 @@ position: 4
     <div class="span12">
         <div>
             <div class="span6">
-                <div><%- @image_tag 'samuel.png' %></div>
+                <div><%- @image_tag 'samuel.jpg' %></div>
                 <h3>Samuel Steiner</h3>
 
                 <p>Projektleiter, Partner, B.A. HSG<br/>
@@ -266,7 +266,7 @@ position: 4
             </div>
 
             <div class="span6">
-                <div><%- @image_tag 'ueli.png' %></div>
+                <div><%- @image_tag 'ueli.jpg' %></div>
                 <h3>Ueli Kunz</h3>
 
                 <p>Web Entwickler, B.Sc.<br/>
