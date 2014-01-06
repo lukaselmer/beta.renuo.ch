@@ -46,11 +46,11 @@ technologySlider:
 <div class="row-fluid page-header-element">
     <div class="span4">
         <div class="page-header">
-            <h1>Webprogrammierung
+            <h1>Web Programmierung
             </h1>
         </div>
         <div>
-            Wir programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. Wir sind Spezialist in den Bereichen:
+            Wir programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. Wir sind Spezialist in den Bereichen:<br>
         </div>
         <ul class="icons-ul">
           <li><i class="icon-li icon-ok"></i><strong>Individuelle Webprojekte</strong><br>vom kleinen Auftritt bis zum grossen Portal, welches mehrsprachig und multinational betrieben wird</li>
@@ -66,7 +66,7 @@ technologySlider:
             </h1>
         </div>
         <div>
-            Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht! 
+            Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht! <br>
         </div>
         <div>
             Die Inhalte werde dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert und ein Besucher behält den Überblick über die Inhalte. Erleben Sie Responsive Webdesign live, indem Sie die Renuo-Homepage auf verschiedenen Geräten betrachten!
