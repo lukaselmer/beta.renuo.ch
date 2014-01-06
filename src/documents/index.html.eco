@@ -50,7 +50,7 @@ technologySlider:
             </h1>
         </div>
         <div>
-            Wir programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. Wir sind Spezialist in den Bereichen:</br>
+            <p>Wir programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. Wir sind Spezialist in den Bereichen:</p>
         </div>
         <ul class="icons-ul">
           <li><i class="icon-li icon-ok"></i><strong>Individuelle Webprojekte</strong><br>vom kleinen Auftritt bis zum grossen Portal, welches mehrsprachig und multinational betrieben wird</li>
@@ -66,10 +66,8 @@ technologySlider:
             </h1>
         </div>
         <div>
-            Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht!</br>
-        </div>
-        <div>
-            Die Inhalte werde dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert und ein Besucher behält den Überblick über die Inhalte. Erleben Sie Responsive Webdesign live, indem Sie die Renuo-Homepage auf verschiedenen Geräten betrachten!
+            <p>Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht!</p>
+            <p>Die Inhalte werde dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert und ein Besucher behält den Überblick über die Inhalte. Erleben Sie Responsive Webdesign live, indem Sie die Renuo-Homepage auf verschiedenen Geräten betrachten!</p>
         </div>		
     </div>	
 	
@@ -100,7 +98,7 @@ technologySlider:
 </div>
 
 <div class="row-fluid page-section">
-    <div class="span8">
+    <div class="span9">
         <p>Um eine Internet Plattform oder eine Software Lösung zu entwickeln, setzen wir verschiedene Technologien ein.
             Wir wählen unter anderem anhand folgender Kriterien die Technologien aus:</p>
         <ul class="icons-ul">
@@ -112,7 +110,7 @@ technologySlider:
           <li><i class="icon-li icon-ok"></i><strong> Verbreitung und Community: </strong> Wie verbreitet ist die Technologie und wie schnell entwickelt sich diese weiter?</li>
         </ul>
 	</div>
-    <div class="span4">
+    <div class="span3">
         <%- @getSlider('technologyCarousel', @document.technologySlider) %>
     </div>
 </div>	
