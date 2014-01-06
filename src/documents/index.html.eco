@@ -46,7 +46,7 @@ technologySlider:
 <div class="row-fluid page-header-element">
     <div class="span4">
         <div class="page-header">
-            <h1>Web</br>Pro&shy;gram&shy;mier&shy;ung
+            <h1>Web</br> Pro&shy;gram&shy;mier&shy;ung
             </h1>
         </div>
         <div>
@@ -62,7 +62,7 @@ technologySlider:
 
 	<div class="span4">
         <div class="page-header">
-            <h1>Res&shy;pon&shy;sive</br>Web&shy;design
+            <h1>Res&shy;pon&shy;sive</br> Web&shy;design
             </h1>
         </div>
         <div>
@@ -73,7 +73,7 @@ technologySlider:
 	
 	<div class="span4">
         <div class="page-header">
-            <h1>Mobile</br>App&shy;lika&shy;tionen
+            <h1>Mobile</br> App&shy;lika&shy;tionen
             </h1>
         </div>
         <div>
@@ -119,7 +119,7 @@ technologySlider:
     <div class="span4">
         <h2>
             Web
-            <br><small>HTML5, CSS3 und Javascript</small>
+            <br><small>HTML5, CSS3 und JavaScript</small>
         </h2>
         <p>Wir arbeiten mit modernsten Web Technologien, weil heute der grösste Teil der Bevölkerung Internetfähige
             Geräte
@@ -128,7 +128,7 @@ technologySlider:
             wieder neue Möglichkeiten für neue Produkte
             und Lösungen bietet und Raum für Innovation lässt.</p>
 
-        <p>Mit HTML5, CSS3 und Javascript ist es für einen Nutzer möglich, ohne eine zusätzliche Softwareinstallation
+        <p>Mit HTML5, CSS3 und JavaScript ist es für einen Nutzer möglich, ohne eine zusätzliche Softwareinstallation
             direkt
             auf die Services zuzugreifen.</p>
 
@@ -162,10 +162,10 @@ technologySlider:
     </div>
     <div class="span4">
         <h2>jQuery
-            <br><small>DIE Javascript Bibliothek</small>
+            <br><small>DIE JavaScript Bibliothek</small>
         </h2>
-        <p>Während früher Internetseiten meistens statisch und ohne Javascript funktionierten, ist es heute nicht mehr
-            wegzudenken, ohne Javascript zu arbeiten. Da viele
+        <p>Während früher Internetseiten meistens statisch und ohne JavaScript funktionierten, ist es heute nicht mehr
+            wegzudenken, ohne JavaScript zu arbeiten. Da viele
             verschiedene Endgeräte und Browser unterstützt werden müssen, setzen wir jQuery ein.</p>
 
         <p>jQuery vereinfacht die Bearbeitung von HTML direkt auf dem Endgerät. Dadurch ist es z.B. möglich, Animationen
