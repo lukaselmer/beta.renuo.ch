@@ -51,6 +51,21 @@ position: 4
     </div>
 </div>
 
+<div class="row-fluid page-section" style="margin-top: 15px;">
+    <div class="span12">
+        <div>Renuo leitet sich vom englischen Wort <b>to renew</b> ab. Warum?<br>
+		Weil wir genau darin stark sind: Überarbeitung und Neuentwicklung von Systemen.</div>
+		<blockquote>
+		    <ol>
+				<p>to renew (/rɪˈnjuː/)</p>
+				<li>give fresh life or strength to</li>
+				<li>replace (something that is broken or worn out)</li>
+			</ol>
+			<small>Oxford Dictionaries</small>
+        </blockquote>
+    </div>
+</div>	
+
 <div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div class="page-header">
@@ -366,13 +381,13 @@ position: 4
             </h2>
         </div>
         <p>Uns liegt die Zusammenarbeit mit dem Kunden sehr am Herzen. Wir planen die Sprints in enger Zusammenarbeit
-        mit dem Kunden und kommunizieren die Ergebnisse im <strong>wöchentlichen Statusrapport</strong>. So ist der Kunde stets im
+        mit dem Kunden und kommunizieren die Ergebnisse in regelmässigen Statusrapports. So ist der Kunde stets im
         Bild über den Stand der Arbeiten und hat das Budget im Griff.</p>
     </div>
 
     <div class="span6">
         <div class="page-header">
-            <h2>Werte der Renuo
+            <h2>Agiles Manifest
                 <br><small> unsere DNA</small>
             </h2>
         </div>

@@ -46,80 +46,61 @@ technologySlider:
 <div class="row-fluid page-header-element">
     <div class="span4">
         <div class="page-header">
-            <h1>Fokus
-                <small> und was wir anbieten</small>
+            <h1>Webprogrammierung
             </h1>
         </div>
         <div>
-            Wir sind Ihr Spezialist in den Bereichen:
+            Wir programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. Wir sind Spezialist in den Bereichen:
         </div>
         <ul class="icons-ul">
-          <li><i class="icon-li icon-ok"></i><strong> Individuelle Webprojekte</strong><br>vom kleinen Auftritt bis zur grossen Plattform</li>
-          <li><i class="icon-li icon-ok"></i><strong> mobile Applikationen</strong><br>iOS, Android, Windows oder webbasierte mobile Apps für B2C und B2B</li>
-          <li><i class="icon-li icon-ok"></i><strong> Content Management</strong><br>einfach zu bedienende Websites, ob lokal oder global</li>
-          <li><i class="icon-li icon-ok"></i><strong> Responsive Webdesign</strong><br>Webseiten, die in jeder Auflösung gut dastehen</li>
+          <li><i class="icon-li icon-ok"></i><strong>Individuelle Webprojekte</strong><br>vom kleinen Auftritt bis zum grossen Portal, welches mehrsprachig und multinational betrieben wird</li>
+          <li><i class="icon-li icon-ok"></i><strong>Schnittstellen</strong><br>und Anbindungen der Webprojekte an externe Services und bestehende Datenbanken</li>
+		  <li><i class="icon-li icon-ok"></i><strong>Content Management</strong><br>simple Leichtgewicht CMS, welche so einfach sind, dass sie auch von Laien bedient werden können</li>
+         
          </ul>
     </div>
 
 	<div class="span4">
         <div class="page-header">
-            <h1>to renew
-                <small> /rɪˈnjuː/</small>
-            </h1>
-        </div>
-        <blockquote>
-		    <ol>
-				<li>give fresh life or strength to</li>
-				<li>replace (something that is broken or worn out)</li>
-			</ol>
-			<small>Oxford Dictionaries</small>
-        </blockquote>
-        <br/>
-        <p>Renuo leitet sich vom englischen Wort <b>to renew</b> ab. Warum?<br>
-		Weil wir genau darin stark sind:<br>
-		Überarbeitung und Neuentwicklung von Systemen.
-		</p>
-    </div>	
-  
-    <div class="span4">
-        <div class="page-header">
-            <h1>News
-                <small> über die Renuo</small>
+            <h1>Responsive Webdesign
             </h1>
         </div>
         <div>
-            <p>
-			20.12.2013 Über die <b>Festtage</b> macht die Renuo Ferien 
-			25.11.2013 Diverse neue <b>Monitoring-Services</b><br> 
-			26.10.2013 Renuo am <b>StartUp Weekend</b><br> 
-            01.09.2013 Offizieller Partner von <b>STARTFELD</b><br>
-            01.07.2013 Renuo übernimmt <b>Hotfeet-Kunden</b><br>
-            14.03.2013 <b>swiss made software</b> Zertifizierung<br>			
-            12.02.2013 Renuo <b>gewinnt Green-Hackathon</b><br>
-			</p>
-			<p>
-			<a href="/news">alle News anzeigen</a>
-			</p>
+            Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht! 
         </div>
-        
-    </div>    
+        <div>
+            Die Inhalte werde dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert und ein Besucher behält den Überblick über die Inhalte. Erleben Sie Responsive Webdesign live, indem Sie die Renuo-Homepage auf verschiedenen Geräten betrachten!
+        </div>		
+    </div>	
 	
-	
-</div>
+	<div class="span4">
+        <div class="page-header">
+            <h1>Mobile Applikationen
+            </h1>
+        </div>
+        <div>
+            Wir entwickeln native und webbasierte mobile Applikationen für sowohl B2C- wie auch B2B-Apps. 
+        </div>
+    </div>	
 
-<!-- Team -->
+</div>
 
 
 <%# Technologien %>
 
 <div id="technologies"></div>
 <div class="row-fluid page-header-element">
-    <div class="span8">
+    <div class="span12">
         <div class="page-header">
-            <h1>Technologien
-                <small> Damit arbeiten wir gerne</small>
+            <h1>Ruby on Rails, HTML5, CSS3, JavaScript, jQuery
+                <small> und viele mehr</small>
             </h1>
         </div>
+    </div>
+</div>
+
+<div class="row-fluid page-section">
+    <div class="span8">
         <p>Um eine Internet Plattform oder eine Software Lösung zu entwickeln, setzen wir verschiedene Technologien ein.
             Wir wählen unter anderem anhand folgender Kriterien die Technologien aus:</p>
         <ul class="icons-ul">
@@ -130,11 +111,11 @@ technologySlider:
           <li><i class="icon-li icon-ok"></i><strong> Agilität: </strong> Wie einfach können Änderungen durchgeführt werden?</li>
           <li><i class="icon-li icon-ok"></i><strong> Verbreitung und Community: </strong> Wie verbreitet ist die Technologie und wie schnell entwickelt sich diese weiter?</li>
         </ul>
-    </div>
+	</div>
     <div class="span4">
         <%- @getSlider('technologyCarousel', @document.technologySlider) %>
     </div>
-</div>
+</div>	
 
 <div class="row-fluid" style="margin-top: 30px;">
     <div class="span4">

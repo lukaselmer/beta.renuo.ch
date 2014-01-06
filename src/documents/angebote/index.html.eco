@@ -9,10 +9,11 @@ position: 1
 <div class="row-fluid page-header-element">
     <div class="span12">
         <div class="page-header">
-            <h1>Angebote
-                <small>was wir Ihnen bieten können</small>
+            <h1>Webbasierte Softwareentwicklung
+                <small>auf höchstem Niveau</small>
             </h1>
         </div>
+		<p>Wir bieten Ihnen eine umfassende Beratung, Entwicklung und Betreeung Ihrer Webvision. 
     </div>
 </div>
 
