@@ -75,7 +75,7 @@ position: 4
                 <div><%- @image_tag 'lukas.jpg' %></div>
                 <h3>Lukas Elmer</h3>
 
-                <p>Web Entwickler, Gründer, B.Sc.<br/>
+                <p>Web Entwickler, Gründer, B.Sc. HSR<br/>
                     <a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></p>
                 <br/>
 
@@ -279,7 +279,7 @@ position: 4
                 <div><%- @image_tag 'ueli.jpg' %></div>
                 <h3>Ueli Kunz</h3>
 
-                <p>Web Entwickler, B.Sc.<br/>
+                <p>Web Entwickler, B.Sc. HSR<br/>
                     <a href="mailto:ueli.kunz@renuo.ch">ueli.kunz@renuo.ch</a></p>
 
                 <br/>
