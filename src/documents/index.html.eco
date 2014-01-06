@@ -46,7 +46,7 @@ technologySlider:
 <div class="row-fluid page-header-element">
     <div class="span4">
         <div class="page-header">
-            <h1>Web Pro&shy;gram&shy;mier&shy;ung
+            <h1>Web</br>Pro&shy;gram&shy;mier&shy;ung
             </h1>
         </div>
         <div>
@@ -62,7 +62,7 @@ technologySlider:
 
 	<div class="span4">
         <div class="page-header">
-            <h1>Res&shy;pon&shy;sive Web&shy;design
+            <h1>Res&shy;pon&shy;sive</br>Web&shy;design
             </h1>
         </div>
         <div>
@@ -73,7 +73,7 @@ technologySlider:
 	
 	<div class="span4">
         <div class="page-header">
-            <h1>Mobile App&shy;lika&shy;tionen
+            <h1>Mobile</br>App&shy;lika&shy;tionen
             </h1>
         </div>
         <div>
@@ -98,7 +98,7 @@ technologySlider:
 </div>
 
 <div class="row-fluid page-section">
-    <div class="span9">
+    <div class="span8">
         <p>Um eine Internet Plattform oder eine Software Lösung zu entwickeln, setzen wir verschiedene Technologien ein.
             Wir wählen unter anderem anhand folgender Kriterien die Technologien aus:</p>
         <ul class="icons-ul">
