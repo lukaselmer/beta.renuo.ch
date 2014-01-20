@@ -9,7 +9,7 @@ position: 1
 <div class="row-fluid page-header-element">
     <div class="span12">
         <div class="page-header">
-            <h1>Webbasierte Softwareentwicklung
+            <h1>Web&shy;ba&shy;sier&shy;te Soft&shy;ware&shy;ent&shy;wick&shy;lung
                 <small>auf höchstem Niveau</small>
             </h1>
         </div>
@@ -43,7 +43,7 @@ position: 1
 <div class="row-fluid page-section">
 
     <div class="span6">
-        <h2>Konzeption</h2>
+        <h2>Kon&shy;zep&shy;tion</h2>
         <div>
             <h3><small>Zielgerichtete Strategie mit Blick in die Zukunft</small></h3>In der 
             Konzeptionsphase geht es darum zu verstehen, wohin Sie wollen. Was sind Ihre Ziele, welche Nutzergruppen 
@@ -74,7 +74,7 @@ position: 1
 <div class="row-fluid page-section">
 
     <div class="span6">
-        <h2>Entwicklung</h2>
+        <h2>Ent&shy;wick&shy;lung</h2>
         <div>
             <h3><small>Innovative Software mithilfe modernster Technologien</small></h3><p>Die Entwicklung innovativer
             Software im Web ist unsere Kernkompetenz. In der Entwicklungsphase wird der eigentliche Code geschrieben 
@@ -117,7 +117,7 @@ Aus diesem Grund ist ein Monitoring der JavaScript Funktionen sehr wichtig.</li>
 <div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div class="page-header">
-            <h1>Consulting
+            <h1>Con&shy;sul&shy;ting
                 <small>Unser Know-How in Ihrem Büro</small>
             </h1>
         </div>

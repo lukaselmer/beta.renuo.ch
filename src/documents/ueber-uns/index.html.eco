@@ -9,7 +9,7 @@ position: 4
 <div class="row-fluid page-header-element">
     <div class="span12">
         <div class="page-header">
-            <h1>Unser Hintergrund
+            <h1>Unser Hinter&shy;grund
                 <small> und was Sie erwarten dürfen</small>
             </h1>
         </div>
@@ -341,7 +341,7 @@ position: 4
 <div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div class="page-header">
-            <h2>Agiles Projektmanagement
+            <h2>Agiles Projekt&shy;management
                 <small> Schritt um Schritt zum Ziel</small>
             </h2>
         </div>
@@ -365,7 +365,7 @@ position: 4
 <div class="row-fluid page-header-element page-section">
     <div class="span6">
         <div class="page-header">
-            <h2>Enge Zusammenarbeit
+            <h2>Enge Zusammen&shy;arbeit
                 <br><small> Vertrauen ist gut, Kontrolle ist besser</small>
             </h2>
         </div>
