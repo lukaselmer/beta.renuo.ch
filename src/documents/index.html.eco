@@ -46,11 +46,11 @@ technologySlider:
 <div class="row-fluid page-header-element">
     <div class="span4">
         <div class="page-header">
-            <h1>Web</br> Pro&shy;gram&shy;mier&shy;ung
+            <h1>Web Ent&shy;wick&shy;lung /</br> Pro&shy;gram&shy;mier&shy;ung
             </h1>
         </div>
         <div>
-            <p>Wir programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. Wir sind Spezialist in den Bereichen:</p>
+            <p>Wir entwickeln und programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. Wir sind Spezialist in den Bereichen:</p>
         </div>
         <ul class="icons-ul">
           <li><i class="icon-li icon-ok"></i><strong>Individuelle Webprojekte</strong><br>vom kleinen Auftritt bis zum grossen Portal, welches mehrsprachig und multinational betrieben wird</li>
@@ -90,8 +90,8 @@ technologySlider:
 <div class="row-fluid page-header-element">
     <div class="span12">
         <div class="page-header">
-            <h1>Ruby on Rails, HTML5, CSS3, JavaScript, jQuery
-                <small> und viele mehr</small>
+            <h1>Ruby on Rails, HTML5, JavaScript, 
+                <small> CSS3, jQuery und viele mehr</small>
             </h1>
         </div>
     </div>
