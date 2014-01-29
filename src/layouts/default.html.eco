@@ -11,6 +11,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title><%= @getPreparedTitle() %></title>
+  
+<!--
+                    .,,,.
+                  .///////.
+                 ,//////////
+                /////////////           Wir suchen Web-Entwickler!
+               ///////////////
+              ,////////////////         Besitzt Du Know-How in Ruby on Rails,
+              /////////////////.        HTML5 oder JavaScript?
+             ,//////////////////        Du möchtest parallel zum Studium arbeiten?
+             ///////////////////        Du möchtest von zu Hause aus arbeiten?
+             ///////////////////        
+             ///////////////////        
+             ///////////////////
+             ,/////////////////,        Dann sende uns Deine vollständige
+              ////////////////,         Unterlagen an jobs@renuo.ch
+               //////////////,
+                .///////////.	        Wir freuen uns auf Dich.
+                  .,/////,,
+-->  
 
   <link rel="shortcut icon" type="image/x-icon" href="/ico/favicon.ico">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
