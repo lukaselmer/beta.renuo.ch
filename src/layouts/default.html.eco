@@ -11,25 +11,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title><%= @getPreparedTitle() %></title>
-  
+
 <!--
-                    .,,,.
-                  .///////.
-                 ,//////////
-                /////////////           Wir suchen Web-Entwickler!
-               ///////////////
-              ,////////////////         Besitzt Du Know-How in Ruby on Rails,
-              /////////////////.        HTML5 oder JavaScript?
-             ,//////////////////        Du möchtest parallel zum Studium arbeiten?
-             ///////////////////        Du möchtest von zu Hause aus arbeiten?
-             ///////////////////        
-             ///////////////////        
-             ///////////////////
-             ,/////////////////,        Dann sende uns Deine vollständige
-              ////////////////,         Unterlagen an jobs@renuo.ch
-               //////////////,
-                .///////////.	        Wir freuen uns auf Dich.
-                  .,/////,,
+  
+                  `..-    `///:-.`                  
+             `-:+oooooo:`  `/yhhhhyo/-`             
+          .:+ooooooooooo/    -hhhhhhhhhs/`          
+       `:+oooooooooooo+.   .ohhhhhhhhhhhhho-        
+     `:ooooooooooo+/:.     -::/+syhhhhhhhhhhs.      
+    .+oooooooo+/-`               `-/shhhhhhhhh+`    		Wir suchen Web-Entwickler!
+   -oooooooo+-`                      -ohhhhhhhhs`   		
+  :oooooooo:`                          -yhhhhhhhs`  		Besitzt Du Know-How in Ruby on Rails,
+ .oooooooo.                             `ohhhhhhho  		HTML5 oder JavaScript?
+ +ooooooo.                               `yhhhhhhh- 		Du möchtest parallel zum Studium arbeiten?
+.ooooooo/                                 -hhhhhhho 		Du möchtest von zu Hause aus arbeiten?
+-ooooooo-                                  hhhhhhhy 
+-ooooooo-                                  hhhhhhhy 
+.ooooooo:                                 .hhhhhhhs 		Dann sende uns Deine vollständigen
+`oooooooo`                                ohhhhhhh/ 		Unterlagen an jobs@renuo.ch
+ :ooooooo+`                              /hhhhhhhy` 
+  /ooooooo+.                           `+hhhhhhhh-  		Wir freuen uns auf Dich!
+  `/oooooooo:`                       `:yhhhhhhhh-   
+    :ooooooooo/.`                  ./yhhhhhhhhy.    
+     .+ooooooooo+/:-.``       .-/oyhhhhhhhhhh/`     
+       -+oooooooooooooo/`   .ohhhhhhhhhhhhh+`       
+         .:+ooooooooo/.   -ohhhhhhhhhhhhs:`         
+            .:/oooooo+-   .+hhhhhhhhy+:`            
+                `.-://+/.   `+o+/:.`   
+
+  
 -->  
 
   <link rel="shortcut icon" type="image/x-icon" href="/ico/favicon.ico">
