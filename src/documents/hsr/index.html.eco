@@ -2,8 +2,8 @@
 layout: 'default'
 title: 'HSR'
 description: 'Offene Stellen für HSR-Studenten'
-isMainNavi: 1
-position: 
+isMainNavi: [hidden]
+position: [hidden]
 ---
 
 <div class="row-fluid page-header-element page-section">
