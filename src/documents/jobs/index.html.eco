@@ -41,7 +41,7 @@ position: 5
         <p>
 		Derzeit haben wir folgende offene Stellen:
 		</p>
-		<ul class="icons-ul">
+		<ul>
           <li><a href="/pdfs/werkstudent_ab_sofort.pdf">ab sofort: Software-Engineer Werkstudent</a></li>
           <li><a href="/pdfs/14-09-ims-praktikant.pdf">ab 15. September 2014: IMS-Praktikant</a></li>
 		</ul>  
