@@ -1,0 +1,35 @@
+﻿--- yaml
+layout: 'default'
+title: 'HSR'
+description: 'Offene Stellen für HSR-Studenten'
+isMainNavi: 1
+position: 
+---
+
+<div class="row-fluid page-header-element page-section">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Jobs
+                <small>yes!</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid">
+
+    <div class="span12">
+	<h3>Werkstudent bei der Renuo</h3>
+        <p>
+		Wir suchen ab sofort einen Werkstudenten, welcher zusammen mit uns webbasierte Softwareentwicklung lebt! Was können wir Dir bieten?
+		</p>
+		<ul class="icons-ul">
+          <li><i class="icon-li icon-ok"></i> Spannende und vielseitige Tätigkeit</li>
+          <li><i class="icon-li icon-ok"></i> Neue Technologien</li>
+          <li><i class="icon-li icon-ok"></i> Selbständige Arbeitsweise</li>
+          <li><i class="icon-li icon-ok"></i> Flexible Arbeitszeiten</li>
+          <li><i class="icon-li icon-ok"></i> Ein technisch sehr kompetentes, motiviertes, kollegiales und junges Team</li>
+		</ul>  
+    </div>
+	
+</div>	
