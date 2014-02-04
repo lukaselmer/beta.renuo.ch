@@ -6,7 +6,7 @@ isMainNavi: 1
 position: 5
 ---
 
-<div class="row-fluid page-header-element page-section">
+<div class="row-fluid page-header-element page-section" style="margin-bottom: 10px;">
     <div class="span12">
         <div class="page-header">
             <h1>Offene Stellen</h1>
