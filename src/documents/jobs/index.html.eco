@@ -14,11 +14,8 @@ position: 5
             </h1>
         </div>
     </div>
-</div>
-
-<div class="row-fluid">
-
-    <div class="span12">
+	
+	<div class="span12">
 	<h3>Warum bei der Renuo arbeiten?</h3>
         <p>
 		Vielleicht hast Du schon immer geträumt, mit uns zu arbeiten. Falls nicht: Es gibt auch noch andere Gründe, dies mit uns zu tun:
@@ -31,13 +28,9 @@ position: 5
           <li><i class="icon-li icon-ok"></i> Ein technisch sehr kompetentes, motiviertes, kollegiales und junges Team</li>
 		</ul>  
     </div>
-	
-</div>	
-
-<div class="row-fluid">
 
     <div class="span12">
-	<h3>Offene Stellen?</h3>
+	<h3>Offene Stellen</h3>
         <p>
 		Derzeit haben wir folgende offene Stellen:
 		</p>
@@ -47,5 +40,14 @@ position: 5
 		</ul>  
 		<p>Wir freuen uns auch auf Initiativbewerbunen an jobs@renuo.ch!</p>
     </div>
+
+	<blockquote>Nie ist das menschliche Gemüt heiterer gestimmt, als wenn es seine richtige Arbeit gefunden hat.
+    <small>Wilhelm von Humboldt</small>
+    </blockquote>	
 	
 </div>
+
+
+
+
+
