@@ -8,8 +8,8 @@ position:
 <div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div class="page-header">
-            <h1>Jobs
-                <small>yes!</small>
+            <h1>Du bist HSR'ler?
+                <small>Wir auch!</small>
             </h1>
         </div>
     </div>
@@ -18,17 +18,44 @@ position:
 <div class="row-fluid">
 
     <div class="span12">
-	<h3>Werkstudent bei der Renuo</h3>
+	<h3>Wir suchen ab sofort einen Werkstudenten</h3>
         <p>
-		Wir suchen ab sofort einen Werkstudenten, welcher zusammen mit uns webbasierte Softwareentwicklung lebt! Was können wir Dir bieten?
+		Wir suchen ab sofort einen Werkstudenten, welcher zusammen mit uns webbasierte Softwareentwicklung lebt! 
 		</p>
+		<h2>Was können wir Dir bieten?</h2>
 		<ul class="icons-ul">
           <li><i class="icon-li icon-ok"></i> Spannende und vielseitige Tätigkeit</li>
           <li><i class="icon-li icon-ok"></i> Neue Technologien</li>
           <li><i class="icon-li icon-ok"></i> Selbständige Arbeitsweise</li>
           <li><i class="icon-li icon-ok"></i> Flexible Arbeitszeiten</li>
           <li><i class="icon-li icon-ok"></i> Ein technisch sehr kompetentes, motiviertes, kollegiales und junges Team</li>
-		</ul>  
+		</ul>
+		<h2>Was erwarten wir?</h2>
+		<ul class="icons-ul">
+          <li><i class="icon-li icon-ok"></i> Du hast praktische Erfahrungen in der Web-Programmierung</li>
+          <li><i class="icon-li icon-ok"></i> Du kannst sehr selbständig arbeiten</li>
+          <li><i class="icon-li icon-ok"></i> Du kannst klar kommunizieren</li>
+		  <li><i class="icon-li icon-ok"></i> Deine Noten der HSR sind gut</li>
+		</ul>
+		<h2>Was würden wir mit Dir anstellen?</h2>
+		<ul class="icons-ul">
+          <li><i class="icon-li icon-ok"></i> Softwareentwicklung mit Web Technologien (Ruby on Rails / HTML5 / Javascript)</li>
+          <li><i class="icon-li icon-ok"></i> Anforderungsanalyse, Technische Betreuung und Beratung von Kunden</li>
+          <li><i class="icon-li icon-ok"></i> Datenbank Design mit SQL (MySQL, Postgres)</li>
+		  <li><i class="icon-li icon-ok"></i> Mitwirkung im Projektmanagement mit Scrum</li>
+		</ul>		
     </div>
+	
+	<div class="span2">
+	        <img src="/images/diego.jpg">
+	</div>
+
+	<div class="span1">
+    </div>	
+	
+	<div class="span9">
+	<h3>Next step</h3>
+	<p> Schreib eine E-Mail an diego@renuo.ch und unterhalte Dich an über einen Kaffe über Möglichkeiten und Chancen. Wo? Natürlich an der HSR. Der Kaffee geht auf uns!</p>
+	</div>
 	
 </div>	
