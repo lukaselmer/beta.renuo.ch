@@ -2,6 +2,18 @@ $ ->
   $(document).ready ->
     if($("#map_canvas").length >= 1)
       myLatlng = new google.maps.LatLng(47.421761, 8.499641)
+
+      map_styles = [
+        {
+          "elementType": "geometry",
+          "stylers": [
+            { "hue": "#0088ff" },
+            { "saturation": 39 },
+            { "gamma": 0.83 }
+          ]
+        }
+      ]
+
       mapOptions = {
         zoom: 14,
         center: myLatlng,
@@ -17,6 +29,7 @@ $ ->
         scaleControl: false,
         streetViewControl: false,
         mapTypeControl: false
+        styles: map_styles
       }
       map = new google.maps.Map($('#map_canvas')[0], mapOptions)
 
