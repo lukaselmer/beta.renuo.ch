@@ -18,7 +18,7 @@ position: 5
     <div class="span6">
         <p>Derzeit haben wir folgende offene Stellen:</p>
 		<ul>
-                	<li><a href="/hsr">HSR Teilzeit Software Engineer (Ruby on Rails)</a></li>
+                	<li><a href="/hsr">Teilzeitstelle Software Engineer (Ruby on Rails) für <b>HSR Studenten</b></a></li>
           		<li><a href="/pdfs/0914-ims-praktikant.pdf">IMS Praktikant (Ruby on Rails), ab September 2014</a></li>
 		</ul> 
 		
@@ -29,7 +29,7 @@ position: 5
     </div>	
 	
 	<div class="span3">
-	</br>
+	<br/>
 	<blockquote>Nie ist das menschliche Gemüt heiterer gestimmt, als wenn es seine richtige Arbeit gefunden hat.
     <small>Wilhelm von Humboldt</small>
     </blockquote>	
