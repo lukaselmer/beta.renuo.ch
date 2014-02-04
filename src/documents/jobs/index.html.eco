@@ -18,12 +18,6 @@ position: 5
 
 <div class="row-fluid">	
 
-	<div class="span6">
-	<blockquote>Nie ist das menschliche Gemüt heiterer gestimmt, als wenn es seine richtige Arbeit gefunden hat.
-    <small>Wilhelm von Humboldt</small>
-    </blockquote>	
-    </div>
-	
     <div class="span6">
 	<h3>Offene Stellen</h3>
         <p>
@@ -35,6 +29,12 @@ position: 5
 		</ul>  
 		<p>Wir freuen uns auch auf Initiativbewerbunen an jobs@renuo.ch!</p>
     </div>
+	
+	<div class="span4">
+	<blockquote>Nie ist das menschliche Gemüt heiterer gestimmt, als wenn es seine richtige Arbeit gefunden hat.
+    <small>Wilhelm von Humboldt</small>
+    </blockquote>	
+    </div>	
 
 	<div class="span12">
 	<h3>Warum bei der Renuo arbeiten?</h3>
