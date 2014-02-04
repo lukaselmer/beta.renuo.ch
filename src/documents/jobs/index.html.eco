@@ -14,29 +14,29 @@ position: 5
     </div>
 </div>
 
-<div class="row-fluid">	
+<div class="row-fluid">
     <div class="span6">
         <p>Derzeit haben wir folgende offene Stellen:</p>
 		<ul>
                 	<li><a href="/hsr">Teilzeitstelle Software Engineer (Ruby on Rails) für <b>HSR Studenten</b></a></li>
           		<li><a href="/pdfs/0914-ims-praktikant.pdf">IMS Praktikant (Ruby on Rails), ab September 2014</a></li>
-		</ul> 
-		
-		</br><p>Wir freuen uns auch auf Initiativbewerbungen an <a href="mailto:jobs@renuo.ch">jobs@renuo.ch</a>!</p>
+		</ul>
+
+		<br/><p>Wir freuen uns auch auf Initiativbewerbungen an <a href="mailto:jobs@renuo.ch">jobs@renuo.ch</a>!</p>
     </div>
-	
+
 	<div class="span1">
-    </div>	
-	
+    </div>
+
 	<div class="span3">
 	<br/>
 	<blockquote>Nie ist das menschliche Gemüt heiterer gestimmt, als wenn es seine richtige Arbeit gefunden hat.
     <small>Wilhelm von Humboldt</small>
-    </blockquote>	
+    </blockquote>
     </div>
 </div>
 <br/>
-<div class="row-fluid">		
+<div class="row-fluid">
 	<div class="span12">
 		<h3>Warum bei der Renuo arbeiten?</h3>
         	<p>
@@ -48,7 +48,7 @@ position: 5
 			<li><i class="icon-li icon-ok"></i> Selbständige Arbeitsweise</li>
 			<li><i class="icon-li icon-ok"></i> Flexible Arbeitszeiten</li>
 			<li><i class="icon-li icon-ok"></i> Ein technisch sehr kompetentes, motiviertes, kollegiales und junges Team</li>
-		</ul>  
+		</ul>
 	</div>
 </div>
 
