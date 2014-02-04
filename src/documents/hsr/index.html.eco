@@ -49,16 +49,14 @@ position:
 </div>
 	
 <div class="row-fluid">	
-	<div class="span2">
+	<div class="span1">
 	        <img src="/images/diego.jpg">
 	</div>
 
-	<div class="span1">
-    </div>	
-	
-	<div class="span9">
+
+	<div class="span4">
 	<h3>Next step</h3>
-	<p> Schreib eine E-Mail an diego@renuo.ch und unterhalte Dich an über einen Kaffe über Möglichkeiten und Chancen. Wo? Natürlich an der HSR. Der Kaffee geht auf uns!</p>
+	<p> Schreib eine E-Mail an <a href="mailto:diego@renuo.ch">diego@renuo.ch</a> und unterhalte Dich an über einen Kaffe über Möglichkeiten und Chancen.</p><p>Wo? Natürlich an der HSR. Der Kaffee geht auf uns!</p>
 	</div>
 	
 </div>	

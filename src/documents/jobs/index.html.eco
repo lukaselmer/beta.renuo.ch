@@ -19,14 +19,18 @@ position: 5
     <div class="span6">
         <p>Derzeit haben wir folgende offene Stellen:</p>
 		<ul>
-          <li><a href="/pdfs/sofort-hsr-werkstudent.pdf">ab sofort: Software-Engineer Werkstudent</a></li>
-          <li><a href="/pdfs/0914-ims-praktikant.pdf">ab 15. September 2014: IMS-Praktikant</a></li>
+          <h3><li><a href="/hsr">ab sofort: Software-Engineer Werkstudent</a></li></h3>
+          <h3><li><a href="/pdfs/0914-ims-praktikant.pdf">ab 15. September 2014: IMS-Praktikant</a></li></h3>
 		</ul> 
 		
-		<p>Wir freuen uns auch auf Initiativbewerbunen an jobs@renuo.ch!</p>
+		<p>Wir freuen uns auch auf Initiativbewerbunen an <a href="mailto:jobs@renuo.ch">jobs@renuo.ch</a>!</p>
     </div>
 	
-	<div class="span4">
+	<div class="span1">
+    </div>	
+	
+	<div class="span3">
+	</br>
 	<blockquote>Nie ist das menschliche Gemüt heiterer gestimmt, als wenn es seine richtige Arbeit gefunden hat.
     <small>Wilhelm von Humboldt</small>
     </blockquote>	
