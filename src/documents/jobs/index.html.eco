@@ -14,7 +14,25 @@ position: 5
             </h1>
         </div>
     </div>
+
+	<div class="span12">
+	<blockquote>Nie ist das menschliche Gemüt heiterer gestimmt, als wenn es seine richtige Arbeit gefunden hat.
+    <small>Wilhelm von Humboldt</small>
+    </blockquote>	
+    </div>
 	
+    <div class="span12">
+	<h3>Offene Stellen</h3>
+        <p>
+		Derzeit haben wir folgende offene Stellen:
+		</p>
+		<ul>
+          <li><a href="/pdfs/sofort-hsr-werkstudent.pdf">ab sofort: Software-Engineer Werkstudent</a></li>
+          <li><a href="/pdfs/0914-ims-praktikant.pdf">ab 15. September 2014: IMS-Praktikant</a></li>
+		</ul>  
+		<p>Wir freuen uns auch auf Initiativbewerbunen an jobs@renuo.ch!</p>
+    </div>
+
 	<div class="span12">
 	<h3>Warum bei der Renuo arbeiten?</h3>
         <p>
@@ -28,22 +46,6 @@ position: 5
           <li><i class="icon-li icon-ok"></i> Ein technisch sehr kompetentes, motiviertes, kollegiales und junges Team</li>
 		</ul>  
     </div>
-
-    <div class="span12">
-	<h3>Offene Stellen</h3>
-        <p>
-		Derzeit haben wir folgende offene Stellen:
-		</p>
-		<ul>
-          <li><a href="/pdfs/sofort-hsr-werkstudent.pdf">ab sofort: Software-Engineer Werkstudent</a></li>
-          <li><a href="/pdfs/0914-ims-praktikant.pdf">ab 15. September 2014: IMS-Praktikant</a></li>
-		</ul>  
-		<p>Wir freuen uns auch auf Initiativbewerbunen an jobs@renuo.ch!</p>
-    </div>
-
-	<blockquote>Nie ist das menschliche Gemüt heiterer gestimmt, als wenn es seine richtige Arbeit gefunden hat.
-    <small>Wilhelm von Humboldt</small>
-    </blockquote>	
 	
 </div>
 
