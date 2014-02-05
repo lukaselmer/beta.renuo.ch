@@ -5,17 +5,18 @@ $ ->
 
       map_styles = [
         {
-          "elementType": "geometry",
           "stylers": [
-            { "hue": "#0088ff" },
-            { "saturation": 39 },
-            { "gamma": 0.83 }
+            { "visibility": "on" },
+			{ "hue": "#0088ff" },
+            { "saturation": -70 },
+			{ "lightness": 29 },
+            { "gamma": 0.47 }
           ]
         }
       ]
 
       mapOptions = {
-        zoom: 14,
+        zoom: 10,
         center: myLatlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         draggable: false,
