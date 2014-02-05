@@ -2,7 +2,7 @@
 layout: 'default'
 title: 'Technologien'
 description: 'Technologien, die von der Renuo GmbH eingesetzt werden.'
-isMainNavi: 1
+#isMainNavi: 1
 position: 6
 ---
 
@@ -19,16 +19,78 @@ position: 6
 <div class="row-fluid">
 
     <div class="span4">
-	<h3>Twitter Bootstrap</h3>
+        <h2>Ruby on Rails
+            <br><small>Schnelle Entwicklung</small>
+        </h2>
+        <p>Um der Applikation ein kräftiges Backend zu verleihen, das schnell, einfach und kosteneffizient entwickelt
+            werden
+            kann, setzen wir auf Ruby on Rails.</p>
+
+        <p>Durch Konvention über Konfiguration ist es den Entwicklern möglich, dank logischen Standardwerten nur die
+            Werte
+            anzupassen, die für die spezifische
+            Lösung benötigt werden. Dadurch wird weniger Code produziert, wodurch die Entwicklung beschleunigt und die
+            Wartung
+            effizienter wird.</p>
+
+        <p>Ruby on Rails wurde schon in vielen Projekten eingesetzt
+            (zum Beispiel bei <a href="http://www.twitter.com/" target="_blank">Twitter</a>,
+            <a href="http://www.groupon.com/" target="_blank">Groupon</a>,
+            <a href="http://www.xing.com" target="_blank">Xing</a>, usw.)
+            und überzeugt immer wieder mit Innovation.
+            Weitere Informationen zu Ruby on Rails finden Sie unter:
+            <a href="http://rubyonrails.org/applications" target="_blank">http://rubyonrails.org</a></p>
+
+        <img src="/images/rubyonrails.png" alt="Ruby on Rails Logo">
+    </div>
+
+    <div class="span4" id="jquery">
+        <h2>jQuery
+            <br><small>DIE JavaScript Bibliothek</small>
+        </h2>
+        <p>Während früher Internetseiten meistens statisch und ohne JavaScript funktionierten, ist es heute nicht mehr
+            wegzudenken, ohne JavaScript zu arbeiten. Da viele
+            verschiedene Endgeräte und Browser unterstützt werden müssen, setzen wir jQuery ein.</p>
+
+        <p>jQuery vereinfacht die Bearbeitung von HTML direkt auf dem Endgerät. Dadurch ist es z.B. möglich, Animationen
+            oder Dialoge einzublenden. Weiter ermöglicht
+            jQuery sogenannte AJAX Abfragen, damit nicht immer die ganze Seite neu geladen werden muss, sondern nur ein
+            kleiner Teil bearbeitet wird.</p>
+
+        <p>Die Verbreitung von jQuery im Web spricht für sich (je nach Quelle bei 50% oder mehr Internetseiten
+            verwendet).
+            Die aktive Community entwickelt diese Bibliothek
+            auch stetig weiter, damit neue Browser und neue Standards stets unterstützt werden.</p>
+
+        <img src="/images/jquery.png" alt="jQuery Logo">
+    </div>
+
+    <div class="span4">
+	    <h3>Javascript</h3>
+        <p>Als Javascript im Jahr 1995 entwickelt wurde, war sie eigentlich nur als "Hack" gedacht, um Internetseiten dynamisch zu gestalten. Da die Sprache etwas anders funktioniert wir viele andere objektorientierte Programmiersprachen war sie, und ist sie bis heute, einigen Software Entwicklern unbeliebt. Allerdings verbreitete sich Javascript in den letzten paar Jahren immer weiter, da sie eine sehr kompakte Sprache ist, und sich somit auch auf mobilen Geräten wie z.B. Mobiltelefonen oder Tablets durchsetzte. Dies ist eine der wenigen Technologien, die sowohl auf Apple, Microsoft, wie auch auf Google Produkten gut funktioniert.</p>
+        <p>Aus all diesen Gründen steht Javascript eine gute Zukunft bevor. Und wer heute im Web kein Javascript einsetzt, der hat schon fast verloren.</p>
+        <img src="/images/javascript.png" alt="JavaScript Logo">
+    </div>
+
+    <div class="span4">
+	    <h3>HTML5 und CSS3</h3>
+        <p>Der Nachfolger des HTML4 ist die Grundlage des WWW und praktisch jeder Internetseite heutzutags. Bei der Erarbeitung des neuen Standards wurden, um Vergleich zu früher, auch Webentwickler aus der Praxis miteinbezogen. Deshalb ist der neue Standard für Entwickler etwas einfacher anzuwenden, und dadurch wird die Entwicklung beschleunigt.</p>
+	    <h3>CSS3</h3>
+        <p>CSS3 geht Hand in Hand mit HTML5. Es ist die Sprache des Designs, und vermehrt auch die Sprache der Animationen. In vielen Projekten entwickelt der Designer ein initiales CSS, das dann später vom Entwickler bearbeitet werden kann. Um dieses Zusammenspiel zu standardisieren, werden Frontend Frameworks wie z.B. <a href="#twitter_bootstrap">Twitter Bootstrap</a> eingesetzt.</p>
+        <img src="/images/css3.png" alt="CSS3 Logo">
+        <img src="/images/html5.png" alt="HTML5 Logo">
+    </div>
+
+    <div class="span4" id="twitter_bootstrap">
+	    <h3>Twitter Bootstrap</h3>
         <p>
-		    <a href="http://getbootstrap.com/">Twitter Bootstrap</a> wurde von Twitter selbst entwickelt und als <a href="https://github.com/twbs/bootstrap">Open Source Projekt</a> zur Verfügung gestellt. Twitter Bootstrap stellt Standardelemente wie zum Beispiel <button href="#">Buttons</button> zur Verfügung, die dann in allen Browsern angezeigt werden. Für Designer bietet das Framework einen Standard, damit die Umsetzung des Designs.... tbd
+		    <a href="http://getbootstrap.com/">Twitter Bootstrap</a> wurde von Twitter selbst entwickelt und als <a href="https://github.com/twbs/bootstrap">Open Source Projekt</a> zur Verfügung gestellt. Twitter Bootstrap stellt Standardelemente wie zum Beispiel <button href="#">Buttons</button> zur Verfügung, die dann in allen Browsern angezeigt werden. Für Designer und Entwickler bietet das Framework einen Standard, damit die Umsetzung des HTML Codes in vielen Bereichen vereinheitlicht wird. Somit ist es einfacher möglich, um bestehende Arbeiten wiederzuverwenden, neu zu designen, ohne dass der HTML Code umgeschrieben werden muss. Dies führt schlussendlich zu einer Reduktion der Kosten.
 		</p>
+		<p>
+		    Sie möchten ihre Businessidee starte, ohne ein Design zu erstellen, weil Sie sich zuerst auf die Funktionalität fokussieren möchten? Dann können Sie gerne einmal <a href="http://bootswatch.com/">Bootswatch</a> oder <a href="https://wrapbootstrap.com/">{wrap}bootstrap</a> ansehen und ein Design heraussuchen. Diese Designs sind schon soweit vorprogrammiert, dass sie kostengünstig von uns eingebaut werden können!
+		</p>
+
+        <img src="/images/technologien/twb.png">
     </div>
 
-	<div class="span4">
-    </div>
-
-	<div class="span4">
-        <img src="/images/news/adwords-logo.jpg">
-    </div>
 </div>
