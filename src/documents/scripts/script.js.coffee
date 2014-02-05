@@ -12,11 +12,11 @@ $ ->
             { "weight": 0.6 }
           ]
         },{
-    "featureType": "road.highway.controlled_access",
-    "stylers": [
-      { "visibility": "off" }
-    ]
-  },{
+	      "featureType": "road.highway.controlled_access",
+          "stylers": [
+            { "visibility": "off" }
+          ]
+        },{
           "featureType": "administrative",
           "stylers": [
             { "color": "#0140c9" },
