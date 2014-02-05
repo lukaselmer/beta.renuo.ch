@@ -13,7 +13,7 @@ slider:
         image: /images/vebis/responsive.png
         image_alt: Responsive Layout
         title: Responsive Layout
-        subtitle: Die ganze Applikation ist responsiv geschrieben. Dies bedeutet, dass sich die Webpage auf alle mobile Geräte anpasst. 
+        subtitle: Die ganze Applikation ist responsiv geschrieben. Dies bedeutet, dass sich die Webpage auf alle mobile Geräte anpasst.
     -
         image: /images/vebis/vebis_landing.png
         image_alt: Landingpage von VeBiS
@@ -28,7 +28,7 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Die Webseite des Verein der Biologiestudierenden war veraltet und entsprach nicht mehr den Anforderungen der Studierenden sowie des Vereinsvorstands. Aus diesem Grund musste eine neue Webseite programmiert werden.</p>
+            <p>Die Webseite des Verein der Biologiestudierenden war veraltet und  entsprach nicht mehr den Anforderungen der Studierenden sowie des Vereinsvorstands. Speziell bezüglich Sicherheit gab es gefährliche Sicherheitslücken. Der Aufwand, die bereits bestehende Seite zu aktualisieren, wäre höher gewesen, als einen neuen Webauftritt zu erstellen. Zudem wurde die Seite auf mobilen Geräten suboptimal dargestellt. Aus diesen Gründen musste eine neue Webseite programmiert werden.</p>
 
         </div>
     </div>
@@ -38,7 +38,14 @@ slider:
 
         <div>
             <p>
-               Basierend auf dem Wordpress-Framework und PHP wurden zahlreiche Features entwickelt, welche dem Verein helfen, die Webseite aktuell zu halten. Neben einem Loginbereich für Studierende gibt es einen Eventkalender, Forumsbereich, Downloadarea uvm.
+               In enger Zusammenarbeit mit der <a href="https://www.webeo.ch/">Webeo Gmbh</a> wurde basierend auf dem Wordpress-Framework und PHP der Webauftritt des Biologievereins der ETH neu entwickelt. Dabei wurden neben Wordpress und PHP die Technologien <a href=/twitter-bootstrap/">Twitter Bootstrap</a> und jQuery
+
+               .....
+
+
+               , PHP, Zend wurden zahlreiche Features entwickelt, welche dem Verein helfen, die Webseite aktuell zu halten.
+
+               Neben einem Loginbereich für Studierende gibt es einen Eventkalender, Forumsbereich, Downloadarea uvm.
 			   Die Homepage ist durchgängig responsive, basiert auf einem Flat-Ansatz und ist durchgängig mobile first programmiert.
             </p>
         </div>
