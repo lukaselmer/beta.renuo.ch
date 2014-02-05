@@ -7,9 +7,9 @@ $ ->
         {
           "stylers": [
             { "visibility": "on" },
-			{ "hue": "#e4eef6" },
+            { "hue": "#e4eef6" },
             { "saturation": -70 },
-			{ "lightness": 29 },
+            { "lightness": 29 },
             { "gamma": 0.47 }
           ]
         }
