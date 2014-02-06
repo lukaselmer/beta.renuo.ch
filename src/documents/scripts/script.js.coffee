@@ -4,22 +4,20 @@ $ ->
       myLatlng = new google.maps.LatLng(47.421761, 8.499641)
 
       map_styles = [
-  {
-    "featureType": "road",
-    "elementType": "geometry",
-    "stylers": [
-      { "color": "#78b3ed" }
-    ]
-  },{
-    "featureType": "administrative",
-    "stylers": [
-      { "color": "#0140c9" },
-      { "weight": 0.1 }
-    ]
-  },{
-  },{
-  }
-]
+        {
+          "featureType": "road",
+          "elementType": "geometry",
+          "stylers": [
+            { "color": "#78b3ed" }
+          ]
+        },{
+          "featureType": "administrative",
+          "stylers": [
+            { "color": "#0140c9" },
+            { "weight": 0.1 }
+          ]
+        }
+      ]
 
       mapOptions = {
         zoom: 10,
