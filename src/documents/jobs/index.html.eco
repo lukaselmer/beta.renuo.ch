@@ -15,7 +15,7 @@ position: 5
 </div>
 
 <div class="row-fluid">
-    <div class="span6">
+    <div class="span7">
         <p>Derzeit haben wir folgende offene Stellen:</p>
 		<ul>
                 <li><a href="/jobs/140211_vollzeit"><b>Vollzeitstelle Software Engineer (Ruby on Rails)</b> 80-100%, ab sofort</a></li>
@@ -24,9 +24,6 @@ position: 5
 		</ul>
 
 		<br/><p>Wir freuen uns auch auf Initiativbewerbungen an <a href="mailto:jobs@renuo.ch">jobs@renuo.ch</a>!</p>
-    </div>
-
-	<div class="span1">
     </div>
 
 	<div class="span3">
