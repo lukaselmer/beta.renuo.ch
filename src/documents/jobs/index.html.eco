@@ -18,7 +18,7 @@ position: 5
     <div class="span6">
         <p>Derzeit haben wir folgende offene Stellen:</p>
 		<ul>
-                <li><a href="/jobs/140211_vollzeit"><b>Vollzeitstelle Software Engineer (Ruby on Rails)</b> 80-100% ab sofort</a></li>
+                <li><a href="/jobs/140211_vollzeit"><b>Vollzeitstelle Software Engineer (Ruby on Rails)</b> 80-100%, ab sofort</a></li>
 				<li><a href="/hsr"><b>Teilzeitstelle Software Engineer (Ruby on Rails)</b> 40-60% für HSR Studenten, ab sofort</a></li>
           		<li><a href="/pdfs/0914-ims-praktikant.pdf"><b>Praktikum Software Engineer (Ruby on Rails)</b> 100% für Schüler der IMS, ab September 2014</a></li>
 		</ul>
