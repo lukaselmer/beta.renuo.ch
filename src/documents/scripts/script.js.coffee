@@ -5,18 +5,30 @@ $ ->
 
       map_styles = [
         {
-          "stylers": [
-            { "visibility": "on" },
-            { "hue": "#e4eef6" },
-            { "saturation": -70 },
-            { "lightness": 29 },
-            { "gamma": 0.47 }
+          featureType: "road"
+          elementType: "geometry"
+          stylers: [
+            {color: "#78b3ed"}
+            {weight: 0.6}
+          ]
+        }
+        {
+          featureType: "road.highway.controlled_access"
+          stylers: [
+            visibility: "off"
+          ]
+        }
+        {
+          featureType: "administrative"
+          stylers: [
+            {color: "#0140c9"}
+            {weight: 0.1}
           ]
         }
       ]
 
       mapOptions = {
-        zoom: 10,
+        zoom: 11,
         center: myLatlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         draggable: false,

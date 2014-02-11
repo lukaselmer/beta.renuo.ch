@@ -13,7 +13,7 @@ slider:
         image: /images/vebis/responsive.png
         image_alt: Responsive Layout
         title: Responsive Layout
-        subtitle: Die ganze Applikation ist responsiv geschrieben. Dies bedeutet, dass sich die Webpage auf alle mobile Geräte anpasst. 
+        subtitle: Die ganze Applikation ist responsiv geschrieben. Dies bedeutet, dass sich die Webpage auf alle mobile Geräte anpasst.
     -
         image: /images/vebis/vebis_landing.png
         image_alt: Landingpage von VeBiS
@@ -28,7 +28,7 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Die Webseite des Verein der Biologiestudierenden war veraltet und entsprach nicht mehr den Anforderungen der Studierenden sowie des Vereinsvorstands. Aus diesem Grund musste eine neue Webseite programmiert werden.</p>
+            <p>Die Webseite des Verein der Biologiestudierenden war veraltet und  entsprach nicht mehr den Anforderungen der Studierenden sowie des Vereinsvorstands. Speziell bezüglich Sicherheit gab es gefährliche Sicherheitslücken. Der Aufwand, die bereits bestehende Seite zu aktualisieren, wäre höher gewesen, als einen neuen Webauftritt zu erstellen. Zudem wurde die Seite auf mobilen Geräten suboptimal dargestellt. Aus diesen Gründen musste eine neue Webseite programmiert werden.</p>
 
         </div>
     </div>
@@ -38,9 +38,12 @@ slider:
 
         <div>
             <p>
-               Basierend auf dem Wordpress-Framework und PHP wurden zahlreiche Features entwickelt, welche dem Verein helfen, die Webseite aktuell zu halten. Neben einem Loginbereich für Studierende gibt es einen Eventkalender, Forumsbereich, Downloadarea uvm.
-			   Die Homepage ist durchgängig responsive, basiert auf einem Flat-Ansatz und ist durchgängig mobile first programmiert.
+               In enger Zusammenarbeit mit der <a href="https://www.webeo.ch/">Webeo Gmbh</a> wurde basierend auf dem Wordpress-Framework und PHP der Webauftritt des Biologievereins der ETH neu entwickelt. Dabei wurden neben Wordpress und PHP die Technologien <a href=http://getbootstrap.com/">Twitter Bootstrap</a> und <a href=http://jquery.com/">jQuery</a> eingesetzt.
             </p>
+
+            <p>Durch die CMS Funktionalität ist es möglich, dass der Verein die Webseite selbstständig aktuell hält, ohne dass ein Entwicklungsaufwand anfällt. Weiter ist es möglich, Events zu erfassen und sich für diese anzumelden. Dazu kann vor dem Event auch eine Liste mit den Teilnehmern ausgedruckt werden, damit auf einfache Art geprüft werden kann, wer sich für was angemeldet hat. Zusätzlich wurde ein interner Bereich für Mitglieder erstellt, in dem Zusammenfassungen oder andere Dokumente ausgetauscht werden können, die bei den ETH Prüfungen und Kursen helfen. Weiter wurde ein Forum installiert, wo sich Vereinsmitglieder über beliebige Themen austauschen können.</p>
+
+             <p>Damit die Seite auch auf Mobiltelefonen und Tablets betrachtet werden können, wurde die Seite durchgängig nach dem "mobile first" Ansatz entwickelt. Das bedeutet, dass zuerst der Seite nur für mobile Geräte, z.B. Handys optimiert wurde. Durch dieses Vorgehen ist es umso wichtiger, sich auf den Inhalt zu konzentrieren, statt auf andere Dinge wie z.B. das Design. Dadurch ist die ganze Seite durchgängig responsive, basierend auf einem Flat-Design-Ansatz, programmiert.</p>
         </div>
     </div>
 
