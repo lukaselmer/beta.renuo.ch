@@ -215,7 +215,7 @@ position: 4
                 <div><%- @image_tag 'samuel.jpg' %></div>
                 <h3>Samuel Steiner</h3>
 
-                <p>Projektleiter, Partner, B.A. HSG<br/>
+                <p>Projektleiter, Partner, M.A. HSG<br/>
                     <a href="mailto:samuel.steiner@renuo.ch">samuel.steiner@renuo.ch</a></p>
                 <br/>
 
