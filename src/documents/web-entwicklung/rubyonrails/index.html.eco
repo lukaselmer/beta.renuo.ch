@@ -18,10 +18,11 @@ position: 1
 
 <div class="row-fluid page-section">
     <div class="span2">
+        <a href="/web-entwicklung">&lt;&lt;Kompetenzen</a><br/>
         <a href="/web-entwicklung/design">&lt;&lt;Zurück zum Design</a>
     </div>
     <div class="span3">
-        <a href="/web-entwicklung/betrieb">&gt;&gt;Vorwärts zum Betrieb</a>
+        <br/><a href="/web-entwicklung/betrieb">&gt;&gt;Vorwärts zum Betrieb</a>
     </div>
 </div>
 
@@ -71,7 +72,7 @@ position: 1
             Weitere Informationen zu Ruby on Rails finden Sie unter:
             <a href="http://rubyonrails.org/applications" target="_blank">http://rubyonrails.org</a></p>
 
-        <img src="/images/rubyonrails.png" alt="Ruby on Rails Logo">
+        <br/><img src="/images/rubyonrails.png" alt="Ruby on Rails Logo">
     </div>
 
     <div class="span4" id="jquery">
@@ -92,7 +93,7 @@ position: 1
             Die aktive Community entwickelt diese Bibliothek
             auch stetig weiter, damit neue Browser und neue Standards stets unterstützt werden.</p>
 
-        <img src="/images/jquery.png" alt="jQuery Logo">
+        <br/><img src="/images/jquery.png" alt="jQuery Logo">
     </div>
 
     <div class="span4">
@@ -107,13 +108,13 @@ position: 1
     <div class="span4">
 	    <h3>HTML5</h3>
         <p>Der Nachfolger des HTML4 ist die Grundlage des WWW und praktisch jeder Internetseite heutzutags. Bei der Erarbeitung des neuen Standards wurden, um Vergleich zu früher, auch Webentwickler aus der Praxis miteinbezogen. Deshalb ist der neue Standard für Entwickler etwas einfacher anzuwenden, und dadurch wird die Entwicklung beschleunigt.</p>
-        <img src="/images/html5.png" alt="HTML5 Logo">
+        <br/><img src="/images/html5.png" alt="HTML5 Logo">
     </div>
 	
     <div class="span4">
 	    <h3>CSS3</h3>
         <p>CSS3 geht Hand in Hand mit HTML5. Es ist die Sprache des Designs, und vermehrt auch die Sprache der Animationen. In vielen Projekten entwickelt der Designer ein initiales CSS, das dann später vom Entwickler bearbeitet werden kann. Um dieses Zusammenspiel zu standardisieren, werden Frontend Frameworks wie z.B. <a href="#twitter_bootstrap">Twitter Bootstrap</a> eingesetzt.</p>
-        <img src="/images/css3.png" alt="CSS3 Logo">
+        <br/><img src="/images/css3.png" alt="CSS3 Logo">
     </div>	
 
     <div class="span4" id="twitter_bootstrap">
@@ -124,7 +125,7 @@ position: 1
 		<p>
 		    Sie möchten ihre Businessidee starten, ohne ein Design zu erstellen, weil Sie sich zuerst auf die Funktionalität fokussieren möchten? Dann können Sie gerne einmal <a href="http://bootswatch.com/">Bootswatch</a> oder <a href="https://wrapbootstrap.com/">{wrap}bootstrap</a> ansehen und ein Design heraussuchen. Diese Designs sind schon soweit vorprogrammiert, dass sie kostengünstig von uns eingebaut werden können!
 		</p>
-
+		<br/>
         <img src="/images/twb.png">
     </div>
 
