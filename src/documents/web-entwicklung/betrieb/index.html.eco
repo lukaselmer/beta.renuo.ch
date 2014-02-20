@@ -18,6 +18,7 @@ position: 1
 
 <div class="row-fluid page-section">
     <div class="span3">
+        <a href="/web-entwicklung">^^Kompetenzen</a><br/>	
         <a href="/web-entwicklung/rubyonrails">&lt;&lt;Zurück zur Entwicklung</a>
     </div>
 </div>
@@ -172,9 +173,16 @@ position: 1
 	<div class="span11">
 	<h3>Ihr Ansprechpartner</h3>
 	<p><a href="/ueber-uns/#samuel_steiner">Samuel Steiner</a> hat sich durch Google zum AdWords-Spezialist ausbilden lassen und verfügt sowohl über eine bestandene Grundlagen- sowie auch Fortgeschrittenen-Prüfung. Mit dem Bestehen dieser zwei Prüfungen ist er offiziell von Google als "AdWords-Spezialist" qualifiziert. Gerne setzt er sein Wissen zu Gunsten Ihres Unternehmens ein und unterstütze Sie in der Erstellung und in der Betreuung von Suchmaschinen-Werbekampagnen.</p>
-	</div>
+</div>
 
 </div>
 
+
+<div class="row-fluid page-section">
+    <div class="span3">
+        <a href="/web-entwicklung">^^Kompetenzen</a><br/>	
+        <a href="/web-entwicklung/rubyonrails">&lt;&lt;Zurück zur Entwicklung</a>
+    </div>
+</div>
 
 

@@ -18,6 +18,7 @@ position: 1
 
 <div class="row-fluid page-section">
     <div class="span3">
+        <a href="/web-entwicklung">^^Kompetenzen</a><br/>	
         <a href="/web-entwicklung/design">&gt;&gt;Vorwärts zum Design</a>
     </div>
 </div>
@@ -29,8 +30,8 @@ position: 1
         <img src="/images/konzeption_small.png">
     </div>
 
-    <div class="span10" >
-        <p>Zielgerichtete Strategie mit Blick in die Zukunft</p>
+    <div class="span10">
+        <br/><p>Zielgerichtete Strategie mit Blick in die Zukunft</p>
     </div>
 
 </div>
@@ -42,6 +43,13 @@ position: 1
         <div>
             Text
         </div>
+    </div>
+</div>
+
+<div class="row-fluid page-section">
+    <div class="span3">
+        <a href="/web-entwicklung">^^Kompetenzen</a><br/>	
+        <a href="/web-entwicklung/design">&gt;&gt;Vorwärts zum Design</a>
     </div>
 </div>
 
