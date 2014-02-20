@@ -18,11 +18,11 @@ position: 1
 
 <div class="row-fluid page-section">
     <div class="span6">
-        <p style="text-align:left><a href="/web-entwicklung">^^Kompetenzen</a><br/>	
-        <a href="/web-entwicklung/konzeption">&lt;&lt;Zurück zur Konzeption</a></p>
+        <a href="/web-entwicklung">^^Kompetenzen</a><br/>	
+        <a href="/web-entwicklung/konzeption">&lt;&lt;Zurück zur Konzeption</a>
     </div>
     <div class="span6">
-        <p style="text-align:right><br/><a href="/web-entwicklung/rubyonrails">&gt;&gt;Vorwärts zur Entwicklung</a></p>
+        <br/><a href="/web-entwicklung/rubyonrails">&gt;&gt;Vorwärts zur Entwicklung</a>
     </div>
 </div>
 
@@ -97,7 +97,7 @@ position: 1
 				<li><i class="icon-li icon-ok"></i>Clientseitige Benutzerführung mit jQuery & AJAX</li>				
 			</ul></p>
         </div>
-
+		<br/><br/>
         <h2>Über Webeo</h2>
         <div>
             <p>Die Webeo ist eine im Jahre 2009 gegründete Designagentur mit Sitz in der Schweiz, nähe Zürich. Die Webeo gestaltet Webauftritte nach Mass, vorwiegend für kleine und mittelständische Unternehmen, Private, Vereine und Communities. Dabei stehen Qualität, Kreativität und Bedienbarkeit im Vordergrund.</p>
@@ -129,11 +129,11 @@ position: 1
 </div>
 
 <div class="row-fluid page-section">
-    <div class="span2">
+    <div class="span6">
         <a href="/web-entwicklung">^^Kompetenzen</a><br/>	
         <a href="/web-entwicklung/konzeption">&lt;&lt;Zurück zur Konzeption</a>
     </div>
-    <div class="span3">
+    <div class="span6">
         <a href="/web-entwicklung/rubyonrails">&gt;&gt;Vorwärts zur Entwicklung</a>
     </div>
 </div>
