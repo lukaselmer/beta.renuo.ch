@@ -57,7 +57,7 @@ position: 1
     <div class="span4">
         <h2>Kalkulation</h2>
         <div>
-            <p>Basierend auf den erarbeiteten technischen Konzepten erarbeiten wir User Stories. Eine User Story folgt immer dem Schema <i>"Als (Anwendertyp) möchte ich (folgende Aktion durchführen), um (dieses Ziel zu erreichen)."<i>. Ein zentraler Vorteil der Verwendung von User Stories für die Beschreibung von Anforderungen ist es, den Kundennutzen stark in den Vordergrund zu stellen. Durch die Alltagssprache sind sie für jedermann gut verständlich und durch ihre Kürze muss der Kundennutzen klar ausgedrückt werden. Wir kalkulieren intern jede User Story, damit wir Ihnen am Schluss eine klare Aussage zu einem Preis machen können.</p>
+            <p>Basierend auf den erarbeiteten technischen Konzepten erarbeiten wir User Stories. Eine User Story folgt immer dem Schema: <blockquote><i>"Als (Anwendertyp) möchte ich (folgende Aktion durchführen), um (dieses Ziel zu erreichen)."</i></blockquote>Ein zentraler Vorteil der Verwendung von User Stories für die Beschreibung von Anforderungen ist es, den Kundennutzen stark in den Vordergrund zu stellen. Durch die Alltagssprache sind sie für jedermann gut verständlich und durch ihre Kürze muss der Kundennutzen klar ausgedrückt werden. Wir kalkulieren intern jede User Story, damit wir Ihnen am Schluss eine klare Aussage zu einem Preis machen können.</p>
         </div>
     </div>		
 	
