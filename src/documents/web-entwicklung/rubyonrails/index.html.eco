@@ -72,7 +72,7 @@ position: 1
             Weitere Informationen zu Ruby on Rails finden Sie unter:
             <a href="http://rubyonrails.org/applications" target="_blank">http://rubyonrails.org</a></p>
 
-        <br/><img src="/images/rubyonrails.png" width="60%" alt="Ruby on Rails Logo">
+        <br/><img src="/images/technologien/rubyonrails.png" width="60%" alt="Ruby on Rails Logo">
     </div>
 
     <div class="span4" id="jquery">
@@ -93,14 +93,14 @@ position: 1
             Die aktive Community entwickelt diese Bibliothek
             auch stetig weiter, damit neue Browser und neue Standards stets unterstützt werden.</p>
 
-        <br/><img src="/images/jquery.png" width="60%" alt="jQuery Logo">
+        <br/><img src="/images/technologien/jquery.png" width="60%" alt="jQuery Logo">
     </div>
 
     <div class="span4">
 	    <h3>Javascript</h3>
         <p>Als Javascript im Jahr 1995 entwickelt wurde, war sie eigentlich nur als "Hack" gedacht, um Internetseiten dynamisch zu gestalten. Da die Sprache etwas anders funktioniert wir viele andere objektorientierte Programmiersprachen war sie, und ist sie bis heute, einigen Software Entwicklern unbeliebt. Allerdings verbreitete sich Javascript in den letzten paar Jahren immer weiter, da sie eine sehr kompakte Sprache ist, und sich somit auch auf mobilen Geräten wie z.B. Mobiltelefonen oder Tablets durchsetzte. Dies ist eine der wenigen Technologien, die sowohl auf Apple, Microsoft, wie auch auf Google Produkten gut funktioniert.</p>
         <p>Aus all diesen Gründen steht Javascript eine gute Zukunft bevor. Und wer heute im Web kein Javascript einsetzt, der hat schon fast verloren.</p>
-        <img src="/images/javascript.png" width="60%" alt="JavaScript Logo">
+        <img src="/images/technologien/javascript.png" width="60%" alt="JavaScript Logo">
     </div>
 </div>
 	
@@ -108,13 +108,13 @@ position: 1
     <div class="span4">
 	    <h3>HTML5</h3>
         <p>Der Nachfolger des HTML4 ist die Grundlage des WWW und praktisch jeder Internetseite heutzutags. Bei der Erarbeitung des neuen Standards wurden, um Vergleich zu früher, auch Webentwickler aus der Praxis miteinbezogen. Deshalb ist der neue Standard für Entwickler etwas einfacher anzuwenden, und dadurch wird die Entwicklung beschleunigt.</p>
-        <br/><img src="/images/html5.png" width="60%" alt="HTML5 Logo">
+        <br/><img src="/images/technologien/html5.png" width="60%" alt="HTML5 Logo">
     </div>
 	
     <div class="span4">
 	    <h3>CSS3</h3>
         <p>CSS3 geht Hand in Hand mit HTML5. Es ist die Sprache des Designs, und vermehrt auch die Sprache der Animationen. In vielen Projekten entwickelt der Designer ein initiales CSS, das dann später vom Entwickler bearbeitet werden kann. Um dieses Zusammenspiel zu standardisieren, werden Frontend Frameworks wie z.B. <a href="#twitter_bootstrap">Twitter Bootstrap</a> eingesetzt.</p>
-        <br/><img src="/images/css3.png" width="60%" alt="CSS3 Logo">
+        <br/><img src="/images/technologien/css3.png" width="60%" alt="CSS3 Logo">
     </div>	
 
     <div class="span4" id="twitter_bootstrap">
@@ -126,7 +126,7 @@ position: 1
 		    Sie möchten ihre Businessidee starten, ohne ein Design zu erstellen, weil Sie sich zuerst auf die Funktionalität fokussieren möchten? Dann können Sie gerne einmal <a href="http://bootswatch.com/">Bootswatch</a> oder <a href="https://wrapbootstrap.com/">{wrap}bootstrap</a> ansehen und ein Design heraussuchen. Diese Designs sind schon soweit vorprogrammiert, dass sie kostengünstig von uns eingebaut werden können!
 		</p>
 		<br/>
-        <img src="/images/twb.png" width="60%" alt="Twitter Bootstrap Logo">
+        <img src="/images/technologien/twb.png" width="60%" alt="Twitter Bootstrap Logo">
     </div>
 </div>
 
