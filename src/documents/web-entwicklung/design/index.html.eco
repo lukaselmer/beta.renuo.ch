@@ -22,7 +22,7 @@ position: 1
         <a href="/web-entwicklung/konzeption">&lt;&lt;Zurück zur Konzeption</a>
     </div>
     <div class="span3">
-        <a href="/web-entwicklung/rubyonrails">&gt;&gt;Vorwärts zur Entwicklung</a>
+        <br/><a href="/web-entwicklung/rubyonrails">&gt;&gt;Vorwärts zur Entwicklung</a>
     </div>
 </div>
 
@@ -44,7 +44,7 @@ position: 1
 <div class="span4">
         <h2>Unser Partner</h2>
         <div><%- @image_tag 'roman.jpg' %></div>
-        <h3>Roman Wünsche</h3>
+        <h4>Roman Wünsche</h4>
 
 		<p>Web-Designer<br/>
         <br/>
@@ -88,7 +88,7 @@ position: 1
     </div>
 	
     <div class="span4">
-        <h2>Leistungsspektrum</h2>
+        <h2>Leis&shy;tungs&shy;spek&shy;trum</h2>
         <div>
             <p>Das Leistungsspektrum, welches über die Renuo bzw. Webeo bezogen werden kann, umfasst folgendes:
 			<ul class="icons-ul">
@@ -102,7 +102,7 @@ position: 1
     <div class="span4">
         <h2>Über Webeo</h2>
         <div>
-            <p>Webeo ist eine im Jahre 2009 gegründete Designagentur mit Sitz in der Schweiz, nähe Zürich. Die Webeo gestaltet Webauftritte nach Mass, vorwiegend für kleine und mittelständische Unternehmen, Private, Vereine und Communities. Dabei stehen Qualität, Kreativität und Bedienbarkeit im Vordergrund.</p>
+            <p>Die Webeo ist eine im Jahre 2009 gegründete Designagentur mit Sitz in der Schweiz, nähe Zürich. Die Webeo gestaltet Webauftritte nach Mass, vorwiegend für kleine und mittelständische Unternehmen, Private, Vereine und Communities. Dabei stehen Qualität, Kreativität und Bedienbarkeit im Vordergrund.</p>
 			<p>Jedes Projekt ist unterschiedlich, einzigartig und benötigt individuelle Betreuung. Die Webep verkauft keine fixfertigen Produkte, sondern konzentriert sich auf das, was wirklich zählt: Den Endkunden. Gemeinsam mit Ihnen wird die passende Lösung gefunden, entworfen und durch die Renuo entwickelt. Somit erreichen Sie eine individuelle, auf Ihr Vorhaben zugeschnittene Lösung.</p>
         </div>
     </div>		
@@ -123,10 +123,10 @@ position: 1
 
 <div class="row-fluid page-section">
     <div class="span4">
-        <a href="/referenzen/shariando"><img src="/images/shariando2.png"></a>	
+        <a href="/referenzen/shariando"><img src="/images/shariando/shariando2.png"></a>	
     </div>
     <div class="span4">
-        <a href="/referenzen/vebis"><img src="/images/vebis.png"></a>	
+        <a href="/referenzen/vebis"><img src="/images/vebis/vebis.png"></a>	
     </div>
 </div>
 
