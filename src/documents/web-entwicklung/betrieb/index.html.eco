@@ -45,13 +45,21 @@ position: 1
             <p>Wir bieten Ihnen in diesem Rahmen verschiedene Monitoringservices an. Sie erlauben einen sicheren Betrieb, welcher keinem Blindflug entspricht. Fehler werden mit dazu geeigneten Tools systematisch erkannt. Im allen Monitoringservices kümmern wir uns um die dafür notwendigen Tools, das Monitoring sowie die dazu gehörende Interpretation der Daten. Bei Bedarf nehmen wir mit Ihnen Kontakt auf und besprechen die kritischen Punkte.</p>
         </div>
 	</div>
-	
+</div>
+
+<div class="row-fluid page-section" style="margin-top: 15px;">
 	<div class="span4">
 		<h3>Verfügbarkeits-Monitoring</h3>
 		<div>
 			<p>Dass eine Webseite dauernd online ist, ist nicht selbstverständlich. Der Server kann vom Internet abgeschnitten sein, eine Datenbank oder Hacker können die Seite zum Absturz bringen oder es können gar Stromprobleme vorliegen.</p>
 			<p>Mit dem Verfügbarkeits-Monitoring prüfen wir alle 15min, ob Ihre Webseite an sich noch online ist. Diese Überprüfung findet automatisch statt und löst bei einer Webseite, welche nicht verfügbar ist, Alarm aus.</p>
-			<p><a href="/pdfs/monitoring_verfuegbarkeit.pdf">Download Factsheet</a></p>
+			<p><a href="/pdfs/monitoring_verfuegbarkeit.pdf" target="_blank">Download Factsheet</a></p>
+			<p>Wo profitieren Sie?
+			<ul class="icons-ul">
+				<li><i class="icon-li icon-ok"></i>Präsenz</li>
+				<li><i class="icon-li icon-ok"></i>Schnelle Reaktion</li>
+				<li><i class="icon-li icon-ok"></i>Professionalität</li>				
+			</ul></p>
 		</div>
 	</div>
 	
