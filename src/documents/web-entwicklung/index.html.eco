@@ -21,22 +21,22 @@ position: 1
 
     <div class="span3" align="center">
         <h4>Konzeption</h4>
-        <img src="/images/konzeption_transparent.png">
+        <a href="/web-entwicklung/konzeption"><img src="/images/konzeption_transparent.png"></a>
     </div>
 
     <div class="span3" align="center">
         <h4>Design</h4>
-        <img src="/images/design_transparent.png">
+        <a href="/web-entwicklung/design"><img src="/images/design_transparent.png"></a>
     </div>
 
     <div class="span3" align="center">
         <h4>Entwicklung</h4>
-        <img src="/images/entwicklung_transparent.png">
+        <a href="/web-entwicklung/rubyonrails"><img src="/images/entwicklung_transparent.png"></a>
     </div>
 
     <div class="span3" align="center">
         <h4>Betrieb</h4>
-        <img src="/images/betrieb_transparent.png">
+        <a href="/web-entwicklung/betrieb"><img src="/images/betrieb_transparent.png"></a>
     </div>
 </div>
 
