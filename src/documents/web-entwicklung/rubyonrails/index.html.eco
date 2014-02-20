@@ -16,15 +16,24 @@ position: 1
     </div>
 </div>
 
+<div class="row-fluid page-section">
+    <div class="span4">
+        <a href="/web-entwicklung/design>Zurück zum Design</a>
+    </div>
+    <div class="span4">
+        <a href="/web-entwicklung/betrieb>Vorwärts zum Betrieb</a>
+    </div>
+</div>
+
 
 <div class="row-fluid page-section">
 
-    <div class="span3" align="center">
+    <div class="span2" align="center">
         <h4>Technologien</h4>
-        <img src="/images/entwicklung_transparent.png">
+        <img src="/images/entwicklung_small.png">
     </div>
 
-    <div class="span9" >
+    <div class="span10" >
         <p>Konkret entwickeln wir folgende Produkte:</p>
         <ul class="icons-ul">
           <li><i class="icon-li icon-ok"></i><strong> Individuelle Webprojekte: </strong> vom kleinen Auftritt bis zur grossen Plattform</li>
