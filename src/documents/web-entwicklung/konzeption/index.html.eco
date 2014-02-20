@@ -1,0 +1,43 @@
+--- yaml
+layout: 'default'
+title: 'Konzeption'
+description: 'Mit einer sauber durch geführten Konzeption wird die Basis für jedes erfolgreiche Projekt gelegt.'
+#isMainNavi: 1
+position: 1
+---
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Kon&shy;zept&shy;ion
+                <small>von webbasierten Softwareprojekten</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="row-fluid page-section">
+
+    <div class="span3" align="center">
+        <h4>Konzeption</h4>
+        <img src="/images/konzeption_transparent.png">
+    </div>
+
+    <div class="span9" >
+        <p>Zielgerichtete Strategie mit Blick in die Zukunft</p>
+    </div>
+
+</div>
+
+<div class="row-fluid page-section">
+
+    <div class="span6">
+        <h2>Die Basis ist wichtig</h2>
+        <div>
+            Text
+        </div>
+    </div>
+</div>
+
+

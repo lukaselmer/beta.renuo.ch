@@ -1,0 +1,56 @@
+--- yaml
+layout: 'default'
+title: 'Betrieb'
+description: 'Ein Projektabschluss ist gleichzeitig der Anfang der weiteren Zusammenarbeit.'
+#isMainNavi: 1
+position: 1
+---
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Betrieb
+                <small>Sicherheit, Überwachung, Aktualisierung und Ausbau</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="row-fluid page-section">
+
+    <div class="span3" align="center">
+        <h4>Der live Betrieb</h4>
+        <img src="/images/betrieb_transparent.png">
+    </div>
+
+    <div class="span9" >
+        <p>Für den live-Betrieb bieten wir Ihnen sowohl Unterstützung im Monitoring als auch in der Vermarktung Ihrer Homepage. Unsere Services werden nachfolgend beschrieben.</p>
+    </div>
+
+</div>
+
+<div class="row-fluid page-section">
+
+    <div class="span12">
+        <h2>Monitoring Services</h2>
+        <div>
+            <p>Wir bieten Ihnen in diesem Rahmen verschiedene Monitoringservices an. Sie erlauben einen sicheren Betrieb, welcher keinem Blindflug entspricht.<br></p>
+        <ul class="icons-ul">
+          <li><i class="icon-li icon-ok"></i><strong> Fehler-Monitoring: </strong> Die einfachste Art, Fehler zu überwachen, sind sogenannte Exception Notifications. Falls beim Ablauf einer Routine auf dem Server ein Fehler auftritt, wird ein Mail versandt.</li>
+          <li><i class="icon-li icon-ok"></i><strong> JavaScript-Monitoring: </strong> Javascript wird einerseits immer wichtiger, da immer mehr Dinge per Javascript gemacht werden (Bsp. Animationen, Layout, interaktive Dinge). Andererseits gibt es aber auch immer mehr Browser und Geräte, die Javascript unterschiedlich unterstützen. So wird das Einsatzgebiet stets grösser, während die Komplexität gleichzeitig wächst.
+Aus diesem Grund ist ein Monitoring der JavaScript Funktionen sehr wichtig.</li>
+          <li><i class="icon-li icon-ok"></i><strong> Performance-Monitoring: </strong> Performance wird bei Webapplikationen immer wichtiger, da Benutzer immer weniger Geduld haben, auf eine Seite zu warten. Weiter ist es teuer und wenig sinnvoll, Performance Optimierungen bereits im Vorhinein durchzuführen, weil das Benutzerverhalten und die Daten (z. B. Besucheraufkommen) im Vorhinein noch nicht klar sind. So können Performance Optimierungen an falschen Orten durchgeführt werden, die schlussendlich nichts bringen, während die wichtigen Performance Optimierungen nicht gemacht werden.</li>
+          <li><i class="icon-li icon-ok"></i><strong> Security-Monitoring: </strong> Grundsätzlich muss davon ausgegangen werden, dass jede Software (also auch Bibliotheken und Frameworks, die als Grundlage jeder Software und jedes Servers dienen) Sicherheitslücken beinhalten. Da eine Webapplikation auf solchen Bibliotheken aufbaut, macht es Sinn, diese Bibliotheken zu überwachen und entsprechend zu aktualisieren, sollte eine Sicherheitslücke gefunden werden. Im Security-Monitoring informieren wir Sie stets über verfügbare Updates und beraten Sie, wie wichtig ein solches Update ist.</li>
+          <li><i class="icon-li icon-ok"></i><strong> SEO-Monitoring: </strong> Über die Webmaster Tools / Google Analytics von Google kann überwacht werden, welche Stichworte bei einer Seite relevant sind. Wir begleiten Sie in der Erstellung, Überwachung und Auswertung Ihrer SEO-Daten, damit Sie zielgerichtet handeln können.</li>
+         </ul>
+		<p>Weitere Informationen zu den Monitoring-Services findet man <a href="https://renuo.ch/pdfs/monitoring_services.pdf">hier</a>.</p>
+        </div>
+        <h2>AdWords Unterstützung</h2>
+        <div>
+            Text
+        </div>		
+    </div>
+</div>
+
+

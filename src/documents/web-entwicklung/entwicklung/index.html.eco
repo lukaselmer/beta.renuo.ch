@@ -1,0 +1,50 @@
+--- yaml
+layout: 'default'
+title: 'Entwicklung'
+description: 'Für die Entwicklung verwenden wir modernste Tools und Technologien.'
+#isMainNavi: 1
+position: 1
+---
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Web&shy;ba&shy;sier&shy;te Soft&shy;ware&shy;ent&shy;wick&shy;lung
+                <small>auf höchstem Niveau</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="row-fluid page-section">
+
+    <div class="span3" align="center">
+        <h4>Technologien</h4>
+        <img src="/images/entwicklung_transparent.png">
+    </div>
+
+    <div class="span9" >
+        <p>Konkret entwickeln wir folgende Produkte:</p>
+        <ul class="icons-ul">
+          <li><i class="icon-li icon-ok"></i><strong> Individuelle Webprojekte: </strong> vom kleinen Auftritt bis zur grossen Plattform</li>
+          <li><i class="icon-li icon-ok"></i><strong> mobile Applikationen: </strong> iOS, Android, Windows oder webbasierte mobile Apps für B2C und B2B</li>
+          <li><i class="icon-li icon-ok"></i><strong> Content Management: </strong> einfach zu bedienende Websites, ob lokal oder global</li>
+          <li><i class="icon-li icon-ok"></i><strong> Responsive Webdesign: </strong> Webseiten, die in jeder Auflösung gut dastehen</li>
+         </ul>	
+		<p>Für die Entwicklung unserer Applikationen verwenden wir diverse Programmiersprachen und Frameworks. Nachfolgend werden unsere technischen Stärken beschrieben.</p>
+    </div>
+
+</div>
+
+<div class="row-fluid page-section">
+
+    <div class="span12">
+        <h2>Ruby on Rails</h2>
+        <div>
+            Text
+        </div>
+    </div>
+</div>
+
+

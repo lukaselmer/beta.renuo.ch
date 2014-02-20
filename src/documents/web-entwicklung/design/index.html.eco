@@ -1,0 +1,43 @@
+--- yaml
+layout: 'default'
+title: 'Design'
+description: 'Individuelles Design mit Fokus auf Usabilty.'
+#isMainNavi: 1
+position: 1
+---
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Design
+                <small>Individuelles Design mit Fokus auf Usabilty</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="row-fluid page-section">
+
+    <div class="span3" align="center">
+        <h4>Design</h4>
+        <img src="/images/design_transparent.png">
+    </div>
+
+    <div class="span9" >
+        <p>Die Renuo konzentriert sich ausschliesslich auf ihre Kernkompetenzen, nämlich webbasierte Softwareentwicklung. Aus diesem Grund machen wir das Design nicht selbst, sondern nutzen unser Netzwerk! In zahlreichen Projekten haben wir bereits mit der Webeo GmbH aus Hirzel (ZH) zusammengearbeitet. Die Webeo GmbH entwickelt und gestaltet qualitativ hochwertige Designs, bei denen der Fokus stets auf einer guten Nutzenführung liegt.</p>
+    </div>
+
+</div>
+
+<div class="row-fluid page-section">
+
+    <div class="span12">
+        <h2>Design</h2>
+        <div>
+            Text
+        </div>
+    </div>
+</div>
+
+
