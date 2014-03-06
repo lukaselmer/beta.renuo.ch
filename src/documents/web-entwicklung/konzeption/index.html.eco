@@ -41,12 +41,6 @@ planningSlider:
 
 </div>
 
-<div class="row-fluid page-header-element">
-    <div class="span12">
-        <%- @getSlider('planningSlider', @document.planningSlider) %>
-    </div>
-</div>
-
 <div class="row-fluid page-section">
 
     <div class="span4">
@@ -73,6 +67,10 @@ planningSlider:
 	
 </div>
 
-
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <%- @getSlider('planningSlider', @document.planningSlider) %>
+    </div>
+</div>
 
 
