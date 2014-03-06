@@ -188,7 +188,7 @@ monitoringSlider:
 		
 <div class="row-fluid page-section" style="margin-top: 15px;">
     <div class="span12">
-        <div><%- @image_tag '/images/renuo/betrieb/adwords.jpg' %></div>
+        <div><%- @image_tag 'adwords.jpg' %></div>
     </div>
 </div>			
 		
