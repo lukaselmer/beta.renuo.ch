@@ -32,7 +32,7 @@ technologySlider:
 homeSlider:
     -
         image: /images/renuo/slider_home/project.jpg
-        image_alt: Wave
+        image_alt: Web Projekt
         title: Software Entwicklung von A-Z
         subtitle: Die Renuo GmbH ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.
     -
@@ -49,7 +49,7 @@ homeSlider:
         image: /images/renuo/slider_home/responsive.jpg
         image_alt: Responsivität
         title: Webseiten, die in jeder Auflösung gut dastehen
-        subtitle: Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht! <br/>Die Inhalte werde dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert und ein Besucher behält den Überblick über die Inhalte. Erleben Sie Responsive Webdesign live, indem Sie die Renuo-Homepage auf verschiedenen Geräten betrachten!
+        subtitle: Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht! Die Inhalte werden dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert, damit ein Besucher stets den Überblick über die Inhalte behält. Erleben Sie Responsive Webdesign live, indem Sie die Renuo-Homepage auf verschiedenen Geräten betrachten!
     -
         image: /images/renuo/slider_home/cms.jpg
         image_alt: Content Management System
@@ -136,7 +136,7 @@ homeSlider:
         <p>Um eine Internet Plattform oder eine Software Lösung zu entwickeln, setzen wir verschiedene Technologien ein.
             Wir wählen unter anderem anhand folgender Kriterien die Technologien aus:</p>
         <ul class="icons-ul">
-          <li><i class="icon-li icon-ok"></i><strong> Kosteneffizienz: </strong> Wieviel kostet die Entwicklung?</li>
+          <li><i class="icon-li icon-ok"></i><strong> Kosteneffizienz: </strong> Wie viel kostet die Entwicklung?</li>
           <li><i class="icon-li icon-ok"></i><strong> Geschwindigkeit: </strong> Wie schnell kann die gewünschte Lösung entwickelt werden?</li>
           <li><i class="icon-li icon-ok"></i><strong> Stabilität: </strong> Wie kann eine genügend hohe Stabilität erreicht werden?</li>
           <li><i class="icon-li icon-ok"></i><strong> Wartbarkeit: </strong> Wie teuer ist die Software im Unterhalt?</li>
@@ -155,7 +155,7 @@ homeSlider:
             Web
             <br><small>HTML5, CSS3 und JavaScript</small>
         </h2>
-        <p>Wir arbeiten mit modernsten Web Technologien, weil heute der grösste Teil der Bevölkerung Internetfähige
+        <p>Wir arbeiten mit modernsten Web Technologien, weil heute der grösste Teil der Bevölkerung internetfähige
             Geräte
             (PC, Laptop, Handy, ...) besitzt, mit
             denen das Internet genutzt werden kann. Zudem entwickeln sich diese Technologien sehr schnell, wodurch immer
@@ -168,8 +168,8 @@ homeSlider:
 
         <p>Diese Technologien sind auch am meisten verbreitet, wodurch sehr viele Endgeräte angesprochen werden können,
             vom
-            IPhone über ein Android Tablet
-            bis zum Desktop PC zuhause oder im Büro.</p>
+            iPhone über ein Android Tablet
+            bis zum Desktop PC zu Hause oder im Büro.</p>
     </div>
     <div class="span4">
         <h2>Ruby on Rails

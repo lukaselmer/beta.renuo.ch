@@ -1,7 +1,7 @@
 --- yaml
 layout: 'default'
 title: 'Über uns'
-description: 'Jung, bestens ausgebildet, ehrgeizig und dynamisch. Wir unsterstützen das agile Manifest und arbeiten nach SCRUM.'
+description: 'Jung, bestens ausgebildet, ehrgeizig und dynamisch. Wir unterstützen das agile Manifest und arbeiten nach SCRUM.'
 isMainNavi: 1
 position: 4
 ---
@@ -149,7 +149,7 @@ position: 4
                     <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
                 <br/>
 
-                <blockquote>Ich möchte, dass der Kunde mit meiner Arbeit höchstzufrieden ist. Zusätzlich möchte ich
+                <blockquote>Ich möchte, dass der Kunde mit meiner Arbeit höchst zufrieden ist. Zusätzlich möchte ich
                     nachhaltige,
                     gut wartbare und erweiterbare Software schreiben.
                     <small>Diego Steiner</small>
@@ -320,7 +320,7 @@ position: 4
                             </tr>
                             <tr>
                                 <th>2002-2012</th>
-                                <td>Selbststäniger Nebenverdienst mit <strong>Webprojekten</strong> (PHP)</td>
+                                <td>Selbständiger Nebenverdienst mit <strong>Webprojekten</strong> (PHP)</td>
                             </tr>
                             </tbody>
                         </table>

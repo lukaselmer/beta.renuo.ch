@@ -117,7 +117,7 @@ monitoringSlider:
 		<div>
 			<p>JavaScript braucht man vor allem für Animationen, Layout oder interaktive Dinge. In praktisch jeder Webapplikation wird JavaScript eingesetzt und der Einsatz nimmt ständig zu. Gleichzeitig gibt es aber auch immer mehr Browser und Geräte, die Javascript unterschiedlich unterstützen. Dies eröffnet ein grosses Feld an möglichen Quellen, welche zu Fehlern führen können:
 			<ul><li>Neue Geräte können die alten JavaScript-Bestandteile nicht mehr anzeigen</li>
-			<li>Durch ein Browserupdaten funktioniert die Homepage nicht mehr wie gewollt</li></ul>
+			<li>Durch ein Browserupdate funktioniert die Homepage nicht mehr wie gewollt</li></ul>
 			<p>Aus diesem Grund ist ein Monitoring der JavaScript Funktionen sehr wichtig. Die einfachste Art, das JavaScript zu überwachen, sind Exception Notifications, welche speziell das JavaScript überwachen. Falls ein Fehler auftritt, wird an uns eine Benachrichtigung versandt. Diese wird durch uns geprüft und interpretiert.</p>
 			<p>Wovon profitieren Sie?
 			<ul class="icons-ul">
@@ -135,7 +135,7 @@ monitoringSlider:
 		<h3>Performance-Moni&shy;toring</h3>
 		<div>
 			<p>Performance wird bei Webapplikationen immer wichtiger, da Benutzer immer weniger Geduld haben, auf eine Seite zu warten. Weiter ist es teuer und wenig sinnvoll, Performance Optimierungen bereits im Vorhinein durchzuführen, weil das Benutzerverhalten und die Daten (z. B. Besucheraufkommen) im Vorhinein noch nicht klar sind. So können Performance Optimierungen an falschen Orten durchgeführt werden, die schlussendlich nichts bringen, während die wichtigen Performance Optimierungen nicht gemacht werden.</p>
-			<p>Aus diesem Grund ist es sinnvoll, die Performance Ihrer Applikation genaustens zu beobachten und Schwachstellen zu eliminieren. Wir richten Ihnen dafür ein Performance-Monitoring ein, welches uns Kennzahlen und Statistiken zu Ladezeiten Ihrer Seite liefert. Wir interpretieren diese Zahlen und machen Ihnen falls notwendig einen Vorschlag zum Handeln.</p>
+			<p>Aus diesem Grund ist es sinnvoll, die Performance Ihrer Applikation genauestes zu beobachten und Schwachstellen zu eliminieren. Wir richten Ihnen dafür ein Performance-Monitoring ein, welches uns Kennzahlen und Statistiken zu Ladezeiten Ihrer Seite liefert. Wir interpretieren diese Zahlen und machen Ihnen falls notwendig einen Vorschlag zum Handeln.</p>
 			<p>Wovon profitieren Sie?
 			<ul class="icons-ul">
 				<li><i class="icon-li icon-ok"></i>Bewusstsein</li>
@@ -200,7 +200,7 @@ monitoringSlider:
 			<p>Suchmaschinenwerbung bietet Ihnen im Vergleich zu konventioneller Werbung drei wesentliche Vorteile:
 			<ul><li><strong>Gezielte Anzeigenausrichtung:</strong> Präsentieren Sie Ihre Werbung direkt potentiellen Kunden, welche nach einem passenden Suchbegriff suchen. Auch wenn Ihr Webauftritt bereits in den (organischen) Suchergebnissen von Google zu finden sind, können Sie mithilfe von AdWords gezielt neue Zielgruppen bei Google und im Google-Netzwerk (z. B. Google Maps, Youtube, Google Bilder, oder tausende von Google-Partnersites) ansprechen. Anstatt dass Sie nach Kunden suchen, lassen Sie Kunden nach Ihnen suchen. Des Weiteren sind Kunden gegenüber thematisch passenden Werbebotschaften (verständlicherweise) positiver eingestellt als ungewünschten Werbeinhalten.</li>
 			<li><strong>Bessere Kontrolle:</strong> Das Werbebudget und die Anzeigen können stets verändert werden, bis die gewünschten Ergebnisse erreicht werden. Die Anzeigen können des Weiteren auf bestimmte Sprachen, geografische Regionen, Endgeräte (Computer, Tablet, Mobile) oder Tageszeiten ausgerichtet werden. Mit einer Verknüpfung der Daten mit Ihrem Google-Analytics Account verstehen Sie ferner, wie sich die Kunden nach dem Klick verhalten.</li>
-			<li><strong>Messbarer Nutzen:</strong> Jegliche Aktivitäten, d. h. Impressionen sowie Klicks, lassen sich messen und optimieren. Ein Werbebudget unterliegt keinen vorgeschriebenen Mindestausgaben oder Mindest-laufzeiten. Kosten entstehen lediglich, wenn ein Nutzer tatsächlich auf eine von Ihnen geschaltete Werbung klickt. Somit wird jeder Franken Ihres Budgets direkt in die Gewinnung neuer Kunden investiert. Durch einen grösseren Traffic steigt des Weiteren Ihr organisches Suchranking!</li></ul></p>
+			<li><strong>Messbarer Nutzen:</strong> Jegliche Aktivitäten, d. h. Impressionen sowie Klicks, lassen sich messen und optimieren. Ein Werbebudget unterliegt keinen vorgeschriebenen Mindestausgaben oder Mindestlaufzeiten. Kosten entstehen lediglich, wenn ein Nutzer tatsächlich auf eine von Ihnen geschaltete Werbung klickt. Somit wird jeder Franken Ihres Budgets direkt in die Gewinnung neuer Kunden investiert. Durch einen grösseren Traffic steigt des Weiteren Ihr organisches Suchranking!</li></ul></p>
     </div>
 </div>
 
