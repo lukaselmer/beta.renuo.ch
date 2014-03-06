@@ -5,6 +5,95 @@ $ ->
 
       map_styles = [
         {
+          featureType: "road.local"
+          stylers: [visibility: "off"]
+        }
+        {
+          featureType: "road.arterial"
+          stylers: [
+            {
+              visibility: "on"
+            }
+            {
+              color: "#d2e7f9"
+            }
+          ]
+        }
+        {
+          featureType: "road.highway"
+          elementType: "geometry"
+          stylers: [
+            {
+              weight: 0.8
+            }
+            {
+              color: "#78b3ed"
+            }
+          ]
+        }
+        {
+          featureType: "road.highway"
+          elementType: "geometry.stroke"
+          stylers: [
+            {
+              color: "#78b3ed"
+            }
+            {
+              hue: "#0077ff"
+            }
+          ]
+        }
+        {
+          featureType: "poi"
+          stylers: [visibility: "off"]
+        }
+        {
+          featureType: "road.highway.controlled_access"
+          elementType: "labels.icon"
+          stylers: [visibility: "off"]
+        }
+        {
+          elementType: "labels.icon"
+          stylers: [visibility: "off"]
+        }
+        {
+          featureType: "water"
+          elementType: "geometry"
+          stylers: [color: "#9ed8f6"]
+        }
+        {
+          featureType: "water"
+          elementType: "labels"
+          stylers: [visibility: "off"]
+        }
+        {
+          featureType: "transit"
+          stylers: [visibility: "off"]
+        }
+        {
+          featureType: "landscape.natural"
+          stylers: [
+            {
+              color: "#f0faff"
+            }
+            {
+              hue: "#00ccff"
+            }
+            {
+              lightness: 63
+            }
+          ]
+        }
+        {
+          featureType: "road"
+          elementType: "labels"
+          stylers: [visibility: "off"]
+        }
+      ]
+
+
+      old_map_styles = [
+        {
           featureType: "road"
           elementType: "geometry"
           stylers: [
