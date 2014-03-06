@@ -31,10 +31,10 @@ technologySlider:
 
 homeSlider:
     -
-        image: /images/renuo/slider_home/wave.jpg
+        image: /images/renuo/slider_home/project.jpg
         image_alt: Wave
-        title: Herzlich Willkommen bei der Renuo Internet Solutions
-        subtitle: Wir entwickeln und programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. 
+        title: Software Entwicklung von A-Z
+        subtitle: Die Renuo GmbH ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.
     -
         image: /images/renuo/slider_home/entwicklung.jpg
         image_alt: Webbasierte Softwareentwicklung
@@ -55,11 +55,7 @@ homeSlider:
         image_alt: Content Management System
         title: Simple und effiziente CMS, welche jeder bedienen kann
         subtitle: Wir integrieren Ihnen simple Leichtgewicht-CMS, welche so einfach sind, dass sie auch von Laien bedient werden können! 
-    -
-        image: /images/renuo/slider_home/project.jpg
-        image_alt: Projektierung
-        title: Software Entwicklung von A-Z
-        subtitle: Wir konzipieren, designen, entwickeln und betreuen Ihre individuelle Webplattform nach Ihren Wünschen! 
+
 ---
 
 <div style="padding-top: 80px;">
@@ -78,6 +74,47 @@ homeSlider:
     <div class="span12">
         <%- @getSlider('homeSlider', @document.homeSlider) %>
     </div>
+</div>
+
+<div id="focus"></div>
+<div class="row-fluid page-header-element">
+    <div class="span4">
+        <div class="page-header">
+            <h1>Web Ent&shy;wick&shy;lung /<br/> Pro&shy;gram&shy;mier&shy;ung
+            </h1>
+        </div>
+        <div>
+            <p>Wir entwickeln und programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. Wir sind Spezialist in den Bereichen:</p>
+        </div>
+        <ul class="icons-ul">
+          <li><i class="icon-li icon-ok"></i><strong>Individuelle Webprojekte</strong><br>vom kleinen Auftritt bis zum grossen Portal, welches mehrsprachig und multinational betrieben wird</li>
+          <li><i class="icon-li icon-ok"></i><strong>Schnittstellen</strong><br>und Anbindungen der Webprojekte an externe Services und bestehende Datenbanken</li>
+		  <li><i class="icon-li icon-ok"></i><strong>Content Management</strong><br>simple Leichtgewicht CMS, welche so einfach sind, dass sie auch von Laien bedient werden können</li>
+
+         </ul>
+    </div>
+
+	<div class="span4">
+        <div class="page-header">
+            <h1>Res&shy;pon&shy;sive<br/> Web&shy;design
+            </h1>
+        </div>
+        <div>
+            <p>Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht!</p>
+            <p>Die Inhalte werde dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert und ein Besucher behält den Überblick über die Inhalte. Erleben Sie Responsive Webdesign live, indem Sie die Renuo-Homepage auf verschiedenen Geräten betrachten!</p>
+        </div>
+    </div>
+
+	<div class="span4">
+        <div class="page-header">
+            <h1>Mobile<br/> App&shy;lika&shy;tionen
+            </h1>
+        </div>
+        <div>
+            Wir entwickeln native und webbasierte mobile Applikationen für sowohl B2C- wie auch B2B-Apps.
+        </div>
+    </div>
+
 </div>	
 
 

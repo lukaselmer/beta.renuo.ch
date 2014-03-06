@@ -51,6 +51,8 @@ position: 5
 			<li><i class="icon-li icon-ok"></i> Ein technisch sehr kompetentes, motiviertes, kollegiales und junges Team</li>
 		</ul>
 	</div>
+</div>
+<div class="row-fluid">	
 <div class="span12">
 		<h3>Arbeiten bei der Renuo:</h3>
         			<ul class="icons-ul">
@@ -64,7 +66,6 @@ position: 5
 		</ul>
 	</div>	
 </div>
-
 
 
 
