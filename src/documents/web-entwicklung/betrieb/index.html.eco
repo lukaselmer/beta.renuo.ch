@@ -57,7 +57,7 @@ monitoringSlider:
     <div class="span10" >
         <br/>
 		<p>Die Renuo GmbH ist bestrebt, möglichst lange und nachhaltige Kundenbeziehungen aufzubauen. Aus diesem Grund ist die Arbeit nach beendeter Applikationsentwicklung auch noch nicht zu Ende: Wir möchten Ihnen beiseite stehen, die Webseite warten und Sie in allen möglichen Bereichen unterstützen.
-		<p>Für den live-Betrieb bieten wir Ihnen sowohl Monitoring-Services als auch Unterstützung in der Vermarktung Ihrer Homepage. Unsere Services werden nachfolgend beschrieben.</p>
+		<p>Für den live-Betrieb bieten wir Ihnen sowohl Monitoring-Services als auch Unterstützung in der Vermarktung Ihrer Homepage an. Unsere Services werden nachfolgend beschrieben.</p>
     </div>
 
 </div>
@@ -72,7 +72,7 @@ monitoringSlider:
         <%- @getSlider('monitoringSlider', @document.monitoringSlider) %>
     </div>
 	</div>
-            <p>Wir bieten Ihnen in diesem Rahmen verschiedene Monitoringservices an. Sie erlauben einen sicheren Betrieb, welcher keinem Blindflug entspricht. Fehler werden mit dazu geeigneten Tools systematisch erkannt. Im allen Monitoringservices kümmern wir uns um die dafür notwendigen Tools, das Monitoring sowie die dazu gehörende Interpretation der Daten. Bei Bedarf nehmen wir mit Ihnen Kontakt auf und besprechen die kritischen Punkte.</p>
+            <p>Wir bieten Ihnen im Rahmen von Monitorings verschiedene Services an. Sie erlauben einen sicheren Betrieb, welcher keinem Blindflug entspricht. Fehler werden mit dazu geeigneten Tools systematisch erkannt. Im allen Monitoringservices kümmern wir uns um die dafür notwendigen Tools, das Monitoring sowie die dazu gehörende Interpretation der Daten. Bei Bedarf nehmen wir mit Ihnen Kontakt auf und besprechen die kritischen Punkte.</p>
 			<p><a href="/pdfs/monitoring_services.pdf" target="_blank">Download alle Factsheets</a></p>			
 	</div>
 </div>
@@ -134,8 +134,8 @@ monitoringSlider:
 	<div class="span4">
 		<h3>Performance-Moni&shy;toring</h3>
 		<div>
-			<p>Performance wird bei Webapplikationen immer wichtiger, da Benutzer immer weniger Geduld haben, auf eine Seite zu warten. Weiter ist es teuer und wenig sinnvoll, Performance Optimierungen bereits im Vorhinein durchzuführen, weil das Benutzerverhalten und die Daten (z. B. Besucheraufkommen) im Vorhinein noch nicht klar sind. So können Performance Optimierungen an falschen Orten durchgeführt werden, die schlussendlich nichts bringen, während die wichtigen Performance Optimierungen nicht gemacht werden.</p>
-			<p>Aus diesem Grund ist es sinnvoll, die Performance Ihrer Applikation genauestes zu beobachten und Schwachstellen zu eliminieren. Wir richten Ihnen dafür ein Performance-Monitoring ein, welches uns Kennzahlen und Statistiken zu Ladezeiten Ihrer Seite liefert. Wir interpretieren diese Zahlen und machen Ihnen falls notwendig einen Vorschlag zum Handeln.</p>
+			<p>Performance wird bei Webapplikationen immer wichtiger, da Benutzer immer weniger Geduld haben, auf eine Seite zu warten. Weiter ist es teuer und wenig sinnvoll, Performance-Optimierungen bereits im Vorhinein durchzuführen, weil das Benutzerverhalten und die Daten (z. B. Besucheraufkommen) im Vorhinein noch nicht klar sind. So können Performance-Optimierungen an falschen Orten durchgeführt werden, die schlussendlich nichts bringen, während die wichtigen Performance-Optimierungen nicht gemacht werden.</p>
+			<p>Aus diesem Grund ist es sinnvoll, die Performance Ihrer Applikation genauestes zu beobachten und Schwachstellen zu eliminieren. Wir richten Ihnen dafür ein Performance-Monitoring ein, welches uns Kennzahlen und Statistiken zu Ladezeiten Ihrer Seite liefert. Wir interpretieren diese Zahlen und machen Ihnen, falls notwendig, einen Handlungsvorschlag.</p>
 			<p>Wovon profitieren Sie?
 			<ul class="icons-ul">
 				<li><i class="icon-li icon-ok"></i>Bewusstsein</li>
@@ -181,7 +181,7 @@ monitoringSlider:
 <div class="row-fluid page-header-element">
     <div class="span12">
         <div class="page-header">		
-        <h2>Google AdWords Un&shy;ter&shy;stütz&shy;ung</h2>
+        <h2>Google AdWords-Un&shy;ter&shy;stütz&shy;ung</h2>
         </div>
 	</div>
 </div>

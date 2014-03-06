@@ -39,12 +39,12 @@ homeSlider:
         image: /images/renuo/slider_home/entwicklung.jpg
         image_alt: Webbasierte Softwareentwicklung
         title: Web-Entwicklung / Programmierung
-        subtitle: Wir sind Spezialist in webbasierter Softwareentwicklung! Wir programmieren vom kleinen Auftritt bis zum grossen Portal, welches mehrsprachig und multinational betrieben wird!
+        subtitle: Wir sind Spezialist in webbasierter Softwareentwicklung! Wir programmieren sowohl kleine Auftritte als auch grosse Portale, welche mehrsprachig und multinational betrieben werden!
     -
         image: /images/renuo/slider_home/technologyII.jpg
         image_alt: Web Technologien
         title: Modernste Web-Technologien
-        subtitle: Mit Hilfe modernsten Webtechnologien entwickeln wir innovative Websoftware, welche stabil, agil und wartbar ist!
+        subtitle: Mit Hilfe modernster Webtechnologien entwickeln wir innovative Websoftware, welche stabil, agil und wartbar ist! Wir lieben und wir leben Technologien, v. a. Open Source!
     -
         image: /images/renuo/slider_home/responsive.jpg
         image_alt: Responsivität
@@ -101,7 +101,7 @@ homeSlider:
         </div>
         <div>
             <p>Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht!</p>
-            <p>Die Inhalte werde dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert und ein Besucher behält den Überblick über die Inhalte. Erleben Sie Responsive Webdesign live, indem Sie die Renuo-Homepage auf verschiedenen Geräten betrachten!</p>
+            <p>Die Inhalte werde dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert und ein Besucher behält stets den Überblick über die Inhalte. Erleben Sie Responsive Webdesign live, indem Sie die Renuo-Homepage auf verschiedenen Geräten betrachten!</p>
         </div>
     </div>
 

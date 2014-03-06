@@ -97,7 +97,7 @@ position: 1
 <div class="row-fluid">
     <div class="span4">
 	    <h2>HTML5</h2>
-        <p>Der Nachfolger des HTML4 ist die Grundlage des WWW und praktisch jeder Internetseite heutzutage. Bei der Erarbeitung des neuen Standards wurden, um Vergleich zu früher, auch Webentwickler aus der Praxis miteinbezogen. Deshalb ist der neue Standard für Entwickler etwas einfacher anzuwenden, und dadurch wird die Entwicklung beschleunigt.</p>
+        <p>Der Nachfolger des HTML4 ist die Grundlage des WWW und praktisch jeder Internetseite heutzutage. Bei der Erarbeitung des neuen Standards wurden, im Vergleich zu früher, auch Webentwickler aus der Praxis miteinbezogen. Deshalb ist der neue Standard für Entwickler etwas einfacher anzuwenden und dadurch wird die Entwicklung beschleunigt.</p>
         <br/><img src="/images/technologien/html5.png" width="20%" alt="HTML5 Logo">
     </div>
 	
