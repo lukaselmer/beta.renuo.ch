@@ -1,0 +1,223 @@
+--- yaml
+layout: 'default'
+title: 'Betrieb'
+description: 'Ein Projektabschluss ist gleichzeitig der Anfang der weiteren Zusammenarbeit.'
+#isMainNavi: 1
+position: 1
+monitoringSlider:
+    -
+        image: /images/renuo/betrieb/verfuegbarkeit.jpg
+        image_alt: Verfügbarkeits-Monitoring
+        title: Verfügbarkeits-Monitoring
+        subtitle: 
+    -
+        image: /images/renuo/betrieb/fehler.jpg
+        image_alt: Fehler-Monitoring
+        title: Fehler-Monitoring
+        subtitle: 
+    -
+        image: /images/renuo/betrieb/javascript.jpg
+        image_alt: JavaScript-Monitoring
+        title: JavaScript-Monitoring
+        subtitle: 
+    -
+        image: /images/renuo/betrieb/performance.jpg
+        image_alt: Performance-Monitoring
+        title: Performance-Monitoring
+        subtitle: 
+    -
+        image: /images/renuo/betrieb/security.jpg
+        image_alt: Security-Monitoring
+        title: Security-Monitoring
+        subtitle: 
+    -
+        image: /images/renuo/betrieb/seo.jpg
+        image_alt: SEO-Monitoring
+        title: SEO-Monitoring
+        subtitle: 		
+---
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Betrieb
+                <small>Sicherheit, Überwachung, Aktualisierung und Ausbau</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid page-section">
+
+    <div class="span2" align="center">
+        <h4>Es ist live!</h4>
+        <img src="/images/betrieb_small.png">
+    </div>
+
+    <div class="span10" >
+        <br/>
+		<p>Die Renuo GmbH ist bestrebt, möglichst lange und nachhaltige Kundenbeziehungen aufzubauen. Aus diesem Grund ist die Arbeit nach beendeter Applikationsentwicklung auch noch nicht zu Ende: Wir möchten Ihnen beiseite stehen, die Webseite warten und Sie in allen möglichen Bereichen unterstützen.
+		<p>Für den live-Betrieb bieten wir Ihnen sowohl Monitoring-Services als auch Unterstützung in der Vermarktung Ihrer Homepage an. Unsere Services werden nachfolgend beschrieben.</p>
+    </div>
+
+</div>
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">	
+			<h2>Moni&shy;toring Ser&shy;vices</h2>
+        </div>
+	<div class="row-fluid page-header-element">
+    <div class="span12">
+        <%- @getSlider('monitoringSlider', @document.monitoringSlider) %>
+    </div>
+	</div>
+            <p>Wir bieten Ihnen im Rahmen von Monitorings verschiedene Services an. Sie erlauben einen sicheren Betrieb, welcher keinem Blindflug entspricht. Fehler werden mit dazu geeigneten Tools systematisch erkannt. Im allen Monitoringservices kümmern wir uns um die dafür notwendigen Tools, das Monitoring sowie die dazu gehörende Interpretation der Daten. Bei Bedarf nehmen wir mit Ihnen Kontakt auf und besprechen die kritischen Punkte.</p>
+			<p><a href="/pdfs/monitoring_services.pdf" target="_blank">Download alle Factsheets</a></p>			
+	</div>
+</div>
+
+<div class="row-fluid page-section">
+	<div class="span4">
+		<h3>Ver&shy;füg&shy;bar&shy;keits-Moni&shy;toring</h3>
+		<div>
+			<p>Dass eine Webseite dauernd online ist, ist nicht selbstverständlich. Der Server kann vom Internet abgeschnitten sein, eine Datenbank oder Hacker können die Seite zum Absturz bringen oder es können gar Stromprobleme vorliegen.</p>
+			<p>Mit dem Verfügbarkeits-Monitoring prüfen wir alle 15min, ob Ihre Webseite an sich noch online ist. Diese Überprüfung findet automatisch statt und löst bei einer Webseite, welche nicht verfügbar ist, Alarm aus.</p>
+			<p>Wovon profitieren Sie?
+			<ul class="icons-ul">
+				<li><i class="icon-li icon-ok"></i>Präsenz</li>
+				<li><i class="icon-li icon-ok"></i>Schnelle Reaktion</li>
+				<li><i class="icon-li icon-ok"></i>Professionalität</li>				
+			</ul></p>
+			<p><a href="/pdfs/monitoring_verfuegbarkeit.pdf" target="_blank">Download Factsheet</a></p>			
+		</div>
+	</div>
+	
+	<div class="span4">
+		<h3>Fehler-Moni&shy;toring</h3>
+		<div>
+			<p>Auch die beste Software ist nie fehlerfrei. Fehler treten unvorhergesehen auf und führen zu Problemen, wenn sie nicht behandelt werden. Fehler können diverse Ursachen haben:
+			<ul><li>Änderung einer externen Library, Frameworks oder Servers  (z. B. durch Browserupdate)</li>
+			<li>Nichtfunktionieren eines Services (z. B. fehlerhafte Datenbank)</li>
+			<li>Änderung an der Schnittstelle (API) eines externen Anbieters</li>
+			<li>Fehlerhafte Programmierung bzw. Update am Ort X führt zu einer unvorhersehbaren Auswirkung am Ort Y (z. B. bei einer Weiterentwicklung)</li></ul>
+			<p>Die einfachste Art, Fehler zu überwachen, sind sogenannte Exception Notifications. Falls beim Ablauf einer Routine auf dem Server ein Fehler auftritt, wird eine E-Mail versandt, welche durch uns geprüft und interpretiert wird.</p>
+			<p>Wovon profitieren Sie?
+			<ul class="icons-ul">
+				<li><i class="icon-li icon-ok"></i>Bewusstsein</li>
+				<li><i class="icon-li icon-ok"></i>Information</li>
+				<li><i class="icon-li icon-ok"></i>Feedback</li>				
+			</ul></p>
+			<p><a href="/pdfs/monitoring_fehler.pdf" target="_blank">Download Factsheet</a></p>	
+		</div>
+	</div>
+
+	<div class="span4">
+		<h3>JavaScript-Moni&shy;toring</h3>
+		<div>
+			<p>JavaScript braucht man vor allem für Animationen, Layout oder interaktive Dinge. In praktisch jeder Webapplikation wird JavaScript eingesetzt und der Einsatz nimmt ständig zu. Gleichzeitig gibt es aber auch immer mehr Browser und Geräte, die Javascript unterschiedlich unterstützen. Dies eröffnet ein grosses Feld an möglichen Quellen, welche zu Fehlern führen können:
+			<ul><li>Neue Geräte können die alten JavaScript-Bestandteile nicht mehr anzeigen</li>
+			<li>Durch ein Browserupdate funktioniert die Homepage nicht mehr wie gewollt</li></ul>
+			<p>Aus diesem Grund ist ein Monitoring der JavaScript Funktionen sehr wichtig. Die einfachste Art, das JavaScript zu überwachen, sind Exception Notifications, welche speziell das JavaScript überwachen. Falls ein Fehler auftritt, wird an uns eine Benachrichtigung versandt. Diese wird durch uns geprüft und interpretiert.</p>
+			<p>Wovon profitieren Sie?
+			<ul class="icons-ul">
+				<li><i class="icon-li icon-ok"></i>Bewusstsein</li>
+				<li><i class="icon-li icon-ok"></i>Information</li>
+				<li><i class="icon-li icon-ok"></i>Reaktion</li>				
+			</ul></p>
+			<p><a href="/pdfs/monitoring_javascript.pdf" target="_blank">Download Factsheet</a></p>
+		</div>
+	</div>
+</div>
+
+<div class="row-fluid page-section">	
+	<div class="span4">
+		<h3>Performance-Moni&shy;toring</h3>
+		<div>
+			<p>Performance wird bei Webapplikationen immer wichtiger, da Benutzer immer weniger Geduld haben, auf eine Seite zu warten. Weiter ist es teuer und wenig sinnvoll, Performance-Optimierungen bereits im Vorhinein durchzuführen, weil das Benutzerverhalten und die Daten (z. B. Besucheraufkommen) im Vorhinein noch nicht klar sind. So können Performance-Optimierungen an falschen Orten durchgeführt werden, die schlussendlich nichts bringen, während die wichtigen Performance-Optimierungen nicht gemacht werden.</p>
+			<p>Aus diesem Grund ist es sinnvoll, die Performance Ihrer Applikation genauestes zu beobachten und Schwachstellen zu eliminieren. Wir richten Ihnen dafür ein Performance-Monitoring ein, welches uns Kennzahlen und Statistiken zu Ladezeiten Ihrer Seite liefert. Wir interpretieren diese Zahlen und machen Ihnen, falls notwendig, einen Handlungsvorschlag.</p>
+			<p>Wovon profitieren Sie?
+			<ul class="icons-ul">
+				<li><i class="icon-li icon-ok"></i>Bewusstsein</li>
+				<li><i class="icon-li icon-ok"></i>Sicherheit</li>
+				<li><i class="icon-li icon-ok"></i>Kostenreduktion</li>				
+			</ul></p>
+			<p><a href="/pdfs/monitoring_performance.pdf" target="_blank">Download Factsheet</a></p>
+		</div>
+	</div>
+
+	<div class="span4">
+		<h3>Security-Moni&shy;toring</h3>
+		<div>
+			<p>Grundsätzlich muss davon ausgegangen werden, dass jede Software (also auch Bibliotheken und Frameworks, die als Grundlage jeder Software und jedes Servers dienen) Sicherheitslücken beinhalten. Da eine Webapplikation auf solchen Bibliotheken aufbaut, macht es Sinn, diese Bibliotheken zu überwachen und entsprechend zu aktualisieren, sollte eine Sicherheitslücke gefunden werden.</p>
+			<p>Im Security-Monitoring informieren wir Sie stets über verfügbare Updates und beraten Sie, wie wichtig ein solches Update ist.</p>
+			<p>Wovon profitieren Sie?
+			<ul class="icons-ul">
+				<li><i class="icon-li icon-ok"></i>Wissen</li>
+				<li><i class="icon-li icon-ok"></i>Sicherheit</li>
+				<li><i class="icon-li icon-ok"></i>Professionalität</li>				
+			</ul></p>
+			<p><a href="/pdfs/monitoring_security.pdf" target="_blank">Download Factsheet</a></p>
+		</div>
+	</div>
+
+	<div class="span4">
+		<h3>SEO-Moni&shy;toring</h3>
+		<div>
+			<p>Search Engine Optimization (Suchmaschinenoptimierung, SEO) ist wichtig für Seiten, welche über Google gefunden werden sollen.</p>
+			<p>Über Google Webmaster Tools und Google Analytics kann überwacht werden, welche Stichworte bei einer Seite relevant sind. Wir begleiten Sie in der Erstellung, Überwachung und Auswertung Ihrer SEO-Daten, damit Sie zielgerichtet handeln können.</p>
+			<p>Für ein SEO-Monitoring ist das einmalige Installieren des Google Webmaster Tools sowie Google Analytics notwendig.</p>
+			<p>Wovon profitieren Sie?
+			<ul class="icons-ul">
+				<li><i class="icon-li icon-ok"></i>Hoher Traffic</li>
+				<li><i class="icon-li icon-ok"></i>Keine Fehler</li>
+				<li><i class="icon-li icon-ok"></i>Marketing-Boost</li>				
+			</ul></p>
+			<p><a href="/pdfs/monitoring_seo.pdf" target="_blank">Download Factsheet</a></p>
+		</div>
+	</div>	
+</div>
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">		
+        <h2>Google AdWords-Un&shy;ter&shy;stütz&shy;ung</h2>
+        </div>
+	</div>
+</div>
+		
+<div class="row-fluid page-section" style="margin-top: 15px;">
+    <div class="span12">
+        <div><%- @image_tag '/renuo/betrieb/google_unterstuetzung.jpg' %></div>
+    </div>
+</div>			
+		
+<div class="row-fluid">
+    <div class="span12">				
+	        <p>Bestimmt haben Sie auch schon von den Begriffen "Suchmaschinen-Werbung", "Keyword Advertising", "Click-Through-Rate" oder "Conversion-Rate" gehört. Vielleicht haben Sie sich gar schon überlegt, im Bereich der Suchmaschinen-Werbung aktiv zu werden. Suchmaschinen-Werbung ist neben der Suchmaschinen-Optimierung (SEO: Search Engine Optimization) der zweite Bereich des Suchmaschinen-Marketings (SEM). Synonym dafür werden auch Bezeichnungen wie z. B. Keyword-Advertising oder Paid-Links genutzt. Man versteht darunter das Schalten von bezahlten Suchanzeigen, die i. d. R. oberhalb und neben den (organischen) Suchergebnissen oder auf Webseiten dargestellt werden. Die Anzeigen werden an bestimmte Keywords geknüpft. Sobald ein Nutzer nach einem definierten Keyword sucht, erscheint Ihre Anzeige. Die Nutzer können dann auf Ihre Anzeige klicken, um sich zu informieren und Produkte / Dienstleistungen zu kaufen.</p>
+			<p>Der wichtigste Anbieter in diesem Kontext ist <a href="https://www.google.ch/adwords" target="_blank">Google</a>: Weltweit besitzt Google über 70% Marktanteil an Suchanfragen, im deutschsprachigen Raum sogar über 90% (Quelle: de.statista.com, 2013).</p>
+			<p>Mit einer professionellen Vor- und Aufbereitung einer Online-Werbekampagne lassen sich verschiedene Ziele realisieren. Die wichtigsten sind die <strong>Erhöhung der Besucher auf Ihrer Homepage, die Steigerung der Markenbekanntheit sowie die Steigerung von Leads oder Sales</strong>.</p>
+			<p>Suchmaschinenwerbung bietet Ihnen im Vergleich zu konventioneller Werbung drei wesentliche Vorteile:
+			<ul><li><strong>Gezielte Anzeigenausrichtung:</strong> Präsentieren Sie Ihre Werbung direkt potentiellen Kunden, welche nach einem passenden Suchbegriff suchen. Auch wenn Ihr Webauftritt bereits in den (organischen) Suchergebnissen von Google zu finden sind, können Sie mithilfe von AdWords gezielt neue Zielgruppen bei Google und im Google-Netzwerk (z. B. Google Maps, Youtube, Google Bilder, oder tausende von Google-Partnersites) ansprechen. Anstatt dass Sie nach Kunden suchen, lassen Sie Kunden nach Ihnen suchen. Des Weiteren sind Kunden gegenüber thematisch passenden Werbebotschaften (verständlicherweise) positiver eingestellt als ungewünschten Werbeinhalten.</li>
+			<li><strong>Bessere Kontrolle:</strong> Das Werbebudget und die Anzeigen können stets verändert werden, bis die gewünschten Ergebnisse erreicht werden. Die Anzeigen können des Weiteren auf bestimmte Sprachen, geografische Regionen, Endgeräte (Computer, Tablet, Mobile) oder Tageszeiten ausgerichtet werden. Mit einer Verknüpfung der Daten mit Ihrem Google-Analytics Account verstehen Sie ferner, wie sich die Kunden nach dem Klick verhalten.</li>
+			<li><strong>Messbarer Nutzen:</strong> Jegliche Aktivitäten, d. h. Impressionen sowie Klicks, lassen sich messen und optimieren. Ein Werbebudget unterliegt keinen vorgeschriebenen Mindestausgaben oder Mindestlaufzeiten. Kosten entstehen lediglich, wenn ein Nutzer tatsächlich auf eine von Ihnen geschaltete Werbung klickt. Somit wird jeder Franken Ihres Budgets direkt in die Gewinnung neuer Kunden investiert. Durch einen grösseren Traffic steigt des Weiteren Ihr organisches Suchranking!</li></ul></p>
+    </div>
+</div>
+
+<div class="row-fluid">
+	<div class="span1">
+	<br/>
+	        <img src="/images/samuel.jpg">
+	</div>
+
+	<div class="span11">
+	<h3>Ihr Ansprechpartner</h3>
+	<p><a href="/ueber-uns/#samuel_steiner">Samuel Steiner</a> hat sich durch Google zum AdWords-Spezialist ausbilden lassen und verfügt sowohl über eine bestandene Grundlagen- sowie auch Fortgeschrittenen-Prüfung. Mit dem Bestehen dieser zwei Prüfungen ist er offiziell von Google als "AdWords-Spezialist" qualifiziert. Gerne setzt er sein Wissen zu Gunsten Ihres Unternehmens ein und unterstütze Sie in der Erstellung und in der Betreuung von Suchmaschinen-Werbekampagnen.</p>
+</div>
+
+</div>
+
+
+
+
+

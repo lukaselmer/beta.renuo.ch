@@ -1,0 +1,122 @@
+--- yaml
+layout: 'default'
+title: 'Design'
+description: 'Individuelles Design mit Fokus auf Usabilty.'
+#isMainNavi: 1
+position: 1
+---
+
+<div class="row-fluid page-header-element">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Design
+                <small>Individuelles Design mit Fokus auf Usabilty</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid page-section">
+
+    <div class="span2" align="center">
+        <h4>Design</h4>
+        <img src="/images/design_small.png">
+    </div>
+
+    <div class="span10">
+        <br/><p>Die Renuo konzentriert sich ausschliesslich auf ihre Kernkompetenzen, nämlich webbasierte Softwareentwicklung. Aus diesem Grund machen wir das Design nicht selbst, sondern nutzen unser Netzwerk! In zahlreichen Projekten haben wir bereits mit der <a href="http:www.webeo.ch" target="_blank">Webeo GmbH</a> aus Hirzel (ZH) zusammengearbeitet. Die Webeo GmbH entwickelt und gestaltet qualitativ hochwertige Designs, bei denen der Fokus stets auf einer guten Nutzerführung liegt.</p>
+    </div>
+
+</div>
+
+<div class="row-fluid page-section">
+
+<div class="span4">
+        <h2>Unser Partner</h2>
+        <div><%- @image_tag 'roman.jpg' %></div>
+        <h4>Roman Wünsche</h4>
+
+		<p>Web-Designer<br/>
+        <br/>
+
+        <div data-collapse>
+            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2009-jetzt</th>
+                        <td><strong>Gründung und Leitung</strong> der Webeo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2009-2010</th>
+                        <td><strong>Informatik Studium</strong> an der Hochschule für Technik Rapperswil (HSR)</td>
+                    </tr>					
+                    <tr>
+                        <th>2006-2009</th>
+                        <td><strong>System Engineer</strong> bei der SIX Group Services AG</td>
+                    </tr>
+                    <tr>
+                        <th>2002-2006</th>
+                        <td><strong>Apprentice</strong> bei der SIX Group Services AG</td>
+                    </tr>					
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <br/>
+        <div class="profile-social-links">
+            <a href="https://www.xing.com/profile/Roman_Wuensche"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+        </div>
+    </div>
+	
+    <div class="span8">
+        <h2>Leis&shy;tungs&shy;spek&shy;trum</h2>
+        <div>
+            <p>Das Leistungsspektrum, welches über die Renuo bzw. Webeo bezogen werden kann, umfasst folgendes:
+			<ul class="icons-ul">
+				<li><i class="icon-li icon-ok"></i>Grafik- & Layoutdesign mittels Adobe Photoshop & Illustrator</li>
+				<li><i class="icon-li icon-ok"></i>PSD zu XHTML/CSS Slicing nach W3C Standards</li>
+				<li><i class="icon-li icon-ok"></i>Clientseitige Benutzerführung mit jQuery & AJAX</li>				
+			</ul></p>
+        </div>
+		<br/><br/>
+        <h2>Über Webeo</h2>
+        <div>
+            <p>Die Webeo ist eine im Jahre 2009 gegründete Designagentur mit Sitz in der Schweiz, nähe Zürich. Die Webeo gestaltet Webauftritte nach Mass. Dabei stehen Qualität, Kreativität und Bedienbarkeit im Vordergrund.</p>
+			<p>Jedes Projekt ist unterschiedlich, einzigartig und benötigt individuelle Betreuung. Die Webeo verkauft keine fixfertigen Produkte, sondern konzentriert sich auf das, was wirklich zählt: Den Endkunden. Gemeinsam mit Ihnen wird die passende Lösung gefunden, entworfen und durch die Renuo entwickelt. Somit erreichen Sie eine individuelle, auf Ihr Vorhaben zugeschnittene Lösung.</p>
+        </div>
+    </div>		
+	
+	
+</div>
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Zusammenarbeit
+                <small>und bereits realisierte Projekte</small>
+            </h1>
+			<p>Die Renuo und die Webeo haben bereits zahlreiche Projekte in gemeinsamer Arbeit realisiert. Nachfolgend einige Beispiele:</p>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid page-section">
+    <div class="span4">
+        <a href="/referenzen/shariando"><img src="/images/shariando/shariando2.png"></a>	
+    </div>
+    <div class="span4">
+        <a href="/referenzen/vebis"><img src="/images/vebis/vebis.png"></a>	
+    </div>
+</div>
+
+
+
