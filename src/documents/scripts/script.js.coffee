@@ -5,25 +5,79 @@ $ ->
 
       map_styles = [
         {
-          featureType: "road"
+          featureType: "road.local"
+          stylers: [visibility: "off"]
+        }
+        {
+          featureType: "road.arterial"
+          stylers: [
+            {
+              color: "#d2e7f9"
+            }
+            {
+              visibility: "simplified"
+            }
+          ]
+        }
+        {
+          featureType: "road.highway"
           elementType: "geometry"
           stylers: [
-            {color: "#78b3ed"}
-            {weight: 0.6}
+            {
+              weight: 0.8
+            }
+            {
+              color: "#78b3ed"
+            }
           ]
+        }
+        {
+          featureType: "road.highway"
+          elementType: "geometry.stroke"
+          stylers: [
+            {
+              color: "#78b3ed"
+            }
+            {
+              hue: "#0077ff"
+            }
+          ]
+        }
+        {
+          featureType: "poi"
+          stylers: [visibility: "off"]
         }
         {
           featureType: "road.highway.controlled_access"
-          stylers: [
-            visibility: "off"
-          ]
+          elementType: "labels.icon"
+          stylers: [visibility: "off"]
         }
         {
-          featureType: "administrative"
-          stylers: [
-            {color: "#0140c9"}
-            {weight: 0.1}
-          ]
+          elementType: "labels.icon"
+          stylers: [visibility: "off"]
+        }
+        {
+          featureType: "water"
+          elementType: "geometry"
+          stylers: [color: "#9ed8f6"]
+        }
+        {
+          featureType: "water"
+          elementType: "labels"
+          stylers: [visibility: "off"]
+        }
+        {
+          featureType: "transit"
+          stylers: [visibility: "off"]
+        }
+        {
+          featureType: "landscape.natural"
+          stylers: [lightness: 69]
+        }
+        {
+          featureType: "road"
+          elementType: "labels"
+          stylers: [visibility: "off"]
         }
       ]
 
