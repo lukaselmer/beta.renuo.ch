@@ -12,10 +12,10 @@ $ ->
           featureType: "road.arterial"
           stylers: [
             {
-              visibility: "on"
+              color: "#d2e7f9"
             }
             {
-              color: "#d2e7f9"
+              visibility: "simplified"
             }
           ]
         }
@@ -72,47 +72,12 @@ $ ->
         }
         {
           featureType: "landscape.natural"
-          stylers: [
-            {
-              color: "#f0faff"
-            }
-            {
-              hue: "#00ccff"
-            }
-            {
-              lightness: 63
-            }
-          ]
+          stylers: [lightness: 69]
         }
         {
           featureType: "road"
           elementType: "labels"
           stylers: [visibility: "off"]
-        }
-      ]
-
-
-      old_map_styles = [
-        {
-          featureType: "road"
-          elementType: "geometry"
-          stylers: [
-            {color: "#78b3ed"}
-            {weight: 0.6}
-          ]
-        }
-        {
-          featureType: "road.highway.controlled_access"
-          stylers: [
-            visibility: "off"
-          ]
-        }
-        {
-          featureType: "administrative"
-          stylers: [
-            {color: "#222222"} #0140c9
-            {weight: 0.1}
-          ]
         }
       ]
 
