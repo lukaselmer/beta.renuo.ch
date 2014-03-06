@@ -8,7 +8,7 @@ $ ->
           featureType: "road"
           elementType: "geometry"
           stylers: [
-            {color: "#333333"} #78b3ed
+            {color: "#78b3ed"}
             {weight: 0.6}
           ]
         }
@@ -21,7 +21,7 @@ $ ->
         {
           featureType: "administrative"
           stylers: [
-            {color: "#0140c9"}
+            {color: "#222222"} #0140c9
             {weight: 0.1}
           ]
         }
