@@ -32,7 +32,7 @@ docpadConfig =
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-                Renuo, Internet soulutions, Web, Websites, Webseite, Webseiten, Homepages, Consulting, Software Engineering, Ruby, Ruby on Rails, mobile, mobile apps,
+                Renuo, Internet soulutions, Web, Websites, Webseite, Internet Seite, Internetseite, Homepage, Homepages, Consulting, Software Engineering, Ruby, Ruby on Rails, mobile, mobile apps,
                 javascript, nodejs, node, android, ipad, iphone, rails, professional, Webagentur, Websiten, Web 2.0, CMS, Web-Applikationen, E-Commerce Lösungen
                 """
 
