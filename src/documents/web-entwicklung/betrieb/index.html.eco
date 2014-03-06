@@ -185,7 +185,7 @@ monitoringSlider:
         </div>
 		
 		<div class="span12">
-        <div><%- @image_tag '/renuo/betrieb/adwords.jpg' %></div>
+        <div><img src="/renuo/betrieb/adwords.jpg"></div>
 		</div>
 		
 	        <p>Bestimmt haben Sie auch schon von den Begriffen "Suchmaschinen-Werbung", "Keyword Advertising", "Click-Through-Rate" oder "Conversion-Rate" gehört. Vielleicht haben Sie sich gar schon überlegt, im Bereich der Suchmaschinen-Werbung aktiv zu werden. Suchmaschinen-Werbung ist neben der Suchmaschinen-Optimierung (SEO: Search Engine Optimization) der zweite Bereich des Suchmaschinen-Marketings (SEM). Synonym dafür werden auch Bezeichnungen wie z. B. Keyword-Advertising oder Paid-Links genutzt. Man versteht darunter das Schalten von bezahlten Suchanzeigen, die i. d. R. oberhalb und neben den (organischen) Suchergebnissen oder auf Webseiten dargestellt werden. Die Anzeigen werden an bestimmte Keywords geknüpft. Sobald ein Nutzer nach einem definierten Keyword sucht, erscheint Ihre Anzeige. Die Nutzer können dann auf Ihre Anzeige klicken, um sich zu informieren und Produkte / Dienstleistungen zu kaufen.</p>
