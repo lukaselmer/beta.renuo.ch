@@ -8,7 +8,7 @@ $ ->
           featureType: "road"
           elementType: "geometry"
           stylers: [
-            {color: "#78b3ed"}
+            {color: "#333333"} #78b3ed
             {weight: 0.6}
           ]
         }
