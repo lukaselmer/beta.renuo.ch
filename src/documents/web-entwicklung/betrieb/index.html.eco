@@ -65,14 +65,14 @@ monitoringSlider:
 <div class="row-fluid page-header-element">
     <div class="span12">
         <div class="page-header">	
-			<h2>Moni&shy;toring Ser&shy;vices</h2>
+			<h2>Moni&shy;toring-Ser&shy;vices</h2>
         </div>
 	<div class="row-fluid page-header-element">
     <div class="span12">
         <%- @getSlider('monitoringSlider', @document.monitoringSlider) %>
     </div>
 	</div>
-            <p>Wir bieten Ihnen im Rahmen von Monitorings verschiedene Services an. Sie erlauben einen sicheren Betrieb, welcher keinem Blindflug entspricht. Fehler werden mit dazu geeigneten Tools systematisch erkannt. Im allen Monitoringservices kümmern wir uns um die dafür notwendigen Tools, das Monitoring sowie die dazu gehörende Interpretation der Daten. Bei Bedarf nehmen wir mit Ihnen Kontakt auf und besprechen die kritischen Punkte.</p>
+            <p>Wir bieten Ihnen im Rahmen von Monitorings verschiedene Services an. Ein Monitoring-Service ist ein Programm, welches den sicheren Betrieb Ihrer Applikation überwacht. Fehler und kritische Vorgänge werden mit dazu geeigneten Werkzeugen automatisch erkannt. Bei allen Monitoring-Services kümmern wir uns um deren Installation, das Monitoring, sowie die dazu gehörende Interpretation der Daten. Bei Bedarf nehmen wir mit Ihnen Kontakt auf und besprechen die kritischen Punkte.</p>
 			<p><a href="/pdfs/monitoring_services.pdf" target="_blank">Download alle Factsheets</a></p>			
 	</div>
 </div>
