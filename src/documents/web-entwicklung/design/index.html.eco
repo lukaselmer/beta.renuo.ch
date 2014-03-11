@@ -31,7 +31,7 @@ position: 1
 
 <div class="row-fluid page-section">
 
-<div class="span4">
+<div class="span3">
         <h2>Unser Partner</h2>
         <div><%- @image_tag 'roman.jpg' %></div>
         <h4>Roman Wünsche</h4>
@@ -77,7 +77,7 @@ position: 1
         </div>
     </div>
 	
-    <div class="span8">
+    <div class="span9">
         <h2>Leis&shy;tungs&shy;spek&shy;trum</h2>
         <div>
             <p>Das Leistungsspektrum, welches über die Renuo bzw. Webeo bezogen werden kann, umfasst folgendes:
