@@ -75,7 +75,7 @@ position: 4
                 <div><%- @image_tag 'lukas.jpg' %></div>
                 <h3>Lukas Elmer</h3>
 
-                <p>Web Entwickler, Gründer, B.Sc. HSR<br/>
+                <p>Web-Entwickler und Gründer, B.Sc. HSR<br/>
                     <a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></p>
                 <br/>
 
@@ -141,7 +141,7 @@ position: 4
                 <div><%- @image_tag 'diego.jpg' %></div>
                 <h3>Diego P. Steiner</h3>
 
-                <p>Web Entwickler und Gründer<br/>
+                <p>Web-Entwickler und Gründer<br/>
                     <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
                 <br/>
 
@@ -271,7 +271,7 @@ position: 4
                 <div><%- @image_tag 'ueli.jpg' %></div>
                 <h3>Ueli Kunz</h3>
 
-                <p>Web Entwickler, B.Sc. HSR<br/>
+                <p>Web-Entwickler, B.Sc. HSR<br/>
 
                 <br/>
 
@@ -324,7 +324,7 @@ position: 4
                 <div><%- @image_tag 'alessandro.jpg' %></div>
                 <h3>Alessandro Rodi</h3>
 
-                <p>Web Entwickler, B.Sc.<br/>
+                <p>Web-Entwickler, B.Sc.<br/>
 
                 <br/>
 
