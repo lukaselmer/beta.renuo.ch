@@ -97,17 +97,13 @@ position: 4
                             <tbody>
                             <tr>
                                 <th>2012-jetzt</th>
-                                <td><strong>Master Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule
+                                <td><strong>Master-Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule
                                     ETH, Zürich
                                 </td>
                             </tr>
                             <tr>
                                 <th>2011-jetzt</th>
-                                <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
-                            </tr>
-                            <tr>
-                                <th>2011</th>
-                                <td><strong>Gründung</strong> der Renuo GmbH mit Diego Steiner</td>
+                                <td><strong>Gründung und Web-Entwickler</strong> der Renuo GmbH mit Diego Steiner</td>
                             </tr>
                             <tr>
                                 <th>2010-2011</th>
@@ -115,12 +111,12 @@ position: 4
                             </tr>
                             <tr>
                                 <th>2009-2012</th>
-                                <td><strong>Bachelor Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
+                                <td><strong>Bachelor-Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
                                 </td>
                             </tr>
                             <tr>
                                 <th>2006-2009</th>
-                                <td><strong>Web Entwicklung</strong> (PHP, Ruby on Rails), Projektleitung, Zimtkorn GmbH, Zürich
+                                <td><strong>Web-Entwickler</strong> (PHP, Ruby on Rails), Projektleitung, Zimtkorn GmbH, Zürich
                                 </td>
                             </tr>
                             <tr>
@@ -145,7 +141,7 @@ position: 4
                 <div><%- @image_tag 'diego.jpg' %></div>
                 <h3>Diego P. Steiner</h3>
 
-                <p>Gründer, Web Entwickler<br/>
+                <p>Web Entwickler und Gründer<br/>
                     <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
                 <br/>
 
@@ -168,11 +164,7 @@ position: 4
                             <tbody>
                             <tr>
                                 <th>2011-jetzt</th>
-                                <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
-                            </tr>
-                            <tr>
-                                <th>2011</th>
-                                <td><strong>Gründung</strong> der Renuo GmbH mit Lukas Elmer</td>
+                                <td><strong>Gründung und Web-Entwickler</strong> der Renuo GmbH mit Lukas Elmer</td>
                             </tr>
                             <tr>
                                 <th>2009-jetzt</th>
@@ -182,11 +174,11 @@ position: 4
                             </tr>
                             <tr>
                                 <th>2009-2010</th>
-                                <td><strong>Web Entwicklung</strong> (PHP, Zend Framework), Trekksoft AG, Bern</td>
+                                <td><strong>Web-Entwickler</strong> (PHP, Zend Framework), Trekksoft AG, Bern</td>
                             </tr>
                             <tr>
                                 <th>2006-2008</th>
-                                <td><strong>Web Entwicklung</strong> (ASP.net), Mathys & Scheitlin AG, Bern</td>
+                                <td><strong>Web-Entwickler</strong> (ASP.net), Mathys & Scheitlin AG, Bern</td>
                             </tr>
                             <tr>
                                 <th>2003-2006</th>
@@ -209,7 +201,7 @@ position: 4
                 <div><%- @image_tag 'samuel.jpg' %></div>
                 <h3>Samuel Steiner</h3>
 
-                <p>Projektleiter, Partner, M.A. HSG<br/>
+                <p>Managing Partner, M.A. HSG<br/>
                     <a href="mailto:samuel.steiner@renuo.ch">samuel.steiner@renuo.ch</a></p>
                 <br/>
 
@@ -232,24 +224,22 @@ position: 4
                             <tbody>
                             <tr>
                                 <th>2013-jetzt</th>
-                                <td><strong>Partner</strong> bei der Renuo GmbH</td>
+                                <td><strong>Managing Partner</strong> bei der Renuo GmbH</td>
                             </tr>
                             <tr>
                                 <th>2011-2013</th>
-                                <td><strong>Master Studium</strong> Informations-, Medien- und Technologiemanagement an der
-                                    Universität St.
-                                    Gallen (HSG)
+                                <td><strong>Master-Studium Business Innovation</strong> an der Universität St. Gallen (HSG)
                                 </td>
                             </tr>
                             <tr>
                                 <th>2010-2013</th>
-                                <td><strong>Geschäftsleitung</strong> bei der Verbandspool AG (<a href="https://shariando.com"
+                                <td><strong>Geschäftsführer</strong> Verbandspool AG (<a href="https://shariando.com"
                                                                                                   target="_blank">shariando.com</a>)
                                 </td>
                             </tr>
                             <tr>
                                 <th>2007-2010</th>
-                                <td><strong>Bachelor Studium Betriebswirtschaftslehre</strong> an der Universität St.Gallen
+                                <td><strong>Bachelor-Studium Betriebswirtschaftslehre</strong> an der Universität St.Gallen
                                     (HSG)
                                 </td>
                             </tr>
@@ -298,16 +288,16 @@ position: 4
                             <tbody>
                             <tr>
                                 <th>2012-jetzt</th>
-                                <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                                <td><strong>Web-Entwickler</strong> bei der Renuo GmbH</td>
                             </tr>
                             <tr>
                                 <th>2009-2012</th>
-                                <td><strong>Bachelor Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
+                                <td><strong>Bachelor-Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
                                 </td>
                             </tr>
                             <tr>
                                 <th>2005-2009</th>
-                                <td><strong>Software Entwicklung</strong> (Sharepoint, ASP.net, C#.net)</td>
+                                <td><strong>Software-Entwicklung</strong> (Sharepoint, ASP.net, C#.net)</td>
                             </tr>
                             <tr>
                                 <th>2002-2005</th>
@@ -351,7 +341,7 @@ position: 4
                             <tbody>
                             <tr>
                                 <th>2014-jetzt</th>
-                                <td><strong>Anstellung als Web Entwickler</strong> bei der Renuo GmbH</td>
+                                <td><strong>Web-Entwickler</strong> bei der Renuo GmbH</td>
                             </tr>
                             <tr>
                                 <th>2011-2013</th>
@@ -364,7 +354,7 @@ position: 4
                             </tr>
                             <tr>
                                 <th>2005-2008</th>
-                                <td>Bachelor Studium an der <strong>Universität Bologna</strong> in Informatikwissenschaft</td>
+                                <td><strong>Bachelor-Studium an der Universität Bologna</strong> in Informatikwissenschaft</td>
                             </tr>
                             </tbody>
                         </table>
