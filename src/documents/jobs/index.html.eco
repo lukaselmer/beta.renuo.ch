@@ -16,14 +16,9 @@ position: 5
 
 <div class="row-fluid">
     <div class="span6">
-        <p>Derzeit haben wir folgende offene Stellen:</p><br/>
-		<ul>
-                <li><a href="/jobs/140211_vollzeit">100% Stelle <b>Software Engineer (Ruby on Rails)</b> ab sofort</a></li><br/>
-				<li><a href="/hsr">40-60% Teilzeitstelle <b>Software Engineer (Ruby on Rails)</b> für HSR Studenten, ab sofort</a></li><br/>
-          		<li><a href="/pdfs/0914-ims-praktikant.pdf">100% <b>Praktikum (Ruby on Rails)</b> für Schüler der IMS, ab September 2014</a></li>
-		</ul>
-
-		<br/><p>Wir freuen uns auch auf Initiativbewerbungen an <a href="mailto:jobs@renuo.ch">jobs@renuo.ch</a>!</p>
+        <p>Derzeit haben wir keine offenen Stellen.</p><br/>
+		
+		<br/><p>Wir freuen uns aber auf Initiativbewerbungen an <a href="mailto:jobs@renuo.ch">jobs@renuo.ch</a>!</p>
     </div>
 
 	<div class="span1">
