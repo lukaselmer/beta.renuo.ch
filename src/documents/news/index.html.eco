@@ -21,15 +21,18 @@ position: 5
     <div class="span8">
 	<h3>17.03.2014: Die Renuo wächst</h3>
         <p>
-		Aufgrund der gestiegenen Aufträge und wachsender Kundenbasis waren wir im Januar und Februar dieses Jahres auf Mitarbeitersuche. Dieser nicht ganz einfache Task konnten wir im März nun abschliessen und es freut uns ausserordentlich, ab heute Alessandro Rodi neu in unserem Team begrüssen zu dürfen. Alessandro Rodi hat in Bologna Informatik studiert und arbeitet seither drei Jahren als selbständiger Freelancer mit Schwerpunkt Ruby on Rails. Wir wünschen Alessandro einen guten Start und freuen uns auf die Zusammenarbeit! 
+		Aufgrund zunehmender Auftragslage und wachsender Kundenbasis waren wir im Januar und Februar dieses Jahres auf Mitarbeitersuche. Dieser nicht ganz einfache Task konnten wir im März nun abschliessen und es freut uns ausserordentlich, ab heute Alessandro Rodi neu in unserem Team begrüssen zu dürfen. Alessandro Rodi hat in Bologna Informatik studiert und arbeitete die letzten drei Jahre als selbständiger Freelancer mit Schwerpunkt Ruby on Rails.
+		</p>
+		<p>
+		Wir wünschen Alessandro einen guten Start und freuen uns auf die Zusammenarbeit!
 		</p>
     </div>
 	
 	<div class="span1">
     </div>		
 	
-	<div class="span3">
-        <img src="/images/alessandro.jpg">
+	<div class="span3" align="center">
+        <img width="120" src="/images/alessandro.jpg">
     </div>
 </div>	
 
@@ -53,7 +56,7 @@ position: 5
 	<div class="span1">
     </div>		
 	
-	<div class="span3">
+	<div class="span3"> </br>
         <img src="/images/news/adwords-logo.jpg">
     </div>
 </div>	
