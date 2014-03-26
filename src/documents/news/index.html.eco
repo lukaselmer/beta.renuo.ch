@@ -19,6 +19,26 @@ position: 5
 <div class="row-fluid">
 
     <div class="span8">
+	<h3>17.03.2014: Die Renuo wächst</h3>
+        <p>
+		Aufgrund zunehmender Auftragslage und wachsender Kundenbasis waren wir im Januar und Februar dieses Jahres auf Mitarbeitersuche. Dieser nicht ganz einfache Task konnten wir im März nun abschliessen und es freut uns ausserordentlich, ab heute Alessandro Rodi neu in unserem Team begrüssen zu dürfen. Alessandro Rodi hat in Bologna Informatik studiert und arbeitete die letzten drei Jahre als selbständiger Freelancer mit Schwerpunkt Ruby on Rails.
+		</p>
+		<p>
+		Wir wünschen Alessandro einen guten Start und freuen uns auf die Zusammenarbeit!
+		</p>
+    </div>
+	
+	<div class="span1">
+    </div>		
+	
+	<div class="span3" align="center">
+        <img width="120" src="/images/alessandro.jpg">
+    </div>
+</div>	
+
+<div class="row-fluid">
+
+    <div class="span8">
 	<h3>27.01.2014: AdWords Qualifizierung</h3>
         <p>
 		Seit heute können wir Ihnen auch professionelle Betreuung in Suchmaschinenmarketing (SEM) bieten. Wir verfügen über eine Qualifizierung durch Google in der AdWords Thematik. Die Qualifizierung beinhält sowohl eine Grundlagen- wie auch eine Fortgeschrittenenprüfung.
@@ -36,7 +56,7 @@ position: 5
 	<div class="span1">
     </div>		
 	
-	<div class="span3">
+	<div class="span3"> </br>
         <img src="/images/news/adwords-logo.jpg">
     </div>
 </div>	
