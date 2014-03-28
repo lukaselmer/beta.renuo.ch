@@ -5,7 +5,7 @@ box_description: Consulting für Enyx GmbH
 short_description: Ruby Consulting für Enyx GmbH
 image_path: /images/welltravel/welltravel.jpg
 layout: project
-position: 5
+position: 14
 tags: ['project']
 slider:
     -
@@ -59,7 +59,7 @@ slider:
             8408 Winterthur<br></p>
             <p>Ansprechperson: Blerim Bunjaku<br>
             Tel: +41 52 222 04 04 </p>
-            <p>Link: <a href="http://www.enyx.ch" target="_blank">http://www.enxy.ch</a></p>
+            <p>Link: <a href="http://www.enyx.ch" target="_blank">http://www.enyx.ch</a></p>
             <p>Die Partnerschaft dauert von Februar 2014 bis April 2014.</p>
             <div><%- @image_tag '/welltravel/enyx_logo.png' %></div>
         </div>
