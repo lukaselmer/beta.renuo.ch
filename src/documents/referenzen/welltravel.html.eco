@@ -36,7 +36,7 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Die Enyx (Schweiz) ltd entwickelt für einen Kunden eine neue Buchungsplattform für Flüge. Das Augenmerk liegt dabei auf Transparenz und Übersichtlichkeit. Zum Beispiel wird die Anzahl der Suchresultate durch intelligente Filterung begrenzt. Die Flüge werden dabei nicht, wie üblich, über eine bestehende Buchungsplattform abgefragt und gebucht, sondern direkt bei internationalen Flugplan-Anbietern. Für die Entwicklung dieser komplexen Applikation wurde die Renuo GmbH zugezogen. Für die asynchrone Verarbeitung der Flugverbindungen wird auf dem Server Ruby on Rails mit Sidekiq verwendet. Auf dem Client wird für die Echtzeit-Darstellung der gefundenen Verbindungen eine EmberJS Applikation verwendet.</p>
+            <p>Die Enyx (Schweiz) ltd entwickelt für einen Kunden eine neue internationale Buchungsplattform für Flüge. Das Augenmerk liegt dabei auf Transparenz und Übersichtlichkeit. Die Flüge werden nicht, wie üblich, über eine bestehende Buchungsplattform abgefragt und gebucht, sondern direkt bei internationalen Flugplan-Anbietern.<br/>Für die Entwicklung dieser komplexen Applikation wurde die Renuo GmbH zugezogen.
         </div>
     </div>
 
@@ -47,6 +47,7 @@ slider:
             <p>Die Renuo GmbH hat Enyx (Schweiz) ltd während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
             sowohl vor Ort, wie auch remote im Projekt mitwirken. Die Aufgaben waren mehrheitlich im Frontend-Bereich angesiedelt und erforderten fundierte Kenntnisse in Ruby on Rails, HTML5, CSS3 und JavaScript (EmberJS). Die Projektleitung sowie dessen Administration
             bleiben bei der Enyx (Schweiz) ltd.</p>
+            <p>Für die asynchrone Verarbeitung der Flugverbindungen wird auf dem Server Ruby on Rails mit Sidekiq verwendet. Auf dem Client wird für die Echtzeit-Darstellung der gefundenen Flug-Verbindungen eine EmberJS Applikation verwendet. Die Anzahl der Suchresultate wird durch intelligente Filterung begrenzt.</p>
         </div>
     </div>
 
