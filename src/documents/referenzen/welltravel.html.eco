@@ -12,22 +12,22 @@ slider:
         image: /images/welltravel/home.jpg
         image_alt: Direkt zum Ziel
         title: Direkt zum Ziel
-        subtitle: "Der Fokus der Flugsuche liegt auf einer einfachen Usability, sodass jeder Nutzer sprichwörtlich schnell sein Ziel erreicht."
+        subtitle: "Der Fokus der Flugsuche liegt auf einer guten Usability, sodass jeder Nutzer sprichwörtlich schnell sein Ziel erreicht."
     -
         image: /images/welltravel/auflistung.jpg
         image_alt: Flugresultate
         title: Suchresultate
-        subtitle: "Die gefundenen Flüge werden, sortiert nach Direktflügen und Flügen mit Zwischenhalt, übersichtlich aufgelistet."
+        subtitle: "Die gefundenen Flüge werden, sortiert nach Direktflügen und Flügen mit Zwischenhalten, übersichtlich aufgelistet."
     -
         image: /images/welltravel/flugsuche.jpg
         image_alt: Filtermöglichkeiten
         title: Filtermöglichkeiten
-        subtitle: "Zahlreiche Filter helfen dem Besucher, seinen Wunschflug zu finden."
+        subtitle: "Zahlreiche dynamische Filter helfen dem Besucher, seinen Wunschflug zu finden."
     -
         image: /images/welltravel/stopover.jpg
         image_alt: Usability
         title: Hohe Usability
-        subtitle: "Dem Kunden soll die Flugsuche so einfach und übersichtlich wie nur möglich geboten werden. Zum Beispiel mit Details zu Stopovern als Hover-Effekt."
+        subtitle: "Dem Kunden werden die Flugresultate sofort mit den wichtigsten Daten angezeigt. Weitere Details, z.B. zu Zwischenhalten sind im Hover-Window sichtbar."
 ---
 
 
@@ -36,7 +36,7 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Die Enyx (Schweiz) ltd entwickelt für einen Kunden eine neue Buchungsplattform für Flüge. Die Flüge werden dabei nicht, wie üblich, über eine bestehende Buchungsplattform gebucht, sondern direkt bei den entsprechenden Fluggesellschaften. Für die Entwicklung dieser komplexen Schnittstellen wurde die Renuo GmbH zugezogen. Die Plattform basiert auf Ruby on Rails.</p>
+            <p>Die Enyx (Schweiz) ltd entwickelt für einen Kunden eine neue Buchungsplattform für Flüge. Das Augenmerk liegt dabei auf Transparenz und Übersichtlichkeit. Zum Beispiel wird die Anzahl der Suchresultate durch intelligente Filterung begrenzt. Die Flüge werden dabei nicht, wie üblich, über eine bestehende Buchungsplattform abgefragt und gebucht, sondern direkt bei internationalen Flugplan-Anbietern. Für die Entwicklung dieser komplexen Applikation wurde die Renuo GmbH zugezogen. Für die asynchrone Verarbeitung der Flugverbindungen wird auf dem Server Ruby on Rails mit Sidekiq verwendet. Auf dem Client wird für die Echtzeit-Darstellung der gefundenen Verbindungen eine EmberJS Applikation verwendet.</p>
         </div>
     </div>
 
@@ -45,7 +45,7 @@ slider:
 
         <div>
             <p>Die Renuo GmbH hat Enyx (Schweiz) ltd während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
-            sowohl vor Ort wie auch remote im Projekt mitwirken. Die Aufgaben waren mehrheitlich im Frontend-Bereich angesiedelt und erforderten fundierte Kenntnisse in Ruby on Rails, HTML, CSS und JavaScript. Die Projektleitung sowie dessen Administration
+            sowohl vor Ort, wie auch remote im Projekt mitwirken. Die Aufgaben waren mehrheitlich im Frontend-Bereich angesiedelt und erforderten fundierte Kenntnisse in Ruby on Rails, HTML5, CSS3 und JavaScript (EmberJS). Die Projektleitung sowie dessen Administration
             bleiben bei der Enyx (Schweiz) ltd.</p>
         </div>
     </div>
