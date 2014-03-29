@@ -45,8 +45,8 @@ slider:
 
         <div>
             <p>Die Renuo GmbH hat Enyx (Schweiz) ltd während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
-            sowohl vor Ort, wie auch remote im Projekt mitwirken. Die Aufgaben waren mehrheitlich im Frontend-Bereich angesiedelt und erforderten fundierte Kenntnisse in Ruby on Rails, HTML5, CSS3 und JavaScript (EmberJS). Die Projektleitung sowie dessen Administration
-            bleiben bei der Enyx (Schweiz) ltd.</p>
+            sowohl vor Ort, wie auch remote im Projekt mitwirkten. Die Aufgaben waren mehrheitlich im Frontend-Bereich angesiedelt und erforderten fundierte Kenntnisse in Ruby on Rails, HTML5, CSS3 und JavaScript (EmberJS). Die Projektleitung sowie dessen Administration
+            blieben bei der Enyx (Schweiz) ltd.</p>
             <p>Für die asynchrone Verarbeitung der Flugverbindungen wird auf dem Server Ruby on Rails mit Sidekiq verwendet. Auf dem Client wird für die Echtzeit-Darstellung der gefundenen Flug-Verbindungen eine EmberJS Applikation verwendet. Die Anzahl der Suchresultate wird durch intelligente Filterung begrenzt.</p>
         </div>
     </div>
