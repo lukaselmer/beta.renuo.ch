@@ -1,0 +1,68 @@
+---
+title: welltravel
+box_name: welltravel
+box_description: Consulting für Enyx GmbH
+short_description: Ruby Consulting für Enyx GmbH
+image_path: /images/welltravel/welltravel.jpg
+layout: project
+position: 14
+tags: ['project']
+slider:
+    -
+        image: /images/welltravel/home.jpg
+        image_alt: Direkt zum Ziel
+        title: Direkt zum Ziel
+        subtitle: "Der Fokus der Flugsuche liegt auf einer guten Usability, sodass jeder Nutzer sprichwörtlich schnell sein Ziel erreicht."
+    -
+        image: /images/welltravel/auflistung.jpg
+        image_alt: Flugresultate
+        title: Suchresultate
+        subtitle: "Die gefundenen Flüge werden, gruppiert nach Direktflügen und Flügen mit Zwischenhalten, übersichtlich aufgelistet."
+    -
+        image: /images/welltravel/flugsuche.jpg
+        image_alt: Filtermöglichkeiten
+        title: Filtermöglichkeiten
+        subtitle: "Zahlreiche dynamische Filter helfen dem Besucher schnell den passenden Flug zu finden."
+    -
+        image: /images/welltravel/stopover.jpg
+        image_alt: Usability
+        title: Hohe Usability
+        subtitle: "Dem Kunden werden die Flugresultate sofort mit den wichtigsten Daten angezeigt. Weitere Details, z.B. zu Zwischenhalten, sind im Hover-Window sichtbar."
+---
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Die Enyx (Schweiz) ltd entwickelt für einen Kunden eine neue internationale Buchungsplattform für Flüge. Das Augenmerk liegt dabei auf Transparenz und Übersichtlichkeit. Die Flüge werden nicht, wie üblich, über eine bestehende Buchungsplattform abgefragt und gebucht, sondern direkt bei internationalen Flugplan-Anbietern.<br/>Für die Entwicklung dieser komplexen Applikation wurde die Renuo GmbH zugezogen.
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>Die Renuo GmbH hat Enyx (Schweiz) ltd während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
+            sowohl vor Ort, wie auch remote im Projekt mitwirkten. Die Aufgaben waren mehrheitlich im Frontend-Bereich angesiedelt und erforderten fundierte Kenntnisse in Ruby on Rails, HTML5, CSS3 und JavaScript (EmberJS). Die Projektleitung sowie dessen Administration
+            blieben bei der Enyx (Schweiz) ltd.</p>
+            <p>Für die asynchrone Verarbeitung der Flugverbindungen wird auf dem Server Ruby on Rails mit Sidekiq verwendet. Auf dem Client wird für die Echtzeit-Darstellung der gefundenen Flug-Verbindungen eine EmberJS Applikation verwendet. Die Anzahl der Suchresultate wird durch intelligente Filterung begrenzt.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Enyx (Schweiz) ltd<br>
+            Riedhofstrasse 45<br>
+            8408 Winterthur<br></p>
+            <p>Ansprechperson: Blerim Bunjaku<br>
+            Tel: +41 52 222 04 04 </p>
+            <p>Link: <a href="http://www.enyx.ch" target="_blank">http://www.enyx.ch</a></p>
+            <p>Die Partnerschaft dauert von Februar 2014 bis April 2014.</p>
+            <div><%- @image_tag '/welltravel/enyx_logo.png' %></div>
+        </div>
+    </div>
+</div>
