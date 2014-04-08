@@ -1,12 +1,12 @@
 --- yaml
-layout: 'default'
+layout: 'web_development'
 title: 'Entwicklung'
 description: 'Technologien, die die Renuo einsetzt.'
 #isMainNavi: 1
 position: 1
 ---
 
-<div class="row-fluid page-header-element">
+<div class="row-fluid">
     <div class="span12">
         <div class="page-header">
             <h1>Technologien

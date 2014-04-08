@@ -6,7 +6,9 @@ $ ->
       map_styles = [
         {
           featureType: "road.local"
-          stylers: [visibility: "off"]
+          stylers: [
+            visibility: "off"
+          ]
         }
         {
           featureType: "road.arterial"
@@ -45,39 +47,55 @@ $ ->
         }
         {
           featureType: "poi"
-          stylers: [visibility: "off"]
+          stylers: [
+            visibility: "off"
+          ]
         }
         {
           featureType: "road.highway.controlled_access"
           elementType: "labels.icon"
-          stylers: [visibility: "off"]
+          stylers: [
+            visibility: "off"
+          ]
         }
         {
           elementType: "labels.icon"
-          stylers: [visibility: "off"]
+          stylers: [
+            visibility: "off"
+          ]
         }
         {
           featureType: "water"
           elementType: "geometry"
-          stylers: [color: "#9ed8f6"]
+          stylers: [
+            color: "#9ed8f6"
+          ]
         }
         {
           featureType: "water"
           elementType: "labels"
-          stylers: [visibility: "off"]
+          stylers: [
+            visibility: "off"
+          ]
         }
         {
           featureType: "transit"
-          stylers: [visibility: "off"]
+          stylers: [
+            visibility: "off"
+          ]
         }
         {
           featureType: "landscape.natural"
-          stylers: [lightness: 69]
+          stylers: [
+            lightness: 69
+          ]
         }
         {
           featureType: "road"
           elementType: "labels"
-          stylers: [visibility: "off"]
+          stylers: [
+            visibility: "off"
+          ]
         }
       ]
 
@@ -112,3 +130,27 @@ $ ->
 
   $(document).ready ->
     $('.carousel').carousel()
+
+  $(document).ready ->
+    $(".btn-navbar").on "click", (e) ->
+      e.preventDefault();
+      $(".nav-big ul").removeClass("nav pull-right")
+      $(".nav-big").toggle
+        duration: 400
+        queue: false
+        complete: () ->
+          if $(".nav-big").css("display") == "none"
+            $(".nav-big ul").addClass("nav pull-right")
+          else
+            $(".nav-big ul").removeClass("nav pull-right")
+
+  $(window).resize ->
+    if($(window).width() > 660)
+      $(".nav-big ul").addClass("nav pull-right")
+      $(".nav-big").show()
+    else
+      $(".nav-big ul").removeClass("nav pull-right")
+      $(".nav-big").hide()
+
+
+

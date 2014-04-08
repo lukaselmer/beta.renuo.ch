@@ -1,5 +1,5 @@
 --- yaml
-layout: 'default'
+layout: 'web_development'
 title: 'Betrieb'
 description: 'Ein Projektabschluss ist gleichzeitig der Anfang der weiteren Zusammenarbeit.'
 #isMainNavi: 1
@@ -37,7 +37,7 @@ monitoringSlider:
         subtitle: 		
 ---
 
-<div class="row-fluid page-header-element">
+<div class="row-fluid">
     <div class="span12">
         <div class="page-header">
             <h1>Betrieb
