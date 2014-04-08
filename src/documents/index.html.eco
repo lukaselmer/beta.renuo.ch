@@ -2,6 +2,7 @@
 layout: 'default'
 title: 'Renuo GmbH'
 description: 'Die Renuo GmbH ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.'
+breadcrumb: 0
 technologySlider:
     -
         image: /images/rubyonrails.png

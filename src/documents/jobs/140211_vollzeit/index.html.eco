@@ -5,7 +5,7 @@ description: 'Offene Stellen bei der Renuo'
 position:
 ---
 
-<div class="row-fluid page-header-element page-section">
+<div class="row-fluid page-section">
     <div class="span12">
         <div class="page-header">
             <h1>Software-Engineer Ruby on Rails

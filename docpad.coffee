@@ -2,6 +2,7 @@
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig =
 
+  watchOptions: preferredMethods: ['watchFile','watch']
 
 # =================================
 # Template Data
@@ -96,14 +97,14 @@ docpadConfig =
 # These are special collections that our website makes available to us
 
   collections:
-# For instance, this one will fetch in all documents that have pageOrder set within their meta data
+  # For instance, this one will fetch in all documents that have pageOrder set within their meta data
     pages: (database) ->
       database.findAllLive({pageOrder:
         $exists: true}, [
         pageOrder: 1, title: 1
       ])
 
-    # This one, will fetch in all documents that have the tag "post" specified in their meta data
+  # This one, will fetch in all documents that have the tag "post" specified in their meta data
     posts: (database) ->
       database.findAllLive({tags:
         $has: ['post']}, [
@@ -150,8 +151,8 @@ docpadConfig =
           next()
 
     writeAfter: (opts,next) ->
-
-      balUtil = require "bal-util"
+      balUtil = require('safeps')
+      #require('bal-util')
 
       # Prepare
       docpad = @docpad
