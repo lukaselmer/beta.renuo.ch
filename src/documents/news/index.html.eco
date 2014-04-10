@@ -24,7 +24,7 @@ position: 5
 		<h4>Um was geht's?</h4>In den vergangenen Tagen haben Sicherheitsexperten eine Sicherheitslücke in der Verschlüsselungssoftware OpenSSL fest gestellt. OpenSSL wird dafür eingesetzt, jegliche Verbindungen abhörsicher zu machen, sodass bspw. keine Nutzernamen und Passwörter geklaut werden können. Die nun entdeckte Sicherheitslücke, die von den Experten "Heartbleed Bug" getauft wurde, ermöglicht Angreifern die Entschlüsselung genau dieser SSL-Verbindungen. Von der Lücke betroffen sind u.a. alle Webseiten sowie E-Mail-Dienste, welche auf OpenSSL setzen. Weil etwa zwei Drittel aller aktiven HTTPS-Server von OpenSSL versorgt werden, ist das Ausmass dieser Sicherheitslücke verheerend. Zusätzlich bestand die Sicherheitslücke seit mehr als zwei Jahren und Angreifer konnten während dieser Zeit möglicherweise entsprechende Daten abhören, ohne Spuren zu hinterlassen. Es ist somit nicht möglich zu prüfen, ob man konkret davon betroffen war oder nicht.
 		</p>
 		<p>
-		<h4>Was bedeutet das für uns/Sie?</h4>Alle Applikationen, welche wir intern für unsere Arbeit verwenden, sind durch OpenSSL-verschlüsselt. Somit sind leider auch wir (und damit auch Sie) von diesem Bug betroffen. Konkret geht es für Sie um das Redmine-Tool: Es kann sein, dass jemand unsere privaten Schlüssel gestohlen hat und deshalb nun in der Lage ist, trotz SSL den Traffic zwischen Ihnen und dem Redmine abzuhören. Des Weiteren kann auch Ihre Applikation davon betroffen sein, weil auch sie OpenSSL einsetzt, und damit auch ihre Benutzer, die sich auf die Verschlüsselung verlassen haben. Das Risiko, dass ein Angreifer uns oder Sie abgehört hat und so Daten (z.B. Zugangsdaten) gestohlen hat, stufen wir aufgrund des verhältnismässig geringem Bekanntheitsgrad der als klein ein.
+		<h4>Was bedeutet das für uns/Sie?</h4>Alle Applikationen, welche wir intern für unsere Arbeit verwenden, sind durch OpenSSL-verschlüsselt. Somit sind leider auch wir (und damit auch Sie) von diesem Bug betroffen. Konkret geht es für Sie um das Redmine-Tool: Es kann sein, dass jemand unsere privaten Schlüssel gestohlen hat und deshalb nun in der Lage ist, trotz SSL den Traffic zwischen Ihnen und dem Redmine abzuhören. Des Weiteren kann auch Ihre Applikation davon betroffen sein, weil auch sie OpenSSL einsetzt, und damit auch ihre Benutzer, die sich auf die Verschlüsselung verlassen haben. Das Risiko, dass ein Angreifer uns oder Sie abgehört hat und so Daten (z.B. Zugangsdaten) gestohlen hat, stufen wir aufgrund des verhältnismässig geringem Bekanntheitsgrad der Seiten/Plattformen als klein ein.
 		</p>
 		<p>
 		<h4>Todos / unternommene Aktivitäten</h4>Um die Problematik anzugehen, sind drei aufeinander aufbauende Aktivitäten notwendig:
@@ -35,7 +35,7 @@ position: 5
         </ol>
 		</p>
 		<p>
-		Weitere technische Informationen finden Sie hier: http://security.stackexchange.com/questions/55075/does-heartbleed-mean-new-certificates-for-every-ssl-server
+		Weitere technische Informationen finden Sie hier: <a href="http://security.stackexchange.com/questions/55075/does-heartbleed-mean-new-certificates-for-every-ssl-server" target="_blank">http://security.stackexchange.com/questions/55075/does-heartbleed-mean-new-certificates-for-every-ssl-server</a>
 		</p>
 		<p>
 		Bei Fragen stehen wir gerne zur Verfügung.
