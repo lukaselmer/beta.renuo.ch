@@ -35,7 +35,7 @@ position: 5
         <p>Weitere technische Informationen finden Sie <a href="http://en.wikipedia.org/wiki/Heartbleed">hier (englisch)</a> und <a href="http://de.wikipedia.org/wiki/Heartbleed#Heartbleed-Bug">hier (deutsch)</a>.
         </p>
         <p>Bei Fragen stehen wir gerne zur Verfügung.</p>
-        <p><em>Update (11.04.2013): </em>Die angeforderten Zertifikate wurden ausgestellt und wurden noch gestern Nacht installiert. Es steht noch aus, dass die alten Zertifikate invalidiert werden müssen, daruaf haben wir aber nur begrenzt Einfluss. Weitere Informationen dazu <a href="http://blog.dnsimple.com/2014/04/heartbleed-and-getting-new-keys-and-certs/">hier (englisch)</a>.</p>
+        <p><em>Update (11.04.2013): </em>Die angeforderten Zertifikate wurden ausgestellt und wurden noch gestern Nacht installiert. Es steht noch aus, dass die alten Zertifikate invalidiert werden müssen, darauf haben wir aber nur begrenzt Einfluss. Weitere Informationen dazu <a href="http://blog.dnsimple.com/2014/04/heartbleed-and-getting-new-keys-and-certs/">hier (englisch)</a>.</p>
   </div>
 	
   <div class="span1"></div>	
