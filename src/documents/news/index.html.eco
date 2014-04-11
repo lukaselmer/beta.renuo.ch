@@ -40,7 +40,7 @@ position: 5
 	
   <div class="span1"></div>	
   <div class="span3" align="center">
-    <img width="120" src="/images/news/heartbleed.png"/>
+    <img src="/images/news/heartbleed.png"/>
   </div>
 </div>	
 
