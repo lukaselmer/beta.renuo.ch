@@ -32,9 +32,10 @@ position: 5
           <li>Andererseits ist es aber auch notwendig (wenn Sie auf Nummer sicher gehen wollen), dass Sie alle (!) Ihre Passwörter, welche Sie im Internet einsetzen, abändern. Diese Passwörter umfassen nicht nur Ihre Applikation und Renuo-Tools, sondern auch andere Services wie Facebook, Skype, Ebay, GMail oder Yahoo, weil auch diese von dem Bug betroffen sind. Das Abändern des Passwortes macht aber erst dann Sinn, wenn die Applikation technisch aktualisiert wurde. Sie können dies über den Webdienst <a href="http://filippo.io/Heartbleed/" target="_blank">http://filippo.io/Heartbleed/</a> testen</li>
         </ol>
         </p>
-        <p>Weitere technische Informationen finden Sie hier (Englisch): <a href="http://security.stackexchange.com/questions/55075/does-heartbleed-mean-new-certificates-for-every-ssl-server" target="_blank">http://security.stackexchange.com/questions/55075/does-heartbleed-mean-new-certificates-for-every-ssl-server</a>
+        <p>Weitere technische Informationen finden Sie <a href="http://en.wikipedia.org/wiki/Heartbleed">hier (englisch)</a> und <a href="http://de.wikipedia.org/wiki/Heartbleed#Heartbleed-Bug">hier (deutsch)</a>.
         </p>
         <p>Bei Fragen stehen wir gerne zur Verfügung.</p>
+        <p><em>Update (11.04.2013): </em>Die angeforderten Zertifikate wurden ausgestellt und wurden noch gestern Nacht installiert. Es steht noch aus, dass die alten Zertifikate invalidiert werden müssen, daruaf haben wir aber nur begrenzt Einfluss. Weitere Informationen dazu <a href="http://blog.dnsimple.com/2014/04/heartbleed-and-getting-new-keys-and-certs/">hier (englisch)</a>.</p>
   </div>
 	
   <div class="span1"></div>	
