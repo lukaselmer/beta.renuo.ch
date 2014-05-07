@@ -68,12 +68,6 @@ homeSlider:
         </a>
 
         <h3>Internet Solutions</h3>
-        <br>
-        <div class="alert alert-error">
-          <button type="button" class="close" data-dismiss="alert">&times;</button>
-          <h4>Achtung!</h4>
-          <p><a href="/news">Wichtige Information zur OpenSSL-Lücke "Heartbleed"</a></p>
-        </div>
     </div>
 </div>
     </div>
