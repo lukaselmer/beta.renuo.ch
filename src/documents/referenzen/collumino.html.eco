@@ -1,7 +1,7 @@
 ---
 title: collumino
 box_name: collumino GmbH
-box_description: Consulting für collumino GmbH
+box_description: Verwaltungsdashboard für Deutsche Verrechnungsstelle Mitelland (DVMi)
 short_description: Ruby Consulting für collumino GmbH
 image_path: /images/dvmportal/collumino.png
 layout: project

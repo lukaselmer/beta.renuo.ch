@@ -6,7 +6,7 @@ short_description: Implementierung und grafische Aufbereitung effizienter Suche
 image_path: /images/linguaservice/linguaservice.png
 layout: project
 position: 50
-tags: ['project']
+tags: ['project-hidden']
 slider:
     -
         image: /images/linguaservice/menustruktur.jpg
