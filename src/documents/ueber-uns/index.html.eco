@@ -18,7 +18,7 @@ position: 4
 
 <div class="row-fluid page-section" style="margin-top: 15px;">
     <div class="span12">
-        <div><%- @image_tag 'renuo_team2.jpg' %></div>
+        <div><%- @image_tag 'renuo_team.jpg' %></div>
     </div>
 </div>	
 	
@@ -233,8 +233,7 @@ position: 4
                             </tr>
                             <tr>
                                 <th>2010-2013</th>
-                                <td><strong>Geschäftsführer</strong> Verbandspool AG (<a href="https://shariando.com"
-                                                                                                  target="_blank">shariando.com</a>)
+                                <td><strong>Geschäftsführer</strong> Verbandspool AG (<a href="https://shariando.com" target="_blank">shariando.com</a>)
                                 </td>
                             </tr>
                             <tr>
@@ -266,59 +265,6 @@ position: 4
 <div class="row-fluid page-header-element page-section">
     <div class="span12">
         <div>			
-
-            <div class="span4">
-                <div><%- @image_tag 'ueli.jpg' %></div>
-                <h3>Ueli Kunz</h3>
-
-                <p>Web-Entwickler, B.Sc. HSR<br/>
-
-                <br/>
-
-                <div data-collapse>
-                    <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
-                    <div>
-                        <table class="table table-striped">
-                            <thead>
-                            <tr>
-                                <th>Jahr</th>
-                                <th>Aktivität</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <th>2012-jetzt</th>
-                                <td><strong>Web-Entwickler</strong> bei der Renuo GmbH</td>
-                            </tr>
-                            <tr>
-                                <th>2009-2012</th>
-                                <td><strong>Bachelor-Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>2005-2009</th>
-                                <td><strong>Software-Entwicklung</strong> (Sharepoint, ASP.net, C#.net)</td>
-                            </tr>
-                            <tr>
-                                <th>2002-2005</th>
-                                <td><strong>Informatikmittelschule</strong> an der Kantonsschule Graubünden, Chur</td>
-                            </tr>
-                            <tr>
-                                <th>2002-2012</th>
-                                <td>Selbständiger Nebenverdienst mit <strong>Webprojekten</strong> (PHP)</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <br/>
-
-                <div class="profile-social-links">
-                    <a href="https://github.com/ideadapt"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-                    <a href="https://www.xing.com/profile/Ueli_Kunz"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
-                </div>
-            </div>
-
 
             <div class="span4">
                 <div><%- @image_tag 'alessandro.jpg' %></div>
