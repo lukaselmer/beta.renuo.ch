@@ -6,7 +6,7 @@ short_description: Ruby Consulting für Enyx GmbH
 image_path: /images/welltravel/welltravel.jpg
 layout: project
 position: 14
-tags: ['project']
+tags: ['project-hidden']
 slider:
     -
         image: /images/welltravel/home.jpg
