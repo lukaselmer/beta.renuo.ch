@@ -312,6 +312,53 @@ position: 4
                     <a href="https://github.com/coorasse"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
                 </div>
             </div>
+			
+            <div class="span4">
+                <div><%- @image_tag 'josua.jpg' %></div>
+                <h3>Josua Schmid</h3>
+
+                <p>Web-Entwickler, B.Sc. HSR<br/>
+
+                <br/>
+
+                <div data-collapse>
+                    <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+                    <div>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Jahr</th>
+                                <th>Aktivität</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>2014-jetzt</th>
+                                <td><strong>Web-Entwickler</strong> bei der Renuo GmbH</td>
+                            </tr>
+                            <tr>
+                                <th>2013-2014</th>
+                                <td><strong>Datenbankanwendungen und Systemadministration</strong> an der Forschungsanstalt Agroscope
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>2010-2013</th>
+                                <td><strong>Bachelor-Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil</td>
+                            </tr>
+                            <tr>
+                                <th>2009-2010</th>
+                                <td><strong>Software Developer</strong> bei Holidaycheck AG, Bottighofen</td>
+                            </tr>							
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <br/>
+
+                <div class="profile-social-links">
+                    <a href="https://github.com/coorasse"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                </div>
+            </div>			
         </div>
     </div>
 </div>			
