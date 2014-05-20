@@ -19,6 +19,26 @@ position: 5
 <div class="row-fluid">
 
     <div class="span8">
+	<h3>19.05.2014: Die Renuo wächst</h3>
+        <p>
+		Aufgrund zunehmender Auftragslage und wachsender Kundenbasis vergrössern wir unser Team erneut! Es freut uns ausserordentlich, ab heute Josua Schmid neu in unserem Team begrüssen zu dürfen. Josua Schmid hat mit uns an der Hochschule für Technik HSR in Rapperswil Informatik studiert und arbeitete bereits als Software Entwickler bei der <a href="http://www.holidaycheck.ch/">Holidaycheck AG</a> sowie bei der <a href="http://www.agroscope.ch/">Forschungsanstalt Agroscope (Laborinformatik und Bio-Informatik)</a>. In der Freizeit organisiert Josua Schmid LAN-Parties (LAN-Verein Berg) oder bloggt auf seinem <a href="http://www.miraculum.ch/">Tech-Blog</a>.
+		</p>
+		<p>
+		Wir wünschen Josua einen guten Start und freuen uns auf die Zusammenarbeit!
+		</p>
+    </div>
+	
+	<div class="span1">
+    </div>		
+	
+	<div class="span3" align="center">
+        <img width="120" src="/images/josua.jpg">
+    </div>
+</div>	
+
+<div class="row-fluid">
+
+    <div class="span8">
 	<h3>10.04.2014: OpenSSL-Lücke "Heartbleed"</h3>
         <h4>Um was geht's?</h4>
         <p>In den vergangenen Tagen haben Sicherheitsexperten eine Sicherheitslücke in der Verschlüsselungssoftware OpenSSL festgestellt. OpenSSL wird dazu eingesetzt, jegliche Verbindungen abhörsicher zu machen, sodass z.B. keine Nutzernamen und Passwörter abgehört und gestohlen werden können. Die nun entdeckte Sicherheitslücke, die von den Experten "Heartbleed" getauft wurde, ermöglicht Angreifern die Entschlüsselung genau dieser SSL-Verbindungen. Von der Lücke betroffen sind u.a. alle Webseiten sowie E-Mail-Dienste, welche auf OpenSSL setzen. Weil etwa zwei Drittel aller aktiven HTTPS-Server von OpenSSL versorgt werden, ist das Ausmass dieser Sicherheitslücke verheerend. Zusätzlich bestand die Sicherheitslücke seit mehr als zwei Jahren und Angreifer konnten während dieser Zeit möglicherweise entsprechende Daten abhören, ohne Spuren zu hinterlassen. Es ist somit nicht möglich zu prüfen, ob man konkret davon betroffen war oder nicht.</p>
