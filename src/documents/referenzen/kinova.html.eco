@@ -1,0 +1,79 @@
+---
+title: Kinova Onlien Küchen
+box_name: Online Küchen Konfigurator / Shop
+box_description: für Kinova Küchen GmbH
+short_description: Online Küchen Konfigurator / Shop
+long_description: Individueller Online Shop und Konfigurator für den Verkauf von Küchen online.
+image_path: /images/kinova/kinova.png
+layout: project
+position: 2
+tags: ['project']
+slider:
+    -
+        image: /images/kinova/sortiment.png
+        image_alt: Grosses Sortiment an Küchen 
+        title: Grosses Sortiment an Küchen
+        subtitle: kinova.ch bietet Ihnen ein grosses Sortiment an Küchen! Die Prdodukte lassen sich über Kategorien auffinden, welche sich vom Kunden bequem und simpel administrieren lassen!
+    -
+        image: /images/kinova/auswahl.png
+        image_alt: Filtermöglichkeiten
+        title: Filtermöglichkeiten
+        subtitle: Die zahlreichcen Küchen lassen sich anhand Filter (bspw. nach Preis) filtern und durchstöbern
+    -
+        image: /images/kinova/konfigurator.png
+        image_alt: Küche selbst konfigurieren
+        title: Küche selbst konfigurieren
+        subtitle: Eine Küche ist so individuell wie Sie selbst! Aus diesem Grund lassen sich die Küchen individualisieren. Wählen Sie im Konfigurator aus zahlreichen Elektrogeräten, Arbeitsflächen, Griffen und vielem mehr aus. Allfällige Mehrkosten werden flexibel dazu gerechnet und alle Fotos lassen sich auch in Hochauflösung anschauen.
+    -
+        image: /images/kinova/checkout.png
+        image_alt: Zahlungsmöglichkeiten
+        title: Anbindung an online Payment
+        subtitle: Für die Anbindung an online Payment Systems stützen wir uns auf den Schweizer Payment Dienstleister Datatrans. Damit ermöglichen wir eine Bezahlung mittels Kreditkarten oder PostFinance. Weil der Preis einer Küche meistens höher liegt als die Kreditkarten-Limite wurde eine prozentuale Anzahlung programmiert.
+    -
+        image: /images/kinova/inline_editing.png
+        image_alt: Inline-Editing
+        title: Simples Editieren
+        subtitle: Damit die Inhalte möglichst einfach editiert werden können, benutzen wir ein Inline Editing. Dieses lässt den Kunden die Inhalte so einfach bearbeiten, wie man es von einem normalen Textbearbeitungsprogramm (z.B. Word) bekannt ist. Es sind keine speziellen Kenntnisse nötig!
+
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Unser Kunde designed, plant und verkauft Küchen. Um dem heutigen Einkaufsverhalten gerecht zu werden, will er in den online Markt vorstossen. Dafür möchte er einen online Shop, in welchem er einerseits Küchen sowie Gestaltungsmöglichkeiten anlegen kann und andererseits eine Menge an Informationen einfach erfassen kann. </p>
+			<p>Als Küchenbauer ist das Internet und die Computerwelt nicht die gewohnte Arbeitsumgebung. Aus diesem Grund muss das Betreiben des Shops so simpel wie möglich gehalten werden. Die Programmierung muss des Weiteren flexibel ausbaufähig sein, weil für die Zukunft zahlreiche Ausbauideen im Raum stehen.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>Auf der Grundlage der Open Source <a href="http://spreecommerce.com/">Shoplösung Spree</a> für Ruby on Rails entwickelten wir für den Kunden einen Online Shop, welcher sowohl die Möglichkeit bietet, einfach Produkte mit zahlreichen Attributen und Fotos zu erfassen als auch diverse individuelle Optionen pro Küche vorsieht. Der Kunde kann in der Grundeinstellung zahlreiche Optionswerte wie Farben, Arbeitsflächen, Elektrogerätesets etc. erfassen und diese auf individueller Küchenebene inkl. individuellem Aufpreis zuweisen.</p>
+			<p>Damit nebst dem eigentlichen Shop ein grosses Informationsportal aufgebaut werden kann, haben wir in den Shop ein Micro-CMS integriert. Mittels Inline-Editing kann der Kunde die Inhalte auf der Seite direkt editieren und sieht diese stets genauso, wie sie auch online erscheinen. Nebst Bildern sowie Downloads steht dem Kunden auch die ganze Seitenverwaltung (Seiten und Menus erstellen) inkl. Drag & Drop Editor für die Sortierung zur Verfügung.</p>			
+			<p>Die Seite ist grundsätzlich responsiv, wobei der Fokus der Optimierung für mobile Geräte auf Tablets und nicht auf Smartphones liegt. Das Design stammt von unserer Partnerfirma <a href="https://www.webeo.ch/">Webeo Gmbh</a>.</p>
+			<p>Im Laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="https://www.renuo.ch/web-entwicklung/betrieb/">diversen Monitorings</a> und der Unterstützung <a href="/pdfs/renuo_adwords.pdf">im Bereich online Werbung (Google AdWords)</a>.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Kinova Küchen GmbH<br>
+				Wilkartswil 619<br>
+                3512 Walkringen<br></p>
+
+            <p>Ansprechperson: Marc Herren<br>
+                Email: info[at]kinova.ch</p>
+
+            <p>Links: <a href="https://www.kinova.ch">https://www.kinova.ch</a></p>
+
+            <div><%- @image_tag '/kinova/kinova_logo.png' %></div>
+        </div>
+    </div>
+</div>
