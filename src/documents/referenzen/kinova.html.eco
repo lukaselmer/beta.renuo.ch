@@ -1,9 +1,9 @@
 ---
-title: Kinova Onlien Küchen
-box_name: Online Küchen Konfigurator / Shop
+title: Kinova Online Küchen
+box_name: Online Küchen Konfigurator und Shop
 box_description: für Kinova Küchen GmbH
 short_description: Online Küchen Konfigurator / Shop
-long_description: Individueller Online Shop und Konfigurator für den Verkauf von Küchen online.
+long_description: Individueller Online Shop und Konfigurator für den online Verkauf von Küchen.
 image_path: /images/kinova/kinova.png
 layout: project
 position: 2
@@ -53,10 +53,10 @@ slider:
         <h2>Lösung</h2>
 
         <div>
-            <p>Auf der Grundlage der Open Source <a href="http://spreecommerce.com/">Shoplösung Spree</a> für Ruby on Rails entwickelten wir für den Kunden einen Online Shop, welcher sowohl die Möglichkeit bietet, einfach Produkte mit zahlreichen Attributen und Fotos zu erfassen als auch diverse individuelle Optionen pro Küche vorsieht. Der Kunde kann in der Grundeinstellung zahlreiche Optionswerte wie Farben, Arbeitsflächen, Elektrogerätesets etc. erfassen und diese auf individueller Küchenebene inkl. individuellem Aufpreis zuweisen.</p>
-			<p>Damit nebst dem eigentlichen Shop ein grosses Informationsportal aufgebaut werden kann, haben wir in den Shop ein Micro-CMS integriert. Mittels Inline-Editing kann der Kunde die Inhalte auf der Seite direkt editieren und sieht diese stets genauso, wie sie auch online erscheinen. Nebst Bildern sowie Downloads steht dem Kunden auch die ganze Seitenverwaltung (Seiten und Menus erstellen) inkl. Drag & Drop Editor für die Sortierung zur Verfügung.</p>			
-			<p>Die Seite ist grundsätzlich responsiv, wobei der Fokus der Optimierung für mobile Geräte auf Tablets und nicht auf Smartphones liegt. Das Design stammt von unserer Partnerfirma <a href="https://www.webeo.ch/">Webeo Gmbh</a>.</p>
-			<p>Im Laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="https://www.renuo.ch/web-entwicklung/betrieb/">diversen Monitorings</a> und der Unterstützung <a href="/pdfs/renuo_adwords.pdf">im Bereich online Werbung (Google AdWords)</a>.</p>
+            <p>Auf der Grundlage der Ruby on Rails basierenden Open Source <a href="http://spreecommerce.com/">Shoplösung Spree</a> entwickelten wir für den Kunden einen Online Shop, welcher sowohl die Möglichkeit bietet, Produkte mit zahlreichen Attributen und Fotos einfach zu erfassen, als auch diverse individuelle Optionen pro Küche ermöglicht. Der Kunde kann in der Grundeinstellung zahlreiche Optionswerte wie Farben, Arbeitsflächen, Elektrogerätesets etc. erfassen und diese auf individueller Küchenebene inkl. individuellem Aufpreis selektieren.</p>
+			<p>Damit nebst dem eigentlichen Shop ein grosses Informationsportal aufgebaut werden kann, haben wir in den Shop ein individuelles Micro-CMS integriert. Mittels Inline-Editing kann der Kunde die Inhalte auf der Seite direkt editieren und sieht diese stets genauso, wie sie auch online erscheinen. Nebst Bildern sowie Downloads steht dem Kunden auch die ganze Seitenverwaltung (Seiten und Menus erstellen) inkl. Drag & Drop Editor für die Sortierung zur Verfügung.</p>			
+			<p>Die Seite ist grundsätzlich responsiv, wobei der Optimierungsfokus auf Tablets und nicht auf Smartphones liegt. Das Design stammt von unserer Partnerfirma <a href="/web-entwicklung/design">Webeo Gmbh</a>.</p>
+			<p>Im laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="/web-entwicklung/betrieb/">diversen Monitorings</a> und <a href="/pdfs/renuo_adwords.pdf">im Bereich online Werbung (Google AdWords)</a>.</p>
         </div>
     </div>
 
