@@ -3,7 +3,6 @@ title: VeBiS ETH
 box_name: VeBiS ETH
 box_description: Responsive Wordpress Plattform
 short_description: Responsive Wordpress Plattform
-long_description: Wordpress Plattform für den Verein der Biologiestudierenden der ETH.
 image_path: /images/vebis/vebis.png
 layout: project
 position: 12
@@ -60,7 +59,8 @@ slider:
             <p>Ansprechperson: Aline Renz<br>
                 Email: aline[at]vebis.ch</p>
 
-            <p>Links: <a href="https://www.vebis.ch">https://www.vebis.ch</a></p>
+            <p>Link: <a href="https://www.vebis.ch" target="_blank">https://www.vebis.ch</a></p>
+			<p>Die Partnerschaft dauert von März 2013 bis heute</p>			
 
             <div><%- @image_tag '/vebis/vebis_logo.png' %></div>
         </div>

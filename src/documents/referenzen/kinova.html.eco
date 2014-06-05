@@ -1,9 +1,8 @@
 ---
 title: Kinova Online Küchen
-box_name: Online Küchen Konfigurator und Shop
+box_name: Online Küchen-Konfigurator und Shop
 box_description: für Kinova Küchen GmbH
-short_description: Online Küchen Konfigurator / Shop
-long_description: Individueller Online Shop und Konfigurator für den online Verkauf von Küchen.
+short_description: Online Küchen-Konfigurator und Shop
 image_path: /images/kinova/kinova.png
 layout: project
 position: 2
@@ -28,12 +27,12 @@ slider:
         image: /images/kinova/checkout.png
         image_alt: Zahlungsmöglichkeiten
         title: Anbindung an online Payment
-        subtitle: Für die Anbindung an online Payment Systems stützen wir uns auf den Schweizer Payment Dienstleister Datatrans. Damit ermöglichen wir eine Bezahlung mittels Kreditkarten oder PostFinance. Weil der Preis einer Küche meistens höher liegt als die Kreditkarten-Limite wurde eine prozentuale Anzahlung programmiert.
+        subtitle: Für die Anbindung an Bezahlsystemen stützen wir uns auf den Schweizer Payment-Dienstleister Datatrans. Damit ermöglichen wir eine Bezahlung mittels Kreditkarten oder PostFinance. Weil der Preis einer Küche meistens höher liegt als die Kreditkarten-Limite, wurde eine prozentuale Anzahlung entwickelt.
     -
         image: /images/kinova/inline_editing.png
         image_alt: Inline-Editing
         title: Simples Editieren
-        subtitle: Damit die Inhalte möglichst einfach editiert werden können, benutzen wir ein Inline Editing. Dieses lässt den Kunden die Inhalte so einfach bearbeiten, wie man es von einem normalen Textbearbeitungsprogramm (z.B. Word) bekannt ist. Es sind keine speziellen Kenntnisse nötig!
+        subtitle: Damit die Inhalte möglichst einfach editiert werden können, setzen wir in der Bearbeitung ein Inline-Editing ein. Dieses lässt den Kunden die Inhalte so einfach bearbeiten, wie man es von einem normalen Textbearbeitungsprogramm (z.B. Word) kennt. Es sind keine speziellen Kenntnisse nötig!
 
 ---
 <br>
@@ -53,10 +52,10 @@ slider:
         <h2>Lösung</h2>
 
         <div>
-            <p>Auf der Grundlage der Ruby on Rails basierenden Open Source <a href="http://spreecommerce.com/">Shoplösung Spree</a> entwickelten wir für den Kunden einen Online Shop, welcher sowohl die Möglichkeit bietet, Produkte mit zahlreichen Attributen und Fotos einfach zu erfassen, als auch diverse individuelle Optionen pro Küche ermöglicht. Der Kunde kann in der Grundeinstellung zahlreiche Optionswerte wie Farben, Arbeitsflächen, Elektrogerätesets etc. erfassen und diese auf individueller Küchenebene inkl. individuellem Aufpreis selektieren.</p>
+            <p>Auf der Grundlage der Ruby on Rails basierenden Open Source <a href="http://spreecommerce.com/" target="_blank">Shoplösung Spree</a> entwickelten wir für den Kunden einen Online Shop, welcher sowohl die Möglichkeit bietet, Produkte mit zahlreichen Attributen und Fotos einfach zu erfassen, als auch diverse individuelle Optionen pro Küche ermöglicht. Der Kunde kann in der Grundeinstellung zahlreiche Optionswerte wie Farben, Arbeitsflächen, Elektrogerätesets etc. erfassen und diese auf individueller Küchenebene inkl. individuellem Aufpreis selektieren. Diese Lösung gibt es so nicht und wurde individuell für den Kunden entwickelt.</p>
 			<p>Damit nebst dem eigentlichen Shop ein grosses Informationsportal aufgebaut werden kann, haben wir in den Shop ein individuelles Micro-CMS integriert. Mittels Inline-Editing kann der Kunde die Inhalte auf der Seite direkt editieren und sieht diese stets genauso, wie sie auch online erscheinen. Nebst Bildern sowie Downloads steht dem Kunden auch die ganze Seitenverwaltung (Seiten und Menus erstellen) inkl. Drag & Drop Editor für die Sortierung zur Verfügung.</p>			
 			<p>Die Seite ist grundsätzlich responsiv, wobei der Optimierungsfokus auf Tablets und nicht auf Smartphones liegt. Das Design stammt von unserer Partnerfirma <a href="/web-entwicklung/design">Webeo Gmbh</a>.</p>
-			<p>Im laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="/web-entwicklung/betrieb/">diversen Monitorings</a> und <a href="/pdfs/renuo_adwords.pdf">im Bereich online Werbung (Google AdWords)</a>.</p>
+			<p>Im laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="/web-entwicklung/betrieb/">diversen Monitorings</a> und <a href="/pdfs/renuo_adwords.pdf" target="_blank">im Bereich online Werbung (Google AdWords)</a>.</p>
         </div>
     </div>
 
@@ -69,9 +68,10 @@ slider:
                 3512 Walkringen<br></p>
 
             <p>Ansprechperson: Marc Herren<br>
-                Email: info[at]kinova.ch</p>
+               Telefon +41 31 530 09 73</p>
 
-            <p>Links: <a href="https://www.kinova.ch">https://www.kinova.ch</a></p>
+            <p>Link: <a href="https://www.kinova.ch" target="_blank">https://www.kinova.ch</a></p>
+			<p>Die Partnerschaft dauert von Februar 2014 bis heute</p>
 
             <div><%- @image_tag '/kinova/kinova_logo.png' %></div>
         </div>

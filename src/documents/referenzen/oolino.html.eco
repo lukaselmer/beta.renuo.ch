@@ -3,7 +3,6 @@ title: oolino Umfrage-Tool
 box_name: oolino Umfrage-Tool
 box_description: Individuelle Umfrageapplikation mit Reporting
 short_description: Individuelle Umfrageapplikation mit Reporting
-long_description: Kleinere Applikation zur individuellen Erstellung von Umfragen sowie Auswertung derer.
 image_path: /images/oolino/oolino.png
 layout: project
 position: 15
@@ -66,7 +65,8 @@ slider:
             <p>Ansprechperson: Dipl.-Ing. Johannes Christ<br>
                 Telefon: +41 43 443 19 04</p>
 
-            <p>Links: Da die Umfragen nur für ausgewählte Personen verfügbar sind, können wir keine Links zur Verfügung stellen</p>
+            <p>Link: Da die Umfragen nur für ausgewählte Personen verfügbar sind, können wir keine Links zur Verfügung stellen</p>
+			<p>Die Partnerschaft dauert von August 2013 bis heute</p>			
 
             <div><%- @image_tag '/oolino/oolino_logo.png' %></div>
         </div>
