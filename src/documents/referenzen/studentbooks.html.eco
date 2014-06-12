@@ -5,7 +5,7 @@ box_description: Performance bei über 18 Mio. Artikeln
 short_description: Ein Schweizer Online Shop mit über 18 Mio. Artikeln.
 image_path: /images/studentbooks/studentbooks.png
 layout: project
-position: 4
+position: 15
 tags: ['project']
 slider:
     -

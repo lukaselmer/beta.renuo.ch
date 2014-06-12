@@ -5,7 +5,7 @@ box_description: Individuelle Umfrageapplikation mit Reporting
 short_description: Individuelle Umfrageapplikation mit Reporting
 image_path: /images/oolino/oolino.png
 layout: project
-position: 15
+position: 30
 tags: ['project']
 slider:
     -
