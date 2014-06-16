@@ -1,0 +1,69 @@
+---
+title: Multidevice-Widget
+box_name: Multidevice-Widget
+box_description: anlässlich der WM 2014 für Tamedia AG
+short_description: anlässlich der WM 2014 für Tamedia AG
+image_path: /images/tamedia/tamedia.png
+layout: project
+position: 2
+tags: ['project']
+slider:
+    -
+        image: /images/tamedia/uebersicht.png
+        image_alt: Top5-Übersicht in verschiedenen Kategorien
+        title: Top5-Übersicht in verschiedenen Kategorien
+        subtitle: Auf der Startseite werden anhand 12 verschiedener Kategorien die Top5-Spieler ausgewiesen. Alle Elemente sind verlinkt, d. h. ein Klick auf den Spieler bzw. Nation zeigt die Detailansicht eines Spielers bzw. Nation und beim Klick auf die Kategorie sieht man eine Top30-Rangliste innerhalb dieser Kategorie.
+    -
+        image: /images/tamedia/vergleich.png
+        image_alt: Team- und Spielervergleich
+        title: Team- und Spielervergleich
+        subtitle: Durch das Auswählen von zwei Teams und oder zwei beliebigen Spieler einer Nation lassen sich alle Kategoriewerte vergleichen. Während der Vergleich auf dem Desktop nebeneinander angezeigt wird, variiert die Ansicht bei mobilen Geräten i.S.e. doppelseitig bedruckten Karte, welche durch Klick geflippt werden kann.
+    -
+        image: /images/tamedia/team.png
+        image_alt: Teamansicht
+        title: Teamansicht
+        subtitle: Für jedes Team (und auch für jeden Spieler) existiert eine separate Ansicht, welche die Statistiken veranschaulicht. Hier das französischsprachige Beispiel anhand dem Team Brasilien.
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Für die WM 2014 plant Tamedia für alle online Medien von Newsnet (<a href="http://www.tagesanzeiger.ch" target="_blank">tagesanzeiger.ch</a>, <a href="http://www.bernerzeitung.ch" target="_blank">bernerzeitung.ch</a>, <a href="http://www.baslerzeitung.ch" target="_blank">baslerzeitung.ch</a>, <a href="http://www.lematin.ch" target="_blank">lematin.ch</a> sowie <a href="http://www.24heueres.ch" target="_blank">24heures.ch</a> ein Multidevice-Widget, welches die WM in Zahlen zusammenfasst.</p>
+			<p>Die Statistiken sollen Ranglisten über erzielte Tore, Abseitsstellungen, vergebene Grosschancen und vieles mehr umfassen. Des Weiteren sollen auf Basis von Spielern und Teams Vergleiche möglich sein. Die Applikation muss sowohl auf Desktopgeräten, wie aber auch auf mobilen Geräten wie Smartphones und Tablets perfekt dargestellt sein (fully responsive) und bei Klicks im sieben- bis achtstelligen Bereich stets performant laufen.</p>
+			<p>Realisierungszeit: 2,5 Wochen</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>Die Applikation wurde mittels HTML5 und JavaScript realisiert. Auf einem eigens eingerichteten FTP-Server werden wir von einer Partnerfirma aus Deutschland mit Daten beliefert. Aus diesen Daten werden die Statistiken live erzeugt und automatisch an einen Server von Tamedia gesendet.</p>
+			<p>Mittels Parametern, welche in der URL mitgegeben werden können, kann Tamedia steuern, welche Kategorien angezeigt werden und ob bspw. das Menu ersichtlich ist oder nicht. Mit dieser Lösung kann Tamedia auch einzelne Inhalte (z. B. nur Torstatistik) flexibel einbetten, während der Rest nicht sichtbar ist.</p>
+            <p>Für die französische Übersetzung für Le Matin und 24heures wurde die Applikation zweisprachig realisiert.</p>
+			<p>Damit die Applikation in den nativen mobile Apps von Newsnet (eingebettet via iFrame) auch offline verfügbar ist, sind die Daten mittels einem Manifest auch offline verfügbar und aktualisieren sich, sobald eine Verbindung zum Internet besteht.</p>
+		</div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Tamedia AG<br>
+				Werdstrasse 21<br>
+                8004 Zürich<br></p>
+
+            <p>Ansprechperson: Samuel Reber<br>
+               Telefon +41 44 248 41 11</p>
+
+            <p>Link: <a href="http://www.tagesanzeiger.ch/wm2014/statistiken/" target="_blank">http://www.tagesanzeiger.ch/wm2014/statistiken/</a></p>
+			<p>Die Partnerschaft dauert von Mai 2014 bis heute.</p>
+
+            <div><img src="/images/tamedia/tamedia_logo.png" alt="Logo Tamedia"></div>
+        </div>
+    </div>
+</div>
