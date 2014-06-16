@@ -12,7 +12,7 @@ slider:
         image: /images/tamedia/uebersicht.png
         image_alt: Top5-Übersicht in verschiedenen Kategorien
         title: Top5-Übersicht in verschiedenen Kategorien
-        subtitle: Auf der Startseite werden anhand 12 verschiedener Kategorien die Top5-Spieler ausgewiesen. Alle Elemente sind verlinkt, d. h. ein Klick auf den Spieler bzw. Nation zeigt die Detailsicht eines Spielers bzw. Nation und beim Klick auf die Kategorie sieht man eine Top30-Rangliste innerhalb dieser Kategorie.
+        subtitle: Auf der Startseite werden anhand 12 verschiedener Kategorien die Top5-Spieler ausgewiesen. Alle Elemente sind verlinkt, d. h. ein Klick auf den Spieler bzw. Nation zeigt die Detailansicht eines Spielers bzw. Nation und beim Klick auf die Kategorie sieht man eine Top30-Rangliste innerhalb dieser Kategorie.
     -
         image: /images/tamedia/vergleich.png
         image_alt: Team- und Spielervergleich
@@ -34,7 +34,7 @@ slider:
         <div>
             <p>Für die WM 2014 plant Tamedia für alle online Medien von Newsnet (<a href="http://www.tagesanzeiger.ch" target="_blank">tagesanzeiger.ch</a>, <a href="http://www.bernerzeitung.ch" target="_blank">bernerzeitung.ch</a>, <a href="http://www.baslerzeitung.ch" target="_blank">baslerzeitung.ch</a>, <a href="http://www.lematin.ch" target="_blank">lematin.ch</a> sowie <a href="http://www.24heueres.ch" target="_blank">24heures.ch</a> ein Multidevice-Widget, welches die WM in Zahlen zusammenfasst.</p>
 			<p>Die Statistiken sollen Ranglisten über erzielte Tore, Abseitsstellungen, vergebene Grosschancen und vieles mehr umfassen. Des Weiteren sollen auf Basis von Spielern und Teams Vergleiche möglich sein. Die Applikation muss sowohl auf Desktopgeräten, wie aber auch auf mobilen Geräten wie Smartphones und Tablets perfekt dargestellt sein (fully responsive) und bei Klicks im sieben- bis achtstelligen Bereich stets performant laufen.</p>
-			<p>Realsierungszeit: 2,5 Wochen</p>
+			<p>Realisierungszeit: 2,5 Wochen</p>
         </div>
     </div>
 
