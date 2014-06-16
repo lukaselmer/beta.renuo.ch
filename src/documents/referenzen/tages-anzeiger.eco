@@ -63,7 +63,7 @@ slider:
             <p>Link: <a href="http://www.tagesanzeiger.ch/wm2014/statistiken/" target="_blank">http://www.tagesanzeiger.ch/wm2014/statistiken/</a></p>
 			<p>Die Partnerschaft dauert von Mai 2014 bis heute.</p>
 
-            <div><%- @image_tag '/tamedia/tamedia_logo.png' %></div>
+            <div><img src="/tamedia/tamedia_logo.png" alt="Logo Tamedia"></div>
         </div>
     </div>
 </div>
