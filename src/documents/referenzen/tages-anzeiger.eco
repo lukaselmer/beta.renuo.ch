@@ -9,10 +9,20 @@ position: 2
 tags: ['project']
 slider:
     -
-        image: 
-        image_alt: 
-        title: 
-        subtitle: 
+        image: /images/tamedia/uebersicht.png
+        image_alt: Top5-Übersicht in verschiedenen Kategorien
+        title: Top5-Übersicht in verschiedenen Kategorien
+        subtitle: Auf der Startseite werden anhand 12 verschiedener Kategorien die Top5-Spieler ausgewiesen. Alle Elemente sind verlinkt, d. h. ein Klick auf den Spieler bzw. Nation zeigt die Detailsicht eines Spielers bzw. Nation und beim Klick auf die Kategorie sieht man eine Top30-Rangliste innerhalb dieser Kategorie.
+    -
+        image: /images/tamedia/vergleich.png
+        image_alt: Team- und Spielervergleich
+        title: Team- und Spielervergleich
+        subtitle: Durch das Auswählen von zwei Teams und oder zwei beliebigen Spieler einer Nation lassen sich alle Kategoriewerte vergleichen. Während der Vergleich auf dem Desktop nebeneinander angezeigt wird, variiert die Ansicht bei mobilen Geräten i.S.e. doppelseitig bedruckten Karte, welche durch Klick geflippt werden kann.
+    -
+        image: /images/tamedia/team.png
+        image_alt: Teamansicht
+        title: Teamansicht
+        subtitle: Für jedes Team (und auch für jeden Spieler) existiert eine separate Ansicht, welche die Statistiken veranschaulicht. Hier das französischsprachige Beispiel anhand dem Team Brasilien.
 ---
 <br>
 
