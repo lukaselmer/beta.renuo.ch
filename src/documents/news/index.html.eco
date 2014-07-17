@@ -36,8 +36,8 @@ position: 5
 	<div class="span1">
     </div>		
 	
-	<div class="span3" align="center">
-        <img width="120" src="/images/news/google_partner.png">
+	<div class="span3" align="center"></br>
+        <img width="200" src="/images/news/google_partner.png">
     </div>
 </div>	
 
@@ -56,7 +56,7 @@ position: 5
 	<div class="span1">
     </div>		
 	
-	<div class="span3" align="center">
+	<div class="span3" align="center"></br>
         <img width="120" src="/images/josua.jpg">
     </div>
 </div>	
@@ -84,7 +84,7 @@ position: 5
   </div>
 	
   <div class="span1"></div>	
-  <div class="span3" align="center">
+  <div class="span3" align="center"></br>
     <img src="/images/news/heartbleed.png"/>
   </div>
 </div>	
@@ -104,7 +104,7 @@ position: 5
 	<div class="span1">
     </div>		
 	
-	<div class="span3" align="center">
+	<div class="span3" align="center"> </br>
         <img width="120" src="/images/alessandro.jpg">
     </div>
 </div>	
