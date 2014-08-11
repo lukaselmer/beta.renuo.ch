@@ -1,0 +1,19 @@
+﻿--- yaml
+layout: 'page'
+title: 'Anmeldung Büroeinweihung'
+description: 'Anmeldung für die Einweihung unseres neuen Büros'
+position:
+---
+
+<div class="row-fluid page-section">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Wir ziehen um
+                <small>und laden Sie ein</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+
+<iframe src="https://docs.google.com/forms/d/1uweBVaM8lwYhPAhqask18WfN2VgRPplbrSjRx_JmXWI/viewform?embedded=true" width="1170" height="850" frameborder="0" marginheight="0" marginwidth="0">Wird geladen...</iframe>
