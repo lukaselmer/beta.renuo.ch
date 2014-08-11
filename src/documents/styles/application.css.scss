@@ -243,7 +243,7 @@ body {
 
 .new-office-registration {
   width: 79%;
-  min-height: 920px;
+  min-height: 680px;
 }
 
 @media (max-width: 950px) {
@@ -254,13 +254,19 @@ body {
 
 @media (max-width: 500px) {
   .new-office-registration {
-    min-height: 1000px;
+    min-height: 980px;
   }
 }
 
 @media (max-width: 450px) {
   .new-office-registration {
     min-height: 1140px;
+  }
+}
+
+@media (max-width: 350px) {
+  .new-office-registration {
+    min-height: 1350px;
   }
 }
 
