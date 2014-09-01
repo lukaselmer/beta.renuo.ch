@@ -266,7 +266,7 @@ position: 4
     <div class="span12">
         <div>			
 
-            <div class="span4">
+            <div class="span3">
                 <div><%- @image_tag 'alessandro.jpg' %></div>
                 <h3>Alessandro Rodi</h3>
 
@@ -313,7 +313,7 @@ position: 4
                 </div>
             </div>
 			
-            <div class="span4">
+            <div class="span3">
                 <div><%- @image_tag 'josua.jpg' %></div>
                 <h3>Josua Schmid</h3>
 
@@ -358,7 +358,76 @@ position: 4
                 <div class="profile-social-links">
                     <a href="https://github.com/schmijos"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
                 </div>
+            </div>	
+
+            <div class="span3">
+                <div><%- @image_tag 'nicolas.jpg' %></div>
+                <h3>Nicolas Eckhart</h3>
+
+                <p>Praktikant Web Development<br/>
+
+                <br/>
+
+                <div data-collapse>
+                    <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+                    <div>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Jahr</th>
+                                <th>Aktivität</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>2014-jetzt</th>
+                                <td><strong>Praktikant</strong> bei der Renuo GmbH</td>
+                            </tr>
+                            <tr>
+                                <th>2011-2014</th>
+                                <td><strong>Informatikmittelschule IMS</strong> Büelrain Winterthur
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+			
+            <div class="span3">
+                <div><%- @image_tag 'cyril.jpg' %></div>
+                <h3>Cyril Kyburz</h3>
+
+                <p>Praktikant Web Development<br/>
+
+                <br/>
+
+                <div data-collapse>
+                    <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+                    <div>
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Jahr</th>
+                                <th>Aktivität</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>2014-jetzt</th>
+                                <td><strong>Praktikant</strong> bei der Renuo GmbH</td>
+                            </tr>
+                            <tr>
+                                <th>2011-2014</th>
+                                <td><strong>Informatikmittelschule IMS</strong> Büelrain Winterthur
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>			
+			
         </div>
     </div>
 </div>			
