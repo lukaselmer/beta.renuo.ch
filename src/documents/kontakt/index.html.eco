@@ -28,8 +28,8 @@ position: 7
             <div class="span4">
                 <address>
                     <b>Renuo GmbH</b><br/>
-                    Hungerbergstrasse 26<br/>
-                    8046 Zürich<br/><br/>
+                    Industriestrasse 44<br/>
+                    8304 Wallisellen<br/><br/>
                 </address>
             </div>
             <div class="span6">
@@ -39,7 +39,7 @@ position: 7
                     <dt>Email</dt>
                     <dd><a href="mailto:info@renuo.ch">info@renuo.ch</a></dd>
                     <dt>Web</dt>
-                    <dd><a href="http://www.renuo.ch">www.renuo.ch</a></dd>
+                    <dd><a href="https://www.renuo.ch">www.renuo.ch</a></dd>
                 </dl>
             </div>
         </div>

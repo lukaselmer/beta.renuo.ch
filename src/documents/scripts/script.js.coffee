@@ -1,7 +1,7 @@
 $ ->
   $(document).ready ->
     if($("#map_canvas").length >= 1)
-      myLatlng = new google.maps.LatLng(47.421761, 8.499641)
+      myLatlng = new google.maps.LatLng(47.410898, 8.590679)
 
       map_styles = [
         {
