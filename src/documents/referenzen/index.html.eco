@@ -1,6 +1,6 @@
 --- yaml
 layout: 'default'
-title: 'Einige Referenzen'
+title: 'Referenzen'
 description: 'Unser Portfolio umfasst kleinere Auftritte bis grosse Web-Portale, welche international und mehrsprachig betrieben werden.'
 isMainNavi: 1
 position: 3
@@ -9,7 +9,7 @@ position: 3
 <div class="row-fluid page-section">
     <div class="span12">
         <div class="page-header">
-            <h1>Referenzen
+            <h1>Einige Referenzen
                 <small>Erfolgreicher Einsatz in der Praxis</small>
             </h1>
         </div>
