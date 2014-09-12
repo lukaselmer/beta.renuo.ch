@@ -6,7 +6,7 @@ short_description: Komplexer Webauftritt mit mehreren hundert Produkten, Kategor
 image_path: /images/zublin/zublin.png
 layout: project
 position: 50
-tags: ['project-hidden']
+tags: ['project']
 slider:
     -
         image: /images/zublin/uebersicht.png
