@@ -1,0 +1,79 @@
+---
+title: subito mf Zuzüger Portal
+box_name: Vermittlungsportal für Musiker und Orchester
+box_description: für FirstClassMusic GmbH
+short_description: Zuzüger Portal, welches Musiker an Orchester vermittelt
+image_path: /images/subitomf/subitomf.png
+layout: project
+position: 2
+tags: ['project']
+slider:
+    -
+        image: /images/subitomf/home.png
+        image_alt: subito mf - Das Zuzüger Portal
+        title: subito mf - Das Zuzüger Portal
+        subtitle: subito mf verbindet Orchester, welche Musiker suchen, mit Musiker, welche Orchesterprojekte suchen. Die Plattform verbindet beide Parteien und schafft so einen Mehrwert!
+    -
+        image: /images/subitomf/calendar.png
+        image_alt: Suche anhand Kalenderverfügbarkeit
+        title: Suche anhand Kalenderverfügbarkeit
+        subtitle: Registrierte Musiker haben die Möglichkeit, ihren Kalender mittels manuellen Eingaben sowie Anbindungen an bestehenden Kalenderservices up to date zu halten! So werden sie nur für Orchesterprojekte angefragt, an welchen Proben und Konzerten sie überhaupt teilnehmen können. Orchester sind passende Suchresultate garantiert.
+    -
+        image: /images/subitomf/suche.png
+        image_alt: Musikersuche anhand von Fähigkeiten und Kalender
+        title: Musikersuche anhand von Fähigkeiten und Kalender
+        subtitle: Orchester können anhand von Instrument- und Diplomangaben für sie passende Musiker finden. Diese werden auf ihre Verfügbarkeit geprüft (Kalender) und entsprechend ausgegeben. Anhand der Kontaktinformationen wird die durchschnittliche Distanz zu den Probe- und Konzertterminen berechnet, weil dies für die Spesen relevant ist.
+    -
+        image: /images/subitomf/einladen.png
+        image_alt: Musiker anfragen und einladen
+        title: Musiker anfragen und einladen
+        subtitle: Für ein Projekt passende Musiker können direkt über die Plattform angefragt werden. Dabei wird eine Entschädigungshöhe festgelegt und eine persönliche Nachricht mitgeschickt. Kommt ein Matching zu Stande (Musiker nimmt Projekt an), stehen dem Orchester weitere Administrationsmöglichkeiten zur Verfügung (z.B. Teilnehmerliste, etc.).
+    -
+        image: /images/subitomf/responsive_subitomf.png
+        image_alt: Die ganze Seite ist responsive
+        title: Die ganze Seite ist responsive
+        subtitle: Um den realen Nutzungsbedingungen einer solchen Plattform gerecht zu werden, ist die ganze Seite responsiv umgesetzt, d.h. sie erscheint auf allen Geräten stets optimiert (abhängig von der Bildschirmgrösse).
+
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Der Such- und Matchingprozess zwischen Orchester, welche Stücke mit Musikern besetzen müssen, und Musiker, welche spielen und Geld verdienen möchten, verläuft bisher weitgehend unkoordiniert und telefonisch. Zentral sind Kontakte und Vermittlungen durch Hinweise von befreundeten Musikern. Dies erhöht den Suchaufwand für Orchester und die begrenzt die Wahrscheinlichkeit, als Musiker gebucht zu werden.</p>
+			<p>Eine webbasierte Plattform soll den erwähnten Problemen Abhilfe schaffen: Musiker können sich in ein Register eintragen und sowohl ihre Fähigkeiten als auch ihre Verfügbarkeit ausweisen. Anhand dieser Informationen können Orchester nach geeigneten Musikern suchen und diese direkt online anfragen. Der Suchaufwand für Orchester wird damit erheblich verringert und die Reichweite und Präsenz der Musiker erhöht. </p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>Das Zuzüger-Portal wurde von Grund auf neu und individuell erstellt. Grundlage dabei bildet <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a>.</p>
+			<p>Im Wesentlichen gibt es ein Rollenkonzept von drei Nutzern mit verschiedenen Berechtigungen und Möglichkeiten: Die Musiker, Orchester sowie einem Administrator. Musiker können sich kostenlos registrieren, ihre Fähigkeiten hinterlegen sowie ihren Kalender aktualisieren. Für die Kalenderaktualisierung stehen sowohl manuelle Möglichkeiten als auch automatisierte Schnittstellen (z.B. zu Google Calendar) zur Verfügung. Orchester können sich registrieren und durch den Administrator prüfen lassen (Qualitätskontrolle). Fällt die Prüfung positiv aus, kann das Orchester Musikprojekte anlegen und geeignete Musiker suchen. Ein Musikprojekt besteht immer aus mehreren Terminen (Proben, Konzerte), welche an einem bestimmten Standort statt finden. Die Suche basiert auf der Verfügbarkeit der Musiker (Kalender) sowie deren Fähigkeiten. Daneben können noch zahlreiche Zusatzattribute in die Suche mit ein geschlossen werden. Der Administrator kann alle Daten kontrollieren und verwalten.</p>			
+			<p>Die Seite ist vollständig responsiv und mehrsprachig vorbereitet. <a href="/web-entwicklung/rubyonrails/">Technologien</a>, welche nebst Ruby on Rails eingesetzt werden, sind HTML5, CSS3, JavaScript, jQuery sowie Twitter Bootstrap. Das Design wurde durch den Kunden selbst gemacht.</p>
+			<p>Im laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="/web-entwicklung/betrieb/">diversen Monitorings</a>.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>First Class Music GmbH<br>
+			   Nägelseestrasse 30<br>
+               8406 Winterthur<br></p>
+
+            <p>Ansprechperson: David Athanassoglou<br>
+               Telefon  +41 79 711 71 79</p>
+
+            <p>Link: <a href="https://www.subitomf.com" target="_blank">https://www.subitomf.com</a></p>
+			<p>Die Partnerschaft dauert von Februar 2014 bis heute</p>
+
+            <div><%- @image_tag '/subitomf/firstclassmusic.png' %></div>
+        </div>
+    </div>
+</div>
