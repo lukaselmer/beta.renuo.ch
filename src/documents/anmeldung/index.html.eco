@@ -18,14 +18,7 @@ position:
 <div class="row-fluid page-section" style="margin-top: 15px;">
   <div class="span12">
     <div>
-      <%- @image_tag 'anmeldung1.png' %></div>
-  </div>
-</div>
-
-<div class="row-fluid page-section" style="margin-top: 15px;">
-  <div class="span12">
-    <div>
-      <%- @image_tag 'anmeldung2.png' %></div>
+    </div>
   </div>
 </div>
 
