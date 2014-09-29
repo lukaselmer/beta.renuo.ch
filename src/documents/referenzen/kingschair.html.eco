@@ -1,0 +1,79 @@
+---
+title: E-Shop
+box_name: Onlineshop für Königliche Möbel
+box_description: für Newspeed AG
+short_description: für den online Vertrieb von Möbel
+image_path: /images/kingschair/kingschair.png
+layout: project
+position: 3
+tags: ['project']
+slider:
+    -
+        image: /images/kingschair/sortiment.png
+        image_alt: Barockmöbel und Vintage Accessoires
+        title: Barockmöbel und Vintage Accessoires
+        subtitle: Kingschair ist ein online Shop für barocke Möbel. Das Sortiment reicht von Sessel, Sitzgruppen und Tischen bis zu Dekorationsartikel. Der Besucher kann zwischen verschiedenen Produktkategorien wählen. Die Produkte werden anhand einer Überblicks- sowie Detailseite angezeigt. Der Fokus liegt auf einer klaren, simplen und absolut benutzerfreundlichen Nutzerführung.
+    -
+        image: /images/kingschair/usability.png
+        image_alt: Benutzerfreundlichkeit (Usability)
+        title: Benutzerfreundlichkeit (Usability)
+        subtitle: Dem Kunden werden anhand einer Breadcrumb-Navigation, einfach zu bedienenden Filtermöglichkeiten sowie visuellen Hinweisen (hier im Bild z.B. für Sale-Artikel) grösstmögliche Benutzerfreundlichkeit geboten. 
+    -
+        image: /images/kingschair/security.png
+        image_alt: Sicherheit
+        title: Sicherheit
+        subtitle: Um jegliche Datenverbindungen abhörsicher zu gestalten, ist der ganze online Shop mit einem SSL-Zertifikat verschlüsselt. Für das sichere Bezahlen im Internet stehen dem Kunden ebenfalls mit SSL-Zertifikaten ausgestattete Zahlungsmöglichkeiten zur Verfügung.
+    -
+        image: /images/kingschair/inline_editing.png
+        image_alt: Einfaches Abändern statischer Inhalte
+        title: Einfaches Abändern statischer Inhalte
+        subtitle: Damit Inhalte möglichst leicht von Kingschair selbst abgeändert werden können, verfügt die Seite für statische Inhalte über ein Inline Editing. Mit dieser Funktion können Inhalte analog dem Bearbeiten eines Textdokuments abgeändert werden. Dabei gilt: What you see is what you get (WYSIWYG). Es sind keine speziellen Kenntnisse nötig!
+    -
+        image: /images/kingschair/responsiveness.png
+        image_alt: Responsiveness
+        title: Responsiveness
+        subtitle: Online Shopper kaufen zunehmend auf mobilen Geräten ein. Um diesen geänderten Einkaufsverhalten Rechnung zu tragen, ist die ganze Seite responsive gestaltet. Der Optimierungsfokus liegt vor allem auf Tablets.
+
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Unser Kunde betreibt im Designer Center Wallisellen einen stationären Laden, in welchem hochwertige, barocke Möbel verkauft werden. Um den Vertrieb auf weitere Kanäle ausweiten zu können, wurde die Renuo mit der Erstellung eines online Shops beauftragt.</p>
+            <p>Der online Shop muss in der Zukunft stark ausbaufähig sein, weil zahlreiche Erweiterungsideen existieren. Des Weiteren muss ein Verwaltungssystem aufgebaut werden, mit welchem "per Knopfdruck" gleiche Shops mit unterschiedlichen Konfigurationen hergestellt werden können.</p>			
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>Der entwickelte online Shop basiert auf der Grundlage der Ruby on Rails basierenden Open Source <a href="http://spreecommerce.com/" target="_blank">Shoplösung Spree</a>. Zahlreiche Standardfunktionen wurden auf die Bedürfnisse des Kundens zugeschnitten, damit letztendlich eine massgeschneiderte Lösung besteht.</p>
+			<p>Um die Verwaltung zu unterstützen, wurde auf Basis der vorhandenen Produkte eine Lagerverwaltung entwickelt. Ein Produkt kann nur dann gekauft werden, wenn genügend Exemplare vorhanden sind. Bei knapp werdenden Produkten wird Kingschair automatisch benachrichtigt. Es können jederzeit Inventarlisten mit dazugehörendem Umsatz-Reporting generiert werden.</p>			
+			<p>Die Seite ist grundsätzlich responsiv, wobei der Optimierungsfokus auf Tablets und nicht auf Smartphones liegt. Das Design stammt von unserer Partnerfirma <a href="/web-entwicklung/design">Webeo GmbH</a>.</p>
+			<p>Im laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="/web-entwicklung/betrieb/">diversen Monitorings</a> und <a href="/pdfs/renuo_adwords.pdf" target="_blank">im Bereich online Werbung (Google AdWords)</a>.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Newspeed AG<br>
+			Neue Winterthurerstrasse 30/36<br>
+            8304 Wallisellen<br></p>
+
+            <p>Ansprechperson: Michael Züblin<br>
+               Telefon +41 44 878 22 11</p>
+
+            <p>Link: <a href="https://www.kingschair.ch" target="_blank">https://www.kingschair.ch</a></p>
+			<p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
+
+            <div><%- @image_tag '/kingschair/kingschair_logo.jpg' %></div>
+        </div>
+    </div>
+</div>
