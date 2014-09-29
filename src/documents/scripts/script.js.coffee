@@ -118,7 +118,6 @@ $ ->
       }
       map = new google.maps.Map($('#map_canvas')[0], mapOptions)
 
-      myLatlng = new google.maps.LatLng(47.4194, 8.499308);
       marker = new google.maps.Marker
         position: myLatlng,
         map: map,
@@ -126,7 +125,7 @@ $ ->
         clickable: true,
 
       google.maps.event.addListener marker, 'click', () ->
-        window.open('https://maps.google.ch/maps?q=Renuo+GmbH,+Hungerbergstrasse+26,+Z%C3%BCrich&hl=de&ie=UTF8&hq=Renuo+GmbH,&hnear=Hungerbergstrasse+26,+Kreis+11,+8046+Z%C3%BCrich&t=m&z=16&iwloc=A');
+        window.open('https://maps.google.ch/maps?q=Renuo+GmbH,+Industriestrasse+44,+Wallisellen&hl=de&ie=UTF8&t=m&z=16&iwloc=A');
 
   $(document).ready ->
     $('.carousel').carousel()
