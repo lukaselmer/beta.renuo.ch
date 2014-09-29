@@ -5,7 +5,7 @@ box_description: für Kinova Küchen GmbH
 short_description: Online Küchen-Konfigurator und Shop
 image_path: /images/kinova/kinova.png
 layout: project
-position: 6
+position: 10
 tags: ['project']
 slider:
     -
