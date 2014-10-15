@@ -156,8 +156,10 @@ body {
 }
 
 .news-item {
+  margin: 0 0 20px 0;
   .image {
     margin-top: 20px;
+    text-align: center;
     img {
       max-width: 100%;
     }
