@@ -18,7 +18,7 @@ layout: default_raw
     <div class="span12">
         <div class="page-header">
             <h1><%= @document.title %>
-                <small><%- @document.date.getDate() %>.<%- @document.date.getMonth() %>.<%- @document.date.getFullYear() %></small>
+                <small><%- @document.date.getDate() %>.<%- @document.date.getMonth() + 1 %>.<%- @document.date.getFullYear() %></small>
             </h1>
         </div>
     </div>

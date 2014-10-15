@@ -20,7 +20,7 @@ position: 5
 <% for page in @getCollection("news").toJSON(): %>
     <div class="row-fluid news-item">
         <div class="span8">
-            <h3><%- page.date.getDate() %>.<%- page.date.getMonth() %>.<%- page.date.getFullYear() %> <a href="<%- page.url %>"><%= page.title %></a></h3>
+            <h3><%- page.date.getDate() %>.<%- page.date.getMonth() + 1 %>.<%- page.date.getFullYear() %> <a href="<%- page.url %>"><%= page.title %></a></h3>
             <div>
                 <%- page.content %>
             </div>
