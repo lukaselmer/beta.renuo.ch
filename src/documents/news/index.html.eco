@@ -37,67 +37,6 @@ position: 5
 
 
 
-<div class="row-fluid">
-    <div class="span8">
-	    <h3>10.-12.10.2014: Die Renuo programmiert um die Wette</h3>
-	    <div>
-            <p>
-            Auch dieses Jahr nahm die Renuo am <a href="http://hackzurich.com/" target="_blank">Hackathon Zürich</a> teil! Bei einem Hackathon kommen IT-Interessierte aus verschiedensten Fachrichtungen zusammen (vergangenes Wochenende über 300 Entwickler), um eine schnelle Lösung zu Software Problemen zu finden. Dabei tüfteln die Teilnehmer in Teams von rund 2-4 Personen während 40h ununterbrochen an Problemstellungen.
-            </p>
-            <p>
-            Die Renuo entwickelte eine App, welche basierend auf Daten einer Android Uhr (siehe auch Android Wear) den gemessenen Puls in Verbindung mit besuchten Webseiten bringt. Das Ziel ist es, die gemessenen Pulsschläge des Webseitenbetrachters in Verbindung zur Webseite bringen zu können, damit man als Webseitenbetreiber ein besseres Verständnis über die durch eine Webseite hervorgerufenen Emotionen hat. Man kann bspw. sehen, welche Inhalte den Puls höher schlagen lassen, oder eben nicht.
-            </p>
-            <p>
-            Die Renuo schaffte es leider nicht unter die Top3-Rangierungen, dafür aber in die Tagesschau des Schweizer Fernsehens. :-) <a href="http://www.srf.ch/player/tv/tagesschau/video/um-die-wette-programmieren?id=4ccfd969-d942-4a5c-8bb1-ffdfb9192e48" target="_blank">Hier geht's zur Berichterstattung (siehe 1:42)</a>.
-            </p>
-        </div>
-    </div>
-	
-	<div class="span1"></div>
-	
-	<div class="span3 image">
-        <img style="max-width: 200px;" src="/images/news/hackathon_renuo_2014.png"/>
-    </div>
-</div>
-
-<div class="row-fluid">
-
-    <div class="span8">
-	<h3>01.09.2014: Wir sind gezügelt</h3>
-        <p>
-		Unser Team wächst (siehe auch unten) und das verlangt mehr Platz. Wir sind deshalb heute in unser neues Büro eingezogen, welches sich an der <a href="https://www.google.ch/maps/place/Industriestrasse+44,+8304+Wallisellen/@47.410771,8.590464,17z/data=!3m1!4b1!4m2!3m1!1s0x479aa05075cd1a51:0x59cb1a752870b4f8" target="_blank">Industriestrasse 44 in 8304 Wallisellen</a> befindet.
-		</p>
-		<p>
-        Bitte notieren Sie sich unsere neue Anschrift in Ihren Unterlagen. Vielen Dank!
-		</p>
-    </div>
-	
-	<div class="span1">
-    </div>		
-	
-	<div class="span3" align="center"></br>
-        <img width="200" src="/images/news/gezuegelt.jpg">
-    </div>
-</div>
-
-<div class="row-fluid">
-    <div class="span8">
-	<h3>01.09.2014: Die Renuo wächst weiter</h3>
-        <p>
-		Unser Team wächst weiter an: Herzlich Willkommen Cyril Kyburz und Nicolas Eckhart!
-		</p>
-		<p>
-        Unser Team wird seit heute durch zwei Praktikanten verstärkt! Beides sind Abgänger der <a href="http://www.kbw.ch/content-n55-sD.html" target="_blank">Informatikmittelschule (IMS) Büelrain Winterthur</a> und machen bei uns ihr einjähriges Praktikum. Die IMS legt die Basis für eine erfolgreiche Berufskarriere im Bereich Informatik. Sie führt in vier Jahren zur kaufmännischen Berufsmaturität und zum eidgenössischen Fähigkeitszeugnis für Applikationsentwicklung. Besonders für Letzteres ist ein einjähriges Praktikum notwendig, welches wir ihnen bieten können. Wir freuen uns sehr über diesen Zuwachs.
-		</p>
-    </div>
-	
-	<div class="span1">
-    </div>		
-	
-	<div class="span3" align="center"></br>
-        <img width="200" src="/images/news/cyril_nicolas.jpg">
-    </div>
-</div>		
 
 <div class="row-fluid">
     <div class="span8">
