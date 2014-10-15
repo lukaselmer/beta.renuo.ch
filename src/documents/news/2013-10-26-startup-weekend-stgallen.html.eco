@@ -3,14 +3,14 @@ title: Renuo am StartUp Weekend
 date: 2013-10-26
 image_path: /images/news/startupweekend.png
 layout: news
-tags: ['news']
+tags: ['news', 'Startup Weekend', 'Coaching']
 ---
 
 <p>Engagement ist uns wichtig. Nicht nur in unserer eigenen Programmierung.</p>
 <p>Die Renuo war am 26. und 27. Oktober 2013 am StartUp Weekend in St. Gallen tätig. Wir coachen Gründer und Gründungswillige in den Bereichen Web und IT. Wir freuen uns, Gründer kennen zu lernen und die innovative Luft des StartUp Weekends zu schnuppern.</p>
 <p>Mehr Informationen über das StartUp Weekend St. Gallen findet man unter: <a href="http://www.startupweekend.ch/de/startstgallen/">http://www.startupweekend.ch/de/startstgallen/</a></p>
 
-<div class="row-fluid">
+<div class="row-fluid" style="margin-bottom: 12px;">
 	<div class="span4">
         <img src="/images/news/startupweekend/178.jpg"/>
     </div>

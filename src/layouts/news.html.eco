@@ -29,6 +29,14 @@ layout: default_raw
         <div>
             <%- @document.content %>
         </div>
+
+        <div>
+            <% for tag in @document.tags: %>
+                <% if tag != "news": %>
+                    <span class="label label-info"><%- tag %></span>
+                <% end %>
+            <% end %>
+        </div>
     </div>
 
     <div class="span1"></div>
