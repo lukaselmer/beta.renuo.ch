@@ -16,11 +16,11 @@ tags: ['news', 'Hackathon', 'Android', 'parse.com']
 
 <div class="row-fluid" style="margin-bottom: 12px;">
 	<div class="span4">
-        <img src="/images/news/2014-10-12-hackathon/gear-live.jpg"/>
+        <img style="max-height: 250px;" src="/images/news/2014-10-12-hackathon/gear-live.jpg"/>
     </div>
 
 	<div class="span4">
-        <img src="/images/news/2014-10-12-hackathon/moto-360.jpg"/>
+        <img style="max-height: 250px;" src="/images/news/2014-10-12-hackathon/moto-360.jpg"/>
     </div>
 
 	<div class="span4">
