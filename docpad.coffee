@@ -123,6 +123,12 @@ docpadConfig =
         position: 1
       ])
 
+    news: (database) ->
+      database.findAllLive({tags:
+        $has: ['news']}, [
+        position: 1
+      ])
+
 # =================================
 # DocPad Events
 

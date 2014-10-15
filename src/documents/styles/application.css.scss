@@ -155,6 +155,15 @@ body {
   height: 100%;
 }
 
+.news-item {
+  .image {
+    margin-top: 20px;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
 .project-box-link {
   display: block;
 
