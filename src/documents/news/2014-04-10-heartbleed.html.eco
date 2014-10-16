@@ -1,0 +1,24 @@
+---
+title: OpenSSL-Lücke "Heartbleed"
+date: 2014-04-10
+image_path: /images/news/heartbleed.png
+layout: news
+tags: ['news', 'Heartbleed', 'Security']
+---
+
+<h4>Um was geht's?</h4>
+<p>In den vergangenen Tagen haben Sicherheitsexperten eine Sicherheitslücke in der Verschlüsselungssoftware OpenSSL festgestellt. OpenSSL wird dazu eingesetzt, jegliche Verbindungen abhörsicher zu machen, sodass z.B. keine Nutzernamen und Passwörter abgehört und gestohlen werden können. Die nun entdeckte Sicherheitslücke, die von den Experten "Heartbleed" getauft wurde, ermöglicht Angreifern die Entschlüsselung genau dieser SSL-Verbindungen. Von der Lücke betroffen sind u.a. alle Webseiten sowie E-Mail-Dienste, welche auf OpenSSL setzen. Weil etwa zwei Drittel aller aktiven HTTPS-Server von OpenSSL versorgt werden, ist das Ausmass dieser Sicherheitslücke verheerend. Zusätzlich bestand die Sicherheitslücke seit mehr als zwei Jahren und Angreifer konnten während dieser Zeit möglicherweise entsprechende Daten abhören, ohne Spuren zu hinterlassen. Es ist somit nicht möglich zu prüfen, ob man konkret davon betroffen war oder nicht.</p>
+<h4>Was bedeutet das für uns/Sie?</h4>
+<p>Alle Applikationen, welche wir intern für unsere Arbeit verwenden, sind durch OpenSSL-verschlüsselt. Somit sind leider auch wir (und damit auch Sie) von diesem Bug betroffen. Konkret geht es für Sie um das Redmine-Tool: Es kann sein, dass jemand unsere privaten Schlüssel gestohlen hat und deshalb nun in der Lage ist, trotz SSL den Internet Verkehr zwischen Ihnen und dem Redmine abzuhören. Des Weiteren kann auch Ihre Applikation davon betroffen sein, weil auch sie OpenSSL einsetzt, und damit auch ihre Benutzer, die sich auf die Verschlüsselung verlassen haben. Das Risiko, dass ein Angreifer uns oder Sie abgehört hat und so Daten (z.B. Zugangsdaten) gestohlen hat, stufen wir aufgrund des verhältnismässig geringem Bekanntheitsgrad der Seiten/Plattformen als klein ein.</p>
+<h4>Todos / unternommene Aktivitäten</h4>
+<p>Um die Problematik anzugehen, sind drei aufeinander aufbauende Aktivitäten notwendig:
+<ol>
+  <li>Um die Sicherheitslücke zu schliessen, ist einerseits ein Update der SSL Bibliothek auf die aktuellste Version notwendig. Damit kann gestoppt werden, dass Daten weiter abgehört werden könnten. Wir haben das während der letzten Tage für Ihre Applikation und unsere Tools (z.B. Redmine) unternommen.</li>
+  <li>Die SSL Zertifikate müssen neu ausgestellt werden. Wir haben die neuen Zertifikate bereits angefordert, und warten nun noch auf die Ausstellung.</li>
+  <li>Andererseits ist es aber auch notwendig (wenn Sie auf Nummer sicher gehen wollen), dass Sie alle (!) Ihre Passwörter, welche Sie im Internet einsetzen, abändern. Diese Passwörter umfassen nicht nur Ihre Applikation und Renuo-Tools, sondern auch andere Services wie Facebook, Skype, Ebay, GMail oder Yahoo, weil auch diese von dem Bug betroffen sind. Das Abändern des Passwortes macht aber erst dann Sinn, wenn die Applikation technisch aktualisiert wurde. Sie können dies über den Webdienst <a href="http://filippo.io/Heartbleed/" target="_blank">http://filippo.io/Heartbleed/</a> testen</li>
+</ol>
+</p>
+<p>Weitere technische Informationen finden Sie <a href="http://en.wikipedia.org/wiki/Heartbleed">hier (englisch)</a> und <a href="http://de.wikipedia.org/wiki/Heartbleed#Heartbleed-Bug">hier (deutsch)</a>.
+</p>
+<p>Bei Fragen stehen wir gerne zur Verfügung.</p>
+<p><em>Update (11.04.2013): </em>Die angeforderten Zertifikate wurden ausgestellt und wurden noch gestern Nacht installiert. Es steht noch aus, dass die alten Zertifikate invalidiert werden müssen, darauf haben wir aber nur begrenzt Einfluss. Weitere Informationen dazu <a href="http://blog.dnsimple.com/2014/04/heartbleed-and-getting-new-keys-and-certs/">hier (englisch)</a>.</p>
