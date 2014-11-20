@@ -16,9 +16,12 @@ position: 5
 
 <div class="row-fluid">
     <div class="span6">
-        <p>Derzeit haben wir keine offenen Stellen.</p><br/>
+        <p>Derzeit sind wir auf der Suche nach folgenden Stellen:</p><br/>
+        <ul class="icons-ul">
+			<li><i class="icon-li icon-ok"></i><a href="/141120_sea/">Betreuung Suchmaschinenmarketing (SEA) 20-40%</a></li>
+		</ul>		
 		
-		<p>Wir freuen uns aber auf Initiativbewerbungen an <a href="mailto:jobs@renuo.ch">jobs@renuo.ch</a>!</p>
+		<p>Wir freuen uns jederzeit auch auf Initiativbewerbungen an <a href="mailto:jobs@renuo.ch">jobs@renuo.ch</a>!</p>
     </div>
 
 	<div class="span1">
