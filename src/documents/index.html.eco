@@ -67,7 +67,7 @@ homeSlider:
           <%- @image_tag("logo.png") %>
         </a>
 
-        <h3>Internet Solutions</h3>
+		<h3>Internet Solutions</h3>
     </div>
 </div>
     </div>
