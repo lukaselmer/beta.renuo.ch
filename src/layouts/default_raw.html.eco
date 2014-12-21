@@ -12,35 +12,35 @@
 
   <title><%= @getPreparedTitle() %></title>
 
-<!--
-  
-                  `..-    `///:-.`                  
-             `-:+oooooo:`  `/yhhhhyo/-`             
-          .:+ooooooooooo/    -hhhhhhhhhs/`          
-       `:+oooooooooooo+.   .ohhhhhhhhhhhhho-        
-     `:ooooooooooo+/:.     -::/+syhhhhhhhhhhs.      
-    .+oooooooo+/-`               `-/shhhhhhhhh+`    		Wir suchen Web-Entwickler!
-   -oooooooo+-`                      -ohhhhhhhhs`   		
-  :oooooooo:`                          -yhhhhhhhs`  		Besitzt Du Know-How in Ruby on Rails,
- .oooooooo.                             `ohhhhhhho  		HTML5 oder JavaScript?
- +ooooooo.                               `yhhhhhhh- 		Du möchtest parallel zum Studium arbeiten?
-.ooooooo/                                 -hhhhhhho 		Du möchtest auch von zu Hause aus arbeiten?
--ooooooo-                                  hhhhhhhy 
--ooooooo-                                  hhhhhhhy 
-.ooooooo:                                 .hhhhhhhs 		Dann sende uns Deine vollständigen
-`oooooooo`                                ohhhhhhh/ 		Unterlagen an jobs@renuo.ch
- :ooooooo+`                              /hhhhhhhy` 
-  /ooooooo+.                           `+hhhhhhhh-  		Wir freuen uns auf Dich!
-  `/oooooooo:`                       `:yhhhhhhhh-   
-    :ooooooooo/.`                  ./yhhhhhhhhy.    
-     .+ooooooooo+/:-.``       .-/oyhhhhhhhhhh/`     
-       -+oooooooooooooo/`   .ohhhhhhhhhhhhh+`       
-         .:+ooooooooo/.   -ohhhhhhhhhhhhs:`         
-            .:/oooooo+-   .+hhhhhhhhy+:`            
-                `.-://+/.   `+o+/:.`   
+  <!--
 
-  
--->  
+                    `..-    `///:-.`
+               `-:+oooooo:`  `/yhhhhyo/-`
+            .:+ooooooooooo/    -hhhhhhhhhs/`
+         `:+oooooooooooo+.   .ohhhhhhhhhhhhho-
+       `:ooooooooooo+/:.     -::/+syhhhhhhhhhhs.
+      .+oooooooo+/-`               `-/shhhhhhhhh+`    		Wir suchen Web-Entwickler!
+     -oooooooo+-`                      -ohhhhhhhhs`
+    :oooooooo:`                          -yhhhhhhhs`  		Besitzt Du Know-How in Ruby on Rails,
+   .oooooooo.                             `ohhhhhhho  		HTML5 oder JavaScript?
+   +ooooooo.                               `yhhhhhhh- 		Du möchtest parallel zum Studium arbeiten?
+  .ooooooo/                                 -hhhhhhho 		Du möchtest auch von zu Hause aus arbeiten?
+  -ooooooo-                                  hhhhhhhy
+  -ooooooo-                                  hhhhhhhy
+  .ooooooo:                                 .hhhhhhhs 		Dann sende uns Deine vollständigen
+  `oooooooo`                                ohhhhhhh/ 		Unterlagen an jobs@renuo.ch
+   :ooooooo+`                              /hhhhhhhy`
+    /ooooooo+.                           `+hhhhhhhh-  		Wir freuen uns auf Dich!
+    `/oooooooo:`                       `:yhhhhhhhh-
+      :ooooooooo/.`                  ./yhhhhhhhhy.
+       .+ooooooooo+/:-.``       .-/oyhhhhhhhhhh/`
+         -+oooooooooooooo/`   .ohhhhhhhhhhhhh+`
+           .:+ooooooooo/.   -ohhhhhhhhhhhhs:`
+              .:/oooooo+-   .+hhhhhhhhy+:`
+                  `.-://+/.   `+o+/:.`
+
+
+  -->
 
   <link rel="shortcut icon" type="image/x-icon" href="/ico/favicon.ico">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
@@ -72,119 +72,120 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-34098642-1', 'auto');
-    ga('require', 'displayfeatures');  
+    ga('require', 'displayfeatures');
     ga('send', 'pageview');
   </script>
-  <script type="text/javascript" async defer
-    src="https://apis.google.com/js/platform.js?publisherid=116149986375247666043">
-  </script>
+  <script type="text/javascript" async defer src="https://apis.google.com/js/platform.js?publisherid=116149986375247666043"></script>
 </head>
 <body>
+
 <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="brand" href="/">
-                <img src="/images/logo.png" style="height: 25px;" />
-            </a>
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="/">
+        <img src="/images/logo.png" style="height: 25px;"/>
+      </a>
 
-            <a class="btn btn-navbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
+      <a class="btn btn-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
 
-            <nav class="nav-big">
-                <ul class="nav pull-right">
-                    <% for document in @getCollection('main_navi').toJSON() : %>
-                    <li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active' if @document.url is document.url %>">
-                        <a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
-                    </li>
-                    <% end %>
-                </ul>
-            </nav>
-        </div>
+      <nav class="nav-big">
+        <ul class="nav pull-right">
+          <% for document in @getCollection('main_navi').toJSON() : %>
+            <li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active' if @document.url is document.url %>">
+              <a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
+            </li>
+          <% end %>
+        </ul>
+      </nav>
     </div>
+  </div>
 </div>
 
 <div class="container" id="center-main">
-   <div id="outer-main">
-      <section id="content" class="content">
-        <%- @content %>
-      </section>
-
-    </div>
+  <div id="outer-main">
+    <section id="content" class="content">
+      <%- @content %>
+    </section>
+  </div>
 </div>
 
 <footer>
-    <div class="container" style="padding: 100px 0 50px 10px;"></div>
+  <div class="container" style="padding: 100px 0 50px 10px;"></div>
 
-    <%# grey: f5f5f5 e5e5e5; blue: e4eef6 D1E2F0 %>
-    <div style="background: #e4eef6; border-top: 1px solid #D1E2F0;">
-        <div class="container" style="padding: 30px 0 50px 10px;">
-            <div class="row-fluid">
-                <div class="span4">
-                    <div>
-                        <div>
-                            <address>
-                                <h5>Renuo GmbH</h5>
-                                <ul class="unstyled">
-                                    <li>Industriestrasse 44</li>
-                                    <li>8304 Wallisellen</li>
-                                </ul>
-                            </address>
-                        </div>
-                        <div>
-                            <ul class="unstyled">
-                                <li><a href="tel:+41443701536">+41 44 370 15 36</a></li>
-                                <li><a href="mailto:info@renuo.ch">info@renuo.ch</a></li>
-                                <li><a href="https://www.renuo.ch">http://www.renuo.ch</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul class="unstyled">
-                                <li>MWST-Nr: CHE-409.950.039 MWST</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="span4">
-                    <h5>Downloads</h5>
-                    <ul class="unstyled">
-                        <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen (AGB)", "/pdfs/agb.pdf" %></li>
-						<li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen Hosting", "/pdfs/agbhosting.pdf" %></li>
-						<li><%- @link_to "Monitoring-Services", "/pdfs/monitoring_services.pdf" %></li>
-                        <li><%- @link_to "Geheimhaltungs&shy;vereinbarung (NDA)", "/pdfs/nda.pdf" %></li>
-                    </ul>
-                </div>
-                <div class="span4 social-media">
-                    <h5>Social</h5>
-                    <a href="https://plus.google.com/115826926887062492943?rel=publisher"><i class="icon-google-plus-sign icon-4x"></i></a>
-                    <a href="https://www.facebook.com/RenuoGmbH"><i class="icon-facebook-sign icon-4x"></i></a>
-                    <a href="https://github.com/renuo"><i class="icon-github-sign icon-4x"></i></a>
-                    <a href="https://www.xing.com/companies/renuogmbh?literal=renuo%20gmbh"><i class="icon-xing-sign icon-4x"></i></a>
-                
-                    <div class="partners">
-                        <h5>Partnerschaften</h5>
-                        <a href="https://www.google.com/partners/#a_profile;idtf=2492208531" target="_blank"><img src="/images/PartnerBadge-Horizontal_sw.png"></a><br/><br/>
-                        <a id="startfeld" href="http://www.startfeld.ch/uber-uns/akkreditierte-dienstleister/" target="_blank"></a>
-                    </div>
-                </div>
+  <%# grey: f5f5f5 e5e5e5; blue: e4eef6 D1E2F0 %>
+  <div style="background: #e4eef6; border-top: 1px solid #D1E2F0;">
+    <div class="container" style="padding: 30px 0 50px 10px;">
+      <div class="row-fluid">
+        <div class="span4">
+          <div>
+            <div>
+              <address>
+                <h5>Renuo GmbH</h5>
+                <ul class="unstyled">
+                  <li>Industriestrasse 44</li>
+                  <li>8304 Wallisellen</li>
+                </ul>
+              </address>
             </div>
+            <div>
+              <ul class="unstyled">
+                <li><a href="tel:+41443701536">+41 44 370 15 36</a></li>
+                <li><a href="mailto:info@renuo.ch">info@renuo.ch</a></li>
+                <li><a href="https://www.renuo.ch">http://www.renuo.ch</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="unstyled">
+                <li>MWST-Nr: CHE-409.950.039 MWST</li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </div>
+        <div class="span4">
+          <h5>Downloads</h5>
+          <ul class="unstyled">
+            <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen (AGB)", "/pdfs/agb.pdf" %></li>
+            <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen Hosting", "/pdfs/agbhosting.pdf" %></li>
+            <li><%- @link_to "Monitoring-Services", "/pdfs/monitoring_services.pdf" %></li>
+            <li><%- @link_to "Geheimhaltungs&shy;vereinbarung (NDA)", "/pdfs/nda.pdf" %></li>
+          </ul>
+        </div>
+        <div class="span4 social-media">
+          <h5>Social</h5>
+          <a href="https://plus.google.com/115826926887062492943?rel=publisher"><i class="icon-google-plus-sign icon-4x"></i></a>
+          <a href="https://www.facebook.com/RenuoGmbH"><i class="icon-facebook-sign icon-4x"></i></a>
+          <a href="https://github.com/renuo"><i class="icon-github-sign icon-4x"></i></a>
+          <a href="https://www.xing.com/companies/renuogmbh?literal=renuo%20gmbh"><i class="icon-xing-sign icon-4x"></i></a>
 
-    <div style="background: #fff;">
-        <div class="container" style="padding: 10px 0 0 10px;">
-            <div class="row-fluid">
-                <div class="span10">
-                    © <script> document.write(new Date().getFullYear().toString()); </script> Renuo GmbH. Alle Rechte vorbehalten. <%- @link_to "AGB", "/pdfs/agb.pdf" %>.
-                </div>
-                <div class="span2" style="text-align: right;">
-                    <a href="http://www.swissmadesoftware.org/"><img src="/images/swiss-made-software.png"></a>
-                </div>
-            </div>
+          <div class="partners">
+            <h5>Partnerschaften</h5>
+            <a href="https://www.google.com/partners/#a_profile;idtf=2492208531" target="_blank"><img src="/images/PartnerBadge-Horizontal_sw.png"></a><br/><br/>
+            <a id="startfeld" href="http://www.startfeld.ch/uber-uns/akkreditierte-dienstleister/" target="_blank"></a>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+
+  <div style="background: #fff;">
+    <div class="container" style="padding: 10px 0 0 10px;">
+      <div class="row-fluid">
+        <div class="span10">
+          ©
+          <script> document.write(new Date().getFullYear().toString()); </script>
+          Renuo GmbH. Alle Rechte vorbehalten.
+          <%- @link_to "AGB", "/pdfs/agb.pdf" %>.
+        </div>
+        <div class="span2" style="text-align: right;">
+          <a href="http://www.swissmadesoftware.org/"><img src="/images/swiss-made-software.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
