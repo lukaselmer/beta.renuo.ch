@@ -4,6 +4,9 @@ docpadConfig =
 
   watchOptions: preferredMethods: ['watchFile','watch']
 
+  plugins:
+    sass:
+      compass: false
 # =================================
 # Template Data
 # These are variables that will be accessible via our templates
@@ -13,7 +16,7 @@ docpadConfig =
 # Specify some site properties
     site:
     # The production url of our website
-      url: "http://www.renuo.ch"
+      url: "https://www.renuo.ch"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [

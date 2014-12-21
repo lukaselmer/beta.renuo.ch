@@ -55,215 +55,224 @@ homeSlider:
         image: /images/renuo/slider_home/cms.jpg
         image_alt: Content Management System
         title: Simple und effiziente CMS, welche jeder bedienen kann
-        subtitle: Wir integrieren Ihnen simple Leichtgewicht-CMS, welche so einfach sind, dass sie auch von Laien bedient werden können! 
+        subtitle: Wir integrieren Ihnen simple Leichtgewicht-CMS, welche so einfach sind, dass sie auch von Laien bedient werden können!
 
 ---
 
 <div style="padding-top: 80px;">
-
-<div class="row-fluid">
+  <div class="row-fluid">
     <div class="span12">
-        <a class="brand" href="/">
-          <%- @image_tag("logo.png") %>
-        </a>
+      <a class="brand" href="/">
+        <%- @image_tag("logo.png") %>
+      </a>
 
-		<h3>Internet Solutions</h3>
+      <h3>Internet Solutions</h3>
+      <br>
+
+      <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <h4>Frohe Festtage! Wie sind wir für Notfälle erreichbar?</h4>
+
+        <p></p>
+        <p>Wir wünschen Ihnen frohe Festtage und einen guten Rutsch ins 2015! Die Renuo macht während den Festtagen Urlaub, ist in Notfällen aber telefonisch und via E-Mail zu erreichen. Lesen Sie mehr dazu in unseren
+          <a href="/news">News</a>.</p>
+
+        <p>Ihre Renuo.</p>
+      </div>
     </div>
-</div>
-    </div>
+  </div>
 </div>
 
 <div class="row-fluid page-header-element">
-    <div class="span12">
-        <%- @getSlider('homeSlider', @document.homeSlider) %>
-    </div>
+  <div class="span12">
+    <%- @getSlider('homeSlider', @document.homeSlider) %>
+  </div>
 </div>
 
 <div id="focus"></div>
 <div class="row-fluid page-header-element">
-    <div class="span4">
-        <div class="page-header">
-            <h1>Web Ent&shy;wick&shy;lung /<br/> Pro&shy;gram&shy;mier&shy;ung
-            </h1>
-        </div>
-        <div>
-            <p>Wir entwickeln und programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. Wir sind Spezialist in den Bereichen:</p>
-        </div>
-        <ul class="icons-ul">
-          <li><i class="icon-li icon-ok"></i><strong>Individuelle Webprojekte</strong><br>vom kleinen Auftritt bis zum grossen Portal, welches mehrsprachig und multinational betrieben wird</li>
-          <li><i class="icon-li icon-ok"></i><strong>Schnittstellen</strong><br>und Anbindungen der Webprojekte an externe Services und bestehende Datenbanken</li>
-		  <li><i class="icon-li icon-ok"></i><strong>Content Management</strong><br>simple Leichtgewicht CMS, welche so einfach sind, dass sie auch von Laien bedient werden können</li>
-
-         </ul>
+  <div class="span4">
+    <div class="page-header">
+      <h1>Web Ent&shy;wick&shy;lung /<br/> Pro&shy;gram&shy;mier&shy;ung
+      </h1>
     </div>
-
-	<div class="span4">
-        <div class="page-header">
-            <h1>Res&shy;pon&shy;sive<br/> Web&shy;design
-            </h1>
-        </div>
-        <div>
-            <p>Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht!</p>
-            <p>Die Inhalte werde dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert und ein Besucher behält stets den Überblick über die Inhalte. Erleben Sie Responsive Webdesign live, indem Sie den Renuo-Webauftritt auf verschiedenen Geräten betrachten!</p>
-        </div>
+    <div>
+      <p>Wir entwickeln und programmieren Ihnen Ihre Idee und Vision massgeschneidert und mit höchster Qualität. Wir sind Spezialist in den Bereichen:</p>
     </div>
+    <ul class="icons-ul">
+      <li><i class="icon-li icon-ok"></i><strong>Individuelle Webprojekte</strong><br>vom kleinen Auftritt bis zum grossen Portal, welches mehrsprachig und multinational betrieben wird</li>
+      <li><i class="icon-li icon-ok"></i><strong>Schnittstellen</strong><br>und Anbindungen der Webprojekte an externe Services und bestehende Datenbanken</li>
+      <li><i class="icon-li icon-ok"></i><strong>Content Management</strong><br>simple Leichtgewicht CMS, welche so einfach sind, dass sie auch von Laien bedient werden können</li>
+    </ul>
+  </div>
 
-	<div class="span4">
-        <div class="page-header">
-            <h1>Mobile<br/> App&shy;lika&shy;tionen
-            </h1>
-        </div>
-        <div>
-            Wir entwickeln native und webbasierte mobile Applikationen für sowohl B2C- wie auch B2B-Apps.
-        </div>
+  <div class="span4">
+    <div class="page-header">
+      <h1>Res&shy;pon&shy;sive<br/> Web&shy;design
+      </h1>
     </div>
+    <div>
+      <p>Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht!</p>
+      <p>Die Inhalte werde dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert und ein Besucher behält stets den Überblick über die Inhalte. Erleben Sie Responsive Webdesign live, indem Sie den
+        Renuo-Webauftritt auf verschiedenen Geräten betrachten!</p>
+    </div>
+  </div>
 
-</div>	
+  <div class="span4">
+    <div class="page-header">
+      <h1>Mobile<br/> App&shy;lika&shy;tionen</h1>
+    </div>
+    <div>
+      Wir entwickeln native und webbasierte mobile Applikationen für sowohl B2C- wie auch B2B-Apps.
+    </div>
+  </div>
+
+</div>
 
 
 <%# Technologien %>
 
 <div id="technologies"></div>
 <div class="row-fluid page-header-element">
-    <div class="span12">
-        <div class="page-header">
-            <h1>Ruby on Rails, HTML5, JavaScript,
-                <small> CSS3, jQuery und viele mehr</small>
-            </h1>
-        </div>
+  <div class="span12">
+    <div class="page-header">
+      <h1>Ruby on Rails, HTML5, JavaScript,
+        <small> CSS3, jQuery und viele mehr</small>
+      </h1>
     </div>
+  </div>
 </div>
 
 <div class="row-fluid page-section">
-    <div class="span8">
-        <p>Um eine Internet Plattform oder eine Software Lösung zu entwickeln, setzen wir verschiedene Technologien ein.
-            Wir wählen unter anderem anhand folgender Kriterien die Technologien aus:</p>
-        <ul class="icons-ul">
-          <li><i class="icon-li icon-ok"></i><strong> Kosteneffizienz: </strong> Wie viel kostet die Entwicklung?</li>
-          <li><i class="icon-li icon-ok"></i><strong> Geschwindigkeit: </strong> Wie schnell kann die gewünschte Lösung entwickelt werden?</li>
-          <li><i class="icon-li icon-ok"></i><strong> Stabilität: </strong> Wie kann eine genügend hohe Stabilität erreicht werden?</li>
-          <li><i class="icon-li icon-ok"></i><strong> Wartbarkeit: </strong> Wie teuer ist die Software im Unterhalt?</li>
-          <li><i class="icon-li icon-ok"></i><strong> Agilität: </strong> Wie einfach können Änderungen durchgeführt werden?</li>
-          <li><i class="icon-li icon-ok"></i><strong> Verbreitung und Community: </strong> Wie verbreitet ist die Technologie und wie schnell entwickelt sich diese weiter?</li>
-        </ul>
-	</div>
-    <div class="span3">
-        <%- @getSlider('technologyCarousel', @document.technologySlider) %>
-    </div>
+  <div class="span8">
+    <p>Um eine Internet Plattform oder eine Software Lösung zu entwickeln, setzen wir verschiedene Technologien ein.
+      Wir wählen unter anderem anhand folgender Kriterien die Technologien aus:</p>
+    <ul class="icons-ul">
+      <li><i class="icon-li icon-ok"></i><strong> Kosteneffizienz: </strong> Wie viel kostet die Entwicklung?</li>
+      <li><i class="icon-li icon-ok"></i><strong> Geschwindigkeit: </strong> Wie schnell kann die gewünschte Lösung entwickelt werden?</li>
+      <li><i class="icon-li icon-ok"></i><strong> Stabilität: </strong> Wie kann eine genügend hohe Stabilität erreicht werden?</li>
+      <li><i class="icon-li icon-ok"></i><strong> Wartbarkeit: </strong> Wie teuer ist die Software im Unterhalt?</li>
+      <li><i class="icon-li icon-ok"></i><strong> Agilität: </strong> Wie einfach können Änderungen durchgeführt werden?</li>
+      <li><i class="icon-li icon-ok"></i><strong> Verbreitung und Community: </strong> Wie verbreitet ist die Technologie und wie schnell entwickelt sich diese weiter?</li>
+    </ul>
+  </div>
+  <div class="span3">
+    <%- @getSlider('technologyCarousel', @document.technologySlider) %>
+  </div>
 </div>
 
 <div class="row-fluid" style="margin-top: 30px;">
-    <div class="span4">
-        <h2>
-            Web
-            <br><small>HTML5, CSS3 und JavaScript</small>
-        </h2>
-        <p>Wir arbeiten mit modernsten Web Technologien, weil heute der grösste Teil der Bevölkerung internetfähige
-            Geräte
-            (PC, Laptop, Handy, ...) besitzt, mit
-            denen das Internet genutzt werden kann. Zudem entwickeln sich diese Technologien sehr schnell, wodurch immer
-            wieder neue Möglichkeiten für neue Produkte
-            und Lösungen bietet und Raum für Innovation lässt.</p>
+  <div class="span4">
+    <h2>
+      Web
+      <br>
+      <small>HTML5, CSS3 und JavaScript</small>
+    </h2>
+    <p>Wir arbeiten mit modernsten Web Technologien, weil heute der grösste Teil der Bevölkerung internetfähige
+      Geräte
+      (PC, Laptop, Handy, ...) besitzt, mit
+      denen das Internet genutzt werden kann. Zudem entwickeln sich diese Technologien sehr schnell, wodurch immer
+      wieder neue Möglichkeiten für neue Produkte
+      und Lösungen bietet und Raum für Innovation lässt.</p>
 
-        <p>Mit HTML5, CSS3 und JavaScript ist es für einen Nutzer möglich, ohne eine zusätzliche Softwareinstallation
-            direkt
-            auf die Services zuzugreifen.</p>
+    <p>Mit HTML5, CSS3 und JavaScript ist es für einen Nutzer möglich, ohne eine zusätzliche Softwareinstallation
+      direkt
+      auf die Services zuzugreifen.</p>
 
-        <p>Diese Technologien sind auch am meisten verbreitet, wodurch sehr viele Endgeräte angesprochen werden können,
-            vom
-            iPhone über ein Android Tablet
-            bis zum Desktop PC zu Hause oder im Büro.</p>
-    </div>
-    <div class="span4">
-        <h2>Ruby on Rails
-            <br><small>Schnelle Entwicklung</small>
-        </h2>
-        <p>Um der Applikation ein kräftiges Backend zu verleihen, das schnell, einfach und kosteneffizient entwickelt
-            werden
-            kann, setzen wir auf Ruby on Rails.</p>
+    <p>Diese Technologien sind auch am meisten verbreitet, wodurch sehr viele Endgeräte angesprochen werden können,
+      vom
+      iPhone über ein Android Tablet
+      bis zum Desktop PC zu Hause oder im Büro.</p>
+  </div>
+  <div class="span4">
+    <h2>Ruby on Rails
+      <br>
+      <small>Schnelle Entwicklung</small>
+    </h2>
+    <p>Um der Applikation ein kräftiges Backend zu verleihen, das schnell, einfach und kosteneffizient entwickelt
+      werden
+      kann, setzen wir auf Ruby on Rails.</p>
 
-        <p>Durch Konvention über Konfiguration ist es den Entwicklern möglich, dank logischen Standardwerten nur die
-            Werte
-            anzupassen, die für die spezifische
-            Lösung benötigt werden. Dadurch wird weniger Code produziert, wodurch die Entwicklung beschleunigt und die
-            Wartung
-            effizienter wird.</p>
+    <p>Durch Konvention über Konfiguration ist es den Entwicklern möglich, dank logischen Standardwerten nur die
+      Werte
+      anzupassen, die für die spezifische
+      Lösung benötigt werden. Dadurch wird weniger Code produziert, wodurch die Entwicklung beschleunigt und die
+      Wartung
+      effizienter wird.</p>
 
-        <p>Ruby on Rails wurde schon in vielen Projekten eingesetzt
-            (zum Beispiel bei <a href="http://www.twitter.com/" target="_blank">Twitter</a>,
-            <a href="http://www.groupon.com/" target="_blank">Groupon</a>,
-            <a href="http://www.xing.com" target="_blank">Xing</a>, usw.)
-            und überzeugt immer wieder mit Innovation.
-            Weitere Informationen zu Ruby on Rails finden Sie unter:
-            <a href="http://rubyonrails.org/applications" target="_blank">http://rubyonrails.org</a></p>
-    </div>
-    <div class="span4">
-        <h2>jQuery
-            <br><small>DIE JavaScript Bibliothek</small>
-        </h2>
-        <p>Während früher Internetseiten meistens statisch und ohne JavaScript funktionierten, ist es heute nicht mehr
-            wegzudenken, ohne JavaScript zu arbeiten. Da viele
-            verschiedene Endgeräte und Browser unterstützt werden müssen, setzen wir jQuery ein.</p>
+    <p>Ruby on Rails wurde schon in vielen Projekten eingesetzt
+      (zum Beispiel bei <a href="http://www.twitter.com/" target="_blank">Twitter</a>,
+      <a href="http://www.groupon.com/" target="_blank">Groupon</a>,
+      <a href="http://www.xing.com" target="_blank">Xing</a>, usw.)
+      und überzeugt immer wieder mit Innovation.
+      Weitere Informationen zu Ruby on Rails finden Sie unter:
+      <a href="http://rubyonrails.org/applications" target="_blank">http://rubyonrails.org</a></p>
+  </div>
+  <div class="span4">
+    <h2>jQuery
+      <br>
+      <small>DIE JavaScript Bibliothek</small>
+    </h2>
+    <p>Während früher Internetseiten meistens statisch und ohne JavaScript funktionierten, ist es heute nicht mehr
+      wegzudenken, ohne JavaScript zu arbeiten. Da viele
+      verschiedene Endgeräte und Browser unterstützt werden müssen, setzen wir jQuery ein.</p>
 
-        <p>jQuery vereinfacht die Bearbeitung von HTML direkt auf dem Endgerät. Dadurch ist es z.B. möglich, Animationen
-            oder Dialoge einzublenden. Weiter ermöglicht
-            jQuery sogenannte AJAX Abfragen, damit nicht immer die ganze Seite neu geladen werden muss, sondern nur ein
-            kleiner Teil bearbeitet wird.</p>
+    <p>jQuery vereinfacht die Bearbeitung von HTML direkt auf dem Endgerät. Dadurch ist es z.B. möglich, Animationen
+      oder Dialoge einzublenden. Weiter ermöglicht
+      jQuery sogenannte AJAX Abfragen, damit nicht immer die ganze Seite neu geladen werden muss, sondern nur ein
+      kleiner Teil bearbeitet wird.</p>
 
-        <p>Die Verbreitung von jQuery im Web spricht für sich (je nach Quelle bei 50% oder mehr Internetseiten
-            verwendet).
-            Die aktive Community entwickelt diese Bibliothek
-            auch stetig weiter, damit neue Browser und neue Standards stets unterstützt werden.</p>
-    </div>
+    <p>Die Verbreitung von jQuery im Web spricht für sich (je nach Quelle bei 50% oder mehr Internetseiten
+      verwendet).
+      Die aktive Community entwickelt diese Bibliothek
+      auch stetig weiter, damit neue Browser und neue Standards stets unterstützt werden.</p>
+  </div>
 </div>
 
 
 <div id="contact"></div>
 <div class="row-fluid page-header-element">
 
-    <div class="span8">
-        <div>
-            <div class="page-header">
-                <h1>Kontakt
-                    <small> So erreichen Sie uns</small>
-                </h1>
-            </div>
-            <div>
-                <p>Wir sind bereit! Sie auch? Dann würden wir uns gerne zu einem unverbindlichen Beratungsgespräch
-                    treffen,
-                    damit wir Ihnen ein faires Angebot unterbreiten dürfen, das auf Ihre Bedürfnisse zugeschnitten
-                    ist.</p>
-
-                <p>Sie erreichen uns am Besten per Email unter <a href="mailto:info@renuo.ch">info@renuo.ch</a>.</p>
-            </div>
-        </div>
-        <div>
-            <div class="span4">
-                <address>
-                    <b>Renuo GmbH</b><br/>
-                    Industriestrasse 44<br/>
-                    8304 Wallisellen<br/><br/>
-                </address>
-            </div>
-            <div class="span6">
-                <dl class="dl-horizontal" style="margin-top: 0;">
-                    <dt>Telefon</dt>
-                    <dd><a href="tel:+41443701536">+41 44 370 15 36</a></dd>
-                    <dt>Email</dt>
-                    <dd><a href="mailto:info@renuo.ch">info@renuo.ch</a></dd>
-                    <dt>Web</dt>
-                    <dd><a href="https://www.renuo.ch">www.renuo.ch</a></dd>
-                </dl>
-            </div>
-        </div>
+  <div class="span8">
+    <div>
+      <div class="page-header">
+        <h1>Kontakt
+          <small> So erreichen Sie uns</small>
+        </h1>
+      </div>
+      <div>
+        <p>Wir sind bereit! Sie auch? Dann würden wir uns gerne zu einem unverbindlichen Beratungsgespräch
+          treffen,
+          damit wir Ihnen ein faires Angebot unterbreiten dürfen, das auf Ihre Bedürfnisse zugeschnitten
+          ist.</p>
+        <p>Sie erreichen uns am Besten per Email unter <a href="mailto:info@renuo.ch">info@renuo.ch</a>.</p>
+      </div>
     </div>
-    <div class="span4">
-        <div id="map_canvas" style="width: 100%; height: 300px;">
-            Google Maps konnte nicht geladen werden.
-        </div>
+    <div>
+      <div class="span4">
+        <address>
+          <b>Renuo GmbH</b><br/>
+          Industriestrasse 44<br/>
+          8304 Wallisellen<br/><br/>
+        </address>
+      </div>
+      <div class="span6">
+        <dl class="dl-horizontal" style="margin-top: 0;">
+          <dt>Telefon</dt>
+          <dd><a href="tel:+41443701536">+41 44 370 15 36</a></dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:info@renuo.ch">info@renuo.ch</a></dd>
+          <dt>Web</dt>
+          <dd><a href="https://www.renuo.ch">www.renuo.ch</a></dd>
+        </dl>
+      </div>
     </div>
+  </div>
+  <div class="span4">
+    <div id="map_canvas" style="width: 100%; height: 300px;">
+      Google Maps konnte nicht geladen werden.
+    </div>
+  </div>
 </div>
 
-</div>
-</div>
 
