@@ -4,6 +4,9 @@ docpadConfig =
 
   watchOptions: preferredMethods: ['watchFile','watch']
 
+  plugins:
+    sass:
+      compass: false
 # =================================
 # Template Data
 # These are variables that will be accessible via our templates
