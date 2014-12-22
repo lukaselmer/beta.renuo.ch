@@ -152,4 +152,11 @@ $ ->
       $(".nav-big").hide()
 
 
-
+  $(document).ready ->
+    $('a').on 'mouseover', ->
+      href = $(this).attr('href')
+      if href.length > 2 && href[0] == '/' && href[1] != '/'
+        genLink = (type) ->
+          $('<link>').attr('rel', type).attr('href', href)
+        genLink('prefetch').appendTo('body')
+        genLink('prerender').appendTo('body')

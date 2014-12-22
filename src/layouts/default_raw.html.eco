@@ -197,7 +197,6 @@
 <% for document in @getCollection('main_navi').toJSON(): %>
   <% unless @document.url is document.url : %>
     <link rel="prefetch" href="<%= document.url %>">
-    <link rel="prerender" href="<%= document.url %>">
   <% end %>
 <% end %>
 
