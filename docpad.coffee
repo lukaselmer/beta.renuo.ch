@@ -1,6 +1,7 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig =
+  rootPath: process.cwd()
 
   watchOptions: preferredMethods: ['watchFile','watch']
 
@@ -90,8 +91,9 @@ docpadConfig =
     getSlider: (id, data)->
       return '' unless data
       fs  = require 'fs'
-      eco = require "eco"
-      template = fs.readFileSync "#{docpad.config.rootPath}/src/helpers/slider.html.eco", "utf-8"
+      eco = require 'eco'
+      #docpad = @docpad
+      template = fs.readFileSync "#{docpadConfig.rootPath}/src/helpers/slider.html.eco", 'utf-8'
       eco.render template, sliderId: id, slider: data
 
 
