@@ -63,7 +63,7 @@ homeSlider:
   <div class="row-fluid">
     <div class="span12">
       <a class="brand" href="/">
-        <%- @image_tag("logo.png") %>
+        <%- @image_tag("logo.png" alt: "Renuo Logo") %>
       </a>
 
       <h3>Internet Solutions</h3>
