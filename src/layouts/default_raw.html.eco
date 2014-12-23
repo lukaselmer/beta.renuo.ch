@@ -83,7 +83,7 @@
   <div class="navbar-inner">
     <div class="container">
       <a class="brand" href="/">
-        <img src="/images/logo.png" style="height: 25px;"/>
+        <img src="/images/logo.png" alt="Renuo Logo" style="height: 25px;"/>
       </a>
 
       <a class="btn btn-navbar">
@@ -163,7 +163,7 @@
 
           <div class="partners">
             <h5>Partnerschaften</h5>
-            <a href="https://www.google.com/partners/#a_profile;idtf=2492208531" target="_blank"><img src="/images/PartnerBadge-Horizontal_sw.png"></a><br/><br/>
+            <a href="https://www.google.com/partners/#a_profile;idtf=2492208531" target="_blank"><img src="/images/PartnerBadge-Horizontal_sw.png" alt="Renuo ist Google Partner"></a><br/><br/>
             <a id="startfeld" href="http://www.startfeld.ch/uber-uns/akkreditierte-dienstleister/" target="_blank"></a>
           </div>
         </div>
@@ -181,7 +181,7 @@
           <%- @link_to "AGB", "/pdfs/agb.pdf" %>.
         </div>
         <div class="span2" style="text-align: right;">
-          <a href="http://www.swissmadesoftware.org/"><img src="/images/swiss-made-software.png"></a>
+          <a href="http://www.swissmadesoftware.org/"><img src="/images/swiss-made-software.png" alt="Logo Swiss Made Software"></a>
         </div>
       </div>
     </div>
