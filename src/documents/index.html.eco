@@ -69,17 +69,7 @@ homeSlider:
       <h3>Internet Solutions</h3>
       <br>
 
-      <div class="alert alert-info">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <h4>Frohe Festtage! Wie sind wir für Notfälle erreichbar?</h4>
-
-        <p></p>
-        <p>Wir wünschen Ihnen frohe Festtage und einen guten Rutsch ins 2015! Die Renuo macht während den Festtagen Urlaub, ist in Notfällen aber telefonisch und via E-Mail zu erreichen. Lesen Sie mehr dazu in unseren
-          <a href="/news">News</a>.</p>
-
-        <p>Ihre Renuo.</p>
       </div>
-    </div>
   </div>
 </div>
 
