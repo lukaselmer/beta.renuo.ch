@@ -10,6 +10,11 @@ technologySlider:
         title:
         subtitle:
     -
+        image: /images/angularjs.png
+        image_alt: Angular.JS Logo
+        title:
+        subtitle:
+    -	
         image: /images/html5.png
         image_alt: HTML5 Logo
         title:
@@ -42,7 +47,7 @@ homeSlider:
         title: Web-Entwicklung / Programmierung
         subtitle: Wir sind Spezialist in webbasierter Softwareentwicklung! Wir programmieren sowohl kleine Auftritte als auch grosse Portale, welche mehrsprachig und multinational betrieben werden!
     -
-        image: /images/renuo/slider_home/technologyII.jpg
+        image: /images/renuo/slider_home/technologien-bei-renuo.jpg
         image_alt: Web Technologien
         title: Modernste Web-Technologien
         subtitle: Mit Hilfe modernster Webtechnologien entwickeln wir innovative Websoftware, welche stabil, agil und wartbar ist! Wir lieben und wir leben Technologien, v. a. Open Source!
@@ -126,7 +131,7 @@ homeSlider:
 <div class="row-fluid page-header-element">
   <div class="span12">
     <div class="page-header">
-      <h1>Ruby on Rails, HTML5, JavaScript,
+      <h1>Ruby on Rails, Angular.JS, HTML5, JavaScript,
         <small> CSS3, jQuery und viele mehr</small>
       </h1>
     </div>
