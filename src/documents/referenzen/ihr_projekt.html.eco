@@ -21,7 +21,7 @@ tags: ['project']
 
         <div>
             Im Gegensatz zu grossen und schwerfälligen Firmen arbeitet die Renuo GmbH mit den Projektmethoden aus Scrum
-            weitere Informationen unter <a href="http://de.wikipedia.org/wiki/Scrum" target="_blank">http://de.wikipedia.org/wiki/Scrum</a>) und bietet so unter ständiger Einbeziehung 
+            (weitere Informationen unter <a href="http://de.wikipedia.org/wiki/Scrum" target="_blank">http://de.wikipedia.org/wiki/Scrum</a>) und bietet so unter ständiger Einbeziehung 
             des Kunden die Flexibilität und Anpassungsfähigkeit für den erfolgreichen Abschluss eines Projektes.
         </div>
     </div>
@@ -74,7 +74,7 @@ tags: ['project']
                 <small>Nicht notwendig, unterschreiben wir aber gerne</small>
             </h1>
         </div>
-        <p>Falls Sie vor Ihrer ersten Kontaktaufnahme mit uns ein NDA möchten, unterschreiben wir dieses gerne. Sie können hierzu <%- @link_to "unsere Vorlage", "/pdfs/nda.pdf" %> ausfüllen und diese zurück an <a href="mailto:info@renuo.ch">info@renuo.ch</a> senden. Wir haben eine Politik, dass wir alle Daten vertralich behandeln und keine Geschäftsideen von potentiellen Kunden selber umsetzen. Wir halten an dieser Politik fest, unabhängig davon, ob ein NDA vorhanden ist oder nicht. Wir kommunizieren auch jegliche Intressenkonflikte, sobald wir uns diesen bewusst sind.</p>
+        <p>Falls Sie vor Ihrer ersten Kontaktaufnahme mit uns ein NDA möchten, unterschreiben wir dieses gerne. Sie können hierzu <%- @link_to "unsere Vorlage", "/pdfs/nda.pdf" %> ausfüllen und diese zurück an <a href="mailto:info@renuo.ch">info@renuo.ch</a> senden. Wir haben eine Politik, dass wir alle Daten vertraulich behandeln und keine Geschäftsideen von potentiellen Kunden selber umsetzen. Wir halten an dieser Politik fest, unabhängig davon, ob ein NDA vorhanden ist oder nicht. Wir kommunizieren auch jegliche Interessenkonflikte, sobald wir uns diesen bewusst sind.</p>
 		<p>Vielen Dank, dass Sie Renuo berücksichtigen.</p>
         <br/>
     </div>
