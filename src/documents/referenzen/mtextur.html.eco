@@ -5,7 +5,7 @@ box_description: für h2c GmbH
 short_description: Webbasierte Plattform für tausende CAD- und Material-Texturen
 image_path: /images/mtextur/mtextur.png
 layout: project
-position: 7
+position: 9
 tags: ['project']
 slider:
     -
@@ -22,7 +22,7 @@ slider:
         image: /images/mtextur/mtextur-statistik.jpg
         image_alt: Beispielansicht einer Statistik
         title: Statistik für Admin sowie Hersteller
-        subtitle: Für jedes Material wird pro Klick und und View eine Statistik geführt. Diese ist für den Admin einsichtbar und kann ebenfalls gefiltert werden. Ein Hersteller hat ein separates Login, über welches er die Statistiken seiner Materialien einsehen kann. 
+        subtitle: Für jedes Material wird pro Klick und und View eine Statistik geführt. Diese ist für den Admin einsichtbar und kann ebenfalls nach verschiedenen Parameter gefiltert werden. Ein Hersteller hat ein separates Login, über welches er die Statistiken seiner Materialien einsehen kann. 
 ---
 <br>
 
