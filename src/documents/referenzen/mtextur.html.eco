@@ -1,0 +1,68 @@
+---
+title: Portal für CAD- und Material-Texturen
+box_name: Webbasierte Plattform für tausende CAD- und Material-Texturen
+box_description: für h2c GmbH
+short_description: Webbasierte Plattform für tausende CAD- und Material-Texturen
+image_path: /images/mtextur/mtextur.png
+layout: project
+position: 7
+tags: ['project']
+slider:
+    -
+        image: /images/mtextur/mtextur-home.jpg
+        image_alt: Die Startseite von mtextur
+        title: mtextur - Plattform für tausende von Material- und CAD-Texturen
+        subtitle: Auf mtextur können Nutzer kostenlos tausende von Material- und CAD-Texturen durchsuchen und downloaden. Die Texturen können dabei anhand einer Vielzahl von Parametern gefiltert werden. Ebenfalls steht eine Suchmaschine zur Verfügung.
+    -
+        image: /images/mtextur/mtextur-detail.jpg
+        image_alt: Eine Detailansicht einer Textur
+        title: Detailansicht einer Textur
+        subtitle: Für jede Textur steht eine Detailansicht zur Verfügung. Die Plattform generiert anhand von in der Datenbank vorhandenen Werten automatisch einen BIM-Download, welcher in CAD-Software eingelesen werden kann. Ebenfalls steht pro Textur eine grosse CAD-Ansicht sowie ein automatisch generiertes Factsheet zur Verfügung.
+    -
+        image: /images/mtextur/mtextur-statistik.jpg
+        image_alt: Beispielansicht einer Statistik
+        title: Statistik für Admin sowie Hersteller
+        subtitle: Für jedes Material wird pro Klick und und View eine Statistik geführt. Diese ist für den Admin einsichtbar und kann ebenfalls gefiltert werden. Ein Hersteller hat ein separates Login, über welches er die Statistiken seiner Materialien einsehen kann. 
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Die Applikation mtextur wurde bis 2014 in Brasilien entwickelt. Aufgrund einem unterschiedlichen Qualitätsverständnis sowie Kommunikationsschwierigkeiten (Sprache, Zeitverschiebung) entschied man sich dazu, die Applikation in die Schweiz zu zügeln. Aufgrund den technischen Qualifikationen sowie der Arbeitsweise konnte die Renuo GmbH die Entwicklung von mtextur im Sommer 2014 übernehmen.</p>
+			<p>Das Portal verzeichnet Seitenaufrufe in Millionenhöhe und muss dadurch hohen Ansprüchen bzgl. der Performance und Sicherheit genügen. Konkrete Arbeitspunkte, welche von Bedeutung sind, sind die Ladezeit sowie das einwandfreie Funktionieren der Statistik. Diese wiederum bilden nämlich die Verkaufsgrundlage von mtextur an die Hersteller.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>Mtextur ist eine individuell programmierte Applikation, welche auf <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> basiert. </p>
+			<p>Das Fundament bildet eine grosse Datenbank, welcher der Administrator über ein Backend füllen kann. Den Texturen können verschiedene Parameter zugewiesen werden, damit diese im Frontend wiederum durchsucht, gefiltert und gefunden werden können.</p>			
+			<p>Für sowohl Administrator wie auch Hersteller gibt es ein Backend mit dazu gehörendem Rollenkonzept. Der Administrator verwaltet die Materialien und sieht die Statistiken der Materialien, während der Hersteller nur Einsicht in seine Statistiken hat.</p>
+			<p>Bei der Übernahme war vor allem relevant, die bestehende Programmierung auf die neusten Versionen upzugraden, verschiedene Tests zu schreiben (testgetriebene Entwicklung, test driven development) sowie die Statistiken zu entwickeln. Nebst zahlreichen Fixes von Altlasten geht es heute vor allem um die Neuentwicklung von Features sowie um das Design.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>h2c GmbH<br>
+			   Sandweg 2<br>
+               5712 Beinwil am See<br></p>
+
+            <p>Ansprechperson: Philipp Hauzinger<br>
+               Telefon  +41 62 772 22 24</p>
+
+            <p>Link: <a href="http://www.mtextur.ch" target="_blank">http://www.mtextur.ch</a></p>
+			<p>Die Partnerschaft dauert von Juli 2014 bis heute</p>
+
+            <div><%- @image_tag '/mtextur/h2c-logo.png' %></div>
+        </div>
+    </div>
+</div>
