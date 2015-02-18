@@ -41,9 +41,9 @@ slider:
         <h2>Lösung</h2>
 
         <div>
-            <p>Mtextur ist eine individuell programmierte Applikation, welche auf <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> basiert. </p>
+            <p>mtextur ist eine individuell programmierte Applikation, welche auf <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> basiert. </p>
 			<p>Das Fundament bildet eine grosse Datenbank, welcher der Administrator über ein Backend füllen kann. Den Texturen können verschiedene Parameter zugewiesen werden, damit diese im Frontend wiederum durchsucht, gefiltert und gefunden werden können.</p>			
-			<p>Für sowohl Administrator wie auch Hersteller gibt es ein Backend mit dazu gehörendem Rollenkonzept. Der Administrator verwaltet die Materialien und sieht die Statistiken der Materialien, während der Hersteller nur Einsicht in seine Statistiken hat.</p>
+			<p>Für sowohl Administrator wie auch Hersteller gibt es ein Backend mit dazu gehörendem Rollenkonzept. Der Administrator verwaltet die Materialien und sieht die Statistiken der Materialien, während der Hersteller die Einsicht ausschliesslich in seine Statistiken hat.</p>
 			<p>Bei der Übernahme war vor allem relevant, die bestehende Programmierung auf die neusten Versionen upzugraden, verschiedene Tests zu schreiben (testgetriebene Entwicklung, test driven development) sowie die Statistiken zu entwickeln. Nebst zahlreichen Fixes von Altlasten geht es heute vor allem um die Neuentwicklung von Features sowie um das Design.</p>
         </div>
     </div>
