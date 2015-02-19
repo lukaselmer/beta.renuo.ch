@@ -141,7 +141,7 @@ position: 4
                 <div><%- @image_tag 'diego.jpg' %></div>
                 <h3>Diego P. Steiner</h3>
 
-                <p>Web-Entwickler und Gründer<br/>
+                <p>Web-Entwickler und Gründer, B.Sc. HSR<br/>
                     <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
                 <br/>
 
@@ -364,7 +364,7 @@ position: 4
                 <div><%- @image_tag 'nicolas.jpg' %></div>
                 <h3>Nicolas Eckhart</h3>
 
-                <p>Praktikant Web Development<br/>
+                <p>Web Development<br/>
 
                 <br/>
 
@@ -398,7 +398,7 @@ position: 4
                 <div><%- @image_tag 'cyril.jpg' %></div>
                 <h3>Cyril Kyburz</h3>
 
-                <p>Praktikant Web Development<br/>
+                <p>Web Development<br/>
 
                 <br/>
 
