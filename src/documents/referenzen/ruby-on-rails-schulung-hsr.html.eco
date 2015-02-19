@@ -1,0 +1,68 @@
+---
+title: Ruby on Rails Schulung
+box_name: Ruby on Rails Schulung für die HSR (Hochschule für Technik Rapperswil)
+box_description: für die HSR (Hochschule für Technik Rapperswil)
+short_description: Ruby on Rails Schulung für die HSR (Hochschule für Technik Rapperswil)
+image_path: /images/ruby-on-rails-schulung-hsr/hsr-schulung.png
+layout: project
+position: 21
+tags: ['project']
+slider:
+    -
+        image: /images/ruby-on-rails-schulung-hsr/schulung-1.jpg
+        image_alt: Impressionsbild von der Ruby on Rails Schulung
+        title: Ruby on Rails Schulung an der Hochschule für Technik Rapperswil HSR
+        subtitle: 
+    -
+        image: /images/ruby-on-rails-schulung-hsr/schulung-2.jpg
+        image_alt: Impressionsbild von der Ruby on Rails Schulung
+        title: Ruby on Rails Schulung an der Hochschule für Technik Rapperswil HSR
+        subtitle: 
+    -
+        image: /images/ruby-on-rails-schulung-hsr/schulung-3.jpg
+        image_alt: Impressionsbild von der Ruby on Rails Schulung
+        title: Ruby on Rails Schulung an der Hochschule für Technik Rapperswil HSR
+        subtitle: 
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Das Institut für Software ist das zuständige Kompetenzzentrum für Softwareentwicklung an der HSR. Das Institut fördert die Softwareentwicklung in der Schweiz, indem sie für Qualität, kooperatives Arbeiten und elegante Einfachheit der Software einsteht.</p>
+			<p>Für ein vorliegendes <a target=_blank href="https://www.kti.admin.ch/kti/de/home.html">KTI-Projekt</a> (<a target=_blank href="http://www.agricircle.com/">Agricircle</a>) benötigte die HSR Ruby on Rails Kenntnisse.</p>
+            <p>Die Renuo ist als Spezialist in <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> bekannt. Aus diesem Grund ist die Renuo als externer Schulungspartner angefragt worden, um eine mehrtägige Schulung durch zu führen.</p>		
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+			<p>Während zwei Seminarblöcken (im Sommer sowie im Herbst) sind die Institutsmitarbeiter in die Kenntnisse von Ruby on Rails eingeführt worden.</p>			
+			<p>Die Schulung bestand sowohl aus theoretischen, wie auch praktischen Blöcken, welche individuell auf das vorliegende Projekt abgestimmt und ausgerichtet worden sind.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>HSR Hochschule für Technik<br>
+			   Institut für Software IfS<br>			   
+			   Oberseestrasse 10<br>
+               8640 Rapperswil<br></p>
+
+            <p>Ansprechperson: Stefan Keller<br>
+               Telefon  +41 55 222 46 30</p>
+
+            <p>Link: <a href="http://www.ifs.hsr.ch/" target="_blank">http://www.ifs.hsr.ch/</a></p>
+			<p>Die Schulung wurde in im Sommer und Herbst 2014 durch geführt</p>
+
+            <div><%- @image_tag '/ruby-on-rails-schulung-hsr/hsr-logo.jpg' %></div>
+        </div>
+    </div>
+</div>
