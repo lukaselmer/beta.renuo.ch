@@ -1,8 +1,8 @@
 ---
 title: Ruby on Rails Schulung 
 box_name: Ruby on Rails Schulung 
-box_description: für die HSR (Hochschule für Technik Rapperswil)
-short_description: Wissensvermittlung an die HSR (Hochschule für Technik Rapperswil)
+box_description: für die HSR Hochschule für Technik
+short_description: Wissensvermittlung an die HSR Hochschule für Technik
 image_path: /images/ruby-on-rails-schulung-hsr/hsr-schulung.png
 layout: project
 position: 21
@@ -32,7 +32,7 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Das Institut für Software ist das zuständige Kompetenzzentrum für Softwareentwicklung an der HSR. Das Institut fördert die Softwareentwicklung in der Schweiz, indem sie für Qualität, kooperatives Arbeiten und elegante Einfachheit der Software einsteht.</p>
+            <p>Das Institut für Software steht Software-Qualität, kooperatives Arbeiten und elegante Einfachheit der Software ein. Die dazu notwendigen Arbeitstechniken und modernen Technologien werden durch Beratung, Zusammenarbeit und Weiterbildung vermittelt.</p>
 			<p>Für ein vorliegendes <a target=_blank href="https://www.kti.admin.ch/kti/de/home.html">KTI-Projekt</a> (<a target=_blank href="http://www.agricircle.com/">Agricircle</a>) benötigte die HSR Ruby on Rails-Kenntnisse.</p>
             <p>Die Renuo ist als Spezialistin in <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> bekannt. Aus diesem Grund ist die Renuo als externer Schulungspartner angefragt worden, um eine mehrtägige Schulung durch zu führen.</p>		
         </div>
