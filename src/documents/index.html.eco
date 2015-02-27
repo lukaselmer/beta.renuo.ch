@@ -42,15 +42,20 @@ homeSlider:
         title: Software Entwicklung von A-Z
         subtitle: Die Renuo GmbH ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.
     -
-        image: /images/renuo/slider_home/entwicklung.jpg
-        image_alt: Webbasierte Softwareentwicklung
-        title: Web-Entwicklung / Programmierung
-        subtitle: Wir sind Spezialist in webbasierter Softwareentwicklung! Wir programmieren sowohl kleine Auftritte als auch grosse Portale, welche mehrsprachig und multinational betrieben werden!
+        image: /images/renuo/slider_home/team.jpg
+        image_alt: Renuo GmbH Teamfoto
+        title: Wir kümmern uns von der Konzeption bis zur Wartung
+        subtitle: Im Team können wir uns perfekt um ihre Bedürfnisse kümmern. Die Stärken jedes einzelnen können zu Ihren Gunsten genutzt werden. Wir sind jederzeit für Sie da.
     -
         image: /images/renuo/slider_home/technologien-bei-renuo.jpg
         image_alt: Web Technologien
         title: Modernste Web-Technologien
         subtitle: Mit Hilfe modernster Webtechnologien entwickeln wir innovative Websoftware, welche stabil, agil und wartbar ist! Wir lieben und wir leben Technologien, v. a. Open Source!
+    -		
+    	image: /images/renuo/slider_home/entwicklung.jpg
+        image_alt: Webbasierte Softwareentwicklung
+        title: Web-Entwicklung / Programmierung
+        subtitle: Wir sind Spezialist in webbasierter Softwareentwicklung! Wir programmieren sowohl kleine Auftritte als auch grosse Portale, welche mehrsprachig und multinational betrieben werden!
     -
         image: /images/renuo/slider_home/responsive.jpg
         image_alt: Responsivität
