@@ -291,4 +291,8 @@ footer {
   }
 }
 
-
+@media (max-width: 450px) {
+  .carousel-caption {
+    height: 225px;
+  }
+}
