@@ -418,7 +418,7 @@ position: 4
                 <div><%- @image_tag 'nicolas.jpg' %></div>
                 <h3>Nicolas Eckhart</h3>
 
-                <p>Web Development<br/>
+                <p>Web-Entwickler<br/>
 
                 <br/>
 
@@ -455,7 +455,7 @@ position: 4
                 <div><%- @image_tag 'cyril.jpg' %></div>
                 <h3>Cyril Kyburz</h3>
 
-                <p>Web Development<br/>
+                <p>Web-Entwickler<br/>
 
                 <br/>
 
