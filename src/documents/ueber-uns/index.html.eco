@@ -132,8 +132,8 @@ position: 4
                 <br/>
 
                 <div class="profile-social-links">
-                    <a href="https://github.com/lukaselmer"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-                    <a href="https://www.xing.com/profile/Lukas_Elmer"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                    <a href="https://github.com/lukaselmer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://www.xing.com/profile/Lukas_Elmer" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
                 </div>
             </div>
 
@@ -191,8 +191,8 @@ position: 4
                 <br/>
 
                 <div class="profile-social-links">
-                    <a href="https://github.com/diegosteiner"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-                    <a href="https://www.xing.com/profile/DiegoP_Steiner"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                    <a href="https://github.com/diegosteiner" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://www.xing.com/profile/DiegoP_Steiner" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
                 </div>
             </div>
 
@@ -253,8 +253,8 @@ position: 4
                 <br/>
 
                 <div class="profile-social-links">
-                    <a href="https://github.com/samuelsteiner"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-                    <a href="https://www.xing.com/profile/Samuel_Steiner3"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                    <a href="https://github.com/samuelsteiner" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://www.xing.com/profile/Samuel_Steiner3" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
                 </div>
             </div>
 
@@ -309,7 +309,7 @@ position: 4
                 <br/>
 
                 <div class="profile-social-links">
-                    <a href="https://github.com/coorasse"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://github.com/coorasse" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
                 </div>
             </div>
 			
@@ -356,7 +356,7 @@ position: 4
                 <br/>
 
                 <div class="profile-social-links">
-                    <a href="https://github.com/schmijos"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://github.com/schmijos"target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
                 </div>
             </div>	
 
@@ -364,7 +364,7 @@ position: 4
                             <div><%- @image_tag 'thivija.jpg' %></div>
                             <h3>Thivija Kandasamy</h3>
             
-                            <p>Online Marketing, B.A.<br/>
+                            <p>Online Marketing, B.A. Business Admin.<br/>
             
                             <br/>
             
@@ -380,7 +380,7 @@ position: 4
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <th>2014-jetzt</th>
+                                            <th>2015-jetzt</th>
                                             <td><strong>Online Marketing Consultant</strong> bei der Renuo GmbH</td>
                                         </tr>
                                         <tr>
@@ -403,7 +403,7 @@ position: 4
                                 </div>
                             </div>
                             <div class="profile-social-links">
-                                <a href="https://www.xing.com/profile/Thivija_Kandasamy"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                                <a href="https://www.xing.com/profile/Thivija_Kandasamy"target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
                             </div>
                         </div>
         </div>
@@ -446,6 +446,9 @@ position: 4
                         </table>
                     </div>
                 </div>
+                <div class="profile-social-links">
+                    <a href="https://github.com/nicolaseckhart" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                </div>
             </div>
 			
             <div class="span3">
@@ -479,6 +482,9 @@ position: 4
                             </tbody>
                         </table>
                     </div>
+                </div>
+                <div class="profile-social-links">
+                    <a href="https://github.com/cyrilkyburz" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
                 </div>
             </div>			
 			
