@@ -129,11 +129,9 @@ position: 4
                     </div>
                 </div>
 
-                <br/>
-
                 <div class="profile-social-links">
-                    <a href="https://github.com/lukaselmer"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-                    <a href="https://www.xing.com/profile/Lukas_Elmer"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                    <a href="https://github.com/lukaselmer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://www.xing.com/profile/Lukas_Elmer" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
                 </div>
             </div>
 
@@ -188,11 +186,10 @@ position: 4
                         </table>
                     </div>
                 </div>
-                <br/>
 
                 <div class="profile-social-links">
-                    <a href="https://github.com/diegosteiner"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-                    <a href="https://www.xing.com/profile/DiegoP_Steiner"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                    <a href="https://github.com/diegosteiner" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://www.xing.com/profile/DiegoP_Steiner" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
                 </div>
             </div>
 
@@ -250,11 +247,10 @@ position: 4
                         </table>
                     </div>
                 </div>
-                <br/>
 
                 <div class="profile-social-links">
-                    <a href="https://github.com/samuelsteiner"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-                    <a href="https://www.xing.com/profile/Samuel_Steiner3"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                    <a href="https://github.com/samuelsteiner" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://www.xing.com/profile/Samuel_Steiner3" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
                 </div>
             </div>
 
@@ -306,10 +302,9 @@ position: 4
                         </table>
                     </div>
                 </div>
-                <br/>
 
                 <div class="profile-social-links">
-                    <a href="https://github.com/coorasse"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://github.com/coorasse" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
                 </div>
             </div>
 			
@@ -353,18 +348,71 @@ position: 4
                         </table>
                     </div>
                 </div>
-                <br/>
 
                 <div class="profile-social-links">
-                    <a href="https://github.com/schmijos"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                    <a href="https://github.com/schmijos"target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
                 </div>
             </div>	
 
             <div class="span3">
+                            <div><%- @image_tag 'thivija.jpg' %></div>
+                            <h3>Thivija Kandasamy</h3>
+            
+                            <p>Online Marketing, B.A. Business Admin.<br/>
+            
+                            <br/>
+            
+                            <div data-collapse>
+                                <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+                                <div>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th>Jahr</th>
+                                            <th>Aktivität</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th>2015-jetzt</th>
+                                            <td><strong>Online Marketing Consultant</strong> bei der Renuo GmbH</td>
+                                        </tr>
+                                        <tr>
+                                            <th>2014-jetzt</th>
+                                            <td><strong>Master-Studium Wirtschaftsinformatik</strong> Fachhochschule St. Gallen (FHS)
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>2011-2014</th>
+                                            <td><strong>Bachelor in Betriebswirtschaftslehre</strong> Robert Gordon University
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>2007-2015</th>
+                                            <td><strong>Linienverantwortliche / Administration</strong> Migros Genossenschaft
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="profile-social-links">
+                                <a href="https://www.xing.com/profile/Thivija_Kandasamy"target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+                            </div>
+                        </div>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid page-header-element page-section">
+    <div class="span12">
+        <div>	                        
+            			
+            <div class="span3">
                 <div><%- @image_tag 'nicolas.jpg' %></div>
                 <h3>Nicolas Eckhart</h3>
 
-                <p>Web Development<br/>
+                <p>Web-Entwickler<br/>
 
                 <br/>
 
@@ -391,6 +439,9 @@ position: 4
                             </tbody>
                         </table>
                     </div>
+                </div>
+                <div class="profile-social-links">
+                    <a href="https://github.com/nicolaseckhart" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
                 </div>
             </div>
 			
@@ -398,7 +449,7 @@ position: 4
                 <div><%- @image_tag 'cyril.jpg' %></div>
                 <h3>Cyril Kyburz</h3>
 
-                <p>Web Development<br/>
+                <p>Web-Entwickler<br/>
 
                 <br/>
 
@@ -425,6 +476,9 @@ position: 4
                             </tbody>
                         </table>
                     </div>
+                </div>
+                <div class="profile-social-links">
+                    <a href="https://github.com/cyrilkyburz" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
                 </div>
             </div>			
 			
