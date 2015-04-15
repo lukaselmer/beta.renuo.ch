@@ -67,17 +67,17 @@ position: 4
     </div>
 </div>
 
-<div class="row-fluid page-header-element page-section">
+<div class="row-fluid">
     <div class="span4 team-member">
         <div><%- @team_image_tag 'lukas.jpg', 'Lukas Elmer' %></div>
         <h3>Lukas Elmer</h3>
 
-        <p>Web-Entwickler und Gründer, B.Sc. HSR<br/>
-            <a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></p>
-        <br/>
+        <div class="job-title normal">Web-Entwickler und Gründer, B.Sc. HSR</div>
+        <div class="job-title break">Web-Entwickler und Gründer<br>B.Sc. HSR</div>
+        <div class="email-address"><a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></div>
 
-        <blockquote>Mein Ziel ist es, in enger Zusammenarbeit mit dem Kunden solide Software zu
-            entwickeln, die funktioniert.
+        <blockquote>
+            Mein Ziel ist es, in enger Zusammenarbeit mit dem Kunden solide Software zu entwickeln, die funktioniert.
             <small>Lukas Elmer</small>
         </blockquote>
 
@@ -136,13 +136,13 @@ position: 4
         <div><%- @team_image_tag 'diego.jpg', 'Diego Steiner' %></div>
         <h3>Diego P. Steiner</h3>
 
-        <p>Web-Entwickler und Gründer, B.Sc. HSR<br/>
-            <a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></p>
-        <br/>
+        <div class="job-title normal">Web-Entwickler und Gründer, B.Sc. HSR</div>
+        <div class="job-title break">Web-Entwickler und Gründer<br>B.Sc. HSR</div>
+        <div class="email-address"><a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></div>
 
-        <blockquote>Ich möchte, dass der Kunde mit meiner Arbeit höchst zufrieden ist. Zusätzlich möchte ich
-            nachhaltige,
-            gut wartbare und erweiterbare Software schreiben.
+        <blockquote>
+            Ich möchte, dass der Kunde mit meiner Arbeit höchst zufrieden ist. Zusätzlich möchte ich nachhaltige, gut
+            wartbare und erweiterbare Software schreiben.
             <small>Diego Steiner</small>
         </blockquote>
 
@@ -195,13 +195,13 @@ position: 4
         <div><%- @team_image_tag 'samuel.jpg', 'Samuel Steiner' %></div>
         <h3>Samuel Steiner</h3>
 
-        <p>Managing Partner, M.A. HSG<br/>
-            <a href="mailto:samuel.steiner@renuo.ch">samuel.steiner@renuo.ch</a></p>
-        <br/>
+        <div class="job-title normal">Managing Partner, M.A. HSG</div>
+        <div class="job-title break">Managing Partner<br>M.A. HSG</div>
+        <div class="email-address"><a href="mailto:samuel.steiner@renuo.ch">samuel.steiner@renuo.ch</a></div>
 
-        <blockquote>Den Kunden in das Zentrum der Zusammenarbeit rücken und damit Kosten senken, langfristige
-            Werte
-            generieren und Freude bereiten.
+        <blockquote>
+            Den Kunden in das Zentrum der Zusammenarbeit rücken und damit Kosten senken, langfristige Werte generieren
+            und Freude bereiten.
             <small>Samuel Steiner</small>
         </blockquote>
 
@@ -252,7 +252,7 @@ position: 4
     </div>
 </div>
 
-<div class="row-fluid page-header-element page-section">
+<div class="row-fluid">
     <div class="span4 team-member">
         <div><%- @team_image_tag 'alessandro.jpg', 'Alessandro Rodi' %></div>
         <h3>Alessandro Rodi</h3>
@@ -393,7 +393,7 @@ position: 4
     </div>
 </div>
 
-<div class="row-fluid page-header-element page-section">
+<div class="row-fluid">
     <div class="span4 team-member">
         <div><%- @team_image_tag 'nicolas.jpg', 'Nicolas Eckhart' %></div>
         <h3>Nicolas Eckhart</h3>
