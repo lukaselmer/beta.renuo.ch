@@ -71,7 +71,7 @@ position: 4
     <div class="span12">
         <div>
 
-            <div class="span4">
+            <div class="span3">
                 <div><%- @image_tag 'lukas.jpg' %></div>
                 <h3>Lukas Elmer</h3>
 
@@ -135,7 +135,7 @@ position: 4
                 </div>
             </div>
 
-            <div class="span4">
+            <div class="span3">
                 <div><%- @image_tag 'diego.jpg' %></div>
                 <h3>Diego P. Steiner</h3>
 
@@ -194,7 +194,7 @@ position: 4
             </div>
 
 
-            <div class="span4" id="samuel_steiner">
+            <div class="span3" id="samuel_steiner">
                 <div><%- @image_tag 'samuel.jpg' %></div>
                 <h3>Samuel Steiner</h3>
 
@@ -262,7 +262,7 @@ position: 4
     <div class="span12">
         <div>			
 
-            <div class="span4">
+            <div class="span3">
                 <div><%- @image_tag 'alessandro.jpg' %></div>
                 <h3>Alessandro Rodi</h3>
 
@@ -308,7 +308,7 @@ position: 4
                 </div>
             </div>
 			
-            <div class="span4">
+            <div class="span3">
                 <div><%- @image_tag 'josua.jpg' %></div>
                 <h3>Josua Schmid</h3>
 
@@ -354,7 +354,7 @@ position: 4
                 </div>
             </div>	
 
-            <div class="span4">
+            <div class="span3">
                             <div><%- @image_tag 'thivija.jpg' %></div>
                             <h3>Thivija Kandasamy</h3>
             
@@ -408,7 +408,7 @@ position: 4
     <div class="span12">
         <div>	                        
             			
-            <div class="span4">
+            <div class="span3">
                 <div><%- @image_tag 'nicolas.jpg' %></div>
                 <h3>Nicolas Eckhart</h3>
 
@@ -445,7 +445,7 @@ position: 4
                 </div>
             </div>
 			
-            <div class="span4">
+            <div class="span3">
                 <div><%- @image_tag 'cyril.jpg' %></div>
                 <h3>Cyril Kyburz</h3>
 
