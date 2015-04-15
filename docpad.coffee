@@ -80,7 +80,7 @@ docpadConfig =
       "<img src='/images/#{image_name}' />"
 
     team_image_tag: (image_name, alt)->
-      "<img src='/images/#{image_name}' class='portrait' alt='#{alt}' />"
+      "<img src='/images/portraits/#{image_name}.jpg' class='portrait' alt='#{alt}' />"
 
     age: (y, m, d)->
       m = m - 1

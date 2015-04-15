@@ -69,7 +69,7 @@ position: 4
 
 <div class="row-fluid">
     <div class="span4 team-member">
-        <div><%- @team_image_tag 'lukas.jpg', 'Lukas Elmer' %></div>
+        <div><%- @team_image_tag 'lukas', 'Lukas Elmer' %></div>
         <h3>Lukas Elmer</h3>
 
         <div class="job-title normal">Web-Entwickler und Gründer, B.Sc. HSR</div>
@@ -133,7 +133,7 @@ position: 4
     </div>
 
     <div class="span4 team-member">
-        <div><%- @team_image_tag 'diego.jpg', 'Diego Steiner' %></div>
+        <div><%- @team_image_tag 'diego', 'Diego Steiner' %></div>
         <h3>Diego P. Steiner</h3>
 
         <div class="job-title normal">Web-Entwickler und Gründer, B.Sc. HSR</div>
@@ -192,7 +192,7 @@ position: 4
 
 
     <div class="span4 team-member" id="samuel_steiner">
-        <div><%- @team_image_tag 'samuel.jpg', 'Samuel Steiner' %></div>
+        <div><%- @team_image_tag 'samuel', 'Samuel Steiner' %></div>
         <h3>Samuel Steiner</h3>
 
         <div class="job-title normal">Managing Partner, M.A. HSG</div>
@@ -254,7 +254,7 @@ position: 4
 
 <div class="row-fluid">
     <div class="span4 team-member">
-        <div><%- @team_image_tag 'alessandro.jpg', 'Alessandro Rodi' %></div>
+        <div><%- @team_image_tag 'alessandro', 'Alessandro Rodi' %></div>
         <h3>Alessandro Rodi</h3>
 
         <p>Web-Entwickler, B.Sc.<br/>
@@ -300,7 +300,7 @@ position: 4
     </div>
 
     <div class="span4 team-member">
-        <div><%- @team_image_tag 'josua.jpg', 'Josua Schmid' %></div>
+        <div><%- @team_image_tag 'josua', 'Josua Schmid' %></div>
         <h3>Josua Schmid</h3>
 
         <p>Web-Entwickler, B.Sc. HSR<br/>
@@ -346,7 +346,7 @@ position: 4
     </div>
 
     <div class="span4 team-member">
-        <div><%- @team_image_tag 'thivija.jpg', 'Thivija Kandasamy' %></div>
+        <div><%- @team_image_tag 'thivija', 'Thivija Kandasamy' %></div>
         <h3>Thivija Kandasamy</h3>
 
         <p>Online Marketing, B.A. Business Admin.<br/>
@@ -395,7 +395,7 @@ position: 4
 
 <div class="row-fluid">
     <div class="span4 team-member">
-        <div><%- @team_image_tag 'nicolas.jpg', 'Nicolas Eckhart' %></div>
+        <div><%- @team_image_tag 'nicolas', 'Nicolas Eckhart' %></div>
         <h3>Nicolas Eckhart</h3>
 
         <p>Web-Entwickler<br/>
@@ -432,7 +432,7 @@ position: 4
     </div>
 
     <div class="span4 team-member">
-        <div><%- @team_image_tag 'cyril.jpg', 'Cyril Kyburz' %></div>
+        <div><%- @team_image_tag 'cyril', 'Cyril Kyburz' %></div>
         <h3>Cyril Kyburz</h3>
 
         <p>Web-Entwickler<br/>
