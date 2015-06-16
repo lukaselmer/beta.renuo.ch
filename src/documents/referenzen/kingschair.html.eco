@@ -5,7 +5,7 @@ box_description: für Newspeed AG
 short_description: für den online Vertrieb von Möbel
 image_path: /images/kingschair/kingschair.png
 layout: project
-position: 4
+position: 4,1
 tags: ['project']
 slider:
     -

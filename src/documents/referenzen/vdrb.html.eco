@@ -29,7 +29,7 @@ slider:
         title: Verschiedene Rechte pro Spesentyp
         subtitle: Pro Spesentyp sowie Benutzerrolle (Funktion innerhalb VDRB) kann genau definiert werden, wer welche Mutationen machen kann. Es wird unterschieden zwischen Erstellen, Ändern, Validieren, Auswerten und Löschen.
     -
-        image: /images/vdrb/kas-lohnausweis.jpg
+        image: /images/vdrb/kas-lohnausweise.jpg
         image_alt: Lohnausweise automatisch erstellen
         title: Lohnausweise automatisch erstellen
         subtitle: Bei mehreren tausend Spesen werden die Lohnausweise automatisch generiert. Natürlich kann jeder Nutzer frei entscheiden, wie mit der AHV vorzugehen ist. Dies wird im Lohnausweis berücksichtigt.
@@ -42,7 +42,7 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Unser Kunde betreibt diverse webbasierte und eigenständige Systeme, welche zusammengeführt, unterhalten und weiterbetrieben werden sollen. Im Frühjahr 2014 sind wir angefragt worden, ob wir die zukünftige Betreuung wahrnehmen können und wollen. Die Mitgliederverwaltung basiert auf Ruby on Rails, das Kaderabrechnungssystem (PHP) ist veraltet (Sicherheitslücken) und fehlerhaft.</p>
+            <p>Unser Kunde betreibt diverse webbasierte und alleinstehende Systeme, welche zusammengeführt, unterhalten und weiterbetrieben werden sollen. Im Frühjahr 2014 sind wir angefragt worden, ob wir die zukünftige Betreuung wahrnehmen können und wollen. Die Mitgliederverwaltung basiert auf Ruby on Rails, das Kaderabrechnungssystem (PHP) ist veraltet (Sicherheitslücken) und fehlerhaft.</p>
             <p>Zusammen mit dem Kunden soll evaluiert werden, welche Tools wie weiter entwickelt werden sollen und wie die IT-Landschaft generell gestaltet werden soll. </p>			
         </div>
     </div>
