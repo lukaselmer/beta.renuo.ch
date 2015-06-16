@@ -15,15 +15,15 @@ position: 3
         </div>
         <p>Das Portfolio von bereits realisierten Projekten umfasst kleine Auftritte bis grosse Portale,
         welche international und mehrsprachig betrieben werden. Unsere Kunden sind meistens mittelgrosse
-        Unternehmen, welche ein IT-Projekt realisieren oder Start-Ups, welche mit uns eine IT-Vision
+        Unternehmen, welche ein Web-Projekt realisieren oder Start-Ups, welche mit uns eine Vision
         verwirklichen.</p>
     </div>
 </div>
 
 <% index = 0 %>
 <% for page in @getCollection("projects").toJSON(): %>
-<%- '<div class="row-fluid">' if((index % 3) == 0) %>
-<div class="span4">
+<%- '<div class="row-fluid">' if((index % 4) == 0) %>
+<div class="span3">
     <a href="<%- page.url %>" class="project-box-link">
         <div class="project-box">
             <img src="<%- page.image_path %>"/>
@@ -35,8 +35,7 @@ position: 3
     </a>
 </div>
 <% ++index %>
-<%- '</div>' if((index % 3) == 0) %>
+<%- '</div>' if((index % 4) == 0) %>
 <% end %>
 
-<%- '</div>' if((index % 3) != 0) %>
-
+<%- '</div>' if((index % 4) != 0) %>
