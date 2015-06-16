@@ -3,7 +3,7 @@ title: EFANEX Umfrage-Tool
 box_name: EFANEX Umfrage-Tool
 box_description: Individuelle Umfrageapplikation mit Reporting
 short_description: Individuelle Umfrageapplikation mit Reporting
-image_path: /images/efanex/efanex.png
+image_path: /images/efanex/efanex.jpg
 layout: project
 position: 30
 tags: ['project']
@@ -37,7 +37,7 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Die ooselo gmbh berät Unternehmen hinsichtlich Prozessmanagement. Um einfacher an Neukunden zu kommen möchten sie ein individuelles Umfragetool, mit welchem sie Unternehmen kostenlos befragen. Diese Resultate sollen dann die Grundlage für ein erstes Beratungsgespräch darstellen.</p>
+            <p>Die conelo gmbh berät Unternehmen hinsichtlich Prozessmanagement. Um einfacher an Neukunden zu kommen möchten sie ein individuelles Umfragetool, mit welchem sie Unternehmen kostenlos befragen. Diese Resultate sollen dann die Grundlage für ein erstes Beratungsgespräch darstellen.</p>
 
         </div>
     </div>
