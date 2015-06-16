@@ -492,7 +492,7 @@ position: 4
 </div>
 
 <div class="row-fluid page-header-element page-section">
-    <div class="span6">
+    <div class="span4">
         <div class="page-header">
             <h2>Enge Zusammen&shy;arbeit
                 <br><small> Vertrauen ist gut, Kontrolle ist besser</small>
@@ -503,7 +503,7 @@ position: 4
         Bild über den Stand der Arbeiten und hat das Budget im Griff.</p>
     </div>
 
-    <div class="span6">
+    <div class="span4">
         <div class="page-header">
             <h2>Agiles Manifest
                 <br><small> unsere DNA</small>
@@ -520,5 +520,19 @@ position: 4
             Das heisst, obwohl wir die Werte auf der rechten Seite wichtig finden,
             schätzen wir die Werte auf der linken Seite höher ein.
         </p>
+    </div>
+    <div class="span4">
+        <div class="page-header">
+            <h2>Unsere Werte
+                <br><small> und Insights aus der Strategie</small>
+            </h2>
+        </div>
+            <ul>
+                <li>Qualität und Sicherheit</li>
+                <li>Fairness und Transparenz</li>
+                <li>Mehrwert</li>
+                <li>Verantwortung</li>
+                <li>Neue Wege</li>
+            </ul>
     </div>
 </div>
