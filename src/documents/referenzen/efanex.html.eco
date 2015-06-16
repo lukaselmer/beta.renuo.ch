@@ -1,30 +1,30 @@
 ---
-title: oolino Umfrage-Tool
-box_name: oolino Umfrage-Tool
+title: EFANEX Umfrage-Tool
+box_name: EFANEX Umfrage-Tool
 box_description: Individuelle Umfrageapplikation mit Reporting
 short_description: Individuelle Umfrageapplikation mit Reporting
-image_path: /images/oolino/oolino.png
+image_path: /images/efanex/efanex.png
 layout: project
 position: 30
 tags: ['project']
 slider:
     -
-        image: /images/oolino/umfrage.png
+        image: /images/efanex/umfrage.png
         image_alt: Generieren von individuellen Umfragen
         title: Generieren von individuellen Umfragen
         subtitle: Endkunden können über ein simples Interface Umfragen ausfüllen. Diese werden im Hintergrund gespeichert und nach Umfrage abgespeichert, ausgewertet und automatisch verglichen.
     -
-        image: /images/oolino/mobil.png
+        image: /images/efanex/mobil.png
         image_alt: Responsive Layout
         title: Die Umfragen sind mobil optimiert
         subtitle: Damit die Umfragen möglichst optimal auf mobilen Geräten erscheinen ist das ganze Frontend der Umfrage responsiv programmiert. Ändert sich die Bildschirmauflösung, ändert sich auch das Aussehen der Applikation.
     -
-        image: /images/oolino/fragen.png
+        image: /images/efanex/fragen.png
         image_alt: Ansicht des Backends
         title: Simple Administrierung per Drag und Drop
         subtitle: Fragen können auf einfache Weise angelegt und mutiert werden. Damit sich das Ganze auch noch gut anfühlt, wurde ein Drag und Drop Editor verwendet.
 	-
-        image: /images/oolino/auswertung.png
+        image: /images/efanex/auswertung.png
         image_alt: Automatische Auswertung
         title: Automatische Auswertung mit Branchenvergleich
         subtitle: Die Umfrageresulate werden automatisch ausgewertet und grafisch aufbereitet. Die Umfrageresultate werden mit dem Branchendurchscnitt verglichen. Der Branchendurchschnitt ist jener Wert, welche ähnliche Firmen in derselben Frage erzielt haben.
@@ -58,7 +58,7 @@ slider:
         <h2>Auftraggeber</h2>
 
         <div>
-            <p>ooselo gmbh<br>
+            <p>conelo gmbh<br>
                 Wiesenstrasse 5<br>
                 8603 Schwerzenbach<br></p>
 
@@ -68,7 +68,7 @@ slider:
             <p>Link: Da die Umfragen nur für ausgewählte Personen verfügbar sind, können wir keine Links zur Verfügung stellen</p>
 			<p>Die Partnerschaft dauert von August 2013 bis heute</p>			
 
-            <div><%- @image_tag '/oolino/oolino_logo.png' %></div>
+            <div><%- @image_tag '/efanex/efanex-logo.png' %></div>
         </div>
     </div>
 </div>
