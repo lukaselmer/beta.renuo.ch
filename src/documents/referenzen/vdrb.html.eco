@@ -3,9 +3,9 @@ title: Webbasierte Mitgliederverwaltung
 box_name: Online-Mitgliederdatenbank und Spesenabrechnungssystem
 box_description: für VDRB (Verband Deutschschweizerischer und Rätoromanischer Bienenfreunde)
 short_description: für VDRB (Verband Deutschschweizerischer und Rätoromanischer Bienenfreunde)
-image_path: /images/vdrb/vdrb.png
+image_path: /images/vdrb/vdrb.jpg
 layout: project
-position: 4
+position: 5
 tags: ['project']
 slider:
     -
