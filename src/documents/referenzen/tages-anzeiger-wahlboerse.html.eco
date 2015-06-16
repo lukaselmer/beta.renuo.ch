@@ -6,7 +6,7 @@ short_description: bei hunderttausenden Besuchern pro Tag
 image_path: /images/tamedia/tamedia-wahlboerse.jpg
 layout: project
 position: 4
-tags: ['angular']
+tags: ['project']
 slider:
     -
         image: /images/tamedia/wahlboerse-front.jpg
