@@ -1,8 +1,8 @@
 ---
 title: Wahlbörse-Widget
 box_name: Wahlbörse-Widget anlässlich der RR-, KR-, NR- und SR-Wahl 2015
-box_description: bei hunderttausenden Besuchern pro Tag 
-short_description: bei hunderttausenden Besuchern pro Tag 
+box_description: - hunderttausende Besucher pro Tag
+short_description: - hunderttausende Besucher pro Tag 
 image_path: /images/tamedia/tamedia-wahlboerse.jpg
 layout: project
 position: 4
@@ -59,7 +59,7 @@ slider:
                Telefon +41 44 248 41 11</p>
 
             <p>Link: <a href="https://election-market-master.renuoapp.ch/" target="_blank">https://election-market-master.renuoapp.ch/</a></p>
-			<p>Je nach anstehender Wahl können die Widgets z.B. live unter <a href="http://www.tagesanzeiger.ch" target="_blank">http://www.tagesanzeiger.ch</a> betrachtet werden. Gleichzeitig läuft die App auch unter einer Renuo-eigenen Domain, sodass das Projekt begutachtet werden kann.</p>			
+			<p>Je nach anstehender Wahl können die Widgets z.B. live unter <a href="http://www.tagesanzeiger.ch" target="_blank">http://www.tagesanzeiger.ch</a> betrachtet werden. Gleichzeitig läuft die App auch unter einer Renuo-eigenen Domain, sodass das Projekt begutachtet werden kann.</p>
 
             <div><img src="/images/tamedia/tamedia_logo.png" alt="Logo Tamedia"></div>
         </div>

@@ -1,6 +1,6 @@
 ---
 title: Webbasierte Mitgliederverwaltung
-box_name: Online-Mitgliederdatenbank und Spesenabrechnungssystem
+box_name: Online Mitglieder-Datenbank und Spesen-Abrechnungssystem
 box_description: für den Verband Schweizerischer Imker
 short_description: für VDRB (Verband Deutschschweizerischer und Rätoromanischer Bienenfreunde)
 image_path: /images/vdrb/vdrb.jpg
@@ -42,8 +42,8 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Unser Kunde betreibt diverse webbasierte und alleinstehende Systeme, welche zusammengeführt, unterhalten und weiterbetrieben werden sollen. Im Frühjahr 2014 sind wir angefragt worden, ob wir die zukünftige Betreuung wahrnehmen können und wollen. Die Mitgliederverwaltung basiert auf Ruby on Rails, das Kaderabrechnungssystem (PHP) ist veraltet (Sicherheitslücken) und fehlerhaft.</p>
-            <p>Zusammen mit dem Kunden soll evaluiert werden, welche Tools wie weiter entwickelt werden sollen und wie die IT-Landschaft generell gestaltet werden soll. </p>			
+            <p>Unser Kunde betreibt diverse webbasierte und alleinstehende Systeme, welche zusammengeführt, unterhalten und weiterbetrieben werden sollen. Im Frühjahr 2014 sind wir angefragt worden, ob wir die zukünftige Betreuung wahrnehmen können und wollen. Die Mitgliederverwaltung basiert auf Ruby on Rails, das Kaderabrechnungssystem auf PHP.</p>
+            <p>Zusammen mit dem Kunden soll evaluiert werden, welche Tools wie weiter entwickelt werden sollen und wie die IT-Landschaft generell gestaltet werden soll. </p>
         </div>
     </div>
 
@@ -53,17 +53,17 @@ slider:
         <div>
             <p><b>Mitgliederverwaltung</b></p>
 			<p>Die Mitgliederverwaltung wird updated, upgraded und durch uns betrieben sowie weiter entwickelt.</p>
-			<p>Als Grundlage dient das individuelle Abbild des Verbands mit seinen kantonalen und regionalen Strukturen. Die rund 13'000 Verbandsmitglieder werden erfasst und anhand Sektionszugehörigkeit und Funktion zugeordnet. Zu jeder Person können diverse weitere Attribute definiert werden, bspw. erfolgte Qualitätskontrollen, besuchte Kurse usw.</p>			
+			<p>Als Grundlage dient das individuelle Abbild des Verbands mit seinen kantonalen und regionalen Strukturen. Die rund 13'000 Verbandsmitglieder werden erfasst und anhand Sektionszugehörigkeit und Funktion zugeordnet. Zu jeder Person können diverse weitere Attribute definiert werden, bspw. erfolgte Qualitätskontrollen, besuchte Kurse usw.</p>
 			<p>Nebst einer umfangreichen Suchfunktion stehen dem Verband auch automatisch generierte PDFs zur Verfügung.</p>
 			<p>Die in der MV hinterlegten Daten werden autom. an die Webseite des VDRB gesendet, sodass stets aktuelle Ansprechpersonen vorhanden sind. Mit einem durch uns geschriebenen Tool werden zudem die relevanten Adressen automatisch in das jährlich versendete Adressbuch geschrieben (Schnittstelle zu InDesign), sodass viel manueller Aufwand erspart wird.</p>
         </div>
         <div>
             <p><b>Kaderabrechnungssystem (KAS)</b></p>
-			<p>Auf Basis von Ruby on Rails wurde das ganze Kaderabrechnungssystem neu geschrieben. Weil es um echte Geldbeträge geht, wird ein spezieller Fokus auf Qualität und Sicherheit gelegt.</p>
-			<p>Anhand von in der Mitgliederverwaltung hinterlegten Funktion hat eine Person automatisch Zugriff auf das KAS, oder nicht. VDRB kann pro Funktion sowie Spesentyp Rechte definieren, sodass der ganze Workflow und Bewilligungsprozess abgebildet wird.</p>			
+			<p>Auf Basis von Ruby on Rails wurde das ganze Kaderabrechnungssystem neu geschrieben. Dies war aus sowohl funktionstechnischen wie auch sicherheitsbedingten Aspekten notwendig. Weil es um echte Geldbeträge geht, wird ein spezieller Fokus auf Qualität und Sicherheit gelegt.</p>
+			<p>Anhand von in der Mitgliederverwaltung hinterlegten Funktion hat eine Person automatisch Zugriff auf das KAS, oder nicht. VDRB kann pro Funktion sowie Spesentyp Rechte definieren, sodass der ganze Workflow und Bewilligungsprozess abgebildet wird.</p>
 			<p>Zusätzlich zur Verwaltung der Spesen können verschiedene Personen automatisch Auswertungen generieren. Lohnausweise werden ebenfalls automatisch erstellt.</p>
 			<p>In einem Konfigurationspanel können verschiedene Werte vom VDRB selbst eingestellt werden.</p>
-        </div>		
+        </div>
     </div>
 
     <div class="span4">
