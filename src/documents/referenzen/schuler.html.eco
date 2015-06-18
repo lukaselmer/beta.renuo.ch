@@ -1,25 +1,25 @@
 ---
 title: Schuler Auktionen
 box_name: Schuler Auktionen Zürich
-box_description: Betreuung und Weiterentwicklung der Webseite
+box_description: Portal zur Darstellung tausender Auktionsobjekte
 short_description: Komplexer Webauftritt zur Darstellung aller Auktionsobjekte und mehr
-image_path: /images/schuler/schuler.png
+image_path: /images/schuler/schuler.jpg
 layout: project
-position: 45
+position: 3
 tags: ['project']
 slider:
     -
-        image: /images/schuler/home.png
+        image: /images/schuler/startseite.jpg
         image_alt: "Schuler's Landingpage"
         title: Landingpage der Schuler Auktionen AG
         subtitle: "Tausende von Auktionsobjekten inkl. Foto, Mehrsprachigkeit, individuelle Newsletter, Merkliste!"
     -
-        image: /images/schuler/uebersicht.png
+        image: /images/schuler/uebersicht.jpg
         image_alt: "Auktionsobjekte in der Übersicht"
         title: "Übersicht der Auktionsobjekte"
         subtitle: "Eine übersichtliche Darstellung der Auktionsobjekte gibt dem Besucher einen schnellen Überblick der bevorstehenden Auktion."
     -
-        image: /images/schuler/admin.png
+        image: /images/schuler/upload.jpg
         image_alt: Backend-Ansicht von Schuler
         title: Backend-Ansicht von Schuler
         subtitle: "Simples, auf die Bedürfnisse von Schuler ausgerichtetes CMS, mit welchem sich verschiedene Auktionen, tausende Objekte und Bilder, Termine u.v.m. editieren lassen."
@@ -33,9 +33,7 @@ slider:
         <div>
             <p>Durch die Übernahme der Firma HotFeet GmbH im Juli 2013 durften wir die Betreuung und Weiterentwicklung 
             des Webauftritts der Firma Schuler Auktionen AG übernehmen.</p>
-            <p>Es ist unser Anspruch, Schuler Auktionen AG in sämtlichen IT-Belangen zu unterstützen. Der 
-            Schwerpunkt liegt in einer effizienten Webapplikation, welche die internen Prozesse unterstützt sowie 
-            von den heute verfügbaren Technologien Gebrauch macht.</p>
+            <p>2015 ist der ganze Webauftritt erneuert worden, um technische Mängel zu korrigieren sowie heutigen Ansprüchen gerecht zu werden.</p>
         </div>
     </div>
 
@@ -43,13 +41,12 @@ slider:
         <h2>Produkt</h2>
 
         <div>
-            <p>Die Webseite des Auktionshauses Schuler ist komplex. Das Herzstück bildet der Upload eines aus dem
-            lokalen ERP generierten Files, mit welchem das Auktionshaus die diversen Auktionsobjekte hochladen kann. 
-            Dazugehörende Bilder werden über ein FTP-Server automatisch gematcht. Automatisch generierte Metadaten
-            aus den Auktionsobjekten sorgen für eine gute Suchmaschinenoptimierung.</p>
-            <p>Die Renuo GmbH entwickelt den Webauftritt besonders in der Suchmaschinenoptimierung (SEO) weiter.
-            Unter anderem ist es geplant, die Seite auf HTML5 upzugraden. Weitere Verbesserungen wie ein Rebrush
-            des Designs sowie responsive Design sind geplant.</p>
+            <p>Die Webseite des Auktionshauses Schuler ist komplex: Das Herzstück bildet der Upload eines aus dem
+            lokalen ERP generierten TXT-Files, aus welchem dann pro Objekt eine Detailseite generiert wird. Die Kategorien werden ebenfalls in diesem File mitgesendet.
+            Dazugehörende Bilder können via Webseite direkt auf einen Amazon-Server geladen werden, welcher die Bilder danach via Cloudfront performant ausliefert.</p>
+            <p>Weitere Features bilden die Mehrsprachigkeit (gilt für den ganzen CMS-Teil), die Merkliste, das Erfassen von Mitarbeitern mit Kategorien (Experten) oder das Generieren von PDFs. </p>
+            <p>Die Seite ist in mehreren Bereichen gecached, wird mittels autom. captcha-Abfrage vor böswilligen Bots geschützt und ist selbstverständlich verschlüsselt.</p>
+            <p>Um dem veränderten Surf-Benutzerverhalten Rechnung zu tragen, ist die ganze Seite responsiv programmiert.</p>
         </div>
     </div>
 
@@ -62,7 +59,7 @@ slider:
             8038 Zürich<br></p>
             <p>Ansprechperson: Michael Abegg<br>
             Tel: +41 43 399 70 10</p>
-            <p>Link: <a href="http://www.schulerauktionen.ch" target="_blank">http://www.schulerauktionen.ch</a></p>
+            <p>Link: <a href="https://www.schulerauktionen.ch" target="_blank">https://www.schulerauktionen.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
             <div><%- @image_tag '/schuler/schuler_logo.png' %></div>
         </div>
