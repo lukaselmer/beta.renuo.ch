@@ -343,52 +343,7 @@ position: 4
         </div>
     </div>
 
-    <div class="span4 team-member">
-        <div><%- @team_image_tag 'thivija', 'Thivija Kandasamy' %></div>
-        <h3>Thivija Kandasamy</h3>
-
-        <p>Online Marketing, B.A. Business Admin.<br/>
-
-        <br/>
-
-        <div data-collapse>
-            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
-            <div>
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>Jahr</th>
-                        <th>Aktivität</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>2015-jetzt</th>
-                        <td><strong>Online Marketing Consultant</strong> bei der Renuo GmbH</td>
-                    </tr>
-                    <tr>
-                        <th>2014-jetzt</th>
-                        <td><strong>Master-Studium Wirtschaftsinformatik</strong> Fachhochschule St. Gallen (FHS)
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2011-2014</th>
-                        <td><strong>Bachelor in Betriebswirtschaftslehre</strong> Robert Gordon University
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>2007-2015</th>
-                        <td><strong>Linienverantwortliche / Administration</strong> Migros Genossenschaft
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="profile-social-links">
-            <a href="https://www.xing.com/profile/Thivija_Kandasamy"target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
-        </div>
-    </div>
+    
 </div>
 
 <div class="row-fluid">
