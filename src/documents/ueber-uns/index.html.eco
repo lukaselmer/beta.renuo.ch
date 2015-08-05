@@ -68,7 +68,7 @@ position: 4
 </div>
 
 <div class="row-fluid">
-    <div class="span4 team-member">
+    <div class="span3 team-member">
         <div><%- @team_image_tag 'lukas', 'Lukas Elmer' %></div>
         <h3>Lukas Elmer</h3>
 
@@ -132,7 +132,7 @@ position: 4
         </div>
     </div>
 
-    <div class="span4 team-member">
+    <div class="span3 team-member">
         <div><%- @team_image_tag 'diego', 'Diego Steiner' %></div>
         <h3>Diego P. Steiner</h3>
 
@@ -190,7 +190,7 @@ position: 4
     </div>
 
 
-    <div class="span4 team-member" id="samuel_steiner">
+    <div class="span3 team-member" id="samuel_steiner">
         <div><%- @team_image_tag 'samuel', 'Samuel Steiner' %></div>
         <h3>Samuel Steiner</h3>
 
@@ -251,7 +251,7 @@ position: 4
 </div>
 
 <div class="row-fluid">
-    <div class="span4 team-member">
+    <div class="span3 team-member">
         <div><%- @team_image_tag 'alessandro', 'Alessandro Rodi' %></div>
         <h3>Alessandro Rodi</h3>
 
@@ -297,7 +297,7 @@ position: 4
         </div>
     </div>
 
-    <div class="span4 team-member">
+    <div class="span3 team-member">
         <div><%- @team_image_tag 'josua', 'Josua Schmid' %></div>
         <h3>Josua Schmid</h3>
 
@@ -343,15 +343,12 @@ position: 4
         </div>
     </div>
 
-    
-</div>
-
 <div class="row-fluid">
-    <div class="span4 team-member">
+    <div class="span3 team-member">
         <div><%- @team_image_tag 'nicolas', 'Nicolas Eckhart' %></div>
         <h3>Nicolas Eckhart</h3>
 
-        <p>Web-Entwickler<br/>
+        <p>Web-Entwickler, Eidg. FZ Informatiker<br/>
 
         <br/>
 
@@ -368,12 +365,11 @@ position: 4
                     <tbody>
                     <tr>
                         <th>2014-jetzt</th>
-                        <td><strong>Praktikant</strong> bei der Renuo GmbH</td>
+                        <td><strong>Web-Entwickler</strong> bei der Renuo GmbH</td>
                     </tr>
                     <tr>
                         <th>2011-2014</th>
-                        <td><strong>Informatikmittelschule IMS</strong> Büelrain Winterthur
-                        </td>
+                        <td><strong>Informatikmittelschule IMS</strong> Büelrain Winterthur</td>
                     </tr>
                     </tbody>
                 </table>
@@ -384,9 +380,86 @@ position: 4
         </div>
     </div>
 
-    <div class="span4 team-member">
+    <div class="span3 team-member">
         <div><%- @team_image_tag 'cyril', 'Cyril Kyburz' %></div>
         <h3>Cyril Kyburz</h3>
+
+        <p>Web-Entwickler, Eidg. FZ Informatiker<br/>
+
+        <br/>
+
+        <div data-collapse>
+            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2014-jetzt</th>
+                        <td><strong>Web-Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2011-2014</th>
+                        <td><strong>Informatikmittelschule IMS</strong> Büelrain Winterthur</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="profile-social-links">
+            <a href="https://github.com/cyrilkyburz" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="row-fluid">
+    <div class="span3 team-member">
+        <div><%- @team_image_tag 'zora', 'Zora Fuchs' %></div>
+        <h3>Zora Fuchs</h3>
+
+        <p>Web-Entwicklerin<br/>
+
+        <br/>
+
+        <div data-collapse>
+            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2015-jetzt</th>
+                        <td><strong>Praktikantin</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2012-2015</th>
+                        <td><strong>Informatikmittelschule IMS</strong> Büelrain Winterthur
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="profile-social-links">
+            <a href="https://github.com/zorafuchs" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+        </div>
+    </div>
+
+    <div class="span3 team-member">
+        <div><%- @team_image_tag 'patrik', 'Patrik Peng' %></div>
+        <h3>Patrik Peng</h3>
 
         <p>Web-Entwickler<br/>
 
@@ -404,20 +477,27 @@ position: 4
                     </thead>
                     <tbody>
                     <tr>
-                        <th>2014-jetzt</th>
+                        <th>2015-jetzt</th>
                         <td><strong>Praktikant</strong> bei der Renuo GmbH</td>
                     </tr>
                     <tr>
-                        <th>2011-2014</th>
-                        <td><strong>Informatikmittelschule IMS</strong> Büelrain Winterthur
-                        </td>
+                        <th>2014-2015</th>
+                        <td>Maschinenbaustudium <strong>ETH Zürich</strong></td>
+                    </tr>
+                    <tr>
+                        <th>2013-2014</th>
+                        <td><strong>Informatikpionier</strong> Schweizer Armee</td>
+                    </tr>
+                    <tr>
+                        <th>2007-2013</th>
+                        <td>Kantonsschule Chur</td>
                     </tr>
                     </tbody>
                 </table>
             </div>
         </div>
         <div class="profile-social-links">
-            <a href="https://github.com/cyrilkyburz" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://github.com/patrikpeng" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
         </div>
     </div>
 </div>
