@@ -343,7 +343,6 @@ position: 4
         </div>
     </div>
 
-<div class="row-fluid">
     <div class="span3 team-member">
         <div><%- @team_image_tag 'nicolas', 'Nicolas Eckhart' %></div>
         <h3>Nicolas Eckhart</h3>
@@ -364,8 +363,12 @@ position: 4
                     </thead>
                     <tbody>
                     <tr>
-                        <th>2014-jetzt</th>
+                        <th>2015-jetzt</th>
                         <td><strong>Web-Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2014-2015</th>
+                        <td>Praktikant bei der Renuo GmbH</td>
                     </tr>
                     <tr>
                         <th>2011-2014</th>
@@ -400,8 +403,12 @@ position: 4
                     </thead>
                     <tbody>
                     <tr>
-                        <th>2014-jetzt</th>
+                        <th>2015-jetzt</th>
                         <td><strong>Web-Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2014-2015</th>
+                        <td>Praktikant bei der Renuo GmbH</td>
                     </tr>
                     <tr>
                         <th>2011-2014</th>
