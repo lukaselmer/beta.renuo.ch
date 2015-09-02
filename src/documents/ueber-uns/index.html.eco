@@ -505,11 +505,11 @@ position: 4
                 </tr>
                 <tr>
                     <th>2013-2015</th>
-                    <td><strong>Marketing Managerin</strong> The Dolder Grand Zürich</td>
+                    <td><strong>Marketing Assistant</strong> The Dolder Grand Zürich</td>
                 </tr>
                 <tr>
                     <th>2012-2013</th>
-                    <td><strong>Marketing Managerin</strong> Grand Elysée Hamburg</td>
+                    <td><strong>Marketing Communication Manager</strong> Grand Elysée Hamburg</td>
                 </tr>
                 <tr>
                     <th>2007-2013</th>
@@ -518,6 +518,9 @@ position: 4
                 </tbody>
             </table>
         </div>
+    </div>
+    <div class="profile-social-links">
+        <a href="https://www.xing.com/profile/Amina_Giger" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
     </div>
 </div>
 
