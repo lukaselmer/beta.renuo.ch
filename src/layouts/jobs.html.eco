@@ -1,0 +1,19 @@
+---
+layout: default_raw
+---
+
+<% if @document.breadcrumb != 0: %>
+  <div class="row-fluid page-header-element">
+    <div class="span12">
+      <div>
+        <ul class="breadcrumb">
+          <li><a href="/">Home</a> <span class="divider">/</span></li>
+          <li><a href="/jobs">Jobs</a> <span class="divider">/</span></li>
+          <li class="active"><%= @document.title %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<%- @content %>
