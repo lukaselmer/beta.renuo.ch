@@ -1,0 +1,84 @@
+==================================================================
+https://keybase.io/lukaselmer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://renuo.ch
+  * I am lukaselmer (https://keybase.io/lukaselmer) on keybase.
+  * I have a public key with fingerprint 1333 A7F4 1B4C 0C55 9EF8  6A63 E2B5
+  * 0C7B 017E 80C9
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "1333a7f41b4c0c559ef86a63e2b50c7b017e80c9",
+            "host": "keybase.io",
+            "key_id": "E2B50C7B017E80C9",
+            "uid": "7680f93ac0c6cf7ab5d26280a49da700",
+            "username": "lukaselmer"
+        },
+        "merkle_root": {
+            "ctime": 1428443494,
+            "hash":
+"b3f908349bd2648d0c2b718a1e4bb10d3c247ea212edb80de5b51d3f43162096f11306a7b4d800464772cd07ea9537c5c4a7de29ca1fa5d7a12126715d255a70",
+            "seqno": 193519
+        },
+        "service": {
+            "hostname": "renuo.ch",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428443512,
+    "expire_in": 157680000,
+    "prev": "0f768abf528cc155533c6acbb8ab1b6d900694846e1474a6166b28cff7e9c62e",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkntQFVUcxy/XB/FwACvRUIcu6fiAO3v2vTehEg3xMQiBIGCXPbtnZeVy97p3
+QZEuKpEITQ3ga4ymIlSsGYZAHCahUVMKL8HoMA1RDY5mMiqmOY3kA+ss0YzuP2fP
+73x+3/P7/s6vZsYUizXg6snQ0oCyXRcCem9AS8YrqdtLbVCTS2yOUpvkUpHbMP/c
+YiGyOWwFqASKXmRXtWi3JiP7Fm/0JBNrK0a6V9XcmCLsnJ2z+WJN3ExWVPdmpHt0
+1dSyAYqiRE6hAaQlQmIYASk8K7IUIiFDSBwkAId4QhKwZL7mNZ651Tah6VRlHF1J
+LmeIRG455lfyRKLJF00ccCxPKAIlYnVWUjgRMjLJkjwh0oIscgRhgl6kT1pyFRVg
+bVch0s2K8VLgQk5d0yZsS4ZqQoAmeZqmaIHGNYnefJwGKUUgeByCWJzmZUIiIQd4
+ESAaQkDIlETSHBJJQCIZ8oSMGMgAmVJoCrAkIbAKABTBihykZZ4gaJbmOFKSCZwi
+MBQnMRItcjIiBUkEisjInAiwFMsB7IVhsAtswou2ujVcnEAxQPCZe71YlZBZt9m4
+SX86chdpdikfJ3h0zdAkzYWj+Ybh8TpMx0aJx8S2Iej0Nv+n4ISqW8Zv9vSjAow+
+2w0GkLE2tN2j6sipmgRjNh5/5kWo2JwDBUdEqDAkL0mAYRiKklhRghAHAWRlgSBY
+geZpFgGao0UWsCzEqKJwSJBYEj3lETfeEDdjTa+62S0aRTqy+aqsc6daAqyW6dOs
+5thagoPC/5/l4Jvhlq5Fe67CznPLknauSLp9/u2OxvibTd2gduuZcSYhq7cv+qXZ
+DsetRnZ9dHXaP+PZ++d8OvXIr9/FteXfzzWMbldJ7oqdzsgT83uP63887A4TcpJ3
+743bn35v3YWoTOXh4eH2WT2nB49Nv5m4dKcC0w+03kr4rcBducwe8clF34mhoefv
+Rm35OCfhfv2lX95tr7hY2XGsf8ew5/bGiJljmXdqdlWddc5/fHBOWVj4j+uCy17e
+N+3RvbHVVwf66iybcvY2idcKl220n6qOb+pkz4e0dF6PjK0bbLrc+MH1B6G+hc+F
+Dn3+tar49LMhQ7e2jDoCByOG7ektLfUVadny46CBxa/mFfWuz/u7Mnh+8+7S8ilt
+/af9o8L+uEX+VelwbuprUaVH04iOmeEzfZ/Vh72ZnZ0RWLVkxrEG67qs5Oag2rrR
+6uvlZ7LWtn8YyErf7BgmIlJaO7piEl4fiUG3K8rf2fVWUfs8MWFh7vcvzD556vBA
+LzlvbeboxSOh/T3bNn3b/Ht814JBHc273JZ+6SPLF3mLW39gO0dmBSZsuG//Obit
+7d6aBV/5udbhtYeepHhiM5b2VRxd8uWVnyJj3n/j+Kqx5IwN/lYjyXfIf44JO5Cd
+WZvWELjHH2K9o1lz/gx5EpV4MKXnyl9t5UkPxhc4rj2aceDJSF/jmtWrU5oa+mr4
+kVR0+Eg9uJF1d+C9F/d1/As=
+=Iawd
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lukaselmer
+
+==================================================================
