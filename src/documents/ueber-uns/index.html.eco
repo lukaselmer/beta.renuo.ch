@@ -531,7 +531,7 @@ position: 4
     <div><%- @team_image_tag 'simon', 'Simon Huber' %></div>
     <h3>Simon Huber</h3>
 
-    <p>Web-Entwickler, B. Sc.<br/>
+    <p>Web-Entwickler, B. Sc. HSR<br/>
 
     <br/>
 
