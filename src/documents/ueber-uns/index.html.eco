@@ -111,7 +111,7 @@ position: 4
                         <td><strong>Bachelor-Studium Informatik</strong> an der Hochschule für Technik HSR, Rapperswil
                         </td>
                     </tr>
-                    <tr>
+                    <tr>s
                         <th>2006-2009</th>
                         <td><strong>Web-Entwickler</strong> (PHP, Ruby on Rails), Projektleitung, Zimtkorn GmbH, Zürich
                         </td>
@@ -563,7 +563,7 @@ position: 4
         </div>
     </div>
     <div class="profile-social-links">
-        <a href="https://github.com/simhu" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+        <a href="https://github.com/sihu" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
         <a href="https://www.xing.com/profile/Simon_Huber22" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
     </div>
 </div>
