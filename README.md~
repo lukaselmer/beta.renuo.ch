@@ -1,17 +1,11 @@
 beta.renuo.ch
 =============
 Requirements: 
-* nodejs
-* npm
 * nodejs-legacy (linux only?)
 * nvm (https://github.com/creationix/nvm)
-* node-sass (https://github.com/sass/node-sass)
-
 
 Troubleshooting: 
-* *Note: The optional "nodejs-legacy" package from Debian helps prevent a conflict with the Amateur Packet Radio "Node" Program*
-* try sudo to install or run npm commands
-
+*Note: The optional "nodejs-legacy" package from Debian helps prevent a conflict with the Amateur Packet Radio "Node" Program*
 
 Installation:
 * git clone https://github.com/renuo/beta.renuo.ch.git && cd beta.renuo.ch
