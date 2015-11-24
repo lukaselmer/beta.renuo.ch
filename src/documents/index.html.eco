@@ -38,19 +38,19 @@ technologySlider:
         image: /images/typescript.png
         image_alt: TypeScript Logo
         title:
-        subtitle:        
+        subtitle:
 
 homeSlider:
-    -
-        image: /images/renuo/slider_home/project.jpg
-        image_alt: Web Projekt
-        title: Software Entwicklung von A-Z
-        subtitle: Die Renuo GmbH ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.
     -
         image: /images/renuo/slider_home/team.jpg
         image_alt: Renuo GmbH Teamfoto
         title: Wir kümmern uns von der Konzeption bis zur Wartung
         subtitle: Im Team können wir uns perfekt um ihre Bedürfnisse kümmern. Die Stärken jedes einzelnen können zu Ihren Gunsten genutzt werden. Wir sind jederzeit für Sie da.
+    -
+        image: /images/renuo/slider_home/project.jpg
+        image_alt: Web Projekt
+        title: Software Entwicklung von A-Z
+        subtitle: Die Renuo GmbH ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.
     -
         image: /images/renuo/slider_home/technologien-bei-renuo.jpg
         image_alt: Web Technologien
