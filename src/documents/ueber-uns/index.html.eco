@@ -706,7 +706,7 @@ position: 4
     </div>
     <div class="span4">
         <div class="page-header">
-            <h2>Unsere Werte
+            <h2 id="our-values">Unsere Werte
                 <br><small> und Insights aus der Strategie</small>
             </h2>
         </div>
