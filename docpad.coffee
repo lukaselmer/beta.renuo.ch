@@ -137,6 +137,12 @@ docpadConfig =
         date: -1
       ])
 
+    jobs: (database) ->
+      database.findAllLive({tags:
+        $has: ['jobs', 'online']}, [
+        position: 1
+      ])
+
 # =================================
 # DocPad Events
 

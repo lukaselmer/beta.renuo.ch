@@ -1,0 +1,67 @@
+---
+title: Wahlbörse-Widget
+box_name: Wahlbörse-Widget anlässlich der RR-, KR-, NR- und SR-Wahl 2015
+box_description: - hunderttausende Besucher pro Tag
+short_description: - hunderttausende Besucher pro Tag 
+image_path: /images/tamedia/tamedia-wahlboerse.jpg
+layout: project
+position: 4
+tags: ['project']
+slider:
+    -
+        image: /images/tamedia/wahlboerse-front.jpg
+        image_alt: Aktuelle Kurse live visualisiert, responsive
+        title: Aktuelle Kurse live visualisiert, responsive
+        subtitle: Die durch die Wahlbörse bestimmten Kurse werden auf das Niveau einer Partei hochgerechnet und live visualisiert. Die Ansichten gibt es sowohl für Desktop wie auch als Side-Widget / Mobile.
+    -
+        image: /images/tamedia/wahlboerse-top.jpg
+        image_alt: Wichtigste Informationen direkt unter der Navigation
+        title: Wichtigste Informationen direkt unter der Navigation
+        subtitle: Die wichtigsten Kursveränderungen sind in einem Spezial Widget "Top" direkt unter der Hauptnavigation abgebildet. Auch diese Kurse aktualisieren sich live, vgl. einem Börsenticker.
+    -
+        image: /images/tamedia/wahlboerse-side.jpg
+        image_alt: Side-Widget pro Wahlkandidat (hier für RR-Wahl)
+        title: Side-Widget pro Wahlkandidat (hier für RR-Wahl)
+        subtitle: Pro Kandidat können die Ergebnisse auch als "Rangliste" dargestellt werden, natürlich mit sich live aktualisierenden Wahlchancen.
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Für die anstehenden Wahlen in 2015 (Regierungsrat und Ständerat im Kanton Zürich, nationale Stände- und Nationalratswahlen) betreibt die Tamedia eine Plattform übergreifende Wahlbörse. Auf verschiedenen Webseiten von Tageszeitungen können "Börsenhändler" die Wahlchancen von Parteien resp. Kandidaten einschätzen/handeln. Daraus werden Kurse berechnet, welche als Aktienpreise gelten.</p>
+			<p>Die erhaltenen Preise pro Kandidat / Partei sollen in verschiedenen Widgets visualisiert werden. Die Widgets sind an verschiedenen Orten eingebunden (siehe Sliderbilder).</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>Die Hauptschwierigkeit bei der Realisierung dieser Widgets liegt darin, dass sehr auf die Performance geachtet werden muss. Pro Tag waren Besucheranfragen im sechsstelligen Bereich zu erwarten, für die Seitenanfragen konnte man mit mehreren Millionen Seiten pro Tag rechnen.</p>
+			<p>Aus diesem Grund wurden die Widgets lediglich als eigentliche Frontend-Apps realisiert, welche ihre Daten aus APIs beziehen und laufend aktualisieren. Die Applikation basiert auf AngularJS.</p>
+            <p>Für die französische Übersetzung für Le Matin und 24heures wurde die Applikation zweisprachig realisiert.</p>
+		</div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Tamedia AG<br>
+				Werdstrasse 21<br>
+                8004 Zürich<br></p>
+
+            <p>Ansprechperson: Samuel Reber<br>
+               Telefon +41 44 248 41 11</p>
+
+            <p>Link: <a href="https://election-market-master.renuoapp.ch/" target="_blank">https://election-market-master.renuoapp.ch/</a></p>
+			<p>Je nach anstehender Wahl können die Widgets z.B. live unter <a href="http://www.tagesanzeiger.ch" target="_blank">http://www.tagesanzeiger.ch</a> betrachtet werden. Gleichzeitig läuft die App auch unter einer Renuo-eigenen Domain, sodass das Projekt begutachtet werden kann.</p>
+
+            <div><img src="/images/tamedia/tamedia_logo.png" alt="Logo Tamedia"></div>
+        </div>
+    </div>
+</div>
