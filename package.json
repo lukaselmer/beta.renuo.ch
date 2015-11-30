@@ -25,24 +25,23 @@
   "dependencies": {
     "bal-util": "^2.4.1",
     "browserify": "~3.38.1",
-    "docpad-plugin-cleanurls": "~2.7.0",
-    "docpad-plugin-coffeescript": "~2.4.0",
+    "docpad": "~6.78.4",
+    "docpad-plugin-cleanurls": "~2.8.1",
+    "docpad-plugin-coffeescript": "~2.5.0",
     "docpad-plugin-downloader": "~2.1.4",
     "docpad-plugin-eco": "~2.1.0",
     "docpad-plugin-less": "~2.4.1",
-    "docpad-plugin-marked": "~2.2.0",
-    "docpad-plugin-partials": "~2.9.0",
+    "docpad-plugin-marked": "~2.3.0",
+    "docpad-plugin-partials": "~2.9.2",
     "docpad-plugin-related": "~2.2.2",
-    "docpad-plugin-sass": "~2.7.3",
-    "docpad-plugin-stylus": "~2.6.0",
-    "docpad-plugin-text": "~2.3.2",
+    "docpad-plugin-sass": "~2.7.4",
+    "docpad-plugin-stylus": "~2.11.0",
+    "docpad-plugin-text": "~2.3.3",
     "eco": "~1.1.0-rc-3",
     "grunt": "~0.4.4",
     "safeps": "^2.2.11",
     "uglify-js": "~2.4.13",
-    "uglifyjs": "^2.3.6",
-    "docpad": "~6.78.4"
-
+    "uglifyjs": "^2.3.6"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "devDependencies": {}
