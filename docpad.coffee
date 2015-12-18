@@ -115,7 +115,7 @@ docpadConfig =
   # This one, will fetch in all documents that have the tag "post" specified in their meta data
     posts: (database) ->
       database.findAllLive({tags:
-        $has: ['post']}, [
+        $hasAll: ['post']}, [
         date: -1
       ])
 
@@ -127,21 +127,20 @@ docpadConfig =
 
     projects: (database) ->
       database.findAllLive({tags:
-        $has: ['project']}, [
+        $hasAll: ['project']}, [
         position: 1
       ])
 
     news: (database) ->
       database.findAllLive({tags:
-        $has: ['news']}, [
+        $hasAll: ['news']}, [
         date: -1
       ])
 
     jobs: (database) ->
-      database.findAllLive({tags:
-        $has: ['jobs', 'online']}, [
-        position: 1
-      ])
+      database.findAllLive({
+        tags: $hasAll: ['jobs-online']
+      }, [position: 1])
 
 # =================================
 # DocPad Events
