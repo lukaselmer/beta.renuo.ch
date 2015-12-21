@@ -136,6 +136,13 @@ position: 5
         <li>shower available if you want to do sports</li>
         <li>free coffee and other goodies</li>
       </ul>
+      <li><i class="icon-li icon-ok"></i> with services you like</li>
+      <ul>
+        <li>GitHub</li>
+        <li>TravisCI</li>
+        <li>Heroku</li>
+        <li>Google Apps</li>
+      </ul>
     </ul>
   </div>
 
@@ -170,7 +177,7 @@ position: 5
     <h3>We believe that</h3>
     <ul class="icons-ul">
       <li><i class="icon-li icon-ok"></i> you only get happy customers by being <b>happy developers</b></li>
-      <li><i class="icon-li icon-ok"></i> a <b>thrieving</b> environment helps everyone to thrive themselves</li>
+      <li><i class="icon-li icon-ok"></i> a <b>thriving</b> environment helps everyone to thrive themselves</li>
       <li><i class="icon-li icon-ok"></i> everyone should be <b>involved</b> in bringing our company forward</li>
       <li><i class="icon-li icon-ok"></i> working should be <b>fun</b></li>
     </ul>
@@ -194,7 +201,7 @@ position: 5
     <ul class="icons-ul">
       <li><i class="icon-li icon-ok"></i> Social &amp; learning</li>
       <ul>
-        <li>a week where we fly away (in 2015 to Sicily) and learn new stuff you are interested in</li>
+        <li>a week where we fly away (<a href="https://new.renuo.ch/news/2015-11-27-learning-week-in-sicily/">in 2015 to Sicily</a>) and learn new stuff you are interested in</li>
         <li>at least ½ day per week to learn anything you want</li>
         <li>many social events (at least one per month) with unlimited beverages</li>
         <li>meetups where you can participate and learn new things, and someone who goes there with you</li>
