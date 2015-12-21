@@ -136,6 +136,13 @@ position: 5
         <li>shower available if you want to do sports</li>
         <li>free coffee and other goodies</li>
       </ul>
+      <li><i class="icon-li icon-ok"></i> with services you like</li>
+      <ul>
+        <li>GitHub</li>
+        <li>TravisCI</li>
+        <li>Heroku</li>
+        <li>Google Apps</li>
+      </ul>
     </ul>
   </div>
 
