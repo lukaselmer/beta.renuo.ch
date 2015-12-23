@@ -84,6 +84,12 @@ homeSlider:
       <h3>Internet Solutions</h3>
       <br>
 
+      <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="info">&times;</button>
+        <h4>Fröhliche Weihnachten und einen guten Start ins 2016!</h4>
+        <p>Wir freuen uns, im nächsten Jahr wieder für Sie da zu sein! In dringenden Fällen stehen wir Ihnen unter <a href="mailto:info@renuo.ch">info@renuo.ch</a> zur Verfügung</p>
+      </div>
+
       </div>
   </div>
 </div>
