@@ -85,16 +85,16 @@ homeSlider:
       <br>
 
       <div class="alert alert-info">
-        <button type="button" class="close" data-dismiss="info">&times;</button>
-        <h4>Fröhliche Weihnachten und einen guten Start ins 2016!</h4>
-        <p>Wir freuen uns, im nächsten Jahr wieder für Sie da zu sein! In dringenden Fällen stehen wir Ihnen unter <a href="mailto:info@renuo.ch">info@renuo.ch</a> zur Verfügung</p>
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <h4 class="alert-heading">Fröhliche Weihnachten und einen guten Start ins 2016!</h4>
+        <p>Wir freuen uns, im nächsten Jahr wieder für Sie da zu sein! In dringenden Fällen stehen wir Ihnen unter <a href="mailto:info@renuo.ch">info@renuo.ch</a> zur Verfügung.</p>
       </div>
 
       </div>
   </div>
 </div>
 
-<div class="row-fluid page-header-element">
+<div class="row-fluid tmp-disabled-page-header-element">
   <div class="span12">
     <%- @getSlider('homeSlider', @document.homeSlider) %>
   </div>
