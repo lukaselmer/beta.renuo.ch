@@ -72,8 +72,8 @@ position: 4
         <div><%- @team_image_tag 'lukas', 'Lukas Elmer' %></div>
         <h3>Lukas Elmer</h3>
 
-        <div class="job-title normal">Web-Entwickler und Gründer, B.Sc. HSR</div>
-        <div class="job-title break">Web-Entwickler und Gründer<br>B.Sc. HSR</div>
+        <div class="job-title normal">Web-Entwickler und Gründer, M.Sc. ETH</div>
+        <div class="job-title break">Web-Entwickler und Gründer<br>M.Sc. ETH</div>
         <div class="email-address"><a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></div>
 
         <!--<blockquote>Mein Ziel ist es, in enger Zusammenarbeit mit dem Kunden solide Software zu entwickeln, die
@@ -93,14 +93,14 @@ position: 4
                     </thead>
                     <tbody>
                     <tr>
-                        <th>2012-jetzt</th>
+                        <th>2011-jetzt</th>
+                        <td><strong>Gründung und Web-Entwickler</strong> der Renuo GmbH mit Diego Steiner</td>
+                    </tr>
+                    <tr>
+                        <th>2012-2015</th>
                         <td><strong>Master-Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule
                             ETH, Zürich
                         </td>
-                    </tr>
-                    <tr>
-                        <th>2011-jetzt</th>
-                        <td><strong>Gründung und Web-Entwickler</strong> der Renuo GmbH mit Diego Steiner</td>
                     </tr>
                     <tr>
                         <th>2010-2011</th>
