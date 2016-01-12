@@ -62,8 +62,7 @@ position: 4
                 <small> jung und dynamisch &ndash; aber keineswegs unerfahren</small>
             </h1>
         </div>
-        <p>Sie kennen Ihr Business. Und Sie erwarten, dass auch wir unser Business kennen. Und genau so ist das
-            auch.</p>
+        <p>Sie kennen Ihr Business. Und Sie erwarten, dass auch wir unser Business kennen. Und genau so ist das auch.</p>
     </div>
 </div>
 
@@ -72,7 +71,7 @@ position: 4
         <div><%- @team_image_tag 'lukas', 'Lukas Elmer' %></div>
         <h3>Lukas Elmer</h3>
 
-        <div class="job-title normal">Web-Entwickler und Gründer, M.Sc. ETH</div>
+        <div class="job-title normal">Web-Entwickler und Gründer, M.Sc. ETH, <a target="_blank" href="http://www.pk19.ch/">Experte PK19</a></div>
         <div class="job-title break">Web-Entwickler und Gründer<br>M.Sc. ETH</div>
         <div class="email-address"><a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></div>
 
@@ -646,6 +645,60 @@ position: 4
         </div>
         <div class="profile-social-links">
             <a href="https://github.com/patrikpeng" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid page-header-element page-section">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Design
+                <small> Individuelles Design mit Fokus auf Usability</small>
+            </h1>
+        </div>
+        <p>Weil wir uns ausschliesslich auf unsere Kernkompetenz beschränken, arbeiten wir im Design mit unserem Partner <a target="_blank" href="http://henrygillis.com/">Henry Gillis</a> zusammen. <a href="/web-entwicklung/design/">Mehr Informationen</a></p>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span3 team-member">
+        <div><%- @team_image_tag 'henry', 'Henry Gillis' %></div>
+        <h3>Henry Gillis</h3>
+
+        <p>Art Director / Interaction Designer<br/>
+
+        <br/>
+
+        <div data-collapse>
+            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2008-jetzt</th>
+                        <td><strong>Art Director / Interaction Designer</strong> <a target="_blank" href="http://henrygillis.com/">(selbständig)</a></td>
+                    </tr>
+                    <tr>
+                        <th>2009-2012</th>
+                        <td><strong>Graphic Designer</strong> allink GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2008-2009</th>
+                        <td><strong>Graphic Designer</strong> Studio Elfenbein (Hamburg)</td>
+                    </tr>
+                    <tr>
+                        <th>2006-2009</th>
+                        <td>Eidg. zert. Grafiker <strong>Hochschule Luzern</strong></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div>
