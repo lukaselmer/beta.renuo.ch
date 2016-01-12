@@ -158,7 +158,7 @@
           <ul class="unstyled">
             <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen (AGB)", "/pdfs/agb.pdf" %></li>
             <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen Hosting", "/pdfs/agbhosting.pdf" %></li>
-            <li><%- @link_to "Monitoring-Services", "/pdfs/monitoring_services.pdf" %></li>
+            <li><%- @link_to "Monitoring-Services", "/pdfs/monitoring-services.pdf" %></li>
             <li><%- @link_to "Geheimhaltungs&shy;vereinbarung (NDA)", "/pdfs/nda.pdf" %></li>
           </ul>
         </div>
