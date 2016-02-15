@@ -1,0 +1,73 @@
+---
+title: Multidevice-Widget Essrechner
+box_name: Zum Vergleichen der eigenen Ernährung mit dem Schweizer Durchschnitt
+box_description: für Tamedia AG
+short_description: Multidevice-Widget
+image_path: /images/essrechner/essrechner.png
+layout: project
+position: 4
+tags: ['project']
+slider:
+    -
+        image: /images/essrechner/essrechner-home.jpg
+        image_alt: Die Startseite des Essrechners
+        title: Der Essrechner - Zum Vergleichen der eigenen Ernährung mit dem Schweizer Durchschnitt
+        subtitle: Im Essrechner geben Nutzer an, was sie in der letzten Woche gegessen oder getrunken haben. Der Essrechner berechnet anschliessend, wo sich der Nutzer im Vergleich zum Schweizer Schnitt bewegt.
+    -
+        image: /images/essrechner/essrechner-detail.jpg
+        image_alt: Detailansicht einer Umfrage
+        title: Der Essrechner - Zum Vergleichen der eigenen Ernährung mit dem Schweizer Durchschnitt
+        subtitle: Die sechs Umfragen sind einfach und übersichtlich aufgebaut, selbsterklärend und schnell ausgefüllt.
+    -
+        image: /images/essrechner/essrechner-profil.jpg
+        image_alt: Die Profil- und Auswertungsansicht
+        title: Profil- und Auswertungsansicht des Essrechners
+        subtitle: Den Nutzern steht es frei, sich vor der Umfrage zu registrieren oder die Fragen anonym zu beantworten. In beiden Fällen werden die Antworten grafisch aufbereitet und in einem Netzdiagramm abgebildet. Vom November 2015 bis Januar 2016 nahmen 50'000 User an den Umfragen teil.
+    -
+        image: /images/essrechner/essrechner-responsive.jpg
+        image_alt: Responsive Design
+        title: Responsive Design
+        subtitle: Die ganze Applikation ist responsive geschrieben und passt sich auf alle mobilen Geräte an.
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Tamedia entwickelte die Idee, anlässlich der bevorstehenden Feiertage und der darauffolgenden Neujahrs-Vorsätzen, eine Umfrage über das Essverhalten der Schweizer zu lancieren. In enger Zusammenheit mit der Renuo wurde die Idee weiterentwickelt und konkretisiert. Daraus enstand schliesslich die Web-App "Essrechner".</p>
+			<p>Eine der Hauptschwierigkeiten bei der Realisierung dieser Web-App lag darin, dass sie aufgrund der vielen Seitenaufrufe sehr hohen Ansprüchen bezüglich der Performance und Sicherheit genügen muss. Weiter musste eine sinnvolle und attraktive Lösung gefunden werden, wie die Resultate der Umfrage grafisch dargestellt werden konnten.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p></p>
+			<p>Die Applikation wurde mittels AngularJS realisiert. Dieses JavaScript-Webframework erfasst die Antworten der Nutzer und speichert sie. Anschliessend bereitet sie die Daten graphisch auf und bildet sie in einem Netzdiagramm ab.</p>
+			<p>Eine Besonderheit der Applikation ist die Funktion der anonymen Umfrage-Teilnahme. Den Nutzern steht es frei, ein persönliches Profil zu erstellen und zu verwalten oder anonym an der Umfrage teilzunehmen. Dadurch fliessen die Daten trotzdem in die Statistiken ein, können zu einem späteren Zeitpunkt jedoch nicht mehr vom Nutzer abgerufen werden.</p>
+			<p>Der Essrechner stiess in der Öffentlichkeit auf ein grosses Interesse und wurde in den ersten drei Monaten nach der Lancierung bereits von 50'000 Nutzern benutzt.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Tamedia AG<br>
+			   Werdstrasse 21<br>
+               8004 Zürich<br></p>
+
+            <p>Ansprechperson: Samuel Reber<br>
+               Telefon +41 44 248 41 11</p>
+
+            <p>Link: <a href="https://essrechner.tagesanzeiger.ch/#/" target="_blank">https://essrechner.tagesanzeiger.ch</a></p>
+			<p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von Dezember 2014 bis Dezember 2015.</p>
+
+            <div><img src="/images/tamedia/tamedia_logo.png" alt="Logo Tamedia"></div>
+        </div>
+    </div>
+</div>

@@ -22,7 +22,12 @@ slider:
         image: /images/mtextur/mtextur-statistik.jpg
         image_alt: Beispielansicht einer Statistik
         title: Statistik für Admin sowie Hersteller
-        subtitle: Für jedes Material wird pro Klick und und View eine Statistik geführt. Diese ist für den Admin einsichtbar und kann ebenfalls nach verschiedenen Parameter gefiltert werden. Ein Hersteller hat ein separates Login, über welches er die Statistiken seiner Materialien einsehen kann. 
+        subtitle: Für jedes Material wird pro Klick und View eine Statistik geführt. Diese ist für den Admin einsichtbar und kann ebenfalls nach verschiedenen Parameter gefiltert werden. Hersteller haben ein separates Login, über welches sie die Statistiken der Materialien einsehen kann.
+    -
+        image: /images/mtextur/mtextur-responsive.jpg
+        image_alt: Responsive Design
+        title: Responsive Design
+        subtitle: Die Webseite ist komplett responsive aufgebaut, so dass sie vom Smartphone bis zum Desktop-Monitor auf allen Geräten optimal dargestellt wird.
 ---
 <br>
 
@@ -33,7 +38,7 @@ slider:
 
         <div>
             <p>Die Applikation mtextur wurde bis 2014 in Brasilien entwickelt. Aufgrund einem unterschiedlichen Qualitätsverständnis sowie Kommunikationsschwierigkeiten (Sprache, Zeitverschiebung) entschied man sich dazu, die Applikation in die Schweiz zu zügeln. Aufgrund den technischen Qualifikationen sowie der Arbeitsweise konnte die Renuo GmbH die Entwicklung von mtextur im Sommer 2014 übernehmen.</p>
-			<p>Das Portal verzeichnet Seitenaufrufe in Millionenhöhe und muss dadurch hohen Ansprüchen bzgl. der Performance und Sicherheit genügen. Konkrete Arbeitspunkte, welche von Bedeutung sind, sind die Ladezeit sowie das einwandfreie Funktionieren der Statistik. Diese wiederum bilden nämlich die Verkaufsgrundlage von mtextur an die Hersteller.</p>
+			<p>Das Portal verzeichnet Seitenaufrufe in Millionenhöhe und muss dadurch hohen Ansprüchen bzgl. der Performance und Sicherheit genügen. Konkrete Arbeitspunkte, welche von Bedeutung sind, sind die Ladezeit sowie das einwandfreie Funktionieren der Statistik. Diese bilden nämlich die Verkaufsgrundlage von mtextur an die Hersteller.</p>
         </div>
     </div>
 
@@ -42,9 +47,9 @@ slider:
 
         <div>
             <p>mtextur ist eine individuell programmierte Applikation, welche auf <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> basiert. </p>
-			<p>Das Fundament bildet eine grosse Datenbank, welcher der Administrator über ein Backend füllen kann. Den Texturen können verschiedene Parameter zugewiesen werden, damit diese im Frontend wiederum durchsucht, gefiltert und gefunden werden können.</p>			
-			<p>Für sowohl Administrator wie auch Hersteller gibt es ein Backend mit dazu gehörendem Rollenkonzept. Der Administrator verwaltet die Materialien und sieht die Statistiken der Materialien, während der Hersteller die Einsicht ausschliesslich in seine Statistiken hat.</p>
-			<p>Bei der Übernahme war vor allem relevant, die bestehende Programmierung auf die neusten Versionen upzugraden, verschiedene Tests zu schreiben (testgetriebene Entwicklung, test driven development) sowie die Statistiken zu entwickeln. Nebst zahlreichen Fixes von Altlasten geht es heute vor allem um die Neuentwicklung von Features sowie um das Design.</p>
+			<p>Das Fundament bildet eine grosse Datenbank, welcher der Administrator über ein Backend füllen kann. Den Texturen können verschiedene Parameter zugewiesen werden, damit diese im Frontend wiederum durchsucht, gefiltert und gefunden werden können.</p>
+			<p>Für den Administrator und auch den Hersteller gibt es ein Backend mit dazu gehörendem Rollenkonzept. Der Administrator verwaltet die Materialien und sieht die Statistiken, der Hersteller hat ausschliesslich Einsicht in seine Statistiken.</p>
+			<p>Nach der Übernahme mussten wir erst die bestehende Programmierung auf die neusten Versionen upgraden, dann verschiedene Tests schreiben (testgetriebene Entwicklung, test driven development) und anschliessend die Voraussetzungen für die Statistiken entwickeln. Nebst zahlreichen Fixes von Altlasten beschäftigen wir uns seither vor allem um die Neuentwicklung von Features sowie um das Design (responsive, etc.).</p>
         </div>
     </div>
 

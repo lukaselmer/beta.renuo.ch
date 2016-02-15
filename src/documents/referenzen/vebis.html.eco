@@ -17,7 +17,7 @@ slider:
         image: /images/vebis/vebis_landing.png
         image_alt: Landingpage von VeBiS
         title: Übersichtliche Landingpage bei VeBiS
-        subtitle: Eine übersichtliche Landingpage lassen die Besucher schnell die relevanten Informationen finden. Das aufgerufene Menu wird hervorgehoben und der Nutzer wird grafisch geführt.
+        subtitle: Eine übersichtliche Landingpage lässt die Besucher schnell die relevanten Informationen finden. Das aufgerufene Menu wird hervorgehoben und der Nutzer wird grafisch geführt.
 ---
 <br>
 
@@ -60,7 +60,7 @@ slider:
                 Email: aline[at]vebis.ch</p>
 
             <p>Link: <a href="https://www.vebis.ch" target="_blank">https://www.vebis.ch</a></p>
-			<p>Die Partnerschaft dauert von März 2013 bis heute</p>			
+			<p>Die Partnerschaft dauert von März 2013 bis heute</p>
 
             <div><%- @image_tag '/vebis/vebis_logo.png' %></div>
         </div>
