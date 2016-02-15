@@ -5,7 +5,7 @@ box_description: für Newspeed AG
 short_description: für den online Vertrieb von Möbel
 image_path: /images/kingschair/kingschair.png
 layout: project
-position: 5
+position: 6
 tags: ['project']
 slider:
     -
@@ -17,7 +17,7 @@ slider:
         image: /images/kingschair/usability.png
         image_alt: Benutzerfreundlichkeit (Usability)
         title: Benutzerfreundlichkeit (Usability)
-        subtitle: Dem Kunden werden anhand einer Breadcrumb-Navigation, einfach zu bedienenden Filtermöglichkeiten sowie visuellen Hinweisen (hier im Bild z.B. für Sale-Artikel) grösstmögliche Benutzerfreundlichkeit geboten. 
+        subtitle: Dem Kunden werden anhand einer Breadcrumb-Navigation, einfach zu bedienenden Filtermöglichkeiten sowie visuellen Hinweisen (hier im Bild z.B. für Sale-Artikel) grösstmögliche Benutzerfreundlichkeit geboten.
     -
         image: /images/kingschair/security.png
         image_alt: Sicherheit
@@ -44,7 +44,7 @@ slider:
 
         <div>
             <p>Unser Kunde betreibt im Designer Center Wallisellen einen stationären Laden, in welchem hochwertige, barocke Möbel verkauft werden. Um den Vertrieb auf weitere Kanäle ausweiten zu können, wurde die Renuo mit der Erstellung eines online Shops beauftragt.</p>
-            <p>Der online Shop muss in der Zukunft stark ausbaufähig sein, weil zahlreiche Erweiterungsideen existieren. Des Weiteren muss ein Verwaltungssystem aufgebaut werden, mit welchem "per Knopfdruck" gleiche Shops mit unterschiedlichen Konfigurationen hergestellt werden können.</p>			
+            <p>Der online Shop muss in der Zukunft stark ausbaufähig sein, weil zahlreiche Erweiterungsideen existieren. Des Weiteren muss ein Verwaltungssystem aufgebaut werden, mit welchem "per Knopfdruck" gleiche Shops mit unterschiedlichen Konfigurationen hergestellt werden können.</p>
         </div>
     </div>
 
@@ -53,7 +53,7 @@ slider:
 
         <div>
             <p>Der entwickelte online Shop basiert auf der Grundlage der Ruby on Rails basierenden Open Source <a href="http://spreecommerce.com/" target="_blank">Shoplösung Spree</a>. Zahlreiche Standardfunktionen wurden auf die Bedürfnisse des Kundens zugeschnitten, damit letztendlich eine massgeschneiderte Lösung besteht.</p>
-			<p>Um die Verwaltung zu unterstützen, wurde auf Basis der vorhandenen Produkte eine Lagerverwaltung entwickelt. Ein Produkt kann nur dann gekauft werden, wenn genügend Exemplare vorhanden sind. Bei knapp werdenden Produkten wird Kingschair automatisch benachrichtigt. Es können jederzeit Inventarlisten mit dazugehörendem Umsatz-Reporting generiert werden.</p>			
+			<p>Um die Verwaltung zu unterstützen, wurde auf Basis der vorhandenen Produkte eine Lagerverwaltung entwickelt. Ein Produkt kann nur dann gekauft werden, wenn genügend Exemplare vorhanden sind. Bei knapp werdenden Produkten wird Kingschair automatisch benachrichtigt. Es können jederzeit Inventarlisten mit dazugehörendem Umsatz-Reporting generiert werden.</p>
 			<p>Die Seite ist grundsätzlich responsiv, wobei der Optimierungsfokus auf Tablets und nicht auf Smartphones liegt. Das Design stammt von unserer Partnerfirma <a href="/web-entwicklung/design">Webeo GmbH</a>.</p>
 			<p>Im laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="/web-entwicklung/betrieb/">diversen Monitorings</a> und <a href="/pdfs/renuo_adwords.pdf" target="_blank">im Bereich online Werbung (Google AdWords)</a>.</p>
         </div>
