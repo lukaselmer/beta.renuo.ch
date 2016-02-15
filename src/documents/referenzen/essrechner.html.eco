@@ -1,9 +1,9 @@
 ---
-title: Multidevice-Widget Essrechner
-box_name: Zum Vergleichen der eigenen Ernährung mit dem Schweizer Durchschnitt
+title: Der Essrechner
+box_name: Das Multidevice-Widget "Essrechner"
 box_description: für Tamedia AG
-short_description: Multidevice-Widget
-image_path: /images/essrechner/essrechner.png
+short_description: Ein Multidevice-Widget
+image_path: /images/essrechner/essrechner.jpg
 layout: project
 position: 4
 tags: ['project']
@@ -16,8 +16,8 @@ slider:
     -
         image: /images/essrechner/essrechner-detail.jpg
         image_alt: Detailansicht einer Umfrage
-        title: Der Essrechner - Zum Vergleichen der eigenen Ernährung mit dem Schweizer Durchschnitt
-        subtitle: Die sechs Umfragen sind einfach und übersichtlich aufgebaut, selbsterklärend und schnell ausgefüllt.
+        title: Sechs Umfragen über das eigene Essverhalten
+        subtitle: Die verschiedenen Umfragen sind einfach und übersichtlich aufgebaut, selbsterklärend und schnell ausgefüllt.
     -
         image: /images/essrechner/essrechner-profil.jpg
         image_alt: Die Profil- und Auswertungsansicht
