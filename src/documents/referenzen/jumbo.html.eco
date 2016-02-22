@@ -1,0 +1,62 @@
+---
+title: Multifunktionale App
+box_name: Accarda AG
+box_description: Bonus App für Jumbo
+short_description: für Jumbo
+image_path: /images/accarda/jumbo.jpg
+layout: project
+position: 2
+tags: ['project']
+slider:
+    -
+        image: /images/accarda/jumbo-start.jpg
+        image_alt: Die Jumbo Bonus App
+        title: Die Jumbo Bonus App
+        subtitle: Die Applikation ermöglicht allen Nutzern Rabatte zu sammeln, Cash-Bons zu gewinnen und immer über neue Aktionen und Tipps & Tricks informiert zu sein.
+    -
+        image: /images/accarda/jumbo-detail.jpg
+        image_alt: Funktionen der Jumbo Bonus App
+        title: Rabatte sammeln und am Glücksrad drehen
+        subtitle: Ohne eine physische Kundenkarte vorweisen zu müssen, können Jumbo-Kunden mit der Bonus App bei jedem Einkauf Rabatte sammeln. Zusätzlich können sie am Glücksrad drehen und täglich unterschiedliche Cash-Bons gewinnen. Alle Rabatte und Bons können über die App an der Jumbo-Kasse eingelöst werden.
+---
+<br>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Accarda beauftragte uns die bisherige App des Schweizer Baumarkts Jumbo mit einer neuen, leistungsfähigen Applikation zu ersetzen. Sie wird einerseits als Kundekarte zum Sammeln von Rabatten eingesetzt. Zusätzlich können sie am Glücksrad drehen und täglich unterschiedliche Cash-Bons gewinnen. Alle Rabatte und Bons können über die App an der Jumbo-Kasse eingelöst werden.</p>
+			<p>Die grösste Herausforderung beim Entwickeln der bestand darin, dass wir besonderen Augenwert auf die verschiedenen Ausnahmen beim Sammeln der Rabatte, die beim Einkauf auftreten können, legen mussten. Die App soll funktionieren, egal ob doppelte Rabatte, Discounts, Rundungen oder Rückgaben berücksichtigt werden müssen.</p>
+			<p></p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Umsetzung</h2>
+
+        <div>
+            <p>Die Jumpo App basiert auf <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und wurde mit REST JSON APIs umgesetzt. Die App fungiert als Kundenkarte und kann bei jedem Einkauf zum Sammeln von Rabatten eingesetzt werden. Weiter gibt es in der App die Funktion eines Glücksrad, mit dem registrierte und nicht-registrierte Nutzer Bons gewinnen können, welche sie über die App einlösen können.</p>
+				<p>Das Design der App führten nicht wir aus. Seit der Lancierung wurde die App mehr als 7'000 Mal installiert.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Accarda AG<br>
+			   Birkenstrasse 21<br>
+               8306 Brüttisellen<br></p>
+
+            <p>Ansprechpersonen: Stefan Schurgast und Mirko Theodolz<br>
+               Telefon  +41 44 805 56 56</p>
+
+            <p>Link: <a href="http://www.jumbo.ch/de/services/jumbo-app.html" target="_blank">http://www.jumbo.ch/de/services/jumbo-app.html</a></p>
+			<p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von April bis November 2015.</p>
+
+            <div><%- @image_tag '/accarda/accarda_logo.png' %></div>
+        </div>
+    </div>
+</div>
