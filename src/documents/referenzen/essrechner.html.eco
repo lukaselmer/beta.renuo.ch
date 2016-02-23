@@ -1,7 +1,7 @@
 ---
 title: Der Essrechner
-box_name: Multidevice-Widget "Essrechner"
-box_description: für Tamedia AG
+box_name: Tamedia AG
+box_description: Multidevice-Widget "Essrechner"
 short_description: Ein Multidevice-Widget
 image_path: /images/essrechner/essrechner.jpg
 layout: project

@@ -1,6 +1,6 @@
 ---
 title: Sanhei AG Rechnungs- und Offertentool
-box_name: Sanhei Rechnungen
+box_name: Sanhei AG
 box_description: Intelligentes Rechnungstool zur Erhöhung der Produktivität
 short_description: Ein intelligentes Rechnungstool, das die Produktivität erhöht.
 image_path: /images/sanhei/sanhei.png
@@ -22,7 +22,7 @@ slider:
         image: /images/sanhei/filter.png
         image_alt: Suchfunktion
         title: Einfache Übersicht
-        subtitle: Mit Filterkriterien und einer Suchfunktion können Rechnungen gefiltert, gesucht und vor allem gefunden werden. 
+        subtitle: Mit Filterkriterien und einer Suchfunktion können Rechnungen gefiltert, gesucht und vor allem gefunden werden.
 
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: collumino
-box_name: collumino GmbH
+box_name: Collumino GmbH
 box_description: Verwaltungsdashboard für Deutsche Verrechnungsstelle Mitelland (DVMi)
 short_description: Ruby Consulting für collumino GmbH
 image_path: /images/dvmportal/collumino.png
@@ -36,9 +36,9 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>collumino GmbH entwickelt hochstehende Applikationen im Web- sowie Mobilbereich. Für ein Finanzportal der Deutschen Verrechnungsstelle Mittelland brauchte collumino GmbH 
+            <p>collumino GmbH entwickelt hochstehende Applikationen im Web- sowie Mobilbereich. Für ein Finanzportal der Deutschen Verrechnungsstelle Mittelland brauchte collumino GmbH
             zusätzliche Ruby on Rails Entwickler, welche dem bestehenden Team unter die Arme greifen können.</p>
-            <p>Das Ziel der Partnerschaft ist es, das Entwicklungsteam kurzfristig und ohne Verpflichtungen für 
+            <p>Das Ziel der Partnerschaft ist es, das Entwicklungsteam kurzfristig und ohne Verpflichtungen für
             collumino GmbH zu unterstützen. </p>
         </div>
     </div>

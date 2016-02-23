@@ -1,7 +1,7 @@
 ---
 title: Pfadiheimverzeichnis
-box_name: Pfadiheimverzeichnis
-box_description: für die Pfadibewegung Schweiz
+box_name: Pfadibewegung Schweiz
+box_description: Pfadiheimverzeichnis
 short_description: für die Pfadibewegung Schweiz
 image_path: /images/heimverzeichnis/pfadiheimverzeichnis.png
 layout: project
@@ -16,7 +16,7 @@ tags: ['project']
 
         <div>
             <p>In der Schweiz gibt es unzählige Pfadiheime. Um den aktiven Leitern die Arbeit einfacher zu machen
-            sowie die Auslastung der Pfadiheime zu fördern soll das Pfadiheimverzeichnis in einer neuen Version online 
+            sowie die Auslastung der Pfadiheime zu fördern soll das Pfadiheimverzeichnis in einer neuen Version online
             gestellt werden.</p>
         </div>
     </div>
@@ -25,12 +25,12 @@ tags: ['project']
         <h2>Lösung</h2>
 
         <div>
-            <p>Das Pfadiheimverzeichnis bietet eine Suchfunktion mit Filtermöglichkeiten nach 
+            <p>Das Pfadiheimverzeichnis bietet eine Suchfunktion mit Filtermöglichkeiten nach
             Grösse, Ort, Belegung und anderen an.
-            
+
             In der Detailansicht können Informationen und Eindrück eingesehen werden. Daneben bietet die
             Plattform die Möglichkeit, Reservationen für ein Heim direkt online zu erfassen.</p>
-            
+
             <p>Verwendete Technologien:
                 <ul>
                     <li>Ruby on Rails 3.1</li>

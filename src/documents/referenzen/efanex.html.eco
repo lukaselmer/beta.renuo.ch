@@ -1,7 +1,7 @@
 ---
 title: EFANEX Umfrage-Tool
-box_name: EFANEX Umfrage-Tool
-box_description: Individuelle Umfrageapplikation mit Reporting
+box_name: Conelo GmbH
+box_description: EFANEX Umfrage-Tool
 short_description: Individuelle Umfrageapplikation mit Reporting
 image_path: /images/efanex/efanex.jpg
 layout: project
@@ -66,7 +66,7 @@ slider:
                 Telefon: +41 43 443 19 04</p>
 
             <p>Link: Da die Umfragen nur für ausgewählte Personen verfügbar sind, können wir keine Links zur Verfügung stellen</p>
-			<p>Die Partnerschaft dauert von August 2013 bis heute</p>			
+			<p>Die Partnerschaft dauert von August 2013 bis heute</p>
 
             <div><%- @image_tag '/efanex/efanex-logo.png' %></div>
         </div>
