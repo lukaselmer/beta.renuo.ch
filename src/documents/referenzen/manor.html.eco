@@ -1,25 +1,15 @@
 ---
-title: Multifunktionale Applikation und Online-Formular
-box_name: Jumbo Bonus App und Manor Karte
-box_description: für Accarda AG
-short_description: für Jumbo bzw. Manor
-image_path: /images/accarda/accarda.jpg
+title: Kreditkarten-Bestellformular
+box_name: Accarda AG
+box_description: Kreditkarten-Bestellformular für Manor
+short_description: für Manor
+image_path: /images/manor/manor.jpg
 layout: project
 position: 2
 tags: ['project']
 slider:
     -
-        image: /images/accarda/jumbo-start.jpg
-        image_alt: Die Jumbo Bonus App
-        title: Die Jumbo Bonus App
-        subtitle: Die Applikation ermöglicht allen Nutzern Rabatte zu sammeln, Cash-Bons zu gewinnen und immer über neue Aktionen und Tipps & Tricks informiert zu sein.
-    -
-        image: /images/accarda/jumbo-detail.jpg
-        image_alt: Funktionen der Jumbo Bonus App
-        title: Rabatte sammeln und am Glücksrad drehen
-        subtitle: Ohne eine physische Kundenkarte vorweisen zu müssen, können Jumbo-Kunden mit der Bonus App bei jedem Einkauf Rabatte sammeln. Zusätzlich können sie am Glücksrad drehen und täglich unterschiedliche Cash-Bons gewinnen. Alle Rabatte und Bons können über die App an der Jumbo-Kasse eingelöst werden.
-    -
-        image: /images/accarda/manor-start.jpg
+        image: /images/manor/manor-start.jpg
         image_alt: Das Bestell-Formular für die Manor Karte
         title: Per Mausklick zur Manor Karte
         subtitle: Über unser Formular kann sich der Nutzer eine Manor-Kreditkarte mit einem Limit von CHF 499.- bestellen und nach wenigen Minuten per App zum Bezahlen einsetzen.
@@ -32,9 +22,7 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Accarda beauftragte uns 2015 mit zwei unterschiedlichen Projekten, welche wir parallel ausführten.</p>
-			<p>Einerseits sollten wir die bisherige App des Schweizer Baumarkts Jumbo mit einer neuen, leistungsfähigen Applikation ersetzen.</p>
-			<p>Andererseits erhielten wir den Auftrag für die grösste Schweizer Warenhauskette Manor ein Online-Formular zur Kreditkarten-Bestellung zu entwickeln.</p>
+            <p>Accarda beauftragte uns für die grösste Schweizer Warenhauskette Manor ein Online-Formular zur Kreditkarten-Bestellung zu entwickeln.</p>
         </div>
     </div>
 
@@ -42,10 +30,10 @@ slider:
         <h2>Umsetzung</h2>
 
         <div>
-            <p>Die Jumpo App basiert auf <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und wurde mit REST JSON APIs umgesetzt. Die App fungiert als Kundenkarte und kann bei jedem Einkauf zum Sammeln von Rabatten eingesetzt werden. Weiter gibt es in der App die Funktion eines Glücksrad, mit dem registrierte und nicht-registrierte Nutzer Bons gewinnen können, welche sie über die App einlösen können.</p>
-			<p>Bei der Entwicklung der App legten wir besonderen Augenwert auf die verschiedenen Ausnahmen beim Sammeln der Rabatte, die beim Einkauf auftreten können. Die App funktioniert, egal ob doppelte Rabatte, Discounts, Rundungen oder Rückgaben berücksichtigt werden müssen.</p>
-			<p>Das Design der App führten nicht wir aus. Seit der Lancierung wurde die App mehr als 7'000 Mal installiert.</p>
-			<p>Für Manor entwickelten wir Nach der Übernahme mussten wir erst die bestehende Programmierung auf die neusten Versionen upgraden, dann verschiedene Tests schreiben (testgetriebene Entwicklung, test driven development) und anschliessend die Voraussetzungen für die Statistiken entwickeln. Nebst zahlreichen Fixes von Altlasten beschäftigen wir uns seither vor allem um die Neuentwicklung von Features sowie um das Design (responsive, etc.).</p>
+            <p>Wir entwickelten das Formular mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und bindeten es via iFrame auf der Webseite von Manor ein.</p>
+			<p>Nachdem ein Kunde das Formular vollständig ausgefüllt hat, werden die Daten in wenigen Minuten auf Richtigkeit und der Kunde auf Kreditwürdigkeit geprüft. Nach erfolgreicher Prüfung erhält der Kunde nur einige Augenblicke später einen Code auf seine App, welchen ihn zu Einkäufen bis zu CHF 499.- berechtigt. Die Kreditkarte existiert demnach nicht physisch.</p>
+			<p>Da man beim Ausfüllen des Formulars empfindliche Daten, wie einen Code für die Kreditkarte, preisgibt, ist die sichere Verschlüsselung der Daten besonders wichtig. Ausserdem ist es nicht selbstverständlich, dass ein iFrame fehlerfrei in jedem Browser und auf jedem Gerät funktioniert. Doch auch diese Herausforderung konnten wir meistern.</p>
+      <p>Das Formular ging im November 2015 live und wurde in den ersten drei Tagen bereits von mehr als 5'000 Nutzern ausgefüllt.
         </div>
     </div>
 
@@ -60,10 +48,10 @@ slider:
             <p>Ansprechpersonen: Stefan Schurgast und Mirko Theodolz<br>
                Telefon  +41 44 805 56 56</p>
 
-            <p>Link: <a href="http://www.jumbo.ch/de/services/jumbo-app.html" target="_blank">http://www.jumbo.ch/de/services/jumbo-app.html</a></p>
-			<p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von April bis November 2015.</p>
+            <p>Link: <a href="http://www.manor.ch/u/manorkarte-antrag" target="_blank">http://www.manor.ch/u/manorkarte-antrag</a></p>
+			<p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von Juli bis November 2015.</p>
 
-            <div><%- @image_tag '/accarda/accarda_logo.jpg' %></div>
+            <div><%- @image_tag '/manor/accarda_logo.jpg' %></div>
         </div>
     </div>
 </div>
