@@ -38,7 +38,7 @@ slider:
         <div>
             <p>Die Jumpo App basiert auf <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und wurde mit REST JSON APIs umgesetzt. Die App fungiert als Kundenkarte und kann bei jedem Einkauf zum Sammeln von Rabatten eingesetzt werden. Weiter gibt es in der App die Funktion eines Glücksrad, mit dem registrierte und nicht-registrierte Nutzer Bons gewinnen können, welche sie mit der App einlösen können.</p>
 			      <p>Die grösste Herausforderung beim Entwickeln der Jumbo App bestand darin, dass wir besonderen Augenwert auf die verschiedenen Ausnahmen legen mussten, die beim Einkauf und Sammeln der Rabatte auftreten können. Die App funktioniert, egal ob doppelte Rabatte, Discounts, Rundungen oder Rückgaben berücksichtigt werden müssen.</p>
-				<p>Seit der Lancierung wurde die App mehr als 7'000 Mal installiert. Das Design der App wurde nicht von uns ausgeführt.</p>
+				<p>In den ersten drei Monaten nach der Lancierung wurde die App bereits mehr als 7'000 Mal installiert. Das Design der App wurde nicht von uns ausgeführt.</p>
         </div>
     </div>
 
