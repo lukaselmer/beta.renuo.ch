@@ -27,8 +27,8 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Accarda beauftragte uns die bisherige App des Schweizer Baumarkts Jumbo mit einer neuen, vielfältigen Applikation zu ersetzen.</p>
-			      <p>Die neue App ersetzt eine physische Kundenkarte und beinhaltet attraktive Features, wie zum Beispiel ein Glücksrad mit täglichen Gewinnchancen.</p>
+            <p>Unser Auftrag war es, die bisherige App des Schweizer Baumarkts Jumbo mit einer neuen, vielfältigen Applikation zu ersetzen.</p>
+			      <p>Die neue App fungiert als Kundenkarte und beinhaltet attraktive Features, wie zum Beispiel ein Glücksrad mit täglichen Gewinnchancen.</p>
         </div>
     </div>
 
@@ -36,9 +36,10 @@ slider:
         <h2>Umsetzung</h2>
 
         <div>
-            <p>Die Jumpo App basiert auf <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und wurde mit REST JSON APIs umgesetzt. Die App fungiert als Kundenkarte und kann bei jedem Einkauf zum Sammeln von Rabatten eingesetzt werden. Weiter gibt es in der App die Funktion eines Glücksrad, mit dem registrierte und nicht-registrierte Nutzer Bons gewinnen können, welche sie mit der App einlösen können.</p>
-			      <p>Die grösste Herausforderung beim Entwickeln der Jumbo App bestand darin, dass wir besonderen Augenwert auf die verschiedenen Ausnahmen legen mussten, die beim Einkauf und Sammeln der Rabatte auftreten können. Die App funktioniert, egal ob doppelte Rabatte, Discounts, Rundungen oder Rückgaben berücksichtigt werden müssen.</p>
-				<p>In den ersten drei Monaten nach der Lancierung wurde die App bereits mehr als 7'000 Mal installiert. Das Design der App wurde nicht von uns ausgeführt.</p>
+            <p>Die Jumpo App basiert auf <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und wurde mit REST JSON APIs umgesetzt. Die App fungiert als Kundenkarte und kann bei jedem Einkauf zum Sammeln von Rabatten eingesetzt werden. Weiter gibt es in der App die Funktion eines Glücksrad, mit dem registrierte und nicht-registrierte Nutzer Bons gewinnen, welche sie mit der App einlösen können.</p>
+			      <p>Die grösste Herausforderung beim Entwickeln bestand darin, unterschiedliche Regeln für die verschiedenen Ausnahmen, die beim Einkauf und Sammeln der Rabatte auftreten können, zu erstellen. Die App funktioniert, egal ob doppelte Rabatte, Discounts, Rundungen oder Rückgaben berücksichtigt werden müssen.</p>
+				<p>In den ersten drei Monaten nach der Lancierung wurde die App bereits mehr als 7'000 Mal installiert.</p>
+				<p>Das Design der App wurde von einer Drittfirma ausgeführt.</p>
         </div>
     </div>
 
