@@ -38,6 +38,7 @@ slider:
         <div>
             <p>Home60 wurde mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> entwickelt. Die Bilder der einzelnen Heime und Residenzen werden über ein Content Delivery Network (CDN) ausgeliefert, was die Webseite beschleunigt und die Ladezeiten verkürzt.</p>
 			<p>Die Suche kann nach Örtlichkeit und Kategorie eingegrenzt werden. In den Suchergebnissen werden alle wichtigen Kontaktdaten des Wohnobjekts angezeigt. Mittels einem Kontaktformular kann direkt Kontakt mit dem jeweiligen Anbieter aufgenommen werden.</p>
+        <p>Besonders herausfordernd bei diesem Projekt war die Implementierung der Geolocations der Häuser und die Eingrenzung der Suche mit einem Suchradius von einem bestimmten Ort aus.</p>
         </div>
     </div>
 
