@@ -39,8 +39,6 @@ position: 5
 
     <p>We also look forward to receiving unsolicited applications to <a href="mailto:jobs@renuo.ch">jobs@renuo.ch</a>.</p>
 
-    <p>Hinweis an Personalvermittler: Wir arbeiten nicht mit Personalvermittlern zusammen und beantworten auch keine Anfragen oder unaufgeforderte Sendungen mit Lebensläufen. Wir möchten in diesem Zusammenhang auf den <a href="http://blog.simplificator.com/2015/04/30/personalvermittler/" target="_blank">sehr gut geschriebenen Blogbeitrag</a> von Simplificator hinweisen.</p>
-    <!-- <p>Praktikum 2015 (IMS/HSR): Für 2015 haben wir leider keine Praktikumsplätze mehr zu vergeben.</p> -->
     <!-- <blockquote>To find joy in work is to discover the fountain of youth.
       <small>Pearl S. Buck</small>
     </blockquote> -->
@@ -59,6 +57,12 @@ position: 5
       civilization work.
       <small id="more-about-renuo">Vince Lombardi</small>
     </blockquote>
+  </div>
+  
+  <div class="span12">
+    <p>Note to recruiters: We do not work with recruiters, and do not read or answer answer mails from recruiters, especially not ones with résumés and other documents. If you want to know why, we would like to redirect you to <a href="http://blog.simplificator.com/2015/04/30/personalvermittler/" target="_blank">the very well written blog article</a> by Simplificator.</p>
+    <!-- <p>Hinweis an Personalvermittler: Wir arbeiten nicht mit Personalvermittlern zusammen und beantworten auch keine Anfragen oder unaufgeforderte Sendungen mit Lebensläufen. Wir möchten in diesem Zusammenhang auf den <a href="http://blog.simplificator.com/2015/04/30/personalvermittler/" target="_blank">sehr gut geschriebenen Blogbeitrag</a> von Simplificator hinweisen.</p> -->
+    <!-- <p>Praktikum 2015 (IMS/HSR): Für 2015 haben wir leider keine Praktikumsplätze mehr zu vergeben.</p> -->
   </div>
 </div>
 
