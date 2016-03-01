@@ -29,8 +29,6 @@ slider:
         title: Responsive Design
         subtitle: Die Webseite ist komplett responsive aufgebaut, so dass sie vom Smartphone bis zum Desktop-Monitor auf allen Geräten optimal dargestellt wird.
 ---
-<br>
-
 
 <div class="row-fluid">
     <div class="span4">
