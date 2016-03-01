@@ -19,8 +19,6 @@ slider:
         title: Responsive Design
         subtitle: Die ganze Plattform ist responsive und passt sich auf alle mobilen Geräte an.
 ---
-<br>
-
 
 <div class="row-fluid">
     <div class="span4">
