@@ -58,7 +58,9 @@ position: 5
       <small id="more-about-renuo">Vince Lombardi</small>
     </blockquote>
   </div>
-  
+</div>
+
+<div class="row-fluid">
   <div class="span12">
     <p>Note to recruiters: We do not work with recruiters, and do not read or answer answer mails from recruiters, especially not ones with résumés and other documents. If you want to know why, we would like to redirect you to <a href="http://blog.simplificator.com/2015/04/30/personalvermittler/" target="_blank">the very well written blog article</a> by Simplificator.</p>
     <!-- <p>Hinweis an Personalvermittler: Wir arbeiten nicht mit Personalvermittlern zusammen und beantworten auch keine Anfragen oder unaufgeforderte Sendungen mit Lebensläufen. Wir möchten in diesem Zusammenhang auf den <a href="http://blog.simplificator.com/2015/04/30/personalvermittler/" target="_blank">sehr gut geschriebenen Blogbeitrag</a> von Simplificator hinweisen.</p> -->
