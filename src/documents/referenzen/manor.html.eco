@@ -14,8 +14,6 @@ slider:
         title: Per Mausklick zur Manor Karte
         subtitle: Über unser Formular kann sich der Nutzer eine Manor-Kreditkarte mit einem Limit von CHF 499.- bestellen und nach wenigen Minuten per App zum Bezahlen einsetzen.
 ---
-<br>
-
 
 <div class="row-fluid">
     <div class="span4">

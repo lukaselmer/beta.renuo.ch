@@ -34,8 +34,6 @@ slider:
         title: Lohnausweise automatisch erstellen
         subtitle: Bei mehreren tausend Spesen werden die Lohnausweise automatisch generiert. Natürlich kann jeder Nutzer frei entscheiden, wie mit der AHV vorzugehen ist. Dies wird im Lohnausweis berücksichtigt.
 ---
-<br>
-
 
 <div class="row-fluid">
     <div class="span4">
