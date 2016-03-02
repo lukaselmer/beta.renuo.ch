@@ -3,7 +3,7 @@ title: Shariando
 box_name: Shariando
 box_description: Mehrsprachiges internationales Cashback-System
 short_description: Internationale Cashback-Plattform mit knapp 1'000 online Shops.
-image_path: /images/shariando/shariando2.png
+image_path: /images/shariando/shariando3.png
 layout: project
 position: 15
 tags: ['project']
@@ -51,11 +51,11 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Beim Projekt sharinado.com handelt es sich um die Weiterentwicklung der bestehenden shopübergreifenden 
-            Einkaufsplattform sowie den Betrieb dessen, auf welcher die Mitglieder vergünstigten Zugang zu mehreren 
+            <p>Beim Projekt sharinado.com handelt es sich um die Weiterentwicklung der bestehenden shopübergreifenden
+            Einkaufsplattform sowie den Betrieb dessen, auf welcher die Mitglieder vergünstigten Zugang zu mehreren
             hundert online Shops finden.</p>
-            <p>Das Ziel der Entwicklung der Applikation ist eine qualitativ hochstehende Software, welche 
-            allen zukünftigen Entwicklungen standhalten vermag und vorhandene Ressourcen wirtschaftlich bestmöglich 
+            <p>Das Ziel der Entwicklung der Applikation ist eine qualitativ hochstehende Software, welche
+            allen zukünftigen Entwicklungen standhalten vermag und vorhandene Ressourcen wirtschaftlich bestmöglich
             einsetzt.</p>
         </div>
     </div>
@@ -64,13 +64,13 @@ slider:
         <h2>Produkt</h2>
 
         <div>
-            <p>Die Erstellung der Plattform beinhaltet die Einbettung des Designs, einen kundenseitigen Zugang, 
-            Schnittstellen zu Affiliate-Anbietern, länderübergreifendes Verwaltungs- und Berechtigungskonzept, 
+            <p>Die Erstellung der Plattform beinhaltet die Einbettung des Designs, einen kundenseitigen Zugang,
+            Schnittstellen zu Affiliate-Anbietern, länderübergreifendes Verwaltungs- und Berechtigungskonzept,
             Mehrsprachenfähigkeit, individuelles CMS sowie zahlreiche Sicherheitsmassnahmen.</p>
             <p>Registrierte Kunden könenn via Shariando auf knapp 1'000 online Shops zugreifen. Die nachfolgenden
             Einkäufe werden durch Shariando getrackt und einen Prozentsatz des Warenkorbes wird dem Online Shopper
             auf dem Shariando-Konto gutgeschrieben. Diesen Betrag kann sich dieser über das Portal bar auszahlen lassen.</p>
-            <p>Die Erstellung, Anpassung und Weiterentwicklung der Applikation geschieht agil, sodass auf veränderte 
+            <p>Die Erstellung, Anpassung und Weiterentwicklung der Applikation geschieht agil, sodass auf veränderte
             Bedürfnisse flexibel und unabhängig reagiert werden kann.</p>
         </div>
     </div>
