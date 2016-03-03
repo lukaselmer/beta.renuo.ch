@@ -5,7 +5,7 @@ box_description: Vermittlungsportal für Musiker und Orchester
 short_description: Zuzüger Portal, welches Musiker an Orchester vermittelt
 image_path: /images/subitomf/subitomf.png
 layout: project
-position: 7
+position: 9
 tags: ['project']
 slider:
     -

@@ -5,7 +5,7 @@ box_description: Bonus App für Jumbo
 short_description: für Jumbo
 image_path: /images/jumbo/jumbo.jpg
 layout: project
-position: 2
+position: 3
 tags: ['project']
 slider:
     -

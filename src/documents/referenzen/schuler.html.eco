@@ -5,7 +5,7 @@ box_description: Portal zur Darstellung tausender Auktionsobjekte
 short_description: Komplexer Webauftritt zur Darstellung aller Auktionsobjekte und mehr
 image_path: /images/schuler/schuler.png
 layout: project
-position: 4
+position: 6
 tags: ['project']
 slider:
     -

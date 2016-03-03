@@ -5,7 +5,7 @@ box_description: Webbasierte Plattform für tausende CAD- und Material-Texturen
 short_description: Webbasierte Plattform für tausende CAD- und Material-Texturen
 image_path: /images/mtextur/mtextur.png
 layout: project
-position: 9
+position: 10
 tags: ['project']
 slider:
     -
