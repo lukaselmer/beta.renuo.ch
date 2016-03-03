@@ -5,7 +5,7 @@ box_description: Suchportal home60 für Wohnangebote im Alter
 short_description: mit über 1'500 Wohnangeboten für den Ruhestand
 image_path: /images/home60/home60.jpg
 layout: project
-position: 10
+position: 9
 tags: ['project']
 slider:
     -

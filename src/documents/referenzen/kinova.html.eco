@@ -5,7 +5,7 @@ box_description: Online Küchen-Konfigurator und Shop
 short_description: Online Küchen-Konfigurator und Shop
 image_path: /images/kinova/kinova.png
 layout: project
-position: 4
+position: 5
 tags: ['project']
 slider:
     -
