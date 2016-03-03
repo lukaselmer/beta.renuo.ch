@@ -5,7 +5,7 @@ box_description: Kreditkarten-Bestellformular für Manor
 short_description: für Manor
 image_path: /images/manor/manor.jpg
 layout: project
-position: 2
+position: 4
 tags: ['project']
 slider:
     -
