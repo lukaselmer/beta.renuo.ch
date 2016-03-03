@@ -5,7 +5,7 @@ box_description: für die HSR Hochschule für Technik
 short_description: Wissensvermittlung an die HSR Hochschule für Technik
 image_path: /images/ruby-on-rails-schulung-hsr/hsr-schulung.png
 layout: project
-position: 14
+position: 15
 tags: ['project']
 slider:
     -
