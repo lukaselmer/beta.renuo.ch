@@ -1,8 +1,8 @@
 ---
 title: Webbasierte Mitgliederverwaltung
-box_name: Verband Schweizerischer Imker
+box_name: Verein Deutschschweizerischer und Rätoromanischer Bienenfreunde
 box_description: Online Mitglieder-Datenbank und Spesen-Abrechnungssystem
-short_description: für VDRB (Verband Deutschschweizerischer und Rätoromanischer Bienenfreunde)
+short_description: für den Verein Deutschschweizerischer und Rätoromanischer Bienenfreunde
 image_path: /images/vdrb/vdrb.jpg
 layout: project
 position: 5
@@ -68,7 +68,7 @@ slider:
         <h2>Auftraggeber</h2>
 
         <div>
-            <p>Verband Deutschschweizerischer und Rätoromanischer Bienenfreunde VDRB<br>
+            <p>Verein Deutschschweizerischer und Rätoromanischer Bienenfreunde VDRB<br>
 			Oberbad 16<br>
             9050 Appenzell<br></p>
 
