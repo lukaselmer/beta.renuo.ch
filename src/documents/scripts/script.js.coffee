@@ -161,38 +161,35 @@ $ ->
         genLink('prefetch').appendTo('body')
         genLink('prerender').appendTo('body')
 
-  $(document).ready ->
-      isMobile = ->
-        $(document).width() < 767
+    # References
+    isMobile = ->
+      $(document).width() < 767
 
-      setOpacity = (obj, value) ->
-        $(obj).children('img').animate({
-          opacity: value
-        }, 400, ->
-          if(value != 1)
-            $(obj).addClass('milky')
-            $(obj).children('img').removeAttr('style')
-        );
+    setOpacity = (obj, value) ->
+      return if isMobile()
+      $(obj).children('img').animate({
+        opacity: value
+      }, 400, ->
+        if(value != 1)
+          $(obj).addClass('milky')
+          $(obj).children('img').removeAttr('style')
+      );
 
-      toggleMilkyEffect = ->
-        if(isMobile())
-          $('.project-box').removeClass('milky');
-        else
-          $('.project-box:not(:first)').addClass('milky');
+    toggleMilkyEffect = ->
+      if(isMobile())
+        $('.project-box').removeClass('milky');
+      else
+        $('.project-box:not(:first)').addClass('milky');
 
 
-      $(window).resize ->
-        toggleMilkyEffect()
-
-      $('.project-box.milky').hover (->
-        if(isMobile())
-          return
-        setOpacity(this,1)
-        return
-      ), ->
-        if(isMobile())
-          return
-        setOpacity(this,0.5)
-        return
-
+    $(window).resize ->
       toggleMilkyEffect()
+
+    $('.project-box.milky').hover (->
+      setOpacity(this,1)
+      return
+    ), ->
+      setOpacity(this,0.5)
+      return
+
+    toggleMilkyEffect()
