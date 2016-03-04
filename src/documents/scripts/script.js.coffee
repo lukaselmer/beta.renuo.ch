@@ -186,10 +186,10 @@ $ ->
       toggleMilkyEffect()
 
     $('.project-box.milky').hover (->
-      setOpacity(this,1)
+      setOpacity(this, 1)
       return
     ), ->
-      setOpacity(this,0.5)
+      setOpacity(this, 0.5)
       return
 
     toggleMilkyEffect()
