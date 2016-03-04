@@ -165,14 +165,11 @@ $ ->
     isMobile = ->
       $(document).width() < 767
 
-
-
     toggleMilkyEffect = ->
       if(isMobile())
         $('.project-box').removeClass('milky');
       else
         $('.project-box:not(:first)').addClass('milky');
-
 
     $(window).resize ->
       toggleMilkyEffect()
