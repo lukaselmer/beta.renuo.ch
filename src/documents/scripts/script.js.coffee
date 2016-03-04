@@ -165,15 +165,7 @@ $ ->
     isMobile = ->
       $(document).width() < 767
 
-    setOpacity = (obj, value) ->
-      return if isMobile()
-      $(obj).children('img').animate({
-        opacity: value
-      }, 400, ->
-        if(value != 1)
-          $(obj).addClass('milky')
-          $(obj).children('img').removeAttr('style')
-      );
+
 
     toggleMilkyEffect = ->
       if(isMobile())
@@ -185,11 +177,18 @@ $ ->
     $(window).resize ->
       toggleMilkyEffect()
 
-    $('.project-box.milky').hover (->
-      setOpacity(this, 1)
-      return
-    ), ->
-      setOpacity(this, 0.5)
-      return
+    (->
+      animation = null
+
+      $('.project-box.milky').mouseenter ->
+        unless isMobile()
+          animation = $(this).children('img').animate
+            opacity: 1
+
+      $('.project-box.milky').mouseleave ->
+        unless isMobile()
+          animation.stop() if animation
+          $(this).children('img').removeAttr('style')
+    )()
 
     toggleMilkyEffect()
