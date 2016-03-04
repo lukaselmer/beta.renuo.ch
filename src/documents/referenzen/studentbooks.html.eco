@@ -5,7 +5,7 @@ box_description: Online Shop studentbooks.ch
 short_description: Ein Schweizer Online Shop mit über 18 Mio. Artikeln.
 image_path: /images/studentbooks/studentbooks.png
 layout: project
-position: 22
+position: 20
 tags: ['project']
 slider:
     -

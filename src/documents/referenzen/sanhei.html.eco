@@ -5,7 +5,7 @@ box_description: Intelligentes Rechnungstool zur Erhöhung der Produktivität
 short_description: Ein intelligentes Rechnungstool, das die Produktivität erhöht.
 image_path: /images/sanhei/sanhei.png
 layout: project
-position: 19
+position: 24
 tags: ['project']
 slider:
     -
