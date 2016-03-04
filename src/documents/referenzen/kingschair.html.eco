@@ -1,11 +1,11 @@
 ---
 title: E-Shop
 box_name: Newspeed AG
-box_description: Möbel-Onlineshop in mehreren Ländern und Währungen
+box_description: Möbel-Onlineshop kingschair.ch in mehreren Ländern und Währungen
 short_description: für den online Vertrieb von Möbel
 image_path: /images/kingschair/kingschair.png
 layout: project
-position: 13
+position: 14
 tags: ['project']
 slider:
     -

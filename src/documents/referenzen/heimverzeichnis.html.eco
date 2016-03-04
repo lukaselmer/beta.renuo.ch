@@ -5,7 +5,7 @@ box_description: Pfadiheimverzeichnis
 short_description: für die Pfadibewegung Schweiz
 image_path: /images/heimverzeichnis/pfadiheimverzeichnis.png
 layout: project
-position: 21
+position: 24
 tags: ['project']
 ---
 

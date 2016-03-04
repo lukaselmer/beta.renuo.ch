@@ -5,7 +5,7 @@ box_description: Verwaltungsdashboard für Deutsche Verrechnungsstelle Mitelland
 short_description: Ruby Consulting für collumino GmbH
 image_path: /images/dvmportal/collumino.png
 layout: project
-position: 16
+position: 13
 tags: ['project']
 slider:
     -
