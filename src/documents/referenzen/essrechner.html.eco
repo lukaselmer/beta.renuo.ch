@@ -22,7 +22,7 @@ slider:
         image: /images/essrechner/essrechner-profil.jpg
         image_alt: Die Profil- und Auswertungsansicht
         title: Profil- und Auswertungsansicht des Essrechners
-        subtitle: Den Nutzern steht es frei, sich vor der Umfrage zu registrieren oder die Fragen anonym zu beantworten. In beiden Fällen werden die Antworten grafisch aufbereitet und in einem Netzdiagramm abgebildet. Vom November 2015 bis Januar 2016 wurde die Umfrage 50'000 Mal ausgefüllt.
+        subtitle: Den Nutzern steht es frei, sich vor der Umfrage zu registrieren oder die Fragen anonym zu beantworten. In beiden Fällen werden die Antworten grafisch aufbereitet und in einem Netzdiagramm abgebildet. Vom November 2015 bis Januar 2016 wurde die Umfrage über 50'000 Mal ausgefüllt.
     -
         image: /images/essrechner/essrechner-responsive.jpg
         image_alt: Responsive Design

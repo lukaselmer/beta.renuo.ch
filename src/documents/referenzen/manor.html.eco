@@ -30,7 +30,7 @@ slider:
 
         <div>
             <p>Wir entwickelten das Formular mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und bindeten es via iFrame auf der Webseite von Manor ein.</p>
-			<p>Nachdem ein Kunde das Formular vollständig ausgefüllt hat, werden die Daten in wenigen Minuten auf Richtigkeit und der Kunde auf Kreditwürdigkeit überprüft. Nach erfolgreicher Autorisierung erhält der Kunde nur einige Augenblicke später einen Code auf seine App, welchen ihn zu Einkäufen bis zu CHF 499.- berechtigt.</p>
+			<p>Nachdem ein Kunde das Formular vollständig ausgefüllt hat, werden die Daten in wenigen Minuten auf Richtigkeit und der Kunde auf Kreditwürdigkeit überprüft. Nach erfolgreicher Autorisierung erhält der Kunde nur einige Augenblicke später einen Code auf seine App, welcher ihn zu Einkäufen bis zu CHF 499.- berechtigt.</p>
 			<p>Bei diesem Projekt war es besonders wichtig, eine sehr sichere Verschlüsselung der Daten zu entwickeln, da man beim Ausfüllen des Formulars unter anderem den Code für die Kreditkarte preisgibt. Auch die Einbindung des iFrames brauchte besondere Beachtung. Eine einwandfreie Funktionalität in jedem Browser und auf jedem Gerät ist nicht selbstverständlich.</p>
       <p>Das Formular ging im November 2015 live und wurde in den ersten drei Tagen bereits von mehr als 5'000 Nutzern ausgefüllt.</p>
         </div>

@@ -45,7 +45,7 @@ slider:
         <div>
             <p>Die Webseite des Auktionshauses Fischer ist komplex. Das Herzstück bildet der Upload eines aus dem
             lokalen ERP generierten Files, mit welchem das Auktionshaus die diversen Auktionsobjekte hochladen kann.
-            Dazugehörende Bilder werden über ein FTP-Server automatisch gematcht. Ein über ein Passwort geschützen
+            Dazugehörende Bilder werden über ein FTP-Server automatisch gematcht. Ein über ein Passwort geschützten
             Bereich erlaubt es Fischer, die Auktionen vor der Öffentlichkeit live anzuschauen und ggf. zu korrigieren.
             Über ein simples CMS sind natürlich sind auch die restlichen Bereiche eiditierbar. </p>
             <p>Die Renuo GmbH hat den Webauftritt besonders in der Usabilty weiterentwickelt. Einerseits wurde
