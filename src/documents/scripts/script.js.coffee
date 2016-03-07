@@ -160,3 +160,32 @@ $ ->
           $('<link>').attr('rel', type).attr('href', href)
         genLink('prefetch').appendTo('body')
         genLink('prerender').appendTo('body')
+
+    # References
+    isMobile = ->
+      $(document).width() < 767
+
+    toggleMilkyEffect = ->
+      if(isMobile())
+        $('.project-box').removeClass('milky');
+      else
+        $('.project-box:not(:first)').addClass('milky');
+
+    $(window).resize ->
+      toggleMilkyEffect()
+
+    (->
+      animation = null
+
+      $('.project-box.milky').mouseenter ->
+        unless isMobile()
+          animation = $(this).children('img').animate
+            opacity: 1
+
+      $('.project-box.milky').mouseleave ->
+        unless isMobile()
+          animation.stop() if animation
+          $(this).children('img').removeAttr('style')
+    )()
+
+    toggleMilkyEffect()

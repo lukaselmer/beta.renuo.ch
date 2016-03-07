@@ -221,6 +221,10 @@ body {
     border-top: 1px solid #ddd;
     padding: 10px;
   }
+
+  &.milky img {
+    opacity: 0.5;
+  }
 }
 
 .profile-social-links {
