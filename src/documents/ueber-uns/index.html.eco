@@ -653,12 +653,13 @@ position: 4
         </div>
         <div class="profile-social-links">
             <a href="https://github.com/rbuetzer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-        </div>
     </div>
+</div>
 
 
 </div>
 
+<div class="row-fluid">
     <div class="span3 team-member">
         <div><%- @team_image_tag 'zora', 'Zora Fuchs' %></div>
         <h3>Zora Fuchs</h3>
@@ -766,10 +767,6 @@ position: 4
                     <tr>
                         <th>2011-2016</th>
                         <td><strong>Master Studium Sekundarstufe I</strong> an der Pädagogischen Hochschule Zürich</td>
-                    </tr>
-                    <tr>
-                        <th>2007-2013</th>
-                        <td><strong>Bachelor Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule ETH, Zürich</td>
                     </tr>
                     </tbody>
                 </table>
