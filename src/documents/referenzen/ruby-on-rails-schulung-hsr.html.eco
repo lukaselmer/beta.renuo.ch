@@ -60,7 +60,7 @@ slider:
             <p>Link: <a href="http://www.ifs.hsr.ch/" target="_blank">http://www.ifs.hsr.ch/</a></p>
 			<p>Die Schulungen fanden 2014 statt</p>
 
-            <div><%- @image_tag '/ruby-on-rails-schulung-hsr/hsr-logo.jpg' %></div>
+            <div><%- @image_tag '/logoslider/hsr-logo.jpg' %></div>
         </div>
     </div>
 </div>

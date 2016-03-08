@@ -68,7 +68,7 @@ slider:
             <p>Link: Da die Umfragen nur für ausgewählte Personen verfügbar sind, können wir keine Links zur Verfügung stellen</p>
 			<p>Die Partnerschaft dauert von August 2013 bis heute</p>
 
-            <div><%- @image_tag '/efanex/efanex-logo.png' %></div>
+            <div><%- @image_tag '/logoslider/efanex-logo.png' %></div>
         </div>
     </div>
 </div>

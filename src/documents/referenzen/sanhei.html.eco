@@ -57,7 +57,7 @@ slider:
             Tel: +41 44 341 05 10</p>
             <p><a href="https://www.sanhei.ch" target="_blank">https://www.sanhei.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2011 bis heute.</p>
-            <div><%- @image_tag '/sanhei/sanhei_logo.jpg' %></div>
+            <div><%- @image_tag '/logoslider/sanhei_logo.jpg' %></div>
         </div>
     </div>
 </div>

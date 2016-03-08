@@ -54,7 +54,7 @@ slider:
             Tel: +41 44 878 22 22</p>
             <p>Link: <a href="http://www.zublin.ch" target="_blank">http://www.zublin.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
-            <div><%- @image_tag '/zublin/zublin_logo.png' %></div>
+            <div><%- @image_tag '/logoslider/zublin_logo.png' %></div>
         </div>
     </div>
 </div>

@@ -61,7 +61,7 @@ slider:
             <p>Link: <a href="https://www.vebis.ch" target="_blank">https://www.vebis.ch</a></p>
 			<p>Die Partnerschaft dauert von März 2013 bis heute</p>
 
-            <div><%- @image_tag '/vebis/vebis_logo.png' %></div>
+            <div><%- @image_tag '/logoslider/vebis_logo.png' %></div>
         </div>
     </div>
 </div>

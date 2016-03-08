@@ -61,7 +61,7 @@ slider:
             Tel: +41 44 251 83 58</p>
             <p>Link: <a href="http://www.germannauktionen.ch" target="_blank">http://www.germannauktionen.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
-            <div><%- @image_tag '/germann/germann_logo.png' %></div>
+            <div><%- @image_tag '/logoslider/germann_logo.png' %></div>
         </div>
     </div>
 </div>

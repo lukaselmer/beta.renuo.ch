@@ -71,7 +71,7 @@ slider:
             <p>Link: <a href="https://www.kingschair.ch" target="_blank">https://www.kingschair.ch</a></p>
 			<p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
 
-            <div><%- @image_tag '/kingschair/kingschair_logo.jpg' %></div>
+            <div><%- @image_tag '/logoslider/kingschair_logo.jpg' %></div>
         </div>
     </div>
 </div>

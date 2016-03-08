@@ -71,7 +71,7 @@ slider:
             <p>Link: <a href="https://www.kinova.ch" target="_blank">https://www.kinova.ch</a></p>
 			<p>Die Partnerschaft dauert von Februar 2014 bis heute</p>
 
-            <div><%- @image_tag '/kinova/kinova_logo.png' %></div>
+            <div><%- @image_tag '/logoslider/kinova_logo.png' %></div>
         </div>
     </div>
 </div>
