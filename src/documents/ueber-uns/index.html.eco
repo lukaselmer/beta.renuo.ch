@@ -611,6 +611,93 @@ position: 4
             <a href="https://github.com/rbuetzer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
         </div>
     </div>
+     <div class="span3 team-member">
+        <div><%- @team_image_tag 'alicia', 'Alicia Rüegg' %></div>
+        <h3>Alicia Rüegg</h3>
+
+        <p>Web-Entwicklerin<br/>
+
+        <br/>
+
+        <div data-collapse>
+            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2016-jetzt</th>
+                        <td><strong>Web-Entwicklerin</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2011-2016</th>
+                        <td><strong>Master Studium Sekundarstufe I</strong> (ohne Abschluss) an der Pädagogischen Hochschule Zürich</td>
+                    </tr>
+                    <tr>
+                        <th>2007-2013</th>
+                        <td><strong>Bachelor Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule ETH, Zürich</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="profile-social-links">
+            <a href="https://github.com/rbuetzer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+        </div>
+    </div>
+
+    <div class="span3 team-member">
+        <div><%- @team_image_tag 'martin', 'Martin Čavoj' %></div>
+        <h3>Martin Čavoj</h3>
+
+        <p>Web-Entwickler, M. Sc.<br/>
+
+        <br/>
+
+        <div data-collapse>
+            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2016-jetzt</th>
+                        <td><strong>Web-Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2005-2015</th>
+                        <td><strong>CTO & Executive</strong> bei Panacom</td>
+                    </tr>
+                    <tr>
+                        <th>2013-2014</th>
+                        <td><strong>IT Security and Information Risk Management Analyst</strong> bei der ING Bank</td>
+                    </tr>
+                    <tr>
+                        <th>2011-2013</th>
+                        <td><strong>Master Studium Informatik</strong> an der Slowakischen Technischen Universität Bratislava</td>
+                    </tr>
+                    <tr>
+                        <th>2008-2011</th>
+                        <td><strong>Bachelor Studium Informatik</strong> an der Slowakischen Technischen Universität Bratislava</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="profile-social-links">
+            <a href="https://github.com/rbuetzer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+        </div>
+    </div>
 
     <div class="span3 team-member">
         <div><%- @team_image_tag 'zora', 'Zora Fuchs' %></div>
