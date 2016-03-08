@@ -64,7 +64,7 @@ slider:
             Tel: +41 62 296 10 50 </p>
             <p>Link: <a href="http://www.collumino.com" target="_blank">http://www.collumino.com</a></p>
             <p>Die Partnerschaft dauert von Mai 2013 bis Juli 2013.</p>
-            <div><%- @image_tag '/logoslider/collumino_logo.png' %></div>
+            <div><%- @image_tag 'logoslider/collumino_logo.png' %></div>
         </div>
     </div>
 </div>

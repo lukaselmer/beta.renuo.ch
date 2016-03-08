@@ -59,7 +59,7 @@ tags: ['project-inactive']
 
             <p>Die Studie wurde durch eine Bachelor Arbeit während des Frühjahrs 2012 erstellt.</p>
 
-            <div><%- @image_tag '/logoslider/hsr_logo.jpg' %></div>
+            <div><%- @image_tag 'logoslider/hsr_logo.jpg' %></div>
         </div>
     </div>
 </div>

@@ -65,7 +65,7 @@ slider:
             Tel: +41 41 418 10 10</p>
             <p>Link: <a href="http://www.fischerauktionen.ch" target="_blank">http://www.fischerauktionen.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
-            <div><%- @image_tag '/logoslider/fischer_logo.png' %></div>
+            <div><%- @image_tag 'logoslider/fischer_logo.png' %></div>
         </div>
     </div>
 </div>

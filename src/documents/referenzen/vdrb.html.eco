@@ -78,7 +78,7 @@ slider:
             <p>Link: n/a (interne Tools)</p>
 			<p>Die Partnerschaft dauert von Mai 2014 bis heute.</p>
 
-            <div><%- @image_tag '/logoslider/vdrb-logo.jpg' %></div>
+            <div><%- @image_tag 'logoslider/vdrb-logo.jpg' %></div>
         </div>
     </div>
 </div>

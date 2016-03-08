@@ -61,7 +61,7 @@ slider:
             Tel: +41 43 399 70 10</p>
             <p>Link: <a href="https://www.schulerauktionen.ch" target="_blank">https://www.schulerauktionen.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
-            <div><%- @image_tag '/logoslider/schuler_logo.png' %></div>
+            <div><%- @image_tag 'logoslider/schuler_logo.png' %></div>
         </div>
     </div>
 </div>
