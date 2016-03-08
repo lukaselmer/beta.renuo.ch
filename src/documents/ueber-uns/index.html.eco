@@ -611,6 +611,7 @@ position: 4
             <a href="https://github.com/rbuetzer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
         </div>
     </div>
+
      <div class="span3 team-member">
         <div><%- @team_image_tag 'alicia', 'Alicia Rüegg' %></div>
         <h3>Alicia Rüegg</h3>
