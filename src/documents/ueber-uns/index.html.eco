@@ -693,10 +693,9 @@ position: 4
         </div>
         <div class="profile-social-links">
             <a href="https://github.com/zorafuchs" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-        </div>
     </div>
+</div>
 
-<div class="row-fluid">
     <div class="span3 team-member">
         <div><%- @team_image_tag 'patrik', 'Patrik Peng' %></div>
         <h3>Patrik Peng</h3>
@@ -738,7 +737,6 @@ position: 4
         </div>
         <div class="profile-social-links">
             <a href="https://github.com/patrikpeng" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-        </div>
     </div>
 </div>
 
