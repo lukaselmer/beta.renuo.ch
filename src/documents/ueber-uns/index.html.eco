@@ -612,46 +612,6 @@ position: 4
         </div>
     </div>
 
-     <div class="span3 team-member">
-        <div><%- @team_image_tag 'alicia', 'Alicia Rüegg' %></div>
-        <h3>Alicia Rüegg</h3>
-
-        <p>Web-Entwicklerin<br/>
-
-        <br/>
-
-        <div data-collapse>
-            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
-            <div>
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>Jahr</th>
-                        <th>Aktivität</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th>2016-jetzt</th>
-                        <td><strong>Web-Entwicklerin</strong> bei der Renuo GmbH</td>
-                    </tr>
-                    <tr>
-                        <th>2011-2016</th>
-                        <td><strong>Master Studium Sekundarstufe I</strong> an der Pädagogischen Hochschule Zürich</td>
-                    </tr>
-                    <tr>
-                        <th>2007-2013</th>
-                        <td><strong>Bachelor Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule ETH, Zürich</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="profile-social-links">
-            <a href="https://github.com/rbuetzer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-        </div>
-    </div>
-
     <div class="span3 team-member">
         <div><%- @team_image_tag 'martin', 'Martin Čavoj' %></div>
         <h3>Martin Čavoj</h3>
@@ -780,6 +740,45 @@ position: 4
     </div>
 </div>
 
+     <div class="span3 team-member">
+        <div><%- @team_image_tag 'alicia', 'Alicia Rüegg' %></div>
+        <h3>Alicia Rüegg</h3>
+
+        <p>Web-Entwicklerin<br/>
+
+        <br/>
+
+        <div data-collapse>
+            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2016-jetzt</th>
+                        <td><strong>Web-Entwicklerin</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2011-2016</th>
+                        <td><strong>Master Studium Sekundarstufe I</strong> an der Pädagogischen Hochschule Zürich</td>
+                    </tr>
+                    <tr>
+                        <th>2007-2013</th>
+                        <td><strong>Bachelor Studium Informatik</strong> an der Eidgenössischen Technischen Hochschule ETH, Zürich</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="profile-social-links">
+            <a href="https://github.com/rbuetzer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+        </div>
+    </div>
 
 <div class="row-fluid page-header-element page-section">
     <div class="span12">
