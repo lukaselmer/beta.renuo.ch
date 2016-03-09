@@ -50,7 +50,7 @@ slider:
             <p>Link: <a href="http://www.manor.ch/u/manorkarte-antrag" target="_blank">http://www.manor.ch/u/manorkarte-antrag</a></p>
 			<p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von Juli bis November 2015.</p>
 
-            <div><%- @image_tag 'logoslider/accarda_logo.jpg' %></div>
+            <div><%- @image_tag 'logoslider/accarda_logo.png' %></div>
         </div>
     </div>
 </div>
