@@ -71,8 +71,8 @@ position: 4
         <div><%- @team_image_tag 'lukas', 'Lukas Elmer' %></div>
         <h3>Lukas Elmer</h3>
 
-        <div class="job-title normal">Web-Entwickler und Gründer, M.Sc. ETH, <a target="_blank" href="http://www.pk19.ch/">Experte PK19</a></div>
-        <div class="job-title break">Web-Entwickler und Gründer<br>M.Sc. ETH</div>
+        <div class="job-title normal">Web-Entwickler und Gründer, M.Sc. ETH CS, B.Sc. HSR CS, <a target="_blank" href="http://www.pk19.ch/">Experte PK19</a></div>
+        <div class="job-title break">Web-Entwickler und Gründer<br>M.Sc. ETH CS, B.Sc. HSR CS, <a target="_blank" href="http://www.pk19.ch/">Experte PK19</a></div>
         <div class="email-address"><a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></div>
 
         <!--<blockquote>Mein Ziel ist es, in enger Zusammenarbeit mit dem Kunden solide Software zu entwickeln, die
@@ -135,8 +135,8 @@ position: 4
         <div><%- @team_image_tag 'diego', 'Diego Steiner' %></div>
         <h3>Diego P. Steiner</h3>
 
-        <div class="job-title normal">Web-Entwickler und Gründer, B.Sc. HSR</div>
-        <div class="job-title break">Web-Entwickler und Gründer<br>B.Sc. HSR</div>
+        <div class="job-title normal">Web-Entwickler und Gründer, B.Sc. HSR CS</div>
+        <div class="job-title break">Web-Entwickler und Gründer<br>B.Sc. HSR CS</div>
         <div class="email-address"><a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></div>
 
         <!--<blockquote>Ich möchte, dass der Kunde mit meiner Arbeit höchst zufrieden ist. Zusätzlich möchte ich
@@ -252,7 +252,7 @@ position: 4
         <div><%- @team_image_tag 'alessandro', 'Alessandro Rodi' %></div>
         <h3>Alessandro Rodi</h3>
 
-        <p>Web-Entwickler, B.Sc.<br/>
+        <p>Web-Entwickler, B.Sc. CS<br/>
 
         <br/>
 
@@ -302,7 +302,7 @@ position: 4
         <div><%- @team_image_tag 'josua', 'Josua Schmid' %></div>
         <h3>Josua Schmid</h3>
 
-        <p>Web-Entwickler, B.Sc. HSR<br/>
+        <p>Web-Entwickler, B.Sc. HSR CS<br/>
 
         <br/>
 
@@ -429,7 +429,7 @@ position: 4
     <div><%- @team_image_tag 'roger', 'Roger Rüttimann' %></div>
     <h3>Roger Rüttimann</h3>
 
-    <p>Web-Entwickler, B. Sc.<br/>
+    <p>Web-Entwickler, B.Sc. ZFH CS<br/>
 
     <br/>
 
@@ -530,7 +530,7 @@ position: 4
     <div><%- @team_image_tag 'simon', 'Simon Huber' %></div>
     <h3>Simon Huber</h3>
 
-    <p>Web-Entwickler, B. Sc. HSR<br/>
+    <p>Web-Entwickler, B.Sc. HSR CS<br/>
 
     <br/>
 
@@ -571,7 +571,7 @@ position: 4
         <div><%- @team_image_tag 'richard', 'Richard Bützer' %></div>
         <h3>Richard Bützer</h3>
 
-        <p>Web-Entwickler, B. Sc. ETH<br/>
+        <p>Web-Entwickler, B.Sc. ETH CS<br/>
 
         <br/>
 
@@ -616,7 +616,7 @@ position: 4
         <div><%- @team_image_tag 'martin', 'Martin Čavoj' %></div>
         <h3>Martin Čavoj</h3>
 
-        <p>Web-Entwickler, M. Sc.<br/>
+        <p>Web-Entwickler, M.Sc. CS<br/>
 
         <br/>
 
