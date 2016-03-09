@@ -1,8 +1,8 @@
 ---
-title: collumino
+title: Collumino
 box_name: Collumino GmbH
 box_description: Verwaltungsdashboard für Deutsche Verrechnungsstelle Mitelland (DVMi)
-short_description: Ruby Consulting für collumino GmbH
+short_description: Ruby Consulting für Collumino GmbH
 image_path: /images/dvmportal/collumino.png
 layout: project
 position: 14
@@ -36,10 +36,10 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>collumino GmbH entwickelt hochstehende Applikationen im Web- sowie Mobilbereich. Für ein Finanzportal der Deutschen Verrechnungsstelle Mittelland brauchte collumino GmbH
+            <p>Collumino GmbH entwickelt hochstehende Applikationen im Web- sowie Mobilbereich. Für ein Finanzportal der Deutschen Verrechnungsstelle Mittelland brauchte collumino GmbH
             zusätzliche Ruby on Rails Entwickler, welche dem bestehenden Team unter die Arme greifen können.</p>
             <p>Das Ziel der Partnerschaft ist es, das Entwicklungsteam kurzfristig und ohne Verpflichtungen für
-            collumino GmbH zu unterstützen. </p>
+            Collumino GmbH zu unterstützen. </p>
         </div>
     </div>
 
@@ -47,9 +47,9 @@ slider:
         <h2>Lösung</h2>
 
         <div>
-            <p>Die Renuo GmbH hat collumino GmbH während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
+            <p>Die Renuo GmbH hat Collumino GmbH während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
             sowohl vor Ort wie auch remote im Projekt mitwirken. Die Aufgaben waren mehrheitlich im Frontend-Bereich angesiedelt und erforderten fundierte Kenntnisse in Ruby on Rails, HTML, CSS, JavaScript sowie highchart. Die Projektleitung sowie dessen Administration
-            bleiben bei collumino GmbH.</p>
+            bleiben bei Collumino GmbH.</p>
         </div>
     </div>
 
@@ -57,7 +57,7 @@ slider:
         <h2>Auftraggeber</h2>
 
         <div>
-            <p>collumino GmbH<br>
+            <p>Collumino GmbH<br>
             Industriestrasse 78<br>
             4600 Olten<br></p>
             <p>Ansprechperson: Ettore Weilenmann<br>
