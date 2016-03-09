@@ -31,7 +31,7 @@ tags: ['project']
 
         <div>
             Trotz der noch jungen Geschichte der Renuo GmbH steckt viel Erfahrung in den Personen der Firma.
-            Alle Mitarbeiter verfügen über eine langjährige Entwicklungserfahrung in diversen Webtechnologien an
+            Unsere Mitarbeiter verfügen über eine langjährige Entwicklungserfahrung in diversen Webtechnologien an
             vorderster Front bzw. in der Führung und Begleitung von IT und Webprojekten.
         </div>
     </div>
@@ -61,7 +61,7 @@ tags: ['project']
         <h2>Junges und ehrgeiziges Team</h2>
 
         <div>
-            Als junges Team von über zehn Personen sind wir hungrig und bereit, für jeden Kunden die Extrameile zu gehen.
+            Als junges und sehr engagiertes Team sind wir hungrig und bereit, für jeden Kunden die Extrameile zu gehen, denn nur Ihr Erfolg ist unser Erfolg.
             Nicht ein einseitiger Profit, sondern die langfristige Zufriedenstellung des Kunden liegt im Zentrum.
         </div>
     </div>
@@ -75,7 +75,7 @@ tags: ['project']
             </h1>
         </div>
         <p>Falls Sie vor Ihrer ersten Kontaktaufnahme mit uns ein NDA möchten, unterschreiben wir dieses gerne. Sie können hierzu <%- @link_to "unsere Vorlage", "/pdfs/nda.pdf" %> ausfüllen und diese zurück an <a href="mailto:info@renuo.ch">info@renuo.ch</a> senden. Wir haben eine Politik, dass wir alle Daten vertraulich behandeln und keine Geschäftsideen von potentiellen Kunden selber umsetzen. Wir halten an dieser Politik fest, unabhängig davon, ob ein NDA vorhanden ist oder nicht. Wir kommunizieren auch jegliche Interessenkonflikte, sobald wir uns diesen bewusst sind.</p>
-		<p>Vielen Dank, dass Sie Renuo berücksichtigen.</p>
+		    <p>Vielen Dank, dass Sie Renuo berücksichtigen.</p>
         <br/>
     </div>
 </div>
