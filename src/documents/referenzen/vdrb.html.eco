@@ -1,11 +1,11 @@
 ---
 title: Webbasierte Mitgliederverwaltung
-box_name: Online Mitglieder-Datenbank und Spesen-Abrechnungssystem
-box_description: für den Verband Schweizerischer Imker
-short_description: für VDRB (Verband Deutschschweizerischer und Rätoromanischer Bienenfreunde)
+box_name: Verein Dt. Schweizer und Rät. Bienenfreunde
+box_description: Online Mitglieder-Verzeichnis und Abrechnungssystem
+short_description: für den Verein Deutschschweizerischer und Rätoromanischer Bienenfreunde
 image_path: /images/vdrb/vdrb.jpg
 layout: project
-position: 5
+position: 10
 tags: ['project']
 slider:
     -
@@ -34,8 +34,6 @@ slider:
         title: Lohnausweise automatisch erstellen
         subtitle: Bei mehreren tausend Spesen werden die Lohnausweise automatisch generiert. Natürlich kann jeder Nutzer frei entscheiden, wie mit der AHV vorzugehen ist. Dies wird im Lohnausweis berücksichtigt.
 ---
-<br>
-
 
 <div class="row-fluid">
     <div class="span4">
@@ -70,7 +68,7 @@ slider:
         <h2>Auftraggeber</h2>
 
         <div>
-            <p>Verband Deutschschweizerischer und Rätoromanischer Bienenfreunde VDRB<br>
+            <p>Verein Deutschschweizerischer und Rätoromanischer Bienenfreunde VDRB<br>
 			Oberbad 16<br>
             9050 Appenzell<br></p>
 
@@ -80,7 +78,7 @@ slider:
             <p>Link: n/a (interne Tools)</p>
 			<p>Die Partnerschaft dauert von Mai 2014 bis heute.</p>
 
-            <div><%- @image_tag '/vdrb/vdrb-logo.jpg' %></div>
+            <div><%- @image_tag 'logoslider/vdrb-logo.jpg' %></div>
         </div>
     </div>
 </div>

@@ -71,8 +71,8 @@ position: 4
         <div><%- @team_image_tag 'lukas', 'Lukas Elmer' %></div>
         <h3>Lukas Elmer</h3>
 
-        <div class="job-title normal">Web-Entwickler und Gründer, M.Sc. ETH, <a target="_blank" href="http://www.pk19.ch/">Experte PK19</a></div>
-        <div class="job-title break">Web-Entwickler und Gründer<br>M.Sc. ETH</div>
+        <div class="job-title normal">Web-Entwickler und Gründer, M.Sc. ETH CS, B.Sc. HSR CS, <a target="_blank" href="http://www.pk19.ch/">Experte PK19</a></div>
+        <div class="job-title break">Web-Entwickler und Gründer<br>M.Sc. ETH CS, B.Sc. HSR CS, <a target="_blank" href="http://www.pk19.ch/">Experte PK19</a></div>
         <div class="email-address"><a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></div>
 
         <!--<blockquote>Mein Ziel ist es, in enger Zusammenarbeit mit dem Kunden solide Software zu entwickeln, die
@@ -135,8 +135,8 @@ position: 4
         <div><%- @team_image_tag 'diego', 'Diego Steiner' %></div>
         <h3>Diego P. Steiner</h3>
 
-        <div class="job-title normal">Web-Entwickler und Gründer, B.Sc. HSR</div>
-        <div class="job-title break">Web-Entwickler und Gründer<br>B.Sc. HSR</div>
+        <div class="job-title normal">Web-Entwickler und Gründer, B.Sc. HSR CS</div>
+        <div class="job-title break">Web-Entwickler und Gründer<br>B.Sc. HSR CS</div>
         <div class="email-address"><a href="mailto:diego.steiner@renuo.ch">diego.steiner@renuo.ch</a></div>
 
         <!--<blockquote>Ich möchte, dass der Kunde mit meiner Arbeit höchst zufrieden ist. Zusätzlich möchte ich
@@ -252,7 +252,7 @@ position: 4
         <div><%- @team_image_tag 'alessandro', 'Alessandro Rodi' %></div>
         <h3>Alessandro Rodi</h3>
 
-        <p>Web-Entwickler, B.Sc.<br/>
+        <p>Web-Entwickler, B.Sc. CS<br/>
 
         <br/>
 
@@ -302,7 +302,7 @@ position: 4
         <div><%- @team_image_tag 'josua', 'Josua Schmid' %></div>
         <h3>Josua Schmid</h3>
 
-        <p>Web-Entwickler, B.Sc. HSR<br/>
+        <p>Web-Entwickler, B.Sc. HSR CS<br/>
 
         <br/>
 
@@ -429,7 +429,7 @@ position: 4
     <div><%- @team_image_tag 'roger', 'Roger Rüttimann' %></div>
     <h3>Roger Rüttimann</h3>
 
-    <p>Web-Entwickler, B. Sc.<br/>
+    <p>Web-Entwickler, B.Sc. ZFH CS<br/>
 
     <br/>
 
@@ -530,7 +530,7 @@ position: 4
     <div><%- @team_image_tag 'simon', 'Simon Huber' %></div>
     <h3>Simon Huber</h3>
 
-    <p>Web-Entwickler, B. Sc. HSR<br/>
+    <p>Web-Entwickler, B.Sc. HSR CS<br/>
 
     <br/>
 
@@ -571,7 +571,7 @@ position: 4
         <div><%- @team_image_tag 'richard', 'Richard Bützer' %></div>
         <h3>Richard Bützer</h3>
 
-        <p>Web-Entwickler, B. Sc. ETH<br/>
+        <p>Web-Entwickler, B.Sc. ETH CS<br/>
 
         <br/>
 
@@ -613,6 +613,58 @@ position: 4
     </div>
 
     <div class="span3 team-member">
+        <div><%- @team_image_tag 'martin', 'Martin Čavoj' %></div>
+        <h3>Martin Čavoj</h3>
+
+        <p>Web-Entwickler, M.Sc. CS<br/>
+
+        <br/>
+
+        <div data-collapse>
+            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2016-jetzt</th>
+                        <td><strong>Web-Entwickler</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2005-2016</th>
+                        <td><strong>CTO & Executive</strong> bei Panacom</td>
+                    </tr>
+                    <tr>
+                        <th>2013-2014</th>
+                        <td><strong>IT Security and Information Risk Management Analyst</strong> bei der ING Bank</td>
+                    </tr>
+                    <tr>
+                        <th>2011-2013</th>
+                        <td><strong>Master Studium Informatik mit Spezialisierung Richtung Sicherheit</strong> an der Slowakischen Technischen Universität Bratislava</td>
+                    </tr>
+                    <tr>
+                        <th>2008-2011</th>
+                        <td><strong>Bachelor Studium Informatik mit Spezialisierung Richtung Sicherheit</strong> an der Slowakischen Technischen Universität Bratislava</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="profile-social-links">
+            <a href="https://github.com/macav" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+    </div>
+</div>
+
+
+</div>
+
+<div class="row-fluid">
+    <div class="span3 team-member">
         <div><%- @team_image_tag 'zora', 'Zora Fuchs' %></div>
         <h3>Zora Fuchs</h3>
 
@@ -646,11 +698,9 @@ position: 4
         </div>
         <div class="profile-social-links">
             <a href="https://github.com/zorafuchs" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-        </div>
     </div>
 </div>
 
-<div class="row-fluid">
     <div class="span3 team-member">
         <div><%- @team_image_tag 'patrik', 'Patrik Peng' %></div>
         <h3>Patrik Peng</h3>
@@ -692,10 +742,44 @@ position: 4
         </div>
         <div class="profile-social-links">
             <a href="https://github.com/patrikpeng" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-        </div>
     </div>
 </div>
 
+     <div class="span3 team-member">
+        <div><%- @team_image_tag 'alicia', 'Alicia Rüegg' %></div>
+        <h3>Alicia Rüegg</h3>
+
+        <p>Web-Entwicklerin<br/>
+
+        <br/>
+
+        <div data-collapse>
+            <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Jahr</th>
+                        <th>Aktivität</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>2016-jetzt</th>
+                        <td><strong>Praktikantin</strong> bei der Renuo GmbH</td>
+                    </tr>
+                    <tr>
+                        <th>2011-2016</th>
+                        <td><strong>Master Studium Sekundarstufe I</strong> an der Pädagogischen Hochschule Zürich</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="profile-social-links">
+            <a href="https://github.com/aliciarueegg" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+        </div>
+    </div>
 
 <div class="row-fluid page-header-element page-section">
     <div class="span12">

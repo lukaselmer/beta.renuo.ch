@@ -1,0 +1,56 @@
+---
+title: Kreditkarten-Bestellformular
+box_name: Accarda AG
+box_description: Kreditkarten-Bestellformular für Manor
+short_description: für Manor
+image_path: /images/manor/manor.jpg
+layout: project
+position: 4
+tags: ['project']
+slider:
+    -
+        image: /images/manor/manor-start.jpg
+        image_alt: Das Bestell-Formular für die Manor Karte
+        title: Per Mausklick zur Manor Karte
+        subtitle: Über unser Formular kann sich der Nutzer eine Manor-Kreditkarte mit einem Limit von CHF 499.- bestellen und nach wenigen Minuten per App zum Bezahlen einsetzen.
+---
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Accarda beauftragte uns für die grösste Schweizer Warenhauskette Manor ein Online-Formular zur Kreditkarten-Bestellung zu entwickeln.</p>
+            <p>Dabei soll der Kunde die Kreditkarte direkt nach einer Autorisierung elektronisch nutzen können und ist nicht auf einen Postversand angewiesen. Die Kreditkarte existiert nicht physisch, sondern nur in Form eines Codes auf einer App.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Umsetzung</h2>
+
+        <div>
+            <p>Wir entwickelten das Formular mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und bindeten es via iFrame auf der Webseite von Manor ein.</p>
+			<p>Nachdem ein Kunde das Formular vollständig ausgefüllt hat, werden die Daten in wenigen Minuten auf Richtigkeit und der Kunde auf Kreditwürdigkeit überprüft. Nach erfolgreicher Autorisierung erhält der Kunde nur einige Augenblicke später einen Code auf seine App, welcher ihn zu Einkäufen bis zu CHF 499.- berechtigt.</p>
+			<p>Bei diesem Projekt war es besonders wichtig, eine sehr sichere Verschlüsselung der Daten zu entwickeln, da man beim Ausfüllen des Formulars unter anderem den Code für die Kreditkarte preisgibt. Auch die Einbindung des iFrames brauchte besondere Beachtung. Eine einwandfreie Funktionalität in jedem Browser und auf jedem Gerät ist nicht selbstverständlich.</p>
+      <p>Das Formular ging im November 2015 live und wurde in den ersten drei Tagen bereits von mehr als 5'000 Nutzern ausgefüllt.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Accarda AG<br>
+			   Birkenstrasse 21<br>
+               8306 Brüttisellen<br></p>
+
+            <p>Ansprechpersonen: Stefan Schurgast und Mirko Theodolz<br>
+               Telefon  +41 44 805 56 56</p>
+
+            <p>Link: <a href="http://www.manor.ch/u/manorkarte-antrag" target="_blank">http://www.manor.ch/u/manorkarte-antrag</a></p>
+			<p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von Juli bis November 2015.</p>
+
+            <div><%- @image_tag 'logoslider/accarda_logo.png' %></div>
+        </div>
+    </div>
+</div>

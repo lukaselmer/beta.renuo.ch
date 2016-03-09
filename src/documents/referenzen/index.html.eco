@@ -25,7 +25,7 @@ position: 3
 <%- '<div class="row-fluid">' if((index % 4) == 0) %>
 <div class="span3">
     <a href="<%- page.url %>" class="project-box-link">
-        <div class="project-box">
+        <div class="project-box<%- ' milky' if index > 0 %>">
             <img src="<%- page.image_path %>"/>
 
             <div class="short-description">

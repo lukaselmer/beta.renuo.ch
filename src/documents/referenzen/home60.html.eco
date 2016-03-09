@@ -1,0 +1,56 @@
+---
+title: Suchportal home60.ch
+box_name: Goos GmbH
+box_description: Suchportal home60 für Wohnangebote im Alter
+short_description: mit über 1'500 Wohnangeboten für den Ruhestand
+image_path: /images/home60/home60.jpg
+layout: project
+position: 9
+tags: ['project']
+slider:
+    -
+        image: /images/home60/home60-start.jpg
+        image_alt: Home60 ist ein Suchportal mit über 1'500 Alters- oder Pflegeheime, Seniorenresidenzen und Alterswohngemeinschaften.
+        title: Auf home60.ch finden Nutzer den idealen Ort für ihren Ruhestand.
+        subtitle: Home60 ist ein Suchportal mit über 1'500 Alters- oder Pflegeheime, Seniorenresidenzen und Alterswohngemeinschaften.
+    -
+        image: /images/home60/home60-responsive.jpg
+        image_alt: Responsive Design
+        title: Responsive Design
+        subtitle: Die ganze Plattform ist responsive und passt sich auf alle mobilen Geräte an.
+---
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Die Goos GmbH beauftragte uns, ein neues Suchportal für Alters- oder Pflegeheime, Seniorenresidenzen und Alterswohngemeinschaften zu entwickeln.</p>
+            <p>Ziel war es, eine übersichtliche Webseite zu erstellen, die die Suche nach dem idealen Ort für den Ruhestand so einfach wie möglich gestaltet.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Umsetzung</h2>
+
+        <div>
+            <p>Home60 wurde mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> entwickelt. Die Bilder der einzelnen Heime und Residenzen werden über ein Content Delivery Network (CDN) ausgeliefert, was die Webseite beschleunigt und die Ladezeiten verkürzt.</p>
+			<p>Die Suche kann nach Örtlichkeit und Kategorie eingegrenzt werden. In den Suchergebnissen werden alle wichtigen Kontaktdaten des Wohnobjekts angezeigt. Mittels einem Kontaktformular kann direkt Kontakt mit dem jeweiligen Anbieter aufgenommen werden.</p>
+        <p>Besonders herausfordernd bei diesem Projekt war die Implementierung der Geolocations der Häuser und die Eingrenzung der Suche mit einem Suchradius von einem bestimmten Ort aus.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Goos GmbH<br>
+			   Sürchstrasse 17<br>
+               8463 Benken ZH<br></p>
+
+            <p>Link: <a href="https://www.home60.ch/" target="_blank">https://www.home60.ch/</a></p>
+			<p>Die Partnerschaft besteht seit Oktober 2014.</p>
+
+        </div>
+    </div>
+</div>

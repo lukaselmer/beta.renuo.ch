@@ -3,9 +3,9 @@ title: Schuler Auktionen
 box_name: Schuler Auktionen Zürich
 box_description: Portal zur Darstellung tausender Auktionsobjekte
 short_description: Komplexer Webauftritt zur Darstellung aller Auktionsobjekte und mehr
-image_path: /images/schuler/schuler.jpg
+image_path: /images/schuler/schuler.png
 layout: project
-position: 3
+position: 9
 tags: ['project']
 slider:
     -
@@ -31,7 +31,7 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Durch die Übernahme der Firma HotFeet GmbH im Juli 2013 durften wir die Betreuung und Weiterentwicklung 
+            <p>Durch die Übernahme der Firma HotFeet GmbH im Juli 2013 durften wir die Betreuung und Weiterentwicklung
             des Webauftritts der Firma Schuler Auktionen AG übernehmen.</p>
             <p>2015 ist der ganze Webauftritt erneuert worden, um technische Mängel zu korrigieren sowie heutigen Ansprüchen gerecht zu werden.</p>
         </div>
@@ -61,7 +61,7 @@ slider:
             Tel: +41 43 399 70 10</p>
             <p>Link: <a href="https://www.schulerauktionen.ch" target="_blank">https://www.schulerauktionen.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
-            <div><%- @image_tag '/schuler/schuler_logo.png' %></div>
+            <div><%- @image_tag 'logoslider/schuler_logo.png' %></div>
         </div>
     </div>
 </div>

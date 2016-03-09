@@ -1,11 +1,11 @@
 ---
 title: Online Shop studentbooks.ch
-box_name: Online Shop studentbooks.ch
-box_description: Performance bei über 18 Mio. Artikeln
+box_name: Studentbooks AG
+box_description: Online Shop studentbooks.ch
 short_description: Ein Schweizer Online Shop mit über 18 Mio. Artikeln.
 image_path: /images/studentbooks/studentbooks.png
 layout: project
-position: 35
+position: 20
 tags: ['project']
 slider:
     -
@@ -32,7 +32,7 @@ slider:
 
         <div>
             <p>Mit hohen Nutzerzahlen im Hintergrund steht eine gute Skalierung und eine starke Suche im Fokus.</p>
-            <p>Speziell auf Studenten ausgerichtet stellt Studentbooks ein Onlineshop für verschiedene Artikel, speziell 
+            <p>Speziell auf Studenten ausgerichtet stellt Studentbooks ein Onlineshop für verschiedene Artikel, speziell
             Bücher, zur Verfügung.</p>
             <p>Um den administrativen Aufwand zu minimieren, sind
             <ul>
@@ -65,7 +65,7 @@ slider:
             Tel: +41 52 209 00 20</p>
             <p>Link: <a href="https://www.studentbooks.ch" target="_blank">https://www.studentbooks.ch</a></p>
             <p>Die Partnerschaft dauert von April 2012 bis heute.</p>
-            <div><%- @image_tag '/studentbooks/studentbooks_logo.jpg' %></div>
+            <div><%- @image_tag 'logoslider/studentbooks_logo.jpg' %></div>
         </div>
     </div>
 </div>

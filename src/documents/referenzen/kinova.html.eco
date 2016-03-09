@@ -1,16 +1,16 @@
 ---
 title: Kinova Online Küchen
-box_name: Online Küchen-Konfigurator und Shop
-box_description: für Kinova Küchen GmbH
+box_name: Kinova Küchen GmbH
+box_description: Online Küchen-Konfigurator und Shop
 short_description: Online Küchen-Konfigurator und Shop
 image_path: /images/kinova/kinova.png
 layout: project
-position: 10
+position: 5
 tags: ['project']
 slider:
     -
         image: /images/kinova/sortiment.png
-        image_alt: Grosses Sortiment an Küchen 
+        image_alt: Grosses Sortiment an Küchen
         title: Grosses Sortiment an Küchen
         subtitle: kinova.ch bietet Ihnen ein grosses Sortiment an Küchen! Die Prdodukte lassen sich über Kategorien auffinden, welche sich vom Kunden bequem und simpel administrieren lassen!
     -
@@ -35,8 +35,6 @@ slider:
         subtitle: Damit die Inhalte möglichst einfach editiert werden können, setzen wir in der Bearbeitung ein Inline-Editing ein. Dieses lässt den Kunden die Inhalte so einfach bearbeiten, wie man es von einem normalen Textbearbeitungsprogramm (z.B. Word) kennt. Es sind keine speziellen Kenntnisse nötig!
 
 ---
-<br>
-
 
 <div class="row-fluid">
     <div class="span4">
@@ -53,7 +51,7 @@ slider:
 
         <div>
             <p>Auf der Grundlage der Ruby on Rails basierenden Open Source <a href="http://spreecommerce.com/" target="_blank">Shoplösung Spree</a> entwickelten wir für den Kunden einen Online Shop, welcher sowohl die Möglichkeit bietet, Produkte mit zahlreichen Attributen und Fotos einfach zu erfassen, als auch diverse individuelle Optionen pro Küche ermöglicht. Der Kunde kann in der Grundeinstellung zahlreiche Optionswerte wie Farben, Arbeitsflächen, Elektrogerätesets etc. erfassen und diese auf individueller Küchenebene inkl. individuellem Aufpreis selektieren. Diese Lösung gibt es so nicht und wurde individuell für den Kunden entwickelt.</p>
-			<p>Damit nebst dem eigentlichen Shop ein grosses Informationsportal aufgebaut werden kann, haben wir in den Shop ein individuelles Micro-CMS integriert. Mittels Inline-Editing kann der Kunde die Inhalte auf der Seite direkt editieren und sieht diese stets genauso, wie sie auch online erscheinen. Nebst Bildern sowie Downloads steht dem Kunden auch die ganze Seitenverwaltung (Seiten und Menus erstellen) inkl. Drag & Drop Editor für die Sortierung zur Verfügung.</p>			
+			<p>Damit nebst dem eigentlichen Shop ein grosses Informationsportal aufgebaut werden kann, haben wir in den Shop ein individuelles Micro-CMS integriert. Mittels Inline-Editing kann der Kunde die Inhalte auf der Seite direkt editieren und sieht diese stets genauso, wie sie auch online erscheinen. Nebst Bildern sowie Downloads steht dem Kunden auch die ganze Seitenverwaltung (Seiten und Menus erstellen) inkl. Drag & Drop Editor für die Sortierung zur Verfügung.</p>
 			<p>Die Seite ist grundsätzlich responsiv, wobei der Optimierungsfokus auf Tablets und nicht auf Smartphones liegt. Das Design stammt von unserer Partnerfirma <a href="/web-entwicklung/design">Webeo GmbH</a>.</p>
 			<p>Im laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="/web-entwicklung/betrieb/">diversen Monitorings</a> und <a href="/pdfs/renuo_adwords.pdf" target="_blank">im Bereich online Werbung (Google AdWords)</a>.</p>
         </div>
@@ -73,7 +71,7 @@ slider:
             <p>Link: <a href="https://www.kinova.ch" target="_blank">https://www.kinova.ch</a></p>
 			<p>Die Partnerschaft dauert von Februar 2014 bis heute</p>
 
-            <div><%- @image_tag '/kinova/kinova_logo.png' %></div>
+            <div><%- @image_tag 'logoslider/kinova_logo.png' %></div>
         </div>
     </div>
 </div>

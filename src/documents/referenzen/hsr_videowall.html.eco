@@ -1,7 +1,7 @@
 ---
 title: HSR Videowall
-box_name: HSR Videowall
-box_description: Machbarkeitsstudie und Prototyp
+box_name: Hochschule für Technik Rapperswil
+box_description: Machbarkeitsstudie und Prototyp einer Videowall
 short_description: Grosse Monitorkonstellation, welche körpergesteuert ist
 long_description: Dieses Projekt wurde im Rahmen einer Bachelorarbeit durchgeführt.
 image_path: /images/videowall/videowall.png
@@ -17,7 +17,7 @@ tags: ['project-inactive']
 
         <div>
             <p>Grosse Monitorkonstellationen bieten die Möglichkeit, Inhalte auf attraktive und imposante Weise zu
-                präsentieren. Mittels Microsoft Kinect ergibt sich eine neue Art der Steuerung:Eine Anwendung kann mit
+                präsentieren. Mittels Microsoft Kinect ergibt sich eine neue Art der Steuerung: Eine Anwendung kann mit
                 Körperbewegungen anstatt Tastatur, Maus oder Touch bedient werden. Die Vereinigung von einer Monitorwand
                 und Kinect – nachfolgend als Videowall bezeichnet – bietet eine neuartige Präsentations- und
                 Interaktionsmöglichkeit.</p>
@@ -59,7 +59,7 @@ tags: ['project-inactive']
 
             <p>Die Studie wurde durch eine Bachelor Arbeit während des Frühjahrs 2012 erstellt.</p>
 
-            <div><%- @image_tag '/videowall/hsr_logo.jpg' %></div>
+            <div><%- @image_tag 'logoslider/hsr_logo.jpg' %></div>
         </div>
     </div>
 </div>
