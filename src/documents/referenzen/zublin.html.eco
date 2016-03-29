@@ -1,0 +1,60 @@
+---
+title: M. Züblin AG
+box_name: M. Züblin AG
+box_description: Betreuung und Weiterentwicklung der Webseite
+short_description: Komplexer Webauftritt mit mehreren hundert Produkten, Kategorien und mehreren Sprachen
+image_path: /images/zublin/zublin.png
+layout: project
+position: 19
+tags: ['project']
+slider:
+    -
+        image: /images/zublin/uebersicht.png
+        image_alt: "Produkt Übersicht"
+        title: "Produkt Übersicht"
+        subtitle: "Die hochgeladenen Produkte werden automatisch innerhalb ihrer zugewiesenen Kategorien aufgelistet"
+    -
+        image: /images/zublin/francais.png
+        image_alt: "Französisches Beispiel"
+        title: "Mehrsprachigkeit"
+        subtitle: "Der Webauftritt ist mehrsprachfähig und wird mittels Cookie gespeichert, sodass die Sprachwahl im Hintergrund gespeichert wird."
+---
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Durch die Übernahme der Firma HotFeet GmbH im Juli 2013 durften wir die Betreuung und Weiterentwicklung
+            des Webauftritts der Firma M. Züblin AG übernehmen.</p>
+            <p>Es ist unser Anspruch, M. Züblin AG in sämtlichen IT-Belangen zu unterstützen. Der
+            Schwerpunkt liegt in einer effizienten Webapplikation, welche die internen Prozesse unterstützt sowie
+            von den heute verfügbaren Technologien Gebrauch macht.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Produkt</h2>
+
+        <div>
+            <p>Die Webseite des Elektro-Grosshandels M. Züblin AG birgt ein CMS, mit welchem sie ihre Produkte eigenmächtig verwalten und anpassen können. Des Weiteren sind zahlreiche Download-Bereiche vorhanden, welche z. T. mit Formularen verknüpft sind. Zusätzlich ist die ganze Webseite in mehreren Ländern (D, A, CH, F, PL) und Sprachen (d, f, pl) verfügbar. </p>
+            <p>Die Renuo GmbH unterhält die Webseite mit kleineren Anpassungen in diversen Bereichen. Zusätzlich wird ein neuer Webauftritt mit Anbindung an das ERP-System konzeptioniert. Die multinationale Aktivität der Firma M. Züblin AG macht dieses Vorhaben umso spannender. </p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>M. Züblin AG<br>
+            Neue Winterthurerstrasse 30<br>
+            8304 Wallisellen<br></p>
+            <p>Ansprechperson: Daniel Winiger<br>
+            Tel: +41 44 878 22 22</p>
+            <p>Link: <a href="http://www.zublin.ch" target="_blank">http://www.zublin.ch</a></p>
+            <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
+            <div><%- @image_tag 'logoslider/zublin_logo.png' %></div>
+        </div>
+    </div>
+</div>
