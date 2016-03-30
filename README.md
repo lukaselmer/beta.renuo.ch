@@ -6,6 +6,7 @@ Requirements:
 * nodejs-legacy (linux only?)
 * nvm (https://github.com/creationix/nvm)
 * node-sass (https://github.com/sass/node-sass)
+* gem install sass
 
 
 Troubleshooting: 
