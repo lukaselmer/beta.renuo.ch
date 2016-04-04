@@ -34,7 +34,7 @@ slider:
         <h2>Umsetzung</h2>
 
         <div>
-            <p>Wir realisierten das Backend der Jumpo App mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und JSON REST APIs, welche die Kommunikation zwischen den Kassensystemen von Jumbo und der App ermöglichen. Die App fungiert als Kundenkarte und kann bei jedem Einkauf zum Sammeln von Rabatten eingesetzt werden. Weiter gibt es in der App die Funktion eines Glücksrad, mit dem registrierte und nicht-registrierte Nutzer Bons gewinnen, welche sie mit der App einlösen können.</p>
+            <p>Wir realisierten das Backend der Jumpo App mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und JSON REST APIs, welche die Kommunikation zwischen den Kassensystemen von Jumbo und der App ermöglichen. Die App fungiert als Kundenkarte und kann bei jedem Einkauf zum Sammeln von Rabatten eingesetzt werden. Weiter gibt es in der App die Funktion eines Glücksrades, mit dem registrierte und nicht-registrierte Nutzer Bons gewinnen, welche sie mit der App einlösen können.</p>
 			      <p>Die grösste Herausforderung beim Entwickeln bestand darin, unterschiedliche Regeln für die verschiedenen Ausnahmen, die beim Einkauf und Sammeln der Rabatte auftreten können, zu erstellen. Die App funktioniert, egal ob doppelte Rabatte, Discounts, Rundungen oder Rückgaben berücksichtigt werden müssen.</p>
 				<p>In den ersten drei Monaten nach der Lancierung wurde die App bereits mehr als 7'000 Mal installiert.</p>
 				<p>Das Frontend bzw. das Design der App wurde von einer Drittfirma ausgeführt.</p>
