@@ -288,6 +288,65 @@ body {
   }
 }
 
+.customer-survey {
+  width: 79%;
+  min-height: 1265px;
+}
+
+@media (max-width: 950px) {
+  .customer-survey {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .customer-survey {
+    min-height: 1359px;
+  }
+}
+
+@media (max-width: 450px) {
+  .customer-survey {
+    min-height: 1415px;
+  }
+}
+
+@media (max-width: 350px) {
+  .customer-survey {
+    min-height: 1697px;
+  }
+}
+
+.gettogethers-registration {
+  width: 79%;
+  min-height: 1025px;
+}
+
+@media (max-width: 950px) {
+  .gettogethers-registration {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .gettogethers-registration {
+    min-height: 1125px;
+  }
+}
+
+@media (max-width: 450px) {
+  .gettogethers-registration {
+    min-height: 1185px;
+  }
+}
+
+@media (max-width: 350px) {
+  .gettogethers-registration {
+    min-height: 1485px;
+  }
+}
+
+
 .new-office-registration {
   width: 79%;
   min-height: 1320px;
