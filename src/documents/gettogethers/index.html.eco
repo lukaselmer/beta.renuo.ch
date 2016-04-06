@@ -22,13 +22,38 @@ position:
 
 <div class="row-fluid page-section" style="margin-top: 15px;">
     <div class="span12">
+                <h2>Einladung</h2>
         <p>Wir laden Sie und Ihre Mitarbeitenden herzlich zu den Renuo Get-togethers 2016 ein!</p>
-        <p>Bei erfrischenden Getränken und leckeren Köstlichkeiten erfahren Sie bei unserer Short Presentation News und Trends im Online Bereich.
+        <p>Bei erfrischenden Getränken und kleinen Köstlichkeiten erfahren Sie an unseren Kurzreferaten News und Trends aus der Onlinewelt.
         Tauschen Sie sich anschliessend im Gespräch mit uns und anderen Kunden über Ihre Erfahrungen aus. Wir freuen uns auf Sie!</p>
     </div>
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Datum</th>
+      <th>Thema</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mittwoch, 15. Juni 2016</td>
+      <td>Datenschutz &amp; Sicherheit im Web</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Donnerstag, 29. September 2016</td>
+      <td>Was bringt mir SEO &amp; SEA?</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Dienstag, 15. November 2016</td>
+      <td>Tech und Online Trends 2017</td>
+    </tr>
+  </tbody>
+</table>
 </div>
-
-
 <div class="row-fluid page-section" style="margin-top: 15px;">
   <iframe src="https://docs.google.com/a/renuo.ch/forms/d/1cHhnXyfJNHe3z64OVPVoc4U2xhVA8JXOYV38H_uMgI0/viewform?embedded=true"
           class="gettogethers-registration" frameborder="0" marginheight="0" marginwidth="0">Wird geladen...
