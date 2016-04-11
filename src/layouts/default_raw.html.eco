@@ -77,6 +77,12 @@
     ga('send', 'pageview');
   </script>
   <script type="text/javascript" async defer src="https://apis.google.com/js/platform.js?publisherid=116149986375247666043"></script>
+
+  <% if @document.layout == 'news': %>
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://www.renuo.ch<%= @document.image_path %>" />
+    <meta property="og:title" content="<%= @document.title %>" />
+  <% end %>
 </head>
 <body>
 
