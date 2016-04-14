@@ -25,6 +25,17 @@ position: 5
                 <%- page.content %>
             </div>
 
+
+            <% if page.image_gallery: %>
+              <div class="row-fluid" style="margin-bottom: 12px;">
+                <% for image_url in page.image_gallery: %>
+                <div class="span4">
+                  <img style="max-height: 250px;" src="<%- page.image_gallery_root %>/<%- image_url %>"/>
+                </div>
+                <% end %>
+              </div>
+            <% end %>
+
             <div>
                 <% for tag in page.tags: %>
                     <% if tag != "news": %>
