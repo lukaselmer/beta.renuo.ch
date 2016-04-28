@@ -842,7 +842,8 @@ position: 4
                 <small> Schritt um Schritt zum Ziel</small>
             </h2>
         </div>
-        <p>In den letzten Jahren hat sich die Arbeitsmethode „Scrum“ bei Internet Applikationen als leistungsstarke und agile Methode durchgesetzt, weshalb wir bereits seit 5 Jahren erfolgreich damit arbeiten.</p>
+        <p>In den letzten Jahren hat sich die Arbeitsmethode „Scrum“ bei Internet Applikationen als leistungsstarke und
+        agile Methode durchgesetzt, weshalb wir bereits seit 5 Jahren erfolgreich damit arbeiten.</p>
         <p>Statt von einem klassischen, wasserfallbasierten Arbeitsstrukturplan (Analyse, Design, Programmierung, Tests)
         wird von regelmässigen Iterationen, so genannten “Sprints”, ausgegangen. Ein Sprint besteht aus diversen
         Arbeitspaketen, welche immer vor dessen Beginn zusammen mit dem Kunden festgelegt werden und dauert jeweils 1-2
@@ -851,7 +852,9 @@ position: 4
         <p>Auf Basis des Kundenfeedbacks wird die Entwicklung laufend überprüft und angepasst. Ebenso besteht auch
         die Möglichkeit, Arbeitspakete anders zu priorisieren, neue Funktionen einzuplanen und nicht mehr benötigte
         Anforderungen fallen zu lassen.</p>
-        <p>Bei der Renuo hat sich Scrum sehr bewährt, weshalb wir voll auf diese Arbeitsmethode setzen. Weitere
+        <p>Bei der Renuo hat sich Scrum sehr bewährt. Mit klassischen Modellen haben wir die Erfahrung gemacht, dass
+        Missverständnisse in der Spezifikation, Interpretationsdifferenzen sowie weitere Ungenauigkeiten hohen
+        administrativen Aufwand verursachen, weshalb wir nicht mehr auf solche Arbeitsmethoden setzen. Weitere
         Informationen zu Scrum entnehmen Sie bitte dem entsprechenden Wikipedia-Artikel: <a href="https://de.wikipedia.org/wiki/Scrum" target="_blank">https://de.wikipedia.org/wiki/Scrum</a></p>
     </div>
 </div>
