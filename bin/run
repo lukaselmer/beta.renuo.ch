@@ -2,5 +2,4 @@
 
 source ~/.zshrc
 
-(sleep 4 && open 'http://bankentracker.dev:3000') &
-rails s -b bankentracker.dev
+jekyll s --host renuo-website.dev --open-url
