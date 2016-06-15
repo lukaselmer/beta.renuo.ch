@@ -4,11 +4,10 @@ require 'pathname'
 APP_ROOT = Pathname.new File.expand_path('../../', __FILE__)
 
 def run(name, file_which_must_not_exist = nil)
-  unless file_which_must_not_exist && File.exist?(file_which_must_not_exist)
-    puts "== #{name} =="
-    yield
-    puts
-  end
+  return if file_which_must_not_exist && File.exist?(file_which_must_not_exist)
+  puts "== #{name} =="
+  yield
+  puts
 end
 
 def install_or_update_gem(gem)
