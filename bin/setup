@@ -1,0 +1,54 @@
+#!/usr/bin/env ruby
+require 'pathname'
+
+APP_ROOT = Pathname.new File.expand_path('../../', __FILE__)
+
+def run(name, file_which_must_not_exist = nil)
+  unless file_which_must_not_exist && File.exist?(file_which_must_not_exist)
+    puts "== #{name} =="
+    yield
+    puts
+  end
+end
+
+def install_or_update_gem(gem)
+  if ENV['UPDATE']
+    system "gem install #{gem}"
+  else
+    system "which #{gem.gsub('_', '-')} || gem install #{gem}"
+  end
+end
+
+Dir.chdir APP_ROOT do
+  run 'Installing dependencies' do
+    system 'gem install bundler --conservative'
+    system 'bundle check || bundle install --jobs=3 --retry=3'
+    install_or_update_gem('pry')
+    install_or_update_gem('rubocop')
+    install_or_update_gem('reek')
+    install_or_update_gem('slim_lint')
+    install_or_update_gem('scss_lint')
+    install_or_update_gem('jekyll')
+    install_or_update_gem('filewatcher')
+  end
+
+  run 'Installing JS dependencies' do
+    system 'which tsc || npm install -g typescript'
+    system 'which tslint || npm install -g tslint'
+    system 'which typings || npm install -g typings'
+  end
+
+  #run 'Create typings' do
+  #  system 'cd app/assets && typings install'
+  #end
+
+  run 'Creating pre-commit hook link', '.git/hooks/pre-commit' do
+    system 'ln -s ../../bin/check .git/hooks/pre-commit'
+  end
+
+  run 'Setting dev host in /etc/hosts' do
+    system 'grep \'renuo-website.dev\' /etc/hosts || echo \'127.0.0.1 renuo-website.dev\' | sudo tee -a /etc/hosts'
+  end
+
+  run('Running checks') { abort('bin/check failed') unless system('bin/check') }
+end
