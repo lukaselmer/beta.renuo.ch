@@ -1,7 +1,7 @@
 ﻿--- yaml
 layout: 'default'
 title: 'News'
-description: 'Neuigkeiten von und aus der Renuo GmbH.'
+description: 'Neuigkeiten von und aus der Renuo AG.'
 isMainNavi: 1
 position: 5
 ---

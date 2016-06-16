@@ -26,7 +26,7 @@ position: 4
     <div class="span4">
             <h2>Fähigkeiten
             </h2>
-        <p>Der Fokus der Dienstleistungen von Renuo GmbH liegt in der Entwicklung von kundenspezifischen Lösungen,
+        <p>Der Fokus der Dienstleistungen von Renuo AG liegt in der Entwicklung von kundenspezifischen Lösungen,
         welche Prozesse vereinfachen und dem Endnutzer eine grösstmögliche Usability bieten. Mit Hilfe moderner
         Technologien und agilem Software Engineering stellen wir sicher, dass das Bedürfnis unseres Kunden stets
         befriedigt wird. Die Mehrzahl an realisierten Projekten liegt in der Neuentwicklung alter Systeme oder
@@ -49,7 +49,7 @@ position: 4
         <p>Im sich rasant entwickelnden Webbereich präsentieren wir uns als Team jung, frisch und dynamisch.
         Diese Werte sind nicht nur eine Voraussetzung in Softwareentwicklungsprojekten, sondern sie spiegeln
         gleichzeitig unsere Persönlichkeiten und Mentalitäten wieder.</p>
-        <p>Die Renuo GmbH wurde im Juli 2011 gegründet.</p>
+        <p>Die Renuo GmbH wurde im Juli 2011 gegründet und ist seit Juni 2016 eine Aktiengesellschaft.</p>
     </div>
 </div>
 
@@ -877,7 +877,7 @@ position: 4
                 <br><small> unsere DNA</small>
             </h2>
         </div>
-        <p>Die Renuo GmbH unterstützt <a href="http://agilemanifesto.org/iso/de/">das agile Manifest</a> und vertritt dessen Werte:</p>
+        <p>Die Renuo AG unterstützt <a href="http://agilemanifesto.org/iso/de/">das agile Manifest</a> und vertritt dessen Werte:</p>
         <ul>
             <li>Individuen und Interaktionen sind stärker zu gewichten als Prozesse und Tools.</li>
             <li>Funktionierende Software ist stärker zu gewichten als umfassende Dokumentation.</li>
