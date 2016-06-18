@@ -25,7 +25,8 @@ position:
                 <h2>Einladung</h2>
         <p>Wir laden Sie und Ihre Mitarbeitenden herzlich zu den Renuo Get-togethers 2016 ein!</p>
         <p>Bei erfrischenden Getränken und kleinen Köstlichkeiten erfahren Sie an unseren Kurzreferaten News und Trends aus der Onlinewelt.
-        Tauschen Sie sich anschliessend im Gespräch mit uns und anderen Kunden über Ihre Erfahrungen aus. Wir freuen uns auf Sie!</p>
+        Tauschen Sie sich anschliessend im Gespräch mit uns und anderen Kunden über Ihre Erfahrungen aus. Wir freuen uns auf Sie! <a
+  href="https://www.renuo.ch/pdfs/get-togethers" target="_blank">Zum Flyer</a></p>
     </div>
 <table class="table table-striped table-hover">
   <thead>
@@ -38,17 +39,17 @@ position:
   <tbody>
     <tr>
       <td>1</td>
-      <td>Mittwoch, 15. Juni 2016</td>
+      <td>Mittwoch, 15. Juni 2016, ab 17.00 Uhr</td>
       <td>Datenschutz &amp; Sicherheit im Web</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>Donnerstag, 29. September 2016</td>
+      <td>Donnerstag, 29. September 2016, ab 17.00 Uhr</td>
       <td>Was bringt mir SEO &amp; SEA?</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>Dienstag, 15. November 2016</td>
+      <td>Dienstag, 15. November 2016, ab 17.00 Uhr</td>
       <td>Tech und Online Trends 2017</td>
     </tr>
   </tbody>

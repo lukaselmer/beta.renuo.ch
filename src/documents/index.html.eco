@@ -1,7 +1,7 @@
 --- yaml
 layout: 'default'
-title: 'Renuo GmbH'
-description: 'Die Renuo GmbH ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.'
+title: 'Renuo AG'
+description: 'Die Renuo AG ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.'
 breadcrumb: 0
 technologySlider:
     -
@@ -50,7 +50,7 @@ homeSlider:
         image: /images/renuo/slider_home/project.jpg
         image_alt: Web Projekt
         title: Software Entwicklung von A-Z
-        subtitle: Die Renuo GmbH ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.
+        subtitle: Die Renuo AG ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.
     -
         image: /images/renuo/slider_home/technologien-bei-renuo.jpg
         image_alt: Web Technologien
@@ -257,7 +257,7 @@ homeSlider:
     <div>
       <div class="span4">
         <address>
-          <b>Renuo GmbH</b><br/>
+          <b>Renuo AG</b><br/>
           Industriestrasse 44<br/>
           8304 Wallisellen<br/><br/>
         </address>
