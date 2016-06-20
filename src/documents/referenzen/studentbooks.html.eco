@@ -50,7 +50,7 @@ slider:
         <div>
             <p>Die Artikel im Shop werden von verschiedenen Datenquellen täglich automatisch aktualisiert, damit immer die aktuellsten Produkte und Lieferstati angezeigt werden können. Dabei werden sowohl das ERP von Studentbooks sowie ein Drittanbieter miteinbezogen.</p>
             <p>Darüber hinaus müssen > 18 Mio. Artikel indexiert und per Volltextsuche schnell durchsucht werden können, während die Serverkosten tief gehalten werden müssen.</p>
-            <p>Für das Hosting managed die Renuo GmbH einen Linux Server, der von einem Drittanbieter physisch bereitgestellt wird. Um den Service zu überwachen, wird ein Überwachungstool von NewRelic eingesetzt. Auf diese Weise wird die Renuo GmbH sofort informiert, falls etwas nicht stimmen sollte, und kann entsprechend sofort reagieren.</p>
+            <p>Für das Hosting managed die Renuo einen Linux Server, der von einem Drittanbieter physisch bereitgestellt wird. Um den Service zu überwachen, wird ein Überwachungstool von NewRelic eingesetzt. Auf diese Weise wird die Renuo sofort informiert, falls etwas nicht stimmen sollte, und kann entsprechend sofort reagieren.</p>
         </div>
     </div>
 
