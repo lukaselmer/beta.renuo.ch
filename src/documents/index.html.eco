@@ -43,7 +43,7 @@ technologySlider:
 homeSlider:
     -
         image: /images/renuo/slider_home/team.jpg
-        image_alt: Renuo GmbH Teamfoto
+        image_alt: Renuo AG Teamfoto
         title: Wir kümmern uns von der Konzeption bis zur Wartung
         subtitle: Im Team können wir uns perfekt um ihre Bedürfnisse kümmern. Die Stärken jedes einzelnen können zu Ihren Gunsten genutzt werden. Wir sind jederzeit für Sie da.
     -
