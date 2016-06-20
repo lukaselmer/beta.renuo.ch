@@ -121,7 +121,7 @@ $ ->
       marker = new google.maps.Marker
         position: myLatlng,
         map: map,
-        title: 'Renuo GmbH',
+        title: 'Renuo AG',
         clickable: true,
 
       google.maps.event.addListener marker, 'click', () ->
