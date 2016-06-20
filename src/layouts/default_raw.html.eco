@@ -131,7 +131,7 @@
           <div>
             <div>
               <address>
-                <h5>Renuo GmbH</h5>
+                <h5>Renuo AG</h5>
                 <ul class="unstyled">
                   <li>Industriestrasse 44</li>
                   <li>8304 Wallisellen</li>
@@ -191,7 +191,7 @@
         <div class="span10">
           ©
           <script> document.write(new Date().getFullYear().toString()); </script>
-          Renuo GmbH. Alle Rechte vorbehalten.
+          Renuo AG. Alle Rechte vorbehalten.
           <%- @link_to "AGB", "/pdfs/agb.pdf" %>.
         </div>
         <div class="span2" style="text-align: right;">
