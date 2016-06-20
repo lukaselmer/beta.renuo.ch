@@ -32,7 +32,7 @@ docpadConfig =
       # When your website appears in search results in say Google, the text here will be shown underneath your website's title.
       # The website description (for SEO)
       description: """
-                   Renuo GmbH, Internet solutions
+                   Renuo AG, Internet solutions
                    """
 
       # The website keywords (for SEO) separated by commas
@@ -42,7 +42,7 @@ docpadConfig =
                 """
 
       # The website author's name
-      author: "Renuo GmbH | info@renuo.ch | http://www.renuo.ch"
+      author: "Renuo AG | info@renuo.ch | http://www.renuo.ch"
 
       # The website author's email
       email: "info@renuo.ch"
