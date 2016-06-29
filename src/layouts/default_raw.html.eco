@@ -162,10 +162,10 @@
         <div class="span4">
           <h5>Downloads</h5>
           <ul class="unstyled">
-            <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen (AGB)", "/pdfs/agb.pdf", target: "_blank" %></li>
-            <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen Hosting", "/pdfs/agbhosting.pdf", target: "_blank" %></li>
-            <li><%- @link_to "Monitoring-Services", "/pdfs/monitoring-services.pdf", target: "_blank" %></li>
-            <li><%- @link_to "Geheimhaltungs&shy;vereinbarung (NDA)", "/pdfs/nda.pdf", target: "_blank" %></li>
+            <li><a href="/pdfs/agb.pdf" target="_blank">Allgemeine Geschäfts&shy;bedingungen (AGB)</a></li>
+            <li><a href="/pdfs/agbhosting.pdf" target="_blank">Allgemeine Geschäfts&shy;bedingungen Hosting</a></li>
+            <li><a href="/pdfs/monitoring-services.pdf" target="_blank">Monitoring-Services</a></li>
+            <li><a href="/pdfs/nda.pdf" target="_blank">NDA für Anfragen</a></li>
           </ul>
         </div>
         <div class="span4 social-media">
