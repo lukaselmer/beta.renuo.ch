@@ -162,10 +162,10 @@
         <div class="span4">
           <h5>Downloads</h5>
           <ul class="unstyled">
-            <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen (AGB)", "/pdfs/agb.pdf", :target => "_blank" %></li>
-            <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen Hosting", "/pdfs/agbhosting.pdf", :target => "_blank" %></li>
-            <li><%- @link_to "Monitoring-Services", "/pdfs/monitoring-services.pdf", :target => "_blank" %></li>
-            <li><%- @link_to "Geheimhaltungs&shy;vereinbarung (NDA)", "/pdfs/nda.pdf", :target => "_blank" %></li>
+            <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen (AGB)", "/pdfs/agb.pdf", target: "_blank" %></li>
+            <li><%- @link_to "Allgemeine Geschäfts&shy;bedingungen Hosting", "/pdfs/agbhosting.pdf", target: "_blank" %></li>
+            <li><%- @link_to "Monitoring-Services", "/pdfs/monitoring-services.pdf", target: "_blank" %></li>
+            <li><%- @link_to "Geheimhaltungs&shy;vereinbarung (NDA)", "/pdfs/nda.pdf", target: "_blank" %></li>
           </ul>
         </div>
         <div class="span4 social-media">
@@ -192,10 +192,10 @@
           ©
           <script> document.write(new Date().getFullYear().toString()); </script>
           Renuo AG. Alle Rechte vorbehalten.
-          <%- @link_to "AGB", "/pdfs/agb.pdf" %>.
+          <%- @link_to "AGB", "/pdfs/agb.pdf", target: "_blank" %>.
         </div>
         <div class="span2" style="text-align: right;">
-          <a href="http://www.swissmadesoftware.org/"><img src="/images/swiss-made-software.png" alt="Logo Swiss Made Software"></a>
+          <a href="http://www.swissmadesoftware.org/" target="_blank"><img src="/images/swiss-made-software.png" alt="Logo Swiss Made Software"></a>
         </div>
       </div>
     </div>
