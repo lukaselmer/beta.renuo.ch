@@ -124,14 +124,14 @@
   <div class="container" style="padding: 100px 0 50px 10px;"></div>
 
   <%# grey: f5f5f5 e5e5e5; blue: e4eef6 D1E2F0 %>
-  <div style="background: #e4eef6; border-top: 1px solid #D1E2F0;">
+  <div class="footer--main">
     <div class="container" style="padding: 30px 0 50px 10px;">
       <div class="row-fluid">
         <div class="span4">
           <div>
             <div>
               <address>
-                <h5>Renuo GmbH</h5>
+                <h5>Renuo AG</h5>
                 <ul class="unstyled">
                   <li>Industriestrasse 44</li>
                   <li>8304 Wallisellen</li>
@@ -191,7 +191,7 @@
         <div class="span10">
           ©
           <script> document.write(new Date().getFullYear().toString()); </script>
-          Renuo GmbH. Alle Rechte vorbehalten.
+          Renuo AG. Alle Rechte vorbehalten.
           <%- @link_to "AGB", "/pdfs/agb.pdf" %>.
         </div>
         <div class="span2" style="text-align: right;">

@@ -47,7 +47,7 @@ slider:
 
         <div>
             <p>
-               Die Renuo GmbH entwickelte eine kleinere Applikation, mit welcher ein Administrator verschiedene Umfragebereiche, dazu gehörende Fragen sowie Unternehmen erfassen kann. Pro Unternehmung können verschiedene Umfragen gestartet werden. Die Resultate werden in eine Datenbank gespeichert und mit anderen erzielten Resultaten verglichen. Die Resultate sind als *.csv downloadbar und werden aber auch automatisch grafisch aubereitet und als PDF zur Verfügung gestellt.
+               Die Renuo entwickelte eine kleinere Applikation, mit welcher ein Administrator verschiedene Umfragebereiche, dazu gehörende Fragen sowie Unternehmen erfassen kann. Pro Unternehmung können verschiedene Umfragen gestartet werden. Die Resultate werden in eine Datenbank gespeichert und mit anderen erzielten Resultaten verglichen. Die Resultate sind als *.csv downloadbar und werden aber auch automatisch grafisch aubereitet und als PDF zur Verfügung gestellt.
             </p>
 			<p>
 			   Weil man annehmen kann, dass die meisten Leute die Umfragen unterwegs ausfüllen, ist der Frontend-Bereich der Seite für mobile Geräte optimiert. Damit die Umfrageresultate sicher abgespeichert sind, wird die ganze Seite verschlüsselt betrieben.
