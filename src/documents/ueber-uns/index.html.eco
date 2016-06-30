@@ -903,4 +903,22 @@ position: 4
                 <li>Neue Wege</li>
             </ul>
     </div>
+
+<div class="row-fluid page-header-element page-section">
+    <div class="span12">
+        <div class="page-header">
+            <h2>Soziale Verantwortung
+                <small> Unser Engagement für die Gesellschaft</small>
+            </h2>
+        </div>
+        <p>Die Renuo setzt seit ihrer Gründung auf Open Source Software. Dabei handelt es sich um Software,
+        die Programmierern und Entwicklern aus der ganzen Welt zur Nutzung und Weiterentwicklung zur Verfügung
+        gestellt wird. Weil wir von der Sicherheit, Stabilität und Qualität dieser Lösung überzeugt sind,
+        unterstützen wir sie mit Spenden und unserem Know-How und tragen zur Förderung und Weiterentwicklung von Open Source bei.</p>
+        <p>Darüber hinaus unterstützt die Renuo eine Vielzahl an wohltätigen Organisationen mit jährlichen Spenden. Unter den mehr als 15 verschiedenen
+        Unternehmen befinden sich unter anderem Greenpeace Schweiz, die Wikimedia Foundation und die Schweizerische Pfadistiftung. Die unterstützten Organisationen
+        werden von unseren Mitarbeitenden vorgeschlagen und ausgewählt. Im Jahr 2015 haben wir 10% des Gewinnes gespendet.</p>
+    </div>
+</div>
+
 </div>
