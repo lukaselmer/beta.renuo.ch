@@ -474,3 +474,19 @@ footer {
   text-align: center;
 }
 
+.portrait-images {
+  position: relative;
+
+  img:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+
+  &:hover {
+    img:first-child {
+      opacity: 0;
+    }
+  }
+}

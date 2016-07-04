@@ -68,7 +68,7 @@ position: 4
 
 <div class="row-fluid">
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'lukas', 'Lukas Elmer' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'lukas', 'Lukas Elmer' %><%- @team_image_tag 'lukas2', 'Lukas Elmer2' %></div>
         <h3>Lukas Elmer</h3>
 
         <div class="job-title normal">Web-Entwickler und Gründer, M.Sc. ETH CS, B.Sc. HSR CS, <a target="_blank" href="http://www.pk19.ch/">Experte PK19</a></div>
@@ -132,7 +132,7 @@ position: 4
     </div>
 
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'diego', 'Diego Steiner' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'diego', 'Diego Steiner' %><%- @team_image_tag 'diego2', 'Diego Steiner2' %></div>
         <h3>Diego P. Steiner</h3>
 
         <div class="job-title normal">Web-Entwickler und Gründer, B.Sc. HSR CS</div>
@@ -190,7 +190,7 @@ position: 4
 
 
     <div class="span3 team-member" id="samuel_steiner">
-        <div><%- @team_image_tag 'samuel', 'Samuel Steiner' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'samuel', 'Samuel Steiner' %><%- @team_image_tag 'samuel2', 'Samuel Steiner2' %></div>
         <h3>Samuel Steiner</h3>
 
         <div class="job-title normal">Managing Partner, M.A. HSG</div>
@@ -249,7 +249,7 @@ position: 4
     </div>
 
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'alessandro', 'Alessandro Rodi' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'alessandro', 'Alessandro Rodi' %><%- @team_image_tag 'alessandro2', 'Alessandro Rodi2' %></div>
         <h3>Alessandro Rodi</h3>
 
         <p>Web-Entwickler, B.Sc. CS<br/>
@@ -299,7 +299,7 @@ position: 4
 <div class="row-fluid">
 
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'josua', 'Josua Schmid' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'josua', 'Josua Schmid' %><%- @team_image_tag 'josua2', 'Josua Schmid2' %></div>
         <h3>Josua Schmid</h3>
 
         <p>Web-Entwickler, B.Sc. HSR CS<br/>
@@ -346,7 +346,7 @@ position: 4
     </div>
 
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'nicolas', 'Nicolas Eckhart' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'nicolas', 'Nicolas Eckhart' %><%- @team_image_tag 'nicolas2', 'Nicolas Eckhart2' %></div>
         <h3>Nicolas Eckhart</h3>
 
         <p>Web-Entwickler, Eidg. FZ Informatiker<br/>
@@ -386,7 +386,7 @@ position: 4
     </div>
 
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'cyril', 'Cyril Kyburz' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'cyril', 'Cyril Kyburz' %><%- @team_image_tag 'cyril2', 'Cyril Kyburz2' %></div>
         <h3>Cyril Kyburz</h3>
 
         <p>Web-Entwickler, Eidg. FZ Informatiker<br/>
@@ -426,7 +426,7 @@ position: 4
     </div>
 
     <div class="span3 team-member">
-    <div><%- @team_image_tag 'roger', 'Roger Rüttimann' %></div>
+    <div class='portrait-images'><%- @team_image_tag 'roger', 'Roger Rüttimann' %><%- @team_image_tag 'roger2', 'Roger Rüttimann2' %></div>
     <h3>Roger Rüttimann</h3>
 
     <p>Web-Entwickler, B.Sc. ZFH CS<br/>
@@ -483,7 +483,7 @@ position: 4
 
 <div class="row-fluid">
 <div class="span3 team-member">
-    <div><%- @team_image_tag 'amina', 'Amina Giger' %></div>
+    <div class='portrait-images'><%- @team_image_tag 'amina', 'Amina Giger' %><%- @team_image_tag 'amina2', 'Amina Giger2' %></div>
     <h3>Amina Giger</h3>
 
     <p>Online Marketing Consultant, HF<br/>
@@ -527,7 +527,7 @@ position: 4
 </div>
 
     <div class="span3 team-member">
-    <div><%- @team_image_tag 'simon', 'Simon Huber' %></div>
+    <div class='portrait-images'><%- @team_image_tag 'simon', 'Simon Huber' %><%- @team_image_tag 'simon2', 'Simon Huber2' %></div>
     <h3>Simon Huber</h3>
 
     <p>Web-Entwickler, B.Sc. HSR CS<br/>
@@ -568,7 +568,7 @@ position: 4
 </div>
 
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'richard', 'Richard Bützer' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'richard', 'Richard Bützer' %><%- @team_image_tag 'richard2', 'Richard Bützer2' %></div>
         <h3>Richard Bützer</h3>
 
         <p>Web-Entwickler, B.Sc. ETH CS<br/>
@@ -613,7 +613,7 @@ position: 4
     </div>
 
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'martin', 'Martin Čavoj' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'martin', 'Martin Čavoj' %><%- @team_image_tag 'martin2', 'Martin Čavoj2' %></div>
         <h3>Martin Čavoj</h3>
 
         <p>Web-Entwickler, M.Sc. CS<br/>
@@ -665,7 +665,7 @@ position: 4
 
 <div class="row-fluid">
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'zora', 'Zora Fuchs' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'zora', 'Zora Fuchs' %><%- @team_image_tag 'zora2', 'Zora Fuchs2' %></div>
         <h3>Zora Fuchs</h3>
 
         <p>Web-Entwicklerin<br/>
@@ -702,7 +702,7 @@ position: 4
 </div>
 
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'patrik', 'Patrik Peng' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'patrik', 'Patrik Peng' %><%- @team_image_tag 'patrik2', 'Patrik Peng2' %></div>
         <h3>Patrik Peng</h3>
 
         <p>Web-Entwickler<br/>
@@ -746,7 +746,7 @@ position: 4
 </div>
 
      <div class="span3 team-member">
-        <div><%- @team_image_tag 'alicia', 'Alicia Rüegg' %></div>
+        <div class='portrait-images'><%- @team_image_tag 'alicia', 'Alicia Rüegg' %><%- @team_image_tag 'alicia2', 'Alicia Rüegg2' %></div>
         <h3>Alicia Rüegg</h3>
 
         <p>Web-Entwicklerin<br/>
