@@ -247,14 +247,14 @@ homeSlider:
 
 <div class="row-fluid testimonial-quotations" style="margin-top: 30px;">
   <div class="span4">
-    <div><%- @image_tag 'logoslider/h2c-logo.png' %></div>
+    <div><%- @image_tag 'logoslider/mtextur_logo.png' %></div>
     <div class='testimonials-sentence'>
       <p>“Der Umzug unserer Plattform zu einem Schweizer Entwicklungsteam hat sich nicht nur finanziell ausgezeichnet,
       sondern er hat auch eine persönliche Vertrauensbasis ermöglicht. Wir befinden uns betreffend Technik, Beratung und
       Kommunikation in einem anderen Universum. Vielen Dank!”<br><br>April 2016</p>
     </div>
     <div><img class='testimonial-portraits' src='/images/testimonials/portrait_philipp_hauzinger.jpg' alt='Philipp Hauzinger' /></div>
-    <p>Philipp Hauzinger, <br>Geschäftsleitung mtextur</p>
+    <p>Philipp Hauzinger, <br>Geschäftsleitung mtextur.com<br><br></p>
   </div>
 
   <div class="span4">
@@ -274,7 +274,7 @@ homeSlider:
       finanzielle Aspekte, als auch die Beratung und Kompetenz stimmt.”<br><br>Mai 2016</p>
     </div>
     <div><img class='testimonial-portraits' src='/images/testimonials/portait_michi_abegg.jpg' alt='Michi Abegg' /></div>
-    <p>Michael Abegg, <br>Geschäftsleitung Schuler Auktionen</p>
+    <p>Michael Abegg, <br>Geschäftsleitung Schuler Auktionen<br><br></p>
   </div>
 </div>
 
