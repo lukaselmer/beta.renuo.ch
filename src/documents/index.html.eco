@@ -247,37 +247,34 @@ homeSlider:
 
 <div class="row-fluid testimonial-quotations" style="margin-top: 30px;">
   <div class="span4">
-    <div><%- @image_tag 'logoslider/h2c-logo.png' %></div>
+    <div><%- @image_tag 'logoslider/mtextur_logo.png' %></div>
     <div class='testimonials-sentence'>
       <p>“Der Umzug unserer Plattform zu einem Schweizer Entwicklungsteam hat sich nicht nur finanziell ausgezeichnet,
       sondern er hat auch eine persönliche Vertrauensbasis ermöglicht. Wir befinden uns betreffend Technik, Beratung und
-      Kommunikation in einem anderen Universum. Vielen Dank!”</p>
-      <p>April 2016</p>
+      Kommunikation in einem anderen Universum. Vielen Dank!”<br><br>April 2016</p>
     </div>
     <div><img class='testimonial-portraits' src='/images/testimonials/portrait_philipp_hauzinger.jpg' alt='Philipp Hauzinger' /></div>
-    <p>Philipp Hauzinger</p>
+    <p>Philipp Hauzinger, <br>Geschäftsleitung mtextur.com<br><br></p>
   </div>
 
   <div class="span4">
     <div><img src="/images/logoslider/tamedia_logo.png" alt="Logo Tamedia"></div>
     <div class='testimonials-sentence'>
       <p>“Die Renuo schafft es immer wieder, Ideen innert kürzester Zeit innovativ für uns zu realisieren. Ich schätze die
-      unkomplizierte Zusammenarbeit sehr.”</p>
-      <p>Mai 2016</p>
+      unkomplizierte Zusammenarbeit sehr.”<br><br>Mai 2016</p>
     </div>
     <div><img class='testimonial-portraits' src='/images/testimonials/portrait_samuel_reber.jpg' alt='Samuel Reber' /></div>
-    <p>Samuel Reber</p>
+    <p>Samuel Reber, <br>Stv. Leiter Digital Tages-Anzeiger und SonntagsZeitung</p>
   </div>
 
   <div class="span4">
     <div><%- @image_tag 'logoslider/schuler_logo.png' %></div>
     <div class='testimonials-sentence'>
       <p>“Ich bin froh, in der Renuo einen kompetenten und innovativen Partner gefunden zu haben, bei welchem sowohl
-      finanzielle Aspekte, als auch die Beratung und Kompetenz stimmt.”</p>
-      <p>Mai 2016</p>
+      finanzielle Aspekte, als auch die Beratung und Kompetenz stimmt.”<br><br>Mai 2016</p>
     </div>
     <div><img class='testimonial-portraits' src='/images/testimonials/portait_michi_abegg.jpg' alt='Michi Abegg' /></div>
-    <p>Michael Abegg</p>
+    <p>Michael Abegg, <br>Geschäftsleitung Schuler Auktionen<br><br></p>
   </div>
 </div>
 
