@@ -153,6 +153,12 @@ $ ->
 
 
   $(document).ready ->
+    if($("#homeSlider").length >= 1)
+      firstPageElement = $(".page-header-element:first")
+      firstPageElement.css('cursor', 'pointer')
+      firstPageElement.on "click", (e) ->
+        window.location='5jahre'
+
     $('a').on 'mouseover', ->
       href = $(this).attr('href')
       if href.length > 2 && href[0] == '/' && href[1] != '/'
