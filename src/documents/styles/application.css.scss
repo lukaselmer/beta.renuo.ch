@@ -1,3 +1,10 @@
+$screen-xs-max: 480px;
+$screen-sm-max: 767px;
+$screen-md-max: 979px;
+
+$screen-md-min: 768px;
+$screen-lg-min: 1200px;
+
 a, a:link {
   cursor: pointer;
 }
@@ -47,7 +54,7 @@ body {
   background: transparent;
 }
 
-@media (min-width: 979px) {
+@media (min-width: $screen-md-max) {
   .navbar-fixed-top .navbar-inner .container {
     .brand img {
       padding: 1px 0 1px 4px;
@@ -62,7 +69,7 @@ body {
   }
 }
 
-@media (max-width: 979px) {
+@media (max-width: $screen-md-max) {
   .navbar-fixed-top {
     margin-left: 0;
     margin-right: 0;
@@ -244,7 +251,7 @@ body {
     &.break {
       display: none;
     }
-    @media (min-width: 768px) and (max-width: 979px) {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
       &.break {
         display: block;
       }
@@ -258,7 +265,7 @@ body {
     margin-bottom: 12px;
   }
   blockquote {
-    @media (min-width: 768px) {
+    @media (min-width: $screen-md-min) {
       min-height: 130px;
     }
     @media (min-width: 980px) {
@@ -270,7 +277,7 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $screen-md-min) {
   .project-box {
     height: 220px;
   }
@@ -402,5 +409,69 @@ footer {
 @media (max-width: 450px) {
   .carousel-caption {
     height: 225px;
+
+  }
+}
+
+.testimonial-quotations {
+  display: flex;
+  flex-wrap: wrap;
+
+  .span4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    padding: 30px;
+    @media (max-width: $screen-sm-max) {
+      margin-bottom: 10px;
+    }
+  }
+
+  h2 {
+    color: #5e91c7;
+    font-weight: bold;
+    height: 20px;
+    margin: 0;
+  }
+
+  img.testimonial-portraits {
+    border-radius: 50%;
+    height: 110px;
+    margin-bottom: 10px;
+  }
+
+  .testimonials-sentence {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  img {
+    height: 35px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  text-align: center;
+}
+
+.portrait-images {
+  position: relative;
+
+  img:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+
+  &:hover {
+    img:first-child {
+      opacity: 0;
+    }
   }
 }
