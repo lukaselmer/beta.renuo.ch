@@ -252,7 +252,7 @@ homeSlider:
 
 <div class="row-fluid testimonial-quotations" style="margin-top: 30px;">
   <div class="span4">
-    <a href='https://www.mtextur.com/'><%- @image_tag 'logoslider/mtextur_logo.png' %></a>
+    <a href='/referenzen/essrechner/'><%- @image_tag 'logoslider/mtextur_logo.png' %></a>
     <div class='testimonials-sentence'>
       <p>“Der Umzug unserer Plattform zu einem Schweizer Entwicklungsteam hat sich nicht nur finanziell ausgezeichnet,
       sondern er hat auch eine persönliche Vertrauensbasis ermöglicht. Wir befinden uns betreffend Technik, Beratung und
@@ -263,7 +263,7 @@ homeSlider:
   </div>
 
   <div class="span4">
-    <a href='https://essrechner.tagesanzeiger.ch/#/'><%- @image_tag 'logoslider/tamedia_logo.png' %></a>
+    <a href='/referenzen/essrechner/'><%- @image_tag 'logoslider/tamedia_logo.png' %></a>
     <div class='testimonials-sentence'>
       <p>“Die Renuo schafft es immer wieder, Ideen innert kürzester Zeit innovativ für uns zu realisieren. Ich schätze die
       unkomplizierte Zusammenarbeit sehr.”<br><br>Mai 2016</p>
@@ -273,7 +273,7 @@ homeSlider:
   </div>
 
   <div class="span4">
-    <a href='https://www.schulerauktionen.ch/'><%- @image_tag 'logoslider/schuler_logo.png' %></a>
+    <a href='/referenzen/schuler/'><%- @image_tag 'logoslider/schuler_logo.png' %></a>
     <div class='testimonials-sentence'>
       <p>“Ich bin froh, in der Renuo einen kompetenten und innovativen Partner gefunden zu haben, bei welchem sowohl
       finanzielle Aspekte, als auch die Beratung und Kompetenz stimmt.”<br><br>Mai 2016</p>
