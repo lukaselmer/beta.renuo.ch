@@ -10,12 +10,18 @@
         <% index = 0 %>
         <% for slider in @slider: %>
         <div class="item<%- ' active' if index == 0 %>">
+            <% if slider.link: %>
+              <a href="<%= slider.link %>">
+            <% end %>
             <img src="<%- slider.image %>" alt="<%= slider.image_alt %>" />
             <% if slider.title || slider.subtitle: %>
                 <div class="carousel-caption">
                     <h4><%= slider.title %></h4>
                     <p><%= slider.subtitle %></p>
                 </div>
+            <% end %>
+            <% if slider.link: %>
+              </a>
             <% end %>
         </div>
         <% ++index %>
