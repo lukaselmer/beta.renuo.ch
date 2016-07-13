@@ -9,73 +9,88 @@ technologySlider:
         image_alt: Ruby on Rails Logo
         title:
         subtitle:
+        link:
     -
         image: /images/angularjs.png
         image_alt: AngularJS Logo
         title:
         subtitle:
+        link:
     -
         image: /images/html5.png
         image_alt: HTML5 Logo
         title:
         subtitle:
+        link:
     -
         image: /images/css3.png
         image_alt: CSS3 Logo
         title:
         subtitle:
+        link:
     -
         image: /images/javascript.png
         image_alt: JavaScript Logo
         title:
         subtitle:
+        link:
     -
         image: /images/jquery.png
         image_alt: jQuery Logo
         title:
         subtitle:
+        link:
     -
         image: /images/typescript.png
         image_alt: TypeScript Logo
         title:
         subtitle:
+        link:
+
 
 homeSlider:
     -
-        image: /images/5years/renuo-5-years.jpg
+        image: /images/renuo/slider_home/5JahreRenuo.jpg
         image_alt: 5 Jahre Renuo
         title: Die Renuo wird 5 Jahre alt
-        subtitle:
+        subtitle: Wollen Sie mehr erfahren? Dann klicken Sie auf das Bild.
+        link: /5jahre
     -
         image: /images/renuo/slider_home/team.jpg
         image_alt: Renuo AG Teamfoto
         title: Wir kümmern uns von der Konzeption bis zur Wartung
         subtitle: Im Team können wir uns perfekt um ihre Bedürfnisse kümmern. Die Stärken jedes einzelnen können zu Ihren Gunsten genutzt werden. Wir sind jederzeit für Sie da.
+        link:
     -
         image: /images/renuo/slider_home/project.jpg
         image_alt: Web Projekt
         title: Software Entwicklung von A-Z
         subtitle: Die Renuo AG ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.
+        link:
     -
         image: /images/renuo/slider_home/technologien-bei-renuo.jpg
         image_alt: Web Technologien
         title: Modernste Web-Technologien
         subtitle: Mit Hilfe modernster Webtechnologien entwickeln wir innovative Websoftware, welche stabil, agil und wartbar ist! Wir lieben und wir leben Technologien, v. a. Open Source!
+        link:
     -
     	image: /images/renuo/slider_home/entwicklung.jpg
         image_alt: Webbasierte Softwareentwicklung
         title: Web-Entwicklung / Programmierung
         subtitle: Wir sind Spezialist in webbasierter Softwareentwicklung! Wir programmieren sowohl kleine Auftritte als auch grosse Portale, welche mehrsprachig und multinational betrieben werden!
+        link:
     -
         image: /images/renuo/slider_home/responsive.jpg
         image_alt: Responsivität
         title: Webseiten, die in jeder Auflösung gut dastehen
         subtitle: Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht! Die Inhalte werden dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert, damit ein Besucher stets den Überblick über die Inhalte behält. Erleben Sie Responsive Webdesign live, indem Sie den Renuo-Webauftritt auf verschiedenen Geräten betrachten!
+        link:
     -
         image: /images/renuo/slider_home/cms.jpg
         image_alt: Content Management System
         title: Simple und effiziente CMS, welche jeder bedienen kann
         subtitle: Wir integrieren Ihnen simple Leichtgewicht-CMS, welche so einfach sind, dass sie auch von Laien bedient werden können!
+        link:
 
 ---
 
