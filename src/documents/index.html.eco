@@ -50,11 +50,11 @@ technologySlider:
 
 homeSlider:
     -
-        image: /images/renuo/slider_home/5JahreRenuo.jpg
+        image: /images/renuo/slider_home/5-jahre-renuo-slider.jpg
         image_alt: 5 Jahre Renuo
         title: Die Renuo wird 5 Jahre alt
         subtitle: Wollen Sie mehr erfahren? Dann klicken Sie auf das Bild.
-        link: /5jahre
+        link: /5-jahre-renuo
     -
         image: /images/renuo/slider_home/team.jpg
         image_alt: Renuo AG Teamfoto
