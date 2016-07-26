@@ -47,7 +47,7 @@ slider:
             <p>Ansprechpersonen: Stefan Schurgast und Mirko Theodolz<br>
                Telefon  +41 44 805 56 56</p>
 
-            <p>Link: <a href="http://www.manor.ch/u/manorkarte-antrag" target="_blank">http://www.manor.ch/u/manorkarte-antrag</a></p>
+            <p>Link: <a href="https://www.manor.ch/u/manorkarte-antrag" target="_blank">http://www.manor.ch/u/manorkarte-antrag</a></p>
 			<p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von Juli bis November 2015.</p>
 
             <div><%- @image_tag 'logoslider/accarda_logo.png' %></div>
