@@ -898,7 +898,48 @@ position: 4
                 <a href="https://github.com/pascalandermatt" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
             </div>
     </div>
+
+    <div class="span3 team-member">
+            <div class='portrait-images'><%- @team_image_tag 'Noface_Portrait', 'Alyssa Eguavoen' %><%- @team_image_tag 'Noface_Portrait', 'Alyssa Eguavoen2' %></div>
+            <h3>Alyssa Eguavoen</h3>
+
+            <p>Administration<br/>
+
+            <br/>
+
+            <div data-collapse>
+                <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+                <div>
+                    <table class="table table-striped">
+                       <thead>
+                       <tr>
+                           <th>Jahr</th>
+                           <th>Aktivität</th>
+                       </tr>
+                       </thead>
+                       <tbody>
+                        <tr>
+                          <th>2016-jetzt</th>
+                          <td><strong>Praktikantin</strong> bei der Renuo AG</td>
+                        </tr>
+                        <tr>
+                        <th>2013-2016</th>
+                        <td><strong>Handelsmittelschule</strong> Enge Zürich
+                        </td>
+                    </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="profile-social-links">
+                <a href="https://github.com/alyssaeguavoen" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            </div>
+    </div>
+
+
 </div>
+
+
 
 <div class="row-fluid page-header-element page-section">
     <div class="span12">
