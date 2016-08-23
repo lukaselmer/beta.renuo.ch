@@ -137,9 +137,14 @@ docpadConfig =
         date: -1
       ])
 
-    jobs: (database) ->
+    jobs_zurich: (database) ->
       database.findAllLive({
-        tags: $hasAll: ['jobs-online']
+        tags: $hasAll: ['jobs-online-zurich']
+      }, [position: 1])
+
+    jobs_st_gallen: (database) ->
+      database.findAllLive({
+        tags: $hasAll: ['jobs-online-st-gallen']
       }, [position: 1])
 
 # =================================
