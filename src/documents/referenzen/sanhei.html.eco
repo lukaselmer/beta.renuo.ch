@@ -9,12 +9,12 @@ position: 21
 tags: ['project']
 slider:
     -
-        image: /images/sanhei/uebersicht.PNG
+        image: /images/sanhei/sanhei-uebersicht.png
         image_alt: Landingpage
         title: Einfache Übersicht
         subtitle: Mit einer einfachen Übersicht kann der Überblick über offene, gestellte und bezahlte Rechnungen behalten werden. Diese können direkt angelegt oder editiert werden.
     -
-        image: /images/sanhei/rechnung.PNG
+        image: /images/sanhei/sanhei-rechnung.png
         image_alt: Ansicht einer Beispielrechnung
         title: Automatisches Generieren von Rechnungen
         subtitle: Anhand einer Datenbank können verkaufte Objekte direkt in die Rechnung gezogen werden und die Faktura wird automatisch erstellt und berechnet. Massiv reduzierte Komplexität und Fehleranfälligkeit sind die Resultate.
