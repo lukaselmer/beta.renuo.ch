@@ -23,14 +23,24 @@ position: 5
         <th>We are looking for a</th>
         <th>Period</th>
         <th>Workload</th>
+        <th>Office</th>
       </tr>
       </thead>
       <tbody>
-      <% for page in @getCollection("jobs").toJSON(): %>
+      <% for page in @getCollection("jobs_zurich").toJSON(): %>
       <tr>
         <td><a href="<%- page.url %>"><%= page.title %></a></td>
         <td><%= page.period %></td>
         <td><%= page.workload %></td>
+        <td>Zürich</td>
+      </tr>
+      <% end %>
+      <% for page in @getCollection("jobs_st_gallen").toJSON(): %>
+      <tr>
+        <td><a href="<%- page.url %>"><%= page.title %></a></td>
+        <td><%= page.period %></td>
+        <td><%= page.workload %></td>
+        <td>St. Gallen</td>
       </tr>
       <% end %>
       </tr>
