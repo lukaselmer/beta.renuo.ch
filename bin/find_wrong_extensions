@@ -1,0 +1,4 @@
+find src/files -name '*.JPG'
+find src/files -name '*.JPEG'
+find src/files -name '*.PNG'
+find src/files -name '*.PDF'
