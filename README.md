@@ -1,23 +1,36 @@
-beta.renuo.ch
-=============
-Requirements: 
+# Renuo Website
+
+## Environments (branch, URL)
+
+* master <https://www.renuo.ch>
+* develop <https://new.renuo.ch>
+* testing <https://new-testing.renuo.ch>
+* compare1 <https://new-compare1.renuo.ch>
+* compare2 <https://new-compare2.renuo.ch>
+* compare3 <https://new-compare3.renuo.ch>
+* compare4 <https://new-compare4.renuo.ch>
+
+## Requirements
+
+* nvm <https://github.com/creationix/nvm>
 * nodejs
 * npm
-* nodejs-legacy (linux only?)
-* nvm (https://github.com/creationix/nvm)
-* node-sass (https://github.com/sass/node-sass)
-* gem install sass
 
+## Installation
 
-Troubleshooting: 
-* *Note: The optional "nodejs-legacy" package from Debian helps prevent a conflict with the Amateur Packet Radio "Node" Program*
-* try sudo to install or run npm commands
+```sh
+git clone https://github.com/renuo/beta.renuo.ch.git && cd beta.renuo.ch
+`bin/setup`
+```
 
+## Run
 
-Installation:
-* git clone https://github.com/renuo/beta.renuo.ch.git && cd beta.renuo.ch
-* Install Node: http://nodejs.org/download/
-* npm install
-* docpad run
-* Open Browser at http://127.0.0.1:9778
-* git pull renuo master
+`bin/run`
+
+## Check / "Tests"
+
+`bin/check`
+
+## Build / Generate Website
+
+`docpad generate`
