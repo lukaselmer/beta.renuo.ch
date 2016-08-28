@@ -1,4 +1,40 @@
-find src/files -name '*.JPG'
-find src/files -name '*.JPEG'
-find src/files -name '*.PNG'
-find src/files -name '*.PDF'
+#!/bin/zsh
+
+source ~/.zshrc
+
+find src/files -name '*.JPG' | egrep '.*'
+if [ $? -eq 0 ]; then
+  echo '.JPG files found. Please rename them to .jpg'
+  echo 'hint: you may need two commits for this:'
+  echo 'mv xxx.JPG zzz.jpg; commit; mv zzz.jpg xxx.jpg; commit'
+  exit 1
+fi
+
+find src/files -name '*.JPEG' | egrep '.*'
+if [ $? -eq 0 ]; then
+  echo '.JPEG files found. Please rename them to .jpg'
+  exit 1
+fi
+
+find src/files -name '*.jpeg' | egrep '.*'
+if [ $? -eq 0 ]; then
+  echo '.jpeg files found. Please rename them to .jpg'
+  exit 1
+fi
+
+find src/files -name '*.PNG' | egrep '.*'
+if [ $? -eq 0 ]; then
+  echo '.PNG files found. Please rename them to .png'
+  echo 'hint: you may need two commits for this:'
+  echo 'mv xxx.JPG zzz.jpg; commit; mv zzz.jpg xxx.jpg; commit'
+  exit 1
+fi
+
+find src/files -name '*.PDF' | egrep '.*'
+if [ $? -eq 0 ]; then
+  echo '.PDF files found. Please rename them to .pdf'
+  echo 'hint: you may need two commits for this:'
+  echo 'mv xxx.JPG zzz.jpg; commit; mv zzz.jpg xxx.jpg; commit'
+  exit 1
+fi
+

@@ -41,6 +41,7 @@ bin/check
 This runs
 
 * keyword check (console.log, T0D0, puts, ...)
+* find invalid file name extensions (e.g. .PNG instead of .png)
 * mdl
 * generate the project, abort if there are errors or warnings
 
