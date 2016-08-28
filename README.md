@@ -1,5 +1,13 @@
 # Renuo Website
 
+[![Build Status](https://travis-ci.org/renuo/beta.renuo.ch.svg?branch=master)](https://travis-ci.org/renuo/beta.renuo.ch)
+[![Build Status](https://travis-ci.org/renuo/beta.renuo.ch.svg?branch=develop)](https://travis-ci.org/renuo/beta.renuo.ch)
+[![Build Status](https://travis-ci.org/renuo/beta.renuo.ch.svg?branch=testing)](https://travis-ci.org/renuo/beta.renuo.ch)
+[![Build Status](https://travis-ci.org/renuo/beta.renuo.ch.svg?branch=compare1)](https://travis-ci.org/renuo/beta.renuo.ch)
+[![Build Status](https://travis-ci.org/renuo/beta.renuo.ch.svg?branch=compare2)](https://travis-ci.org/renuo/beta.renuo.ch)
+[![Build Status](https://travis-ci.org/renuo/beta.renuo.ch.svg?branch=compare3)](https://travis-ci.org/renuo/beta.renuo.ch)
+[![Build Status](https://travis-ci.org/renuo/beta.renuo.ch.svg?branch=compare4)](https://travis-ci.org/renuo/beta.renuo.ch)
+
 ## Environments (branch, URL)
 
 * master <https://www.renuo.ch>
@@ -19,18 +27,29 @@
 ## Installation
 
 ```sh
-git clone https://github.com/renuo/beta.renuo.ch.git && cd beta.renuo.ch
-`bin/setup`
+git clone https://github.com/renuo/beta.renuo.ch.git
+cd beta.renuo.ch
+bin/setup
+```
+
+## Checks / "Tests"
+
+```sh
+bin/check
 ```
 
 ## Run
 
-`bin/run`
-
-## Check / "Tests"
-
-`bin/check`
+```sh
+bin/run
+```
 
 ## Build / Generate Website
 
-`docpad generate`
+```sh
+docpad generate
+```
+
+## Copyright
+
+Copyright 2016 [Renuo AG](https://www.renuo.ch/).
