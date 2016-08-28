@@ -19,7 +19,7 @@ Dir.chdir APP_ROOT do
   end
 
   run 'Installing ruby dependencies' do
-    which 'sass || gem install sass'
+    system 'which sass || gem install sass'
   end
 
   run 'Creating pre-commit hook link', '.git/hooks/pre-commit' do
