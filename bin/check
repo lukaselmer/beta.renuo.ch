@@ -2,7 +2,7 @@
 
 source ~/.zshrc
 
-grep --exclude="src/documents/referenzen/vfs_eth.html.eco" --exclude="src/documents/news/2014-04-10-heartbleed.html" --exclude-dir="node_modules/**" --exclude-dir="app/assets/typings/**" -i -r 'TODO' src/documents src/helpers src/layouts README.md docpad.coffee
+grep --exclude="vfs_eth.html.eco" --exclude="2014-04-10-heartbleed.html" --exclude-dir="node_modules/**" --exclude-dir="app/assets/typings/**" -i -r 'TODO' src/documents src/helpers src/layouts README.md docpad.coffee
 if [ $? -eq 0 ]; then
   echo 'TODOs found. Please fix them and try again, commit aborted'
   exit 1
