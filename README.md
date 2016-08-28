@@ -38,6 +38,12 @@ bin/setup
 bin/check
 ```
 
+This runs
+
+* keyword check (console.log, T0D0, puts, ...)
+* mdl
+* generate the project, abort if there are errors or warnings
+
 ## Run
 
 ```sh
