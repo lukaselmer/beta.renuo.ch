@@ -188,7 +188,6 @@ docpadConfig =
       command = """
       #{rootPath}/node_modules/.bin/browserify
       #{outPath}/vendor/jquery.collapse.js
-      #{outPath}/vendor/log.js
       #{outPath}/scripts/script.js
                 | #{rootPath}/node_modules/.bin/uglifyjs > #{outPath}/scripts.js
                 """.replace(/\n/g,' ')

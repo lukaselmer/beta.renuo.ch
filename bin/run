@@ -1,1 +1,2 @@
+sleep 3 && open http://renuo.dev:9778 &
 docpad run

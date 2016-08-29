@@ -1,0 +1,21 @@
+sudo: false
+language: node_js
+addons:
+  apt:
+    packages:
+    - zsh
+cache:
+  bundler: true
+  apt: true
+  directories:
+    - node_modules
+before_install:
+  - export TZ=Europe/Zurich
+before_script:
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+script: bin/setup
+notifications:
+  email:
+    on_success: change
+    on_failure: always
