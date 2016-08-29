@@ -137,9 +137,14 @@ docpadConfig =
         date: -1
       ])
 
-    jobs: (database) ->
+    jobs_zurich: (database) ->
       database.findAllLive({
-        tags: $hasAll: ['jobs-online']
+        tags: $hasAll: ['jobs-online-zurich']
+      }, [position: 1])
+
+    jobs_st_gallen: (database) ->
+      database.findAllLive({
+        tags: $hasAll: ['jobs-online-st-gallen']
       }, [position: 1])
 
 # =================================
@@ -183,7 +188,6 @@ docpadConfig =
       command = """
       #{rootPath}/node_modules/.bin/browserify
       #{outPath}/vendor/jquery.collapse.js
-      #{outPath}/vendor/log.js
       #{outPath}/scripts/script.js
                 | #{rootPath}/node_modules/.bin/uglifyjs > #{outPath}/scripts.js
                 """.replace(/\n/g,' ')
