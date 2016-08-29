@@ -38,6 +38,12 @@ if [ $? -eq 0 ]; then
   exit 1
 fi
 
+grep -i -r 'href="https://www.renuo.ch/' src/documents src/helpers src/layouts
+if [ $? -eq 0 ]; then
+  echo 'absoulte links found. Please use / instead of https://www.renuo.ch/, commit aborted'
+  exit 1
+fi
+
 mdl .
 if [ ! $? -eq 0 ]; then
   echo 'Violated markdown rules, see https://github.com/mivok/markdownlint/blob/master/docs/RULES.md, commit aborted'
