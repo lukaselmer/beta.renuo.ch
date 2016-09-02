@@ -87,8 +87,8 @@ docpadConfig =
     employee_id: (filename)->
       filename.replace('.html', '')
 
-    employee_github: (filename, github)->
-      return github if github
+    employee_github: (filename, overridden_github_name)->
+      return overridden_github_name if overridden_github_name
       filename.replace('.html', '').replace('-', '')
 
     age: (y, m, d)->
