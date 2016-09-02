@@ -333,7 +333,7 @@ homeSlider:
           <dt>Email</dt>
           <dd><a href="mailto:info@renuo.ch">info@renuo.ch</a></dd>
           <dt>Web</dt>
-          <dd><a href="https://www.renuo.ch">www.renuo.ch</a></dd>
+          <dd><a href="/">www.renuo.ch</a></dd>
         </dl>
       </div>
     </div>
