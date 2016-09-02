@@ -58,7 +58,7 @@ slider:
             <p>Ansprechperson: Aline Renz<br>
                 Email: aline[at]vebis.ch</p>
 
-            <p>Link: <a href="https://www.vebis.ch" target="_blank">https://www.vebis.ch</a></p>
+            <p>Link: <a href="https://www.vebis.ch">https://www.vebis.ch</a></p>
 			<p>Die Partnerschaft dauert von März 2013 bis heute</p>
 
             <div><%- @image_tag 'logoslider/vebis_logo.png' %></div>

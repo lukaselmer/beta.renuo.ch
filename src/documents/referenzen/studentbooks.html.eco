@@ -63,7 +63,7 @@ slider:
             8400 Winterthur<br></p>
             <p>Ansprechperson: Christian Schnyder<br>
             Tel: +41 52 209 00 20</p>
-            <p>Link: <a href="https://www.studentbooks.ch" target="_blank">https://www.studentbooks.ch</a></p>
+            <p>Link: <a href="https://www.studentbooks.ch">https://www.studentbooks.ch</a></p>
             <p>Die Partnerschaft dauert von April 2012 bis heute.</p>
             <div><%- @image_tag 'logoslider/studentbooks_logo.jpg' %></div>
         </div>
