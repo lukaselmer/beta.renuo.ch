@@ -71,14 +71,28 @@ position: 4
   <% for employee in @getCollection("employees").toJSON(): %>
     <%- '<div class="row-fluid">' if((index % 4) == 0) %>
 
-
       <div class="span3 team-member">
         <div class='portrait-images'><%- @team_image_tag employee.image, employee.name %><%- @team_image_tag_action employee.image, employee.name %></div>
         <h3><%= employee.name %></h3>
 
-        <%- employee.contentRenderedWithoutLayouts %>
-      </div>
+        <div class="job-title normal"><%- employee.job_title %></div>
+        <div class="job-title break"><%- employee.job_title_break %></div>
 
+        <% if employee.email: %>
+          <div class="email-address"><a href="mailto:<%= employee.email %>"><%= employee.email %></a></div>
+        <% end %>
+
+        <%- employee.contentRenderedWithoutLayouts %>
+
+        <div class="profile-social-links">
+          <% if employee.github: %>
+            <a href="https://github.com/<%= employee.github %>"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+          <% end %>
+          <% if employee.xing: %>
+            <a href="https://www.xing.com/profile/<%= employee.xing %>"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+          <% end %>
+        </div>
+      </div>
 
     <% ++index %>
     <%- '</div>' if((index % 4) == 0) %>
