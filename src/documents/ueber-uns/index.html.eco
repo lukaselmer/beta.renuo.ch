@@ -71,9 +71,9 @@ position: 4
   <% for employee in @getCollection("employees").toJSON(): %>
     <%- '<div class="row-fluid">' if((index % 4) == 0) %>
 
-      <div class="span3 team-member">
-        <div class='portrait-images'><%- @team_image_tag employee.image, employee.name %><%- @team_image_tag_action employee.image, employee.name %></div>
-        <h3><%= employee.name %></h3>
+      <div class="span3 team-member" id="<%= @employee_id employee.name %>">
+        <div class='portrait-images'><%- @employee_image_tag employee.filename, employee.employee_name %></div>
+        <h3><%= employee.employee_name %></h3>
 
         <div class="job-title normal"><%- employee.job_title %></div>
         <div class="job-title break"><%- employee.job_title_break %></div>
@@ -100,9 +100,7 @@ position: 4
         </div>
 
         <div class="profile-social-links">
-          <% if employee.github: %>
-            <a href="https://github.com/<%= employee.github %>"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-          <% end %>
+          <a href="https://github.com/<%= @employee_github employee.filename, employee.github %>"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
           <% if employee.xing: %>
             <a href="https://www.xing.com/profile/<%= employee.xing %>"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
           <% end %>
@@ -129,7 +127,7 @@ position: 4
 
 <div class="row-fluid">
     <div class="span3 team-member">
-        <div><%- @team_image_tag 'henry', 'Henry Gillis' %></div>
+        <div><img src='/images/portraits/henry-gillis.jpg' class='portrait' alt='Henry Gillis'/></div>
         <h3>Henry Gillis</h3>
 
         <p>Art Director / Interaction Designer<br/>

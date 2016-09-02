@@ -79,11 +79,17 @@ docpadConfig =
     image_tag: (image_name)->
       "<img src='/images/#{image_name}' />"
 
-    team_image_tag: (image_name, alt)->
-      "<img src='/images/portraits/#{image_name}.jpg' class='portrait' alt='#{alt}' />"
+    employee_image_tag: (filename, alt)->
+      image_name = filename.replace('.html', '')
+      "<img src='/images/portraits/#{image_name}.jpg' class='portrait' alt='#{alt}' />" +
+        "<img src='/images/portraits/#{image_name}-action.jpg' class='portrait' alt='#{alt} in action' />"
 
-    team_image_tag_action: (image_name, alt)->
-      "<img src='/images/portraits/#{image_name}2.jpg' class='portrait' alt='#{alt} in action' />"
+    employee_id: (filename)->
+      filename.replace('.html', '')
+
+    employee_github: (filename, github)->
+      return github if github
+      filename.replace('.html', '').replace('-', '')
 
     age: (y, m, d)->
       m = m - 1
