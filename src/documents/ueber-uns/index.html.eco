@@ -82,7 +82,22 @@ position: 4
           <div class="email-address"><a href="mailto:<%= employee.email %>"><%= employee.email %></a></div>
         <% end %>
 
-        <%- employee.contentRenderedWithoutLayouts %>
+        <div data-collapse>
+          <h4 class="profile-collapse-summary"><i class="icon-collapse"></i> Kurzprofil</h4>
+          <div>
+            <table class="table table-striped">
+              <thead>
+              <tr>
+                <th>Jahr</th>
+                <th>Aktivität</th>
+              </tr>
+              </thead>
+              <tbody>
+                <%- employee.contentRenderedWithoutLayouts %>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
         <div class="profile-social-links">
           <% if employee.github: %>
