@@ -82,6 +82,9 @@ docpadConfig =
     team_image_tag: (image_name, alt)->
       "<img src='/images/portraits/#{image_name}.jpg' class='portrait' alt='#{alt}' />"
 
+    team_image_tag_action: (image_name, alt)->
+      "<img src='/images/portraits/#{image_name}2.jpg' class='portrait' alt='#{alt} in action' />"
+
     age: (y, m, d)->
       m = m - 1
       date = new Date()
@@ -145,6 +148,11 @@ docpadConfig =
     jobs_st_gallen: (database) ->
       database.findAllLive({
         tags: $hasAll: ['jobs-online-st-gallen']
+      }, [position: 1])
+
+    employees: (database) ->
+      database.findAllLive({
+        tags: $hasAll: ['employee']
       }, [position: 1])
 
 # =================================
