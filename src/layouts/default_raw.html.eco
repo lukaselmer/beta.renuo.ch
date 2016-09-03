@@ -165,23 +165,23 @@
         <div class="span4">
           <h5>Downloads</h5>
           <ul class="unstyled">
-            <li><a href="/pdfs/agb.pdf" target="_blank">Allgemeine Geschäfts&shy;bedingungen (AGB)</a></li>
-            <li><a href="/pdfs/agbhosting.pdf" target="_blank">Allgemeine Geschäfts&shy;bedingungen Hosting</a></li>
-            <li><a href="/pdfs/monitoring-services.pdf" target="_blank">Monitoring-Services</a></li>
-            <li><a href="/pdfs/nda.pdf" target="_blank">NDA für Anfragen</a></li>
+            <li><a href="/pdfs/agb.pdf">Allgemeine Geschäfts&shy;bedingungen (AGB)</a></li>
+            <li><a href="/pdfs/agbhosting.pdf">Allgemeine Geschäfts&shy;bedingungen Hosting</a></li>
+            <li><a href="/pdfs/monitoring-services.pdf">Monitoring-Services</a></li>
+            <li><a href="/pdfs/nda.pdf">NDA für Anfragen</a></li>
           </ul>
         </div>
         <div class="span4 social-media">
           <h5>Social</h5>
-          <a href="https://plus.google.com/115826926887062492943?rel=publisher" target="_blank"><i class="icon-google-plus-sign icon-4x"></i></a>
-          <a href="https://www.facebook.com/RenuoAG" target="_blank"><i class="icon-facebook-sign icon-4x"></i></a>
-          <a href="https://github.com/renuo" target="_blank"><i class="icon-github-sign icon-4x"></i></a>
-          <a href="https://www.xing.com/companies/renuogmbh?literal=renuo%20gmbh" target="_blank"><i class="icon-xing-sign icon-4x"></i></a>
+          <a href="https://plus.google.com/115826926887062492943?rel=publisher"><i class="icon-google-plus-sign icon-4x"></i></a>
+          <a href="https://www.facebook.com/RenuoAG"><i class="icon-facebook-sign icon-4x"></i></a>
+          <a href="https://github.com/renuo"><i class="icon-github-sign icon-4x"></i></a>
+          <a href="https://www.xing.com/companies/renuogmbh?literal=renuo%20gmbh"><i class="icon-xing-sign icon-4x"></i></a>
 
           <div class="partners">
             <h5>Partnerschaften</h5>
-            <a href="https://www.google.com/partners/#a_profile;idtf=2492208531" target="_blank"><img src="/images/PartnerBadge-Horizontal_sw.png" alt="Renuo ist Google Partner"></a><br/><br/>
-            <a id="startfeld" href="http://www.startfeld.ch/uber-uns/akkreditierte-dienstleister/" target="_blank"></a>
+            <a href="https://www.google.com/partners/#a_profile;idtf=2492208531"><img src="/images/PartnerBadge-Horizontal_sw.png" alt="Renuo ist Google Partner"></a><br/><br/>
+            <a id="startfeld" href="http://www.startfeld.ch/uber-uns/akkreditierte-dienstleister/"></a>
           </div>
         </div>
       </div>
@@ -195,10 +195,10 @@
           ©
           <script> document.write(new Date().getFullYear().toString()); </script>
           Renuo AG. Alle Rechte vorbehalten.
-          <%- @link_to "AGB", "/pdfs/agb.pdf", target: "_blank" %>.
+          <%- @link_to "AGB", "/pdfs/agb.pdf" %>.
         </div>
         <div class="span2" style="text-align: right;">
-          <a href="http://www.swissmadesoftware.org/" target="_blank"><img src="/images/swiss-made-software.png" alt="Logo Swiss Made Software"></a>
+          <a href="http://www.swissmadesoftware.org/"><img src="/images/swiss-made-software.png" alt="Logo Swiss Made Software"></a>
         </div>
       </div>
     </div>

@@ -71,8 +71,8 @@ position: 4
         <div class='portrait-images'><%- @team_image_tag 'lukas', 'Lukas Elmer' %><%- @team_image_tag 'lukas2', 'Lukas Elmer2' %></div>
         <h3>Lukas Elmer</h3>
 
-        <div class="job-title normal">Web-Engineer und Gründer, M.Sc. ETH CS, B.Sc. HSR CS, <a target="_blank" href="http://www.pk19.ch/">Experte PK19</a></div>
-        <div class="job-title break">Web-Engineer und Gründer<br>M.Sc. ETH CS, B.Sc. HSR CS, <a target="_blank" href="http://www.pk19.ch/">Experte PK19</a></div>
+        <div class="job-title normal">Web-Engineer und Gründer, M.Sc. ETH CS, B.Sc. HSR CS, <a href="http://www.pk19.ch/">Experte PK19</a></div>
+        <div class="job-title break">Web-Engineer und Gründer<br>M.Sc. ETH CS, B.Sc. HSR CS, <a href="http://www.pk19.ch/">Experte PK19</a></div>
         <div class="email-address"><a href="mailto:lukas.elmer@renuo.ch">lukas.elmer@renuo.ch</a></div>
 
         <!--<blockquote>Mein Ziel ist es, in enger Zusammenarbeit mit dem Kunden solide Software zu entwickeln, die
@@ -126,8 +126,8 @@ position: 4
         </div>
 
         <div class="profile-social-links">
-            <a href="https://github.com/lukaselmer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-            <a href="https://www.xing.com/profile/Lukas_Elmer" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+            <a href="https://github.com/lukaselmer"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://www.xing.com/profile/Lukas_Elmer"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
         </div>
     </div>
 
@@ -183,8 +183,8 @@ position: 4
         </div>
 
         <div class="profile-social-links">
-            <a href="https://github.com/diegosteiner" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-            <a href="https://www.xing.com/profile/DiegoP_Steiner" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+            <a href="https://github.com/diegosteiner"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://www.xing.com/profile/DiegoP_Steiner"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
         </div>
     </div>
 
@@ -224,7 +224,7 @@ position: 4
                     </tr>
                     <tr>
                         <th>2010-2013</th>
-                        <td><strong>Geschäftsführer</strong> Verbandspool AG (<a href="https://shariando.com" target="_blank">shariando.com</a>)
+                        <td><strong>Geschäftsführer</strong> Verbandspool AG (<a href="https://shariando.com">shariando.com</a>)
                         </td>
                     </tr>
                     <tr>
@@ -243,8 +243,8 @@ position: 4
         </div>
 
         <div class="profile-social-links">
-            <a href="https://github.com/samuelsteiner" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-            <a href="https://www.xing.com/profile/Samuel_Steiner3" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+            <a href="https://github.com/samuelsteiner"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://www.xing.com/profile/Samuel_Steiner3"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
         </div>
     </div>
 
@@ -290,8 +290,8 @@ position: 4
         </div>
 
         <div class="profile-social-links">
-            <a href="https://github.com/coorasse" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-            <a href="https://www.xing.com/profile/Alessandro_Rodi" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+            <a href="https://github.com/coorasse"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://www.xing.com/profile/Alessandro_Rodi"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
         </div>
     </div>
 </div>
@@ -340,8 +340,8 @@ position: 4
         </div>
 
         <div class="profile-social-links">
-            <a href="https://github.com/schmijos"target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-            <a href="https://www.xing.com/profile/Josua_Schmid3" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+            <a href="https://github.com/schmijos"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://www.xing.com/profile/Josua_Schmid3"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
         </div>
     </div>
 
@@ -381,7 +381,7 @@ position: 4
             </div>
         </div>
         <div class="profile-social-links">
-            <a href="https://github.com/nicolaseckhart" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://github.com/nicolaseckhart"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
         </div>
     </div>
 
@@ -421,7 +421,7 @@ position: 4
             </div>
         </div>
         <div class="profile-social-links">
-            <a href="https://github.com/cyrilkyburz" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://github.com/cyrilkyburz"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
         </div>
     </div>
 
@@ -473,8 +473,8 @@ position: 4
         </div>
     </div>
     <div class="profile-social-links">
-        <a href="https://github.com/rroger" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-        <a href="https://www.xing.com/profile/Roger_Ruettimann" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+        <a href="https://github.com/rroger"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+        <a href="https://www.xing.com/profile/Roger_Ruettimann"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
     </div>
 </div>
 
@@ -522,7 +522,7 @@ position: 4
         </div>
     </div>
     <div class="profile-social-links">
-        <a href="https://www.xing.com/profile/Amina_Giger" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+        <a href="https://www.xing.com/profile/Amina_Giger"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
     </div>
 </div>
 
@@ -562,8 +562,8 @@ position: 4
         </div>
     </div>
     <div class="profile-social-links">
-        <a href="https://github.com/sihu" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
-        <a href="https://www.xing.com/profile/Simon_Huber22" target="_blank"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+        <a href="https://github.com/sihu"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+        <a href="https://www.xing.com/profile/Simon_Huber22"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
     </div>
 </div>
 
@@ -608,7 +608,7 @@ position: 4
             </div>
         </div>
         <div class="profile-social-links">
-            <a href="https://github.com/rbuetzer" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://github.com/rbuetzer"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
         </div>
     </div>
 
@@ -656,7 +656,7 @@ position: 4
             </div>
         </div>
         <div class="profile-social-links">
-            <a href="https://github.com/macav" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://github.com/macav"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
     </div>
 </div>
 
@@ -701,7 +701,7 @@ position: 4
             </div>
         </div>
         <div class="profile-social-links">
-            <a href="https://github.com/zorafuchs" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://github.com/zorafuchs"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
       </div>
     </div>
 
@@ -745,7 +745,7 @@ position: 4
             </div>
         </div>
         <div class="profile-social-links">
-            <a href="https://github.com/patrikpeng" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://github.com/patrikpeng"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
         </div>
     </div>
 
@@ -781,7 +781,7 @@ position: 4
             </div>
         </div>
         <div class="profile-social-links">
-            <a href="https://github.com/aliciarueegg" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+            <a href="https://github.com/aliciarueegg"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
         </div>
     </div>
 
@@ -818,7 +818,7 @@ position: 4
                 </div>
             </div>
             <div class="profile-social-links">
-                <a href="https://github.com/felixkubli" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                <a href="https://github.com/felixkubli"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
             </div>
     </div>
 </div>
@@ -858,7 +858,7 @@ position: 4
                 </div>
             </div>
             <div class="profile-social-links">
-                <a href="https://github.com/benjaminbhm" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                <a href="https://github.com/benjaminbhm"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
             </div>
     </div>
 
@@ -895,7 +895,7 @@ position: 4
                 </div>
             </div>
             <div class="profile-social-links">
-                <a href="https://github.com/pascalandermatt" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                <a href="https://github.com/pascalandermatt"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
             </div>
     </div>
 
@@ -932,7 +932,7 @@ position: 4
                 </div>
             </div>
             <div class="profile-social-links">
-                <a href="https://github.com/alyssaeguavoen" target="_blank"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
+                <a href="https://github.com/alyssaeguavoen"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
             </div>
     </div>
 </div>
@@ -944,7 +944,7 @@ position: 4
                 <small> Individuelles Design mit Fokus auf Usability</small>
             </h1>
         </div>
-        <p>Weil wir uns ausschliesslich auf unsere Kernkompetenz beschränken, arbeiten wir im Design mit unserem Partner <a target="_blank" href="http://henrygillis.com/">Henry Gillis</a> zusammen. <a href="/web-entwicklung/design/">Mehr Informationen</a></p>
+        <p>Weil wir uns ausschliesslich auf unsere Kernkompetenz beschränken, arbeiten wir im Design mit unserem Partner <a href="http://henrygillis.com/">Henry Gillis</a> zusammen. <a href="/web-entwicklung/design/">Mehr Informationen</a></p>
     </div>
 </div>
 
@@ -970,7 +970,7 @@ position: 4
                     <tbody>
                     <tr>
                         <th>2008-jetzt</th>
-                        <td><strong>Art Director / Interaction Designer</strong> <a target="_blank" href="http://henrygillis.com/">(selbständig)</a></td>
+                        <td><strong>Art Director / Interaction Designer</strong> <a href="http://henrygillis.com/">(selbständig)</a></td>
                     </tr>
                     <tr>
                         <th>2009-2012</th>
@@ -1011,7 +1011,7 @@ position: 4
         <p>Bei der Renuo hat sich Scrum sehr bewährt. Mit klassischen Modellen haben wir die Erfahrung gemacht, dass
         Missverständnisse in der Spezifikation, Interpretationsdifferenzen sowie weitere Ungenauigkeiten hohen
         administrativen Aufwand verursachen, weshalb wir nicht mehr auf solche Arbeitsmethoden setzen. Weitere
-        Informationen zu Scrum entnehmen Sie bitte dem entsprechenden Wikipedia-Artikel: <a href="https://de.wikipedia.org/wiki/Scrum" target="_blank">https://de.wikipedia.org/wiki/Scrum</a></p>
+        Informationen zu Scrum entnehmen Sie bitte dem entsprechenden Wikipedia-Artikel: <a href="https://de.wikipedia.org/wiki/Scrum">https://de.wikipedia.org/wiki/Scrum</a></p>
     </div>
 </div>
 

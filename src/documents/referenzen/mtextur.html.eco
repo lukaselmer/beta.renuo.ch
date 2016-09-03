@@ -62,7 +62,7 @@ slider:
             <p>Ansprechperson: Philipp Hauzinger<br>
                Telefon  +41 62 772 22 24</p>
 
-            <p>Link: <a href="http://www.mtextur.ch" target="_blank">http://www.mtextur.ch</a></p>
+            <p>Link: <a href="http://www.mtextur.ch">http://www.mtextur.ch</a></p>
 			<p>Die Partnerschaft dauert von Juli 2014 bis heute</p>
 
             <div><%- @image_tag 'logoslider/h2c-logo.png' %></div>

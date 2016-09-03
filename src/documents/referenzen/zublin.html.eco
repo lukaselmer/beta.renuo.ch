@@ -52,7 +52,7 @@ slider:
             8304 Wallisellen<br></p>
             <p>Ansprechperson: Daniel Winiger<br>
             Tel: +41 44 878 22 22</p>
-            <p>Link: <a href="http://www.zublin.ch" target="_blank">http://www.zublin.ch</a></p>
+            <p>Link: <a href="http://www.zublin.ch">http://www.zublin.ch</a></p>
             <p>Das Projekt dauerte von Juli 2013 bis Januar 2015.</p>
             <div><%- @image_tag 'logoslider/zublin_logo.png' %></div>
         </div>

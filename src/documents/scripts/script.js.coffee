@@ -1,4 +1,14 @@
 $ ->
+
+  $(document).ready ->
+    jQuery(document.links).filter(->
+      is_external_host = @hostname != window.location.hostname
+      is_pdf = @href.match(/\.pdf$/)
+      is_email = @href.match(/^mailto/)
+
+      is_external_host || is_pdf || is_email
+    ).attr('target', '_blank')
+
   $(document).ready ->
     if($("#map_canvas").length >= 1)
       myLatlng = new google.maps.LatLng(47.410898, 8.590679)
