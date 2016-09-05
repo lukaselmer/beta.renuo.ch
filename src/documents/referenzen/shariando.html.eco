@@ -84,7 +84,7 @@ slider:
             9053 Teufen AR<br></p>
             <p>Ansprechperson: Pamela Davoli<br>
             Tel: +41 71 333 45 45</p>
-            <p>Link: <a href="https://www.shariando.com" target="_blank">https://www.shariando.com</a></p>
+            <p>Link: <a href="https://www.shariando.com">https://www.shariando.com</a></p>
             <p>Die Partnerschaft dauert von Juli 2011 bis heute.</p>
             <div><%- @image_tag 'logoslider/shariando_logo.jpg' %></div>
         </div>

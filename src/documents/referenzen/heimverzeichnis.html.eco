@@ -51,7 +51,7 @@ tags: ['project']
             3000 Bern 7<br></p>
             <p>Ansprechperson: <br>
             Tel: +41 31 328 05 45</p>
-            <p>Link: <a href="http://www.pfadiheime.ch/" target="_blank">http://www.pfadiheime.ch/</a></p>
+            <p>Link: <a href="http://www.pfadiheime.ch/">http://www.pfadiheime.ch/</a></p>
             <p>Die Partnerschaft dauert von 2011 bis jetzt</p>
             <div><%- @image_tag 'logoslider/pbs_logo.jpg' %></div>
         </div>
