@@ -79,8 +79,17 @@ docpadConfig =
     image_tag: (image_name)->
       "<img src='/images/#{image_name}' />"
 
-    team_image_tag: (image_name, alt)->
-      "<img src='/images/portraits/#{image_name}.jpg' class='portrait' alt='#{alt}' />"
+    employee_image_tag: (filename, alt)->
+      image_name = filename.replace('.html', '')
+      "<img src='/images/portraits/#{image_name}.jpg' class='portrait' alt='#{alt}' />" +
+        "<img src='/images/portraits/#{image_name}-action.jpg' class='portrait' alt='#{alt} in action' />"
+
+    employee_id: (filename)->
+      filename.replace('.html', '')
+
+    employee_github: (filename, overridden_github_name)->
+      return overridden_github_name if overridden_github_name
+      filename.replace('.html', '').replace('-', '')
 
     age: (y, m, d)->
       m = m - 1
@@ -145,6 +154,11 @@ docpadConfig =
     jobs_st_gallen: (database) ->
       database.findAllLive({
         tags: $hasAll: ['jobs-online-st-gallen']
+      }, [position: 1])
+
+    employees: (database) ->
+      database.findAllLive({
+        tags: $hasAll: ['employee']
       }, [position: 1])
 
 # =================================
