@@ -9,7 +9,7 @@ $ ->
       is_external_host || is_pdf || is_email
     ).attr('target', '_blank')
 
-  $(document).ready ->
+  $(document).on 'google-maps-loaded', ->
     if($("#map_canvas").length >= 1)
       myLatlng = new google.maps.LatLng(47.410898, 8.590679)
 
@@ -135,7 +135,7 @@ $ ->
         clickable: true,
 
       google.maps.event.addListener marker, 'click', () ->
-        window.open('https://maps.google.ch/maps?q=Renuo+GmbH,+Industriestrasse+44,+Wallisellen&hl=de&ie=UTF8&t=m&z=16&iwloc=A');
+        window.open('https://maps.google.ch/maps?q=Renuo+AG,+Industriestrasse+44,+Wallisellen&hl=de&ie=UTF8&t=m&z=16&iwloc=A');
 
   $(document).ready ->
     $('.carousel').carousel()
