@@ -353,7 +353,6 @@ body {
   }
 }
 
-
 .new-office-registration {
   width: 79%;
   min-height: 1320px;
@@ -414,49 +413,46 @@ footer {
 }
 
 .testimonial-quotations {
+  margin-top: 20px;
+  text-align: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 
-  .span4 {
+  @media (max-width: $screen-sm-max) {
+    flex-wrap: wrap;
+  }
+
+  .testimonial-box {
     display: flex;
     flex-direction: column;
     background-color: #f7f7f7;
-    padding: 30px;
+    padding: 30px 10px;
     @media (max-width: $screen-sm-max) {
       margin-bottom: 10px;
     }
-  }
 
-  h2 {
-    color: #5e91c7;
-    font-weight: bold;
-    height: 20px;
-    margin: 0;
-  }
+    .testimonial-logo {
+      height: 35px;
+      margin-bottom: 20px;
+    }
 
-  img.testimonial-portraits {
-    border-radius: 50%;
-    height: 110px;
-    margin-bottom: 10px;
-  }
+    .testimonial-portrait {
+      border-radius: 50%;
+      height: 110px;
+      margin-bottom: 10px;
+    }
 
-  .testimonials-sentence {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    .testimonials-sentence {
+      display: flex;
+      flex-grow: 1;
+      align-items: center;
+      margin-bottom: 20px;
+    }
   }
+}
 
-  img {
-    height: 35px;
-  }
-
-  p {
-    margin: 0;
-  }
-
-  text-align: center;
+html[data-useragent*='MSIE 10.0'] .testimonial-quotations .testimonial-box .testimonials-sentence {
+  display: block;
 }
 
 .portrait-images {

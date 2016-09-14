@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Renuo GmbH.",
   "homepage": "https://beta.renuo.ch",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "keywords": [],
   "author": "Lukas Elmer <lukas.elmer@renuo.ch> (https://renuo.ch)",
   "maintainers": [
