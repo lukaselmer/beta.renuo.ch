@@ -209,8 +209,8 @@
 <script>window.jQuery || document.write('<script src="/vendor/lib/jquery.min.js"><\/script>')</script>
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <%- @getBlock('scripts').add(["/scripts.js"]).toHTML() %>
-<script>function initMap() { $(document).trigger('google-maps-loaded') }</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZeKAOyEFgq_IaAoGU4nsySxrttEFQuLY&callback=initMap"></script>
+<script>function initMap() { $(document).trigger('google-maps-loaded'); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZeKAOyEFgq_IaAoGU4nsySxrttEFQuLY&callback=initMap" async defer></script>
 
 <% for document in @getCollection('main_navi').toJSON(): %>
   <% unless @document.url is document.url : %>

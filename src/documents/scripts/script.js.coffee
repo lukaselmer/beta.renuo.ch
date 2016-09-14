@@ -1,6 +1,9 @@
 $ ->
 
   $(document).ready ->
+    document.documentElement.setAttribute('data-useragent', navigator.userAgent);
+
+  $(document).ready ->
     jQuery(document.links).filter(->
       is_external_host = @hostname != window.location.hostname
       is_pdf = @href.match(/\.pdf$/)
@@ -9,8 +12,14 @@ $ ->
       is_external_host || is_pdf || is_email
     ).attr('target', '_blank')
 
+  $(document).ready ->
+    $(document).trigger('google-maps-loaded') if document.google and document.google.maps
+
   $(document).on 'google-maps-loaded', ->
     if($("#map_canvas").length >= 1)
+      return if $("#map_canvas").data('maps_loaded') == 'yes'
+      $("#map_canvas").data('maps_loaded', 'yes')
+
       myLatlng = new google.maps.LatLng(47.410898, 8.590679)
 
       map_styles = [

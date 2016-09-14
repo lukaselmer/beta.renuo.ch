@@ -451,6 +451,10 @@ footer {
   }
 }
 
+html[data-useragent*='MSIE 10.0'] .testimonial-quotations .testimonial-box .testimonials-sentence {
+  display: block;
+}
+
 .portrait-images {
   position: relative;
 
