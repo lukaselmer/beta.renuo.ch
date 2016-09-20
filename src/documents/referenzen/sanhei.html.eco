@@ -55,7 +55,7 @@ slider:
             8046 Zürich<br></p>
             <p>Ansprechperson: Christina Elmer<br>
             Tel: +41 44 341 05 10</p>
-            <p><a href="https://www.sanhei.ch" target="_blank">https://www.sanhei.ch</a></p>
+            <p><a href="https://www.sanhei.ch">https://www.sanhei.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2011 bis heute.</p>
             <div><%- @image_tag 'logoslider/sanhei_logo.jpg' %></div>
         </div>

@@ -226,12 +226,12 @@ homeSlider:
       effizienter wird.</p>
 
     <p>Ruby on Rails wurde schon in vielen Projekten eingesetzt
-      (zum Beispiel bei <a href="http://www.twitter.com/" target="_blank">Twitter</a>,
-      <a href="http://www.groupon.com/" target="_blank">Groupon</a>,
-      <a href="http://www.xing.com" target="_blank">Xing</a>, usw.)
+      (zum Beispiel bei <a href="http://www.twitter.com/">Twitter</a>,
+      <a href="http://www.groupon.com/">Groupon</a>,
+      <a href="http://www.xing.com">Xing</a>, usw.)
       und überzeugt immer wieder mit Innovation.
       Weitere Informationen zu Ruby on Rails finden Sie unter:
-      <a href="http://rubyonrails.org/" target="_blank">http://rubyonrails.org</a></p>
+      <a href="http://rubyonrails.org/">http://rubyonrails.org</a></p>
   </div>
   <div class="span4">
     <h2>jQuery
@@ -266,35 +266,44 @@ homeSlider:
 </div>
 
 <div class="row-fluid testimonial-quotations" style="margin-top: 30px;">
-  <div class="span4">
-    <a href='/referenzen/essrechner/'><%- @image_tag 'logoslider/mtextur_logo.png' %></a>
+  <div class="span4 testimonial-box">
+    <a href='/referenzen/essrechner/'><img class='testimonial-logo' src='/images/logoslider/mtextur_logo.png' alt='mtextur' /></a>
     <div class='testimonials-sentence'>
-      <p>“Der Umzug unserer Plattform zu einem Schweizer Entwicklungsteam hat sich nicht nur finanziell ausgezeichnet,
-      sondern er hat auch eine persönliche Vertrauensbasis ermöglicht. Wir befinden uns betreffend Technik, Beratung und
-      Kommunikation in einem anderen Universum. Vielen Dank!”<br><br>April 2016</p>
+      <div>
+        <p>“Der Umzug unserer Plattform zu einem Schweizer Entwicklungsteam hat sich nicht nur finanziell ausgezeichnet,
+          sondern er hat auch eine persönliche Vertrauensbasis ermöglicht. Wir befinden uns betreffend Technik, Beratung
+          und Kommunikation in einem anderen Universum. Vielen Dank!”</p>
+        <p>April 2016</p>
+      </div>
     </div>
-    <div><img class='testimonial-portraits' src='/images/testimonials/portrait_philipp_hauzinger.jpg' alt='Philipp Hauzinger' /></div>
-    <p>Philipp Hauzinger, <br>Geschäftsleitung mtextur.com<br><br></p>
+    <div><img class='testimonial-portrait' src='/images/testimonials/portrait_philipp_hauzinger.jpg' alt='Philipp Hauzinger' /></div>
+    <p>Philipp Hauzinger<br>Geschäftsleitung mtextur.com</p>
   </div>
 
-  <div class="span4">
-    <a href='/referenzen/essrechner/'><%- @image_tag 'logoslider/tamedia_logo.png' %></a>
+  <div class="span4 testimonial-box">
+    <a href='/referenzen/essrechner/'><img class='testimonial-logo' src='/images/logoslider/tamedia_logo.png' alt='Tamedia' /></a>
     <div class='testimonials-sentence'>
-      <p>“Die Renuo schafft es immer wieder, Ideen innert kürzester Zeit innovativ für uns zu realisieren. Ich schätze die
-      unkomplizierte Zusammenarbeit sehr.”<br><br>Mai 2016</p>
+      <div>
+        <p>“Die Renuo schafft es immer wieder, Ideen innert kürzester Zeit innovativ für uns zu realisieren. Ich schätze die
+        unkomplizierte Zusammenarbeit sehr.”</p>
+        <p>Mai 2016</p>
+      </div>
     </div>
-    <div><img class='testimonial-portraits' src='/images/testimonials/portrait_samuel_reber.jpg' alt='Samuel Reber' /></div>
-    <p>Samuel Reber, <br>Stv. Leiter Digital Tages-Anzeiger und SonntagsZeitung</p>
+    <div><img class='testimonial-portrait' src='/images/testimonials/portrait_samuel_reber.jpg' alt='Samuel Reber' /></div>
+    <p>Samuel Reber<br>Stv. Leiter Digital Tages-Anzeiger und SonntagsZeitung</p>
   </div>
 
-  <div class="span4">
-    <a href='/referenzen/schuler/'><%- @image_tag 'logoslider/schuler_logo.png' %></a>
+  <div class="span4 testimonial-box">
+    <a href='/referenzen/schuler/'><img class='testimonial-logo' src='/images/logoslider/schuler_logo.png' alt='schuler' /></a>
     <div class='testimonials-sentence'>
-      <p>“Ich bin froh, in der Renuo einen kompetenten und innovativen Partner gefunden zu haben, bei welchem sowohl
-      finanzielle Aspekte, als auch die Beratung und Kompetenz stimmt.”<br><br>Mai 2016</p>
+      <div>
+        <p>“Ich bin froh, in der Renuo einen kompetenten und innovativen Partner gefunden zu haben, bei welchem sowohl
+          finanzielle Aspekte, als auch die Beratung und Kompetenz stimmt.”</p>
+        <p>Mai 2016</p>
+      </div>
     </div>
-    <div><img class='testimonial-portraits' src='/images/testimonials/portait_michi_abegg.jpg' alt='Michi Abegg' /></div>
-    <p>Michael Abegg, <br>Geschäftsleitung Schuler Auktionen<br><br></p>
+    <div><img class='testimonial-portrait' src='/images/testimonials/portrait_michi_abegg.jpg' alt='Michael Abegg' /></div>
+    <p>Michael Abegg<br>Geschäftsleitung Schuler Auktionen</p>
   </div>
 </div>
 
@@ -333,7 +342,7 @@ homeSlider:
           <dt>Email</dt>
           <dd><a href="mailto:info@renuo.ch">info@renuo.ch</a></dd>
           <dt>Web</dt>
-          <dd><a href="/">www.renuo.ch</a></dd>
+          <dd><a href="/">https://www.renuo.ch</a></dd>
         </dl>
       </div>
     </div>
