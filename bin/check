@@ -1,0 +1,115 @@
+#!/bin/zsh
+
+source ~/.zshrc
+
+grep --exclude="vfs_eth.html.eco" --exclude="2014-04-10-heartbleed.html" --exclude-dir="node_modules/**" --exclude-dir="app/assets/typings/**" -i -r 'TODO' src/documents src/helpers src/layouts README.md docpad.coffee
+if [ $? -eq 0 ]; then
+  echo 'TODOs found. Please fix them and try again, commit aborted'
+  exit 1
+fi
+
+grep -i -r 'console.log' src/documents src/helpers src/layouts
+if [ $? -eq 0 ]; then
+  echo 'console.log found. Please fix them and try again, commit aborted'
+  exit 1
+fi
+
+grep -i -r '  puts ' src/documents src/helpers src/layouts
+if [ $? -eq 0 ]; then
+  echo 'puts found. Please fix them and try again, commit aborted'
+  exit 1
+fi
+
+grep -i -r '  puts(' src/documents src/helpers src/layouts
+if [ $? -eq 0 ]; then
+  echo 'puts found. Please fix them and try again, commit aborted'
+  exit 1
+fi
+
+grep -i -r '(  pp? [^=])|(= pp? )' src/documents src/helpers src/layouts
+if [ $? -eq 0 ]; then
+  echo 'p found. Please fix them and try again, commit aborted'
+  exit 1
+fi
+
+grep -i -r '  p(' src/documents src/helpers src/layouts
+if [ $? -eq 0 ]; then
+  echo 'p found. Please fix them and try again, commit aborted'
+  exit 1
+fi
+
+grep -i -r 'href="https://www.renuo.ch/' src/documents src/helpers src/layouts
+if [ $? -eq 0 ]; then
+  echo 'absoulte links found. Please use / instead of https://www.renuo.ch/, commit aborted'
+  exit 1
+fi
+
+grep -i -r '_blank' src/documents src/helpers src/layouts --exclude-dir="src/documents/scripts"
+if [ $? -eq 0 ]; then
+  echo '_blank found. Remove it, this is done automatically. Commit aborted'
+  exit 1
+fi
+
+mdl .
+if [ ! $? -eq 0 ]; then
+  echo 'Violated markdown rules, see https://github.com/mivok/markdownlint/blob/master/docs/RULES.md, commit aborted'
+  exit 1
+fi
+
+bin/find_wrong_extensions
+if [ $? -eq 1 ]; then
+  echo 'Invalid extensions found. Please fix them and try again, commit aborted'
+  exit 1
+fi
+
+# scss-lint app/assets/stylesheets/**/*.scss
+# if [ ! $? -eq 0 ]; then
+#   echo 'scss-lint detected issues, commit aborted'
+#   exit 1
+# fi
+
+# tslint -c tslint.json app/assets/javascripts/**/*.ts
+# if [ ! $? -eq 0 ]; then
+#   echo 'tslint detected issues, commit aborted'
+#   exit 1
+# fi
+
+mkdir tmp
+docpad generate 2> tmp/error.log 1> tmp/out.log
+if [ ! $? -eq 0 ]; then
+  cat tmp/out.log
+  echo '----'
+  echo 'error starts here'
+  echo '----'
+  cat tmp/error.log
+  echo '----'
+  echo 'An error occurred, aborting commit'
+  exit 1
+fi
+
+if [ -s tmp/error.log ]; then
+  cat tmp/out.log
+  echo '----'
+  echo 'error starts here'
+  echo '----'
+  cat tmp/error.log
+  echo '----'
+  echo 'An error occurred, aborting commit'
+  exit 1
+fi
+
+grep -i 'warning' tmp/out.log
+if [ $? -eq 0 ]; then
+  cat tmp/out.log
+  echo '----'
+  echo 'Found a warning in stdout, aborting commit'
+  exit 1
+fi
+
+grep -i 'error' tmp/out.log
+if [ $? -eq 0 ]; then
+  cat tmp/out.log
+  echo '----'
+  echo 'Found an error in stdout, aborting commit'
+  exit 1
+fi

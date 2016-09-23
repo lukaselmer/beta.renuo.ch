@@ -32,7 +32,7 @@ docpadConfig =
       # When your website appears in search results in say Google, the text here will be shown underneath your website's title.
       # The website description (for SEO)
       description: """
-                   Renuo GmbH, Internet solutions
+                   Renuo AG, Internet solutions
                    """
 
       # The website keywords (for SEO) separated by commas
@@ -42,7 +42,7 @@ docpadConfig =
                 """
 
       # The website author's name
-      author: "Renuo GmbH | info@renuo.ch | http://www.renuo.ch"
+      author: "Renuo AG | info@renuo.ch | http://www.renuo.ch"
 
       # The website author's email
       email: "info@renuo.ch"
@@ -79,8 +79,17 @@ docpadConfig =
     image_tag: (image_name)->
       "<img src='/images/#{image_name}' />"
 
-    team_image_tag: (image_name, alt)->
-      "<img src='/images/portraits/#{image_name}.jpg' class='portrait' alt='#{alt}' />"
+    employee_image_tag: (filename, alt)->
+      image_name = filename.replace('.html', '')
+      "<img src='/images/portraits/#{image_name}.jpg' class='portrait' alt='#{alt}' />" +
+        "<img src='/images/portraits/#{image_name}-action.jpg' class='portrait' alt='#{alt} in action' />"
+
+    employee_id: (filename)->
+      filename.replace('.html', '')
+
+    employee_github: (filename, overridden_github_name)->
+      return overridden_github_name if overridden_github_name
+      filename.replace('.html', '').replace('-', '')
 
     age: (y, m, d)->
       m = m - 1
@@ -137,9 +146,19 @@ docpadConfig =
         date: -1
       ])
 
-    jobs: (database) ->
+    jobs_zurich: (database) ->
       database.findAllLive({
-        tags: $hasAll: ['jobs-online']
+        tags: $hasAll: ['jobs-online-zurich']
+      }, [position: 1])
+
+    jobs_st_gallen: (database) ->
+      database.findAllLive({
+        tags: $hasAll: ['jobs-online-st-gallen']
+      }, [position: 1])
+
+    employees: (database) ->
+      database.findAllLive({
+        tags: $hasAll: ['employee']
       }, [position: 1])
 
 # =================================
@@ -183,7 +202,6 @@ docpadConfig =
       command = """
       #{rootPath}/node_modules/.bin/browserify
       #{outPath}/vendor/jquery.collapse.js
-      #{outPath}/vendor/log.js
       #{outPath}/scripts/script.js
                 | #{rootPath}/node_modules/.bin/uglifyjs > #{outPath}/scripts.js
                 """.replace(/\n/g,' ')

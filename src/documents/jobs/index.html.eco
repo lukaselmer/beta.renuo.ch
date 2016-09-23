@@ -23,14 +23,24 @@ position: 5
         <th>We are looking for a</th>
         <th>Period</th>
         <th>Workload</th>
+        <th>Office</th>
       </tr>
       </thead>
       <tbody>
-      <% for page in @getCollection("jobs").toJSON(): %>
+      <% for page in @getCollection("jobs_zurich").toJSON(): %>
       <tr>
         <td><a href="<%- page.url %>"><%= page.title %></a></td>
         <td><%= page.period %></td>
         <td><%= page.workload %></td>
+        <td>Zürich</td>
+      </tr>
+      <% end %>
+      <% for page in @getCollection("jobs_st_gallen").toJSON(): %>
+      <tr>
+        <td><a href="<%- page.url %>"><%= page.title %></a></td>
+        <td><%= page.period %></td>
+        <td><%= page.workload %></td>
+        <td>St. Gallen</td>
       </tr>
       <% end %>
       </tr>
@@ -62,8 +72,8 @@ position: 5
 
 <div class="row-fluid">
   <div class="span12">
-    <p>Note to recruiters: We do not work with recruiters, and do not read or answer answer mails from recruiters, especially not ones with résumés and other documents. If you want to know why, we would like to redirect you to <a href="http://blog.simplificator.com/2015/04/30/personalvermittler/" target="_blank">the very well written blog article</a> by Simplificator.</p>
-    <!-- <p>Hinweis an Personalvermittler: Wir arbeiten nicht mit Personalvermittlern zusammen und beantworten auch keine Anfragen oder unaufgeforderte Sendungen mit Lebensläufen. Wir möchten in diesem Zusammenhang auf den <a href="http://blog.simplificator.com/2015/04/30/personalvermittler/" target="_blank">sehr gut geschriebenen Blogbeitrag</a> von Simplificator hinweisen.</p> -->
+    <p>Note to recruiters: We do not work with recruiters, and do not read or answer answer mails from recruiters, especially not ones with résumés and other documents. If you want to know why, we would like to redirect you to <a href="http://blog.simplificator.com/2015/04/30/personalvermittler/">the very well written blog article</a> by Simplificator.</p>
+    <!-- <p>Hinweis an Personalvermittler: Wir arbeiten nicht mit Personalvermittlern zusammen und beantworten auch keine Anfragen oder unaufgeforderte Sendungen mit Lebensläufen. Wir möchten in diesem Zusammenhang auf den <a href="http://blog.simplificator.com/2015/04/30/personalvermittler/">sehr gut geschriebenen Blogbeitrag</a> von Simplificator hinweisen.</p> -->
     <!-- <p>Praktikum 2015 (IMS/HSR): Für 2015 haben wir leider keine Praktikumsplätze mehr zu vergeben.</p> -->
   </div>
 </div>

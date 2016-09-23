@@ -47,7 +47,7 @@ slider:
         <h2>Lösung</h2>
 
         <div>
-            <p>Die Renuo GmbH hat Collumino GmbH während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
+            <p>Die Renuo hat Collumino GmbH während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
             sowohl vor Ort wie auch remote im Projekt mitwirken. Die Aufgaben waren mehrheitlich im Frontend-Bereich angesiedelt und erforderten fundierte Kenntnisse in Ruby on Rails, HTML, CSS, JavaScript sowie highchart. Die Projektleitung sowie dessen Administration
             bleiben bei Collumino GmbH.</p>
         </div>
@@ -62,7 +62,7 @@ slider:
             4600 Olten<br></p>
             <p>Ansprechperson: Ettore Weilenmann<br>
             Tel: +41 62 296 10 50 </p>
-            <p>Link: <a href="http://www.collumino.com" target="_blank">http://www.collumino.com</a></p>
+            <p>Link: <a href="http://www.collumino.com">http://www.collumino.com</a></p>
             <p>Die Partnerschaft dauert von Mai 2013 bis Juli 2013.</p>
             <div><%- @image_tag 'logoslider/collumino_logo.png' %></div>
         </div>

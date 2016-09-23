@@ -48,7 +48,7 @@ slider:
             Dazugehörende Bilder werden über ein FTP-Server automatisch gematcht. Ein über ein Passwort geschützten
             Bereich erlaubt es Fischer, die Auktionen vor der Öffentlichkeit live anzuschauen und ggf. zu korrigieren.
             Über ein simples CMS sind natürlich sind auch die restlichen Bereiche eiditierbar. </p>
-            <p>Die Renuo GmbH hat den Webauftritt besonders in der Usabilty weiterentwickelt. Einerseits wurde
+            <p>Die Renuo hat den Webauftritt besonders in der Usabilty weiterentwickelt. Einerseits wurde
             die Bilderansicht optimiert und Prozesse, etwa die Auktionsvorschau sowie die effektive Auktion vereinheitlicht.
             Des Weiteren laufen Bestrebungen und Weiterentwicklungen im Bereich Newsletter-Marketing.</p>
         </div>
@@ -63,7 +63,7 @@ slider:
             6006 Luzern<br></p>
             <p>Ansprechperson: Dr. Kuno Fischer<br>
             Tel: +41 41 418 10 10</p>
-            <p>Link: <a href="http://www.fischerauktionen.ch" target="_blank">http://www.fischerauktionen.ch</a></p>
+            <p>Link: <a href="http://www.fischerauktionen.ch">http://www.fischerauktionen.ch</a></p>
             <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
             <div><%- @image_tag 'logoslider/fischer_logo.png' %></div>
         </div>

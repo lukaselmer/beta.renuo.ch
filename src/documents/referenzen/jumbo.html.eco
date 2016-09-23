@@ -52,7 +52,7 @@ slider:
             <p>Ansprechpersonen: Stefan Schurgast und Mirko Theodolz<br>
                Telefon  +41 44 805 56 56</p>
 
-            <p>Link: <a href="http://www.jumbo.ch/de/services/jumbo-app.html" target="_blank">http://www.jumbo.ch/de/services/jumbo-app.html</a></p>
+            <p>Link: <a href="http://www.jumbo.ch/de/services/jumbo-app.html">http://www.jumbo.ch/de/services/jumbo-app.html</a></p>
 			<p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von April bis November 2015.</p>
 
             <div><%- @image_tag 'logoslider/accarda_logo.png' %></div>

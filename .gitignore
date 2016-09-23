@@ -23,7 +23,6 @@ recompile.txt
 *.pydevproject
 .project
 .metadata
-bin/
 tmp/
 *.tmp
 *.bak
@@ -115,7 +114,6 @@ DocProject/Help/html
 publish
 
 # Others
-[Bb]in
 [Oo]bj
 sql
 TestResults
@@ -158,7 +156,6 @@ dist
 build
 eggs
 parts
-bin
 var
 sdist
 develop-eggs

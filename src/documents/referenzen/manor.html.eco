@@ -12,7 +12,7 @@ slider:
         image: /images/manor/manor-start.jpg
         image_alt: Das Bestell-Formular für die Manor Karte
         title: Per Mausklick zur Manor Karte
-        subtitle: Über unser Formular kann sich der Nutzer eine Manor-Kreditkarte mit einem Limit von CHF 499.- bestellen und nach wenigen Minuten per App zum Bezahlen einsetzen.
+        subtitle: Über unser Formular kann sich der Nutzer eine sofort einsetzbare Manor-Kreditkarte bestellen und nach wenigen Minuten per App zum Bezahlen einsetzen.
 ---
 
 <div class="row-fluid">
@@ -30,8 +30,8 @@ slider:
 
         <div>
             <p>Wir entwickelten das Formular mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und bindeten es via iFrame auf der Webseite von Manor ein.</p>
-			<p>Nachdem ein Kunde das Formular vollständig ausgefüllt hat, werden die Daten in wenigen Minuten auf Richtigkeit und der Kunde auf Kreditwürdigkeit überprüft. Nach erfolgreicher Autorisierung erhält der Kunde nur einige Augenblicke später einen Code auf seine App, welcher ihn zu Einkäufen bis zu CHF 499.- berechtigt.</p>
-			<p>Bei diesem Projekt war es besonders wichtig, eine sehr sichere Verschlüsselung der Daten zu entwickeln, da man beim Ausfüllen des Formulars unter anderem den Code für die Kreditkarte preisgibt. Auch die Einbindung des iFrames brauchte besondere Beachtung. Eine einwandfreie Funktionalität in jedem Browser und auf jedem Gerät ist nicht selbstverständlich.</p>
+			<p>Nachdem ein Kunde das Formular vollständig ausgefüllt hat, werden die Daten in wenigen Minuten auf Richtigkeit und der Kunde auf Kreditwürdigkeit überprüft. Nach erfolgreichem Antrag (hier passiert die Validierung rein automatisch, nicht mehr manuell) erhält der Kunde nur einige Augenblicke später einen Code auf seine App, welcher ihn direkt zu Einkäufen berechtigt.</p>
+			<p>Bei diesem Projekt war es besonders wichtig, eine sehr sichere Verschlüsselung sowie Validierung der Daten zu entwickeln. Eine einwandfreie Funktionalität in jedem Browser und auf jedem Gerät ist sicher gestellt. Des Weiteren werden verschiedene Kampagnen sowie Mandaten unterstützt.</p>
       <p>Das Formular ging im November 2015 live und wurde in den ersten drei Tagen bereits von mehr als 5'000 Nutzern ausgefüllt.</p>
         </div>
     </div>
@@ -47,7 +47,7 @@ slider:
             <p>Ansprechpersonen: Stefan Schurgast und Mirko Theodolz<br>
                Telefon  +41 44 805 56 56</p>
 
-            <p>Link: <a href="http://www.manor.ch/u/manorkarte-antrag" target="_blank">http://www.manor.ch/u/manorkarte-antrag</a></p>
+            <p>Link: <a href="https://www.manor.ch/u/manorkarte-antrag">http://www.manor.ch/u/manorkarte-antrag</a></p>
 			<p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von Juli bis November 2015.</p>
 
             <div><%- @image_tag 'logoslider/accarda_logo.png' %></div>

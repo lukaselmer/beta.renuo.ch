@@ -1,7 +1,7 @@
 --- yaml
 layout: 'default'
-title: 'Renuo GmbH'
-description: 'Die Renuo GmbH ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.'
+title: 'Renuo AG'
+description: 'Die Renuo AG ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.'
 breadcrumb: 0
 technologySlider:
     -
@@ -9,68 +9,88 @@ technologySlider:
         image_alt: Ruby on Rails Logo
         title:
         subtitle:
+        link:
     -
         image: /images/angularjs.png
         image_alt: AngularJS Logo
         title:
         subtitle:
+        link:
     -
         image: /images/html5.png
         image_alt: HTML5 Logo
         title:
         subtitle:
+        link:
     -
         image: /images/css3.png
         image_alt: CSS3 Logo
         title:
         subtitle:
+        link:
     -
         image: /images/javascript.png
         image_alt: JavaScript Logo
         title:
         subtitle:
+        link:
     -
         image: /images/jquery.png
         image_alt: jQuery Logo
         title:
         subtitle:
+        link:
     -
         image: /images/typescript.png
         image_alt: TypeScript Logo
         title:
         subtitle:
+        link:
+
 
 homeSlider:
     -
+        image: /images/renuo/slider_home/5-jahre-renuo-slider.jpg
+        image_alt: 5 Jahre Renuo
+        title: Die Renuo wird 5 Jahre alt
+        subtitle: Wollen Sie mehr erfahren? Dann klicken Sie auf das Bild.
+        link: /5-jahre-renuo
+    -
         image: /images/renuo/slider_home/team.jpg
-        image_alt: Renuo GmbH Teamfoto
+        image_alt: Renuo AG Teamfoto
         title: Wir kümmern uns von der Konzeption bis zur Wartung
         subtitle: Im Team können wir uns perfekt um ihre Bedürfnisse kümmern. Die Stärken jedes einzelnen können zu Ihren Gunsten genutzt werden. Wir sind jederzeit für Sie da.
+        link:
     -
         image: /images/renuo/slider_home/project.jpg
         image_alt: Web Projekt
         title: Software Entwicklung von A-Z
-        subtitle: Die Renuo GmbH ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.
+        subtitle: Die Renuo AG ist Spezialist in den Bereichen individuelle Webentwicklung, mobile Applikationen, responsive Design und Content Management.
+        link:
     -
         image: /images/renuo/slider_home/technologien-bei-renuo.jpg
         image_alt: Web Technologien
         title: Modernste Web-Technologien
         subtitle: Mit Hilfe modernster Webtechnologien entwickeln wir innovative Websoftware, welche stabil, agil und wartbar ist! Wir lieben und wir leben Technologien, v. a. Open Source!
+        link:
     -
     	image: /images/renuo/slider_home/entwicklung.jpg
         image_alt: Webbasierte Softwareentwicklung
         title: Web-Entwicklung / Programmierung
         subtitle: Wir sind Spezialist in webbasierter Softwareentwicklung! Wir programmieren sowohl kleine Auftritte als auch grosse Portale, welche mehrsprachig und multinational betrieben werden!
+        link:
     -
         image: /images/renuo/slider_home/responsive.jpg
         image_alt: Responsivität
         title: Webseiten, die in jeder Auflösung gut dastehen
         subtitle: Wir entwickeln Ihre Webseite so, dass sie in jeder Auflösung gut da steht! Die Inhalte werden dabei stets auf das Endgerät (z. B. Mobiltelefon, iPad oder PC) optimiert, damit ein Besucher stets den Überblick über die Inhalte behält. Erleben Sie Responsive Webdesign live, indem Sie den Renuo-Webauftritt auf verschiedenen Geräten betrachten!
+        link:
     -
         image: /images/renuo/slider_home/cms.jpg
         image_alt: Content Management System
         title: Simple und effiziente CMS, welche jeder bedienen kann
         subtitle: Wir integrieren Ihnen simple Leichtgewicht-CMS, welche so einfach sind, dass sie auch von Laien bedient werden können!
+        link:
 
 ---
 
@@ -206,12 +226,12 @@ homeSlider:
       effizienter wird.</p>
 
     <p>Ruby on Rails wurde schon in vielen Projekten eingesetzt
-      (zum Beispiel bei <a href="http://www.twitter.com/" target="_blank">Twitter</a>,
-      <a href="http://www.groupon.com/" target="_blank">Groupon</a>,
-      <a href="http://www.xing.com" target="_blank">Xing</a>, usw.)
+      (zum Beispiel bei <a href="http://www.twitter.com/">Twitter</a>,
+      <a href="http://www.groupon.com/">Groupon</a>,
+      <a href="http://www.xing.com">Xing</a>, usw.)
       und überzeugt immer wieder mit Innovation.
       Weitere Informationen zu Ruby on Rails finden Sie unter:
-      <a href="http://rubyonrails.org/" target="_blank">http://rubyonrails.org</a></p>
+      <a href="http://rubyonrails.org/">http://rubyonrails.org</a></p>
   </div>
   <div class="span4">
     <h2>jQuery
@@ -245,10 +265,46 @@ homeSlider:
   </div>
 </div>
 
-<div class="row-fluid page-header-element">
-    <div class="span12">
-        <%- @getSlider('planningSlider', @document.planningSlider) %>
+<div class="row-fluid testimonial-quotations" style="margin-top: 30px;">
+  <div class="span4 testimonial-box">
+    <a href='/referenzen/essrechner/'><img class='testimonial-logo' src='/images/logoslider/mtextur_logo.png' alt='mtextur' /></a>
+    <div class='testimonials-sentence'>
+      <div>
+        <p>“Der Umzug unserer Plattform zu einem Schweizer Entwicklungsteam hat sich nicht nur finanziell ausgezeichnet,
+          sondern er hat auch eine persönliche Vertrauensbasis ermöglicht. Wir befinden uns betreffend Technik, Beratung
+          und Kommunikation in einem anderen Universum. Vielen Dank!”</p>
+        <p>April 2016</p>
+      </div>
     </div>
+    <div><img class='testimonial-portrait' src='/images/testimonials/portrait_philipp_hauzinger.jpg' alt='Philipp Hauzinger' /></div>
+    <p>Philipp Hauzinger<br>Geschäftsleitung mtextur.com</p>
+  </div>
+
+  <div class="span4 testimonial-box">
+    <a href='/referenzen/essrechner/'><img class='testimonial-logo' src='/images/logoslider/tamedia_logo.png' alt='Tamedia' /></a>
+    <div class='testimonials-sentence'>
+      <div>
+        <p>“Die Renuo schafft es immer wieder, Ideen innert kürzester Zeit innovativ für uns zu realisieren. Ich schätze die
+        unkomplizierte Zusammenarbeit sehr.”</p>
+        <p>Mai 2016</p>
+      </div>
+    </div>
+    <div><img class='testimonial-portrait' src='/images/testimonials/portrait_samuel_reber.jpg' alt='Samuel Reber' /></div>
+    <p>Samuel Reber<br>Stv. Leiter Digital Tages-Anzeiger und SonntagsZeitung</p>
+  </div>
+
+  <div class="span4 testimonial-box">
+    <a href='/referenzen/schuler/'><img class='testimonial-logo' src='/images/logoslider/schuler_logo.png' alt='schuler' /></a>
+    <div class='testimonials-sentence'>
+      <div>
+        <p>“Ich bin froh, in der Renuo einen kompetenten und innovativen Partner gefunden zu haben, bei welchem sowohl
+          finanzielle Aspekte, als auch die Beratung und Kompetenz stimmt.”</p>
+        <p>Mai 2016</p>
+      </div>
+    </div>
+    <div><img class='testimonial-portrait' src='/images/testimonials/portrait_michi_abegg.jpg' alt='Michael Abegg' /></div>
+    <p>Michael Abegg<br>Geschäftsleitung Schuler Auktionen</p>
+  </div>
 </div>
 
 <div id="contact"></div>
@@ -273,7 +329,7 @@ homeSlider:
     <div>
       <div class="span4">
         <address>
-          <b>Renuo GmbH</b><br/>
+          <b>Renuo AG</b><br/>
           Industriestrasse 44<br/>
           8304 Wallisellen<br/><br/>
         </address>
@@ -285,7 +341,7 @@ homeSlider:
           <dt>Email</dt>
           <dd><a href="mailto:info@renuo.ch">info@renuo.ch</a></dd>
           <dt>Web</dt>
-          <dd><a href="https://www.renuo.ch">www.renuo.ch</a></dd>
+          <dd><a href="/">https://www.renuo.ch</a></dd>
         </dl>
       </div>
     </div>

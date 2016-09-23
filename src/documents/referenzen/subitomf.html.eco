@@ -68,7 +68,7 @@ slider:
             <p>Ansprechperson: David Athanassoglou<br>
                Telefon  +41 79 711 71 79</p>
 
-            <p>Link: <a href="https://www.subitomf.com" target="_blank">https://www.subitomf.com</a></p>
+            <p>Link: <a href="https://www.subitomf.com">https://www.subitomf.com</a></p>
 			<p>Die Partnerschaft dauert von Februar 2014 bis heute</p>
 
             <div><%- @image_tag 'logoslider/firstclassmusic.png' %></div>
