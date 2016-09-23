@@ -50,12 +50,6 @@ technologySlider:
 
 homeSlider:
     -
-        image: /images/renuo/slider_home/5-jahre-renuo-slider.jpg
-        image_alt: 5 Jahre Renuo
-        title: Die Renuo wird 5 Jahre alt
-        subtitle: Wollen Sie mehr erfahren? Dann klicken Sie auf das Bild.
-        link: /5-jahre-renuo
-    -
         image: /images/renuo/slider_home/team.jpg
         image_alt: Renuo AG Teamfoto
         title: Wir kümmern uns von der Konzeption bis zur Wartung
@@ -306,7 +300,6 @@ homeSlider:
     <p>Michael Abegg<br>Geschäftsleitung Schuler Auktionen</p>
   </div>
 </div>
-
 
 <div id="contact"></div>
 <div class="row-fluid page-header-element">
