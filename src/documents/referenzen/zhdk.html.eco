@@ -1,23 +1,23 @@
 ---
-title: Fragebogen Generator
-box_name: ZHdK
-box_description: Fragebogen Generator
-short_description: für  die ZHdK
-image_path: /images/zhdk/zhdk-start.jpg
+title: Fragebogen-Generator
+box_name: Zürcher Hochschule der Künste
+box_description: Fragebogen-Generator
+short_description: für  die Zürcher Hochschule der Künste
+image_path: /images/zhdk/zhdk-start-new.jpg
 layout: project
-position: 4
+position: 2
 tags: ['project']
 slider:
     -
         image: /images/zhdk/zhdk1.jpg
         image_alt: Der Fragebogen Generator auf erster Ebene
-        title: Der Fragebogen Generator auf erster Ebene
-        subtitle: Die Applikation ermöglicht es den Dozenten der ZHdK ohne grossen Aufwand, standardisierte Fragebogen zu erstellen!
+        title: Der Fragebogen-Generator für Dozierende
+        subtitle: Die Applikation ermöglicht es den Dozierenden der ZHdK ohne grossen Aufwand, standardisierte Fragebögen zu erstellen.
     -
         image: /images/zhdk/zhdk2.jpg
         image_alt: Der Fragebogen Generator auf zweiter Ebene
-        title: Der Fragebogen Generator auf zweiter Ebene
-        subtitle: Im Hintergrund der Applikation werden Standardfragen, Layout und mehr generiert!
+        title: Die Fragebibliothek im Hintergrund der Applikation
+        subtitle: Hier werden Standardfragen und das Layout der Fragebögen bearbeitet.
 
 ---
 
@@ -26,7 +26,8 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Unser Auftrag war es für die ZHdK eine Applikation zu erstellen, welche Dozenten der Zürcher Hochschule der Künste ermöglichen soll, mit wenigen Klicks und geringerem Aufwand standardisierte Fragebogen zu generieren.</p>
+            <p>Unser Auftrag war es für die Zürcher Hochschule der Künste eine Applikation zu erstellen, welche es den Dozierenden der ZHdK ermöglicht, mit wenigen Klicks und geringem Aufwand standardisierte Fragebogen zu generieren.</p>
+            <p>Die grösste Herausforderung bestand darin, dass das PDF in jedem Browser und in jedem PDF-Reader gleich dargestellt wird, denn dies war das Hauptanliegen unserer Auftraggeber. Ebenfalls eine Herausforderung war es, das PDF auf der Seite des Klienten zu rendern; was bedeutet, dass das Erstellen des Fragebogens nicht online, sondern offline geschehen kann.</p>
         </div>
     </div>
 
@@ -37,7 +38,6 @@ slider:
             <p>Das Backend der ZHdK-Applikation wurde mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und das Frontend mit jQuery realisiert.</p>
 			      <p>Die Applikation fungiert auf zwei Ebenen. Die eine Ebene ist für die Dozenten relevant, denn dort wird der Fragebogen erstellt. Die Fragen können in der Fragebibliothek kategorisiert, ausgesucht und mittels Klick oder “drag’n’drop” zum Fragebogen hinzugefügt werden. Alle Fragen – ausser der Standardfragen – sowie die genaue Wortwahl der Einleitung sind editierbar.
             Auf der zweiten Ebene wird hinter den Kulissen gearbeitet, für dessen Zugang man einen Login benötigt. Standardfragen sowie zum Beispiel Einleitung und Layout/Design können dort eingefügt und bearbeitet werden. Sobald der Fragebogen fertig ist, kann er vom Ersteller als PDF-Dokument abgespeichert werden.</p>
-			      <p>Die grösste Herausforderung bestand darin, dass das PDF in jedem Browser und in jedem PDF-Reader gleich dargestellt wird, denn dies war das Hauptanliegen unserer Auftraggeber. Ebenfalls eine Herausforderung war es, das PDF auf der Seite des Klienten zu rendern; was bedeutet, dass das Erstellen des Fragebogens nicht online, sondern offline geschehen kann.</p>
             <p>Eine essenzielle Besonderheit ist, dass man das heruntergeladene PDF-Dokument direkt bearbeiten kann. Somit ist auch gewährleistet, dass sich die Darstellung des PDFs nicht verändert.</p>
             <p>Das Frontend bzw. das Design der Applikation wurde vom Auftraggeber ausgeführt.<p>
         </div>
@@ -47,7 +47,7 @@ slider:
         <h2>Auftraggeber</h2>
 
         <div>
-            <p>ZHdK<br>
+            <p>Zürcher Hochschule der Künste<br>
 			   Pfingstweidenstrasse 96<br>
                8005 Zürich<br></p>
 
@@ -57,7 +57,7 @@ slider:
             <p>Link: <a href="http://fragebogengenerator.zhdk.ch">http://fragebogengenerator.zhdk.ch</a></p>
 			      <p>Die Partnerschaft dauert von März 2016 bis heute.</p>
 
-            <div><%- @image_tag 'logoslider/zhdk_logo.png' %></div>
+            <div><%- @image_tag 'logoslider/zhdk-logo.png' %></div>
         </div>
     </div>
 </div>
