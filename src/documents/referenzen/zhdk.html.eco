@@ -36,7 +36,7 @@ slider:
 
         <div>
             <p>Das Backend der ZHdK-Applikation wurde mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und das Frontend mit jQuery realisiert.</p>
-			      <p>Die Applikation fungiert auf zwei Ebenen. Die eine Ebene ist für die Dozierende relevant, denn dort wird der Fragebogen erstellt. Die Fragen können in der Fragebibliothek kategorisiert, ausgesucht und mittels Klick oder “drag’n’drop” zum Fragebogen hinzugefügt werden. Alle Fragen – ausser der Standardfragen – sowie die genaue Wortwahl der Einleitung sind editierbar.
+			      <p>Die Applikation fungiert auf zwei Ebenen. Die eine Ebene ist für die Dozierenden relevant, denn dort wird der Fragebogen erstellt. Die Fragen können in der Fragebibliothek kategorisiert, ausgesucht und mittels Klick oder “drag’n’drop” zum Fragebogen hinzugefügt werden. Alle Fragen – ausser der Standardfragen – sowie die genaue Wortwahl der Einleitung sind editierbar.
             Auf der zweiten Ebene wird hinter den Kulissen gearbeitet, für dessen Zugang man einen Login benötigt. Standardfragen sowie zum Beispiel Einleitung und Layout/Design können dort eingefügt und bearbeitet werden. Sobald der Fragebogen fertig ist, kann er vom Ersteller als PDF-Dokument abgespeichert werden.</p>
             <p>Eine essenzielle Besonderheit ist, dass man das heruntergeladene PDF-Dokument direkt bearbeiten kann. Somit ist auch gewährleistet, dass sich die Darstellung des PDFs nicht verändert.</p>
             <p>Das Frontend bzw. das Design der Applikation wurde vom Auftraggeber ausgeführt.<p>
