@@ -6,7 +6,7 @@ short_description: für  die Zürcher Hochschule der Künste
 image_path: /images/zhdk/zhdk-start-new.jpg
 layout: project
 position: 2
-tags: ['project']
+tags: ['project-disabled']
 slider:
     -
         image: /images/zhdk/zhdk1.jpg
