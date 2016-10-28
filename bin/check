@@ -56,6 +56,12 @@ if [ ! $? -eq 0 ]; then
   exit 1
 fi
 
+bin/find_unused_images
+if [ $? -eq 1 ]; then
+  echo 'Found unused images. Please delete them and try again, commit aborted'
+  exit 1
+fi
+
 bin/find_wrong_extensions
 if [ $? -eq 1 ]; then
   echo 'Invalid extensions found. Please fix them and try again, commit aborted'
