@@ -2,6 +2,16 @@
 
 source ~/.zshrc
 
+for f in src/files/images/**/*
+do
+  if ! grep -qxFe "$f" bin/.filesize_exceptions; then
+    FILE_SIZE=$(stat $f | cut -f 8 -d " ")
+     if [ $FILE_SIZE -ge 200000 ]; then
+      echo "Image: $f is too large ($FILE_SIZE Bytes). Please fix them and try again, commit aborted"
+    fi
+  fi
+done
+
 grep --exclude="vfs_eth.html.eco" --exclude="2014-04-10-heartbleed.html" --exclude-dir="node_modules/**" --exclude-dir="app/assets/typings/**" -i -r 'TODO' src/documents src/helpers src/layouts README.md docpad.coffee
 if [ $? -eq 0 ]; then
   echo 'TODOs found. Please fix them and try again, commit aborted'
