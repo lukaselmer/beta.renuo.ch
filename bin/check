@@ -2,6 +2,14 @@
 
 source ~/.zshrc
 
+
+find src -size +250k \( -name *.jpg -or -name *.jpeg -or -name *.png -or -name *.gif \)  -exec du -k {} + |
+awk -F '\t' '{print $1 "kb" ": " $2;}'
+if [ $? -eq 0 ]; then
+  echo -e "\033[31m\nFound images larger than 20kb, please resize them! Commit aborted.\033[0m"
+  exit 1
+fi
+
 grep --exclude="vfs_eth.html.eco" --exclude="2014-04-10-heartbleed.html" --exclude-dir="node_modules/**" --exclude-dir="app/assets/typings/**" -i -r 'TODO' src/documents src/helpers src/layouts README.md docpad.coffee
 if [ $? -eq 0 ]; then
   echo 'TODOs found. Please fix them and try again, commit aborted'
