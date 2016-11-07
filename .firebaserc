@@ -1,5 +1,7 @@
 {
   "projects": {
-    "develop": "renuo-website-2016-11-7"
+    "develop": "renuo-website-develop",
+    "master": "renuo-website-master",
+    "testing": "renuo-website-testing"
   }
 }
