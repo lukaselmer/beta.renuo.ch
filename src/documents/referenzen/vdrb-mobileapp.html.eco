@@ -15,9 +15,9 @@ slider:
         subtitle: Mit der "Bee Audit" App wird der Aufwand des Sekretariats und der Fachleute des VDRBs vermindert.
     -
         image: /images/vdrb/beeauditslider.jpg
-        image_alt: Bee Audit aus Sicht der Fachleute des VDRBs
-        title: Bee Audit aus Sicht der Fachleute des VDRBs
-        subtitle: Jeder Fachperson werden die richigen Imker zugewiesen, bei welchem sie die Adresse ändern und Prüfungen erfassen können.
+        image_alt: Detailansichten der Applikation
+        title: Detailansichten der Applikation
+        subtitle: Jeder Fachperson werden die richtigen Imker zugewiesen, bei welchen sie Prüfungen erfassen und Kontaktdaten ändern können.
 ---
 
 <div class="row-fluid">
@@ -37,7 +37,7 @@ slider:
 			<p>Dank der neu erstellten Applikation, kann die Fachperson die Prüfung auf einem Tablet oder Mobiltelefon erfassen und anschliessend abspeichern. Das Prüfungsdokument ist somit auf dem System hinterlegt und muss nur noch als Urkunde ausgedruckt werden. Der Aufwand wird auf Seite des Sekretariats und des Prüfers vermindert.</p>
 			<p>Eine Besonderheit der App ist, dass das Ausfüllen der Qualitätskontrolle auch im Offline Modus möglich ist, was bedeutet, dass kein WLAN und keine Mobile Daten benötigt werden. Ausserdem ist die Anwendung mit der Mitgliederverwaltung und dem Kaderabrechnungssystem verknüpft. Die Spesen für die Fachleute des VDRBs werden durch diese Verknüpfung automatisch generiert und vergütet.</p>
 			<p>Die grösste Herausforderung bei der Entwicklung von “Bee Audit” bestand darin, die Berechtigungs- und Rollenverwaltung zu berücksichtigen und folglich jedem Prüfer die richtigen Imker zuzuweisen.</p>
-			<p>Das Projekt wurde mit Rails im Backend und Ionic2 im Frontend realisiert.</p>
+			<p>Das Projekt wurde mit <a href="/web-entwicklung/rubyonrails/">Rails</a> im Backend und Ionic2 im Frontend realisiert.</p>
         </div>
     </div>
 
