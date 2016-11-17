@@ -5,8 +5,8 @@ box_description: Fragebogen-Generator
 short_description: für  die Zürcher Hochschule der Künste
 image_path: /images/zhdk/zhdk-start-new.jpg
 layout: project
-position: 2
-tags: ['project-disabled']
+position: 4
+tags: ['project']
 slider:
     -
         image: /images/zhdk/zhdk1.jpg
@@ -26,8 +26,8 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Unser Auftrag war es für die Zürcher Hochschule der Künste eine Applikation zu erstellen, welche es den Dozierenden der ZHdK ermöglicht, mit wenigen Klicks und geringem Aufwand standardisierte Fragebogen zu generieren.</p>
-            <p>Die grösste Herausforderung bestand darin, dass das PDF in jedem Browser und in jedem PDF-Reader gleich dargestellt wird, denn dies war das Hauptanliegen unserer Auftraggeber. Ebenfalls eine Herausforderung war es, das PDF auf der Seite des Klienten zu rendern; was bedeutet, dass das Erstellen des Fragebogens nicht online, sondern offline geschehen kann.</p>
+            <p>Von der Zürcher Hochschule der Künste (ZHdK) erhielten wir den Auftrag, eine Applikation zu erstellen, welche die Dozierenden bei der Unterrichtsevaluation unterstützt. Dank der Anwendung sollen die Lehrpersonen auf einfache Art und Weise und ohne viel Aufwand einen individuellen Fragebogen erstellen und als PDF drucken können.</p>
+            <p>Eine wichtige Anforderung an die Applikation war es, dass die Fragebögen als PDF in jedem Browser und in jedem PDF-Reader gleich dargestellt werden. Dazu sollte das Erstellen eines Fragebogens nicht nur online, sondern auch offline möglich sein.</p>
         </div>
     </div>
 
@@ -35,11 +35,9 @@ slider:
         <h2>Umsetzung</h2>
 
         <div>
-            <p>Das Backend der ZHdK-Applikation wurde mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und das Frontend mit jQuery realisiert.</p>
-            <p>Die Applikation fungiert auf zwei Ebenen. Die eine Ebene ist für die Dozierenden relevant, denn dort wird der Fragebogen erstellt. Die Fragen können in der Fragebibliothek kategorisiert, ausgesucht und mittels Klick oder “drag’n’drop” zum Fragebogen hinzugefügt werden. Alle Fragen – ausser der Standardfragen – sowie die genaue Wortwahl der Einleitung sind editierbar.
-            Auf der zweiten Ebene wird hinter den Kulissen gearbeitet, für dessen Zugang man ein Login benötigt. Standardfragen sowie zum Beispiel Einleitung und Layout/Design können dort eingefügt und bearbeitet werden. Sobald der Fragebogen fertig ist, kann er vom Ersteller als PDF-Dokument abgespeichert werden.</p>
-            <p>Eine essenzielle Besonderheit ist, dass man das heruntergeladene PDF-Dokument direkt bearbeiten kann. Somit ist auch gewährleistet, dass sich die Darstellung des PDFs nicht verändert.</p>
-            <p>Das Frontend bzw. das Design der Applikation wurde vom Auftraggeber ausgeführt.<p>
+            <p>Das Backend der ZHdK-Applikation realisierten wir mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und das Frontend mit jQuery. Das Frontend bzw. das Design der Applikation wurde vom Auftraggeber selbst ausgeführt.</p>
+            <p>Die Anwendung besteht aus einer Fragebibliothek, in der die Dozierenden mittels “drag’n’drop” standardisierte Fragen in ihr Formular einfügen können. Bei Bedarf können auch eigene Fragen und individuelle Einleitungstexte erstellt werden. Das Layout und das Design des Fragebogens werden im Hintergrund der Applikation festgelegt und erscheinen deshalb immer einheitlich. Die Dozierenden der ZHdK können so mit nur wenigen Klicks  ihren individuellen Fragebogen zur Unterrichtsevaluation erstellen und brauchen sich nicht um das Erscheinungsbild des Formulars zu kümmern.</p>
+            <p>Eine weitere interessante Besonderheit der Applikation ist, dass man den als PDF heruntergeladenen Fragebogen auch offline bearbeiten kann, ohne dass sich dabei die Darstellung verändert.</p>
         </div>
     </div>
 
@@ -51,12 +49,12 @@ slider:
                Pfingstweidenstrasse 96<br>
                8005 Zürich<br></p>
 
-            <p>Ansprechpersonen: Robert Massarelli und Michael Elmer<br>
-               Telefon: +41 44 300 34 44 /  +41 44 300 34 45 </p>
+            <p>Ansprechpersonen: Robert Massarelli<br>
+               Telefon: +41 44 300 34 44</p>
 
-            <p>Link: <a href="http://fragebogengenerator.zhdk.ch">http://fragebogengenerator.zhdk.ch</a><br>
+            <p>Link: <a href="http://fragebogengenerator.zhdk.ch">http://fragebogengenerator.zhdk.ch</a>
             (auf Wunsch des Kundens absichtlich ohne SSL)</p>
-                  <p>Die Partnerschaft dauert von März 2016 bis heute.</p>
+            <p>Die Partnerschaft dauert von März 2016 bis heute.</p>
 
             <div><%- @image_tag 'logoslider/zhdk-logo.png' %></div>
         </div>
