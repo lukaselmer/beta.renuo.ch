@@ -104,6 +104,15 @@ position: 4
           <% if employee.xing: %>
             <a href="https://www.xing.com/profile/<%= employee.xing %>"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
           <% end %>
+
+          <% if employee.stack_overflow: %>
+            <a href="https://stackoverflow.com/users/<%= employee.stack_overflow %>">
+              <span class="icon-stack icon-2x" style="vertical-align: -16%; margin-left: -4px;">
+                <i title="Zum Stack Overflow Profil" class="icon-sign-blank icon-stack-base"></i>
+                <i title="Zum Stack Overflow Profil" class="icon-stackexchange icon-light"></i>
+              </span>
+            </a>
+          <% end %>
         </div>
       </div>
 
