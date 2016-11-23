@@ -25,8 +25,11 @@ PreCommit:
     enabled: true
   CoffeeLint:
     enabled: true
-  # ExecutePermissions:
-  #   enabled: true
+  ExecutePermissions:
+    enabled: true
+    exclude:
+      - 'bin/*'
+      - 'recompile.sh'
   # FixMe:
   #   enabled: true
   ForbiddenBranches:
