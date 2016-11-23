@@ -32,8 +32,11 @@ PreCommit:
   ForbiddenBranches:
     enabled: true
     branch_patterns: ['master', 'develop']
-  # HardTabs:
-  #   enabled: true
+  HardTabs:
+    enabled: true
+    exclude:
+      - 'src/files/vendor/lib/*'
+      - 'src/files/ico/manifest.json'
   # ImageOptim:
   #   enabled: true
   JsonSyntax:
