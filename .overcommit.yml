@@ -44,8 +44,15 @@ PreCommit:
   #   enabled: true
   JsonSyntax:
     enabled: true
-  # LineEndings:
-  #   enabled: true
+  LineEndings:
+    enabled: true
+    exclude:
+      - '**/*.ico'
+      - '**/*.png'
+      - '**/*.jpg'
+      - '**/*.psd'
+      - 'node_modules/**/*'
+      - 'src/files/**/*'
   Mdl:
     enabled: true
   # ScssLint:
