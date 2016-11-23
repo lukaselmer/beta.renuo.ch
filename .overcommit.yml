@@ -20,7 +20,7 @@
 PreCommit:
   RenuoBinCheck:
     enabled: true
-    command: './bin/check'
+    command: './bin/check-legacy'
   CommitMsg:
     enabled: true
   CoffeeLint:
