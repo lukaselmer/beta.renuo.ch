@@ -15,9 +15,42 @@
 #
 # Uncomment the following lines to make the configuration take effect.
 
+# TODO: fix code, enable missing linters
+
 PreCommit:
   RenuoBinCheck:
     enabled: true
     command: './bin/check'
+  CommitMsg:
+    enabled: true
+  # CoffeeLint:
+  #   enabled: true
+  # ExecutePermissions:
+  #   enabled: true
+  # FixMe:
+  #   enabled: true
+  ForbiddenBranches:
+    enabled: true
+    branch_patterns: ['master', 'develop']
+  # HardTabs:
+  #   enabled: true
+  # ImageOptim:
+  #   enabled: true
+  JsonSyntax:
+    enabled: true
+  # LineEndings:
+  #   enabled: true
+  Mdl:
+    enabled: true
+  # ScssLint:
+  #   enabled: true
+  # ShellCheck:
+  #   enabled: true
   TrailingWhitespace:
+    enabled: true
+  TravisLint:
+    enabled: true
+  # YamlLint:
+  #   enabled: true
+  YamlSyntax:
     enabled: true
