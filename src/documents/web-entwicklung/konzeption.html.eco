@@ -2,19 +2,18 @@
 layout: 'web_development'
 title: 'Konzeption'
 description: 'Mit einer sauber durch geführten Konzeption wird die Basis für jedes erfolgreiche Projekt gelegt.'
-#isMainNavi: 1
 position: 1
 planningSlider:
     -
         image: /images/renuo/konzeption/planningI.jpg
         image_alt: Konzeption
-        title: 
-        subtitle: 
+        title:
+        subtitle:
     -
         image: /images/renuo/konzeption/planningII.jpg
         image_alt: Konzeption
-        title: 
-        subtitle: 
+        title:
+        subtitle:
 ---
 
 <div class="row-fluid">
@@ -36,7 +35,7 @@ planningSlider:
 
     <div class="span10">
         <br/><p>Mit der zunehmenden Wichtigkeit des Internets steigt auch die Komplexität der Webprojekte. Durch neue Technologien wird immer mehr möglich und durch die Ubiquität von webbasierten Services die Ansprüche immer grösser. Eine fundierte Analyse Ihrer Bedürfnisse und Ihrer Anforderungen wird somit umso wichtiger!</p>
-		<p>Am Anfang eines jeden Webprojektes steht somit die Konzeptionsphase.</p>
+        <p>Am Anfang eines jeden Webprojektes steht somit die Konzeptionsphase.</p>
     </div>
 
 </div>
@@ -47,10 +46,10 @@ planningSlider:
         <h2>Ihre Vision</h2>
         <div>
             <p>Als erstes wollen wir Sie kennen lernen! Wer sind Sie? In welchem Business sind Sie? Wie funktioniert Ihr Geschäft und möchten Sie dies eventuell durch Ihre Applikation verändern? Wer soll Ihre Applikation verwenden und mit wie vielen Besuchern rechnen Sie? Gibt es Schnittstellen zu dritten Datenquellen?</p>
-			<p>Diese und ähnliche Fragen werden wir Ihnen stellen, damit wir herausfinden können, wohin die Reise gehen soll. Das Ziel ist es, eine vollständige Liste mit den Anforderungen und Wünschen zu haben, damit wir diese in technische Konzepte übersetzen können.</p>
+            <p>Diese und ähnliche Fragen werden wir Ihnen stellen, damit wir herausfinden können, wohin die Reise gehen soll. Das Ziel ist es, eine vollständige Liste mit den Anforderungen und Wünschen zu haben, damit wir diese in technische Konzepte übersetzen können.</p>
         </div>
     </div>
-	
+
     <div class="span4">
         <h2>Technisches Konzept</h2>
         <div>
@@ -63,8 +62,7 @@ planningSlider:
         <div>
             <p>Basierend auf den erarbeiteten technischen Konzepten erarbeiten wir User Stories. Eine User Story folgt immer dem Schema: <blockquote><i>"Als (Anwendertyp) möchte ich (folgende Aktion durchführen), um (dieses Ziel zu erreichen)."</i></blockquote>Ein zentraler Vorteil der Verwendung von User Stories für die Beschreibung von Anforderungen ist es, den Kundennutzen stark in den Vordergrund zu stellen. Durch die Alltagssprache sind sie für jedermann gut verständlich und durch ihre Kürze muss der Kundennutzen klar ausgedrückt werden. Wir kalkulieren intern jede User Story, damit wir Ihnen am Schluss eine klare Aussage zu einem Preis machen können.</p>
         </div>
-    </div>		
-	
+    </div>
 </div>
 
 <div class="row-fluid page-header-element">
