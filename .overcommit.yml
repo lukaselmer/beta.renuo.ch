@@ -40,8 +40,14 @@ PreCommit:
     exclude:
       - 'src/files/vendor/lib/*'
       - 'src/files/ico/manifest.json'
-  # ImageOptim:
-  #   enabled: true
+#  ImageOptim:
+#    enabled: true
+#    include:
+#      - 'src/**/*.png'
+#      - 'src/**/*.jpg'
+#      - 'src/**/*.jpeg'
+#      - 'src/**/*.svg'
+#      - 'src/**/*.gif'
   JsonSyntax:
     enabled: true
   LineEndings:
