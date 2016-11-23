@@ -23,8 +23,8 @@ PreCommit:
     command: './bin/check'
   CommitMsg:
     enabled: true
-  # CoffeeLint:
-  #   enabled: true
+  CoffeeLint:
+    enabled: true
   # ExecutePermissions:
   #   enabled: true
   # FixMe:

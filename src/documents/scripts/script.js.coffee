@@ -1,7 +1,7 @@
 $ ->
 
   $(document).ready ->
-    document.documentElement.setAttribute('data-useragent', navigator.userAgent);
+    document.documentElement.setAttribute('data-useragent', navigator.userAgent)
 
   $(document).ready ->
     jQuery(document.links).filter(->
@@ -144,14 +144,14 @@ $ ->
         clickable: true,
 
       google.maps.event.addListener marker, 'click', () ->
-        window.open('https://maps.google.ch/maps?q=Renuo+AG,+Industriestrasse+44,+Wallisellen&hl=de&ie=UTF8&t=m&z=16&iwloc=A');
+        window.open('https://maps.google.ch/maps?q=Renuo+AG,+Industriestrasse+44,+Wallisellen&hl=de&ie=UTF8&t=m&z=16&iwloc=A')
 
   $(document).ready ->
     $('.carousel').carousel()
 
   $(document).ready ->
     $(".btn-navbar").on "click", (e) ->
-      e.preventDefault();
+      e.preventDefault()
       $(".nav-big ul").removeClass("nav pull-right")
       $(".nav-big").toggle
         duration: 400
@@ -186,9 +186,9 @@ $ ->
 
     toggleMilkyEffect = ->
       if(isMobile())
-        $('.project-box').removeClass('milky');
+        $('.project-box').removeClass('milky')
       else
-        $('.project-box:not(:first)').addClass('milky');
+        $('.project-box:not(:first)').addClass('milky')
 
     $(window).resize ->
       toggleMilkyEffect()
