@@ -18,7 +18,7 @@ slider:
         image_alt: Verkauf von Bücher
         title: User können gebrauchte Bücher verkaufen
         subtitle: Durch die Eingabe von ISBN-Nummer können User eigene, gebrauchte Bücher verkaufen. Anhand der ISBN-Nummer werden Informationen über das Buch geladen, die User ergänzen mit Informationen über Zustand sowie Verkaufspreis etc.
-	-
+    -
         image: /images/studentbooks/listen.jpg
         image_alt: Unterlagen von Hochschulen
         title: Unterlagen von Fachhochschulen und Universitäten
@@ -36,7 +36,7 @@ slider:
             Bücher, zur Verfügung.</p>
             <p>Um den administrativen Aufwand zu minimieren, sind
             <ul>
-            	<li>eine Anbindung an verschiedene Artikel Datenquellen für den automatischen Datenabgleich</li>
+                <li>eine Anbindung an verschiedene Artikel Datenquellen für den automatischen Datenabgleich</li>
                 <li>eine Anbindung an ein ERP/CRM System für Bestellungen</li>
             </ul>
             nötig.</p>

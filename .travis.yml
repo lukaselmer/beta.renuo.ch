@@ -1,19 +1,25 @@
-sudo: false
+# sudo is needed for the apt-get in before_install
+sudo: true
 language: node_js
 addons:
   apt:
     packages:
-    - zsh
+      - zsh
 cache:
   bundler: true
   apt: true
   directories:
     - node_modules
 before_install:
+  # this is needed for git 2.10.x, which is needed by the EOF check
+  - sudo add-apt-repository ppa:git-core/ppa -y
+  - sudo apt-get update
+  - sudo apt-get install git
   - export TZ=Europe/Zurich
-before_script:
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
+  - git config --global user.name "Travis CI"
+  - git config --global user.email "ci@example.com"
+  - rvm install 2.3.2
+  - rvm use 2.3.2
 script: bin/setup
 notifications:
   email:

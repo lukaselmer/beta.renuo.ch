@@ -68,7 +68,7 @@ homeSlider:
         subtitle: Mit Hilfe modernster Webtechnologien entwickeln wir innovative Websoftware, welche stabil, agil und wartbar ist! Wir lieben und wir leben Technologien, v. a. Open Source!
         link:
     -
-    	image: /images/renuo/slider_home/entwicklung.jpg
+        image: /images/renuo/slider_home/entwicklung.jpg
         image_alt: Webbasierte Softwareentwicklung
         title: Web-Entwicklung / Programmierung
         subtitle: Wir sind Spezialist in webbasierter Softwareentwicklung! Wir programmieren sowohl kleine Auftritte als auch grosse Portale, welche mehrsprachig und multinational betrieben werden!
