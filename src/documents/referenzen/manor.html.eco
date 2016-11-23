@@ -30,8 +30,8 @@ slider:
 
         <div>
             <p>Wir entwickelten das Formular mit <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> und bindeten es via iFrame auf der Webseite von Manor ein.</p>
-			<p>Nachdem ein Kunde das Formular vollständig ausgefüllt hat, werden die Daten in wenigen Minuten auf Richtigkeit und der Kunde auf Kreditwürdigkeit überprüft. Nach erfolgreichem Antrag (hier passiert die Validierung rein automatisch, nicht mehr manuell) erhält der Kunde nur einige Augenblicke später einen Code auf seine App, welcher ihn direkt zu Einkäufen berechtigt.</p>
-			<p>Bei diesem Projekt war es besonders wichtig, eine sehr sichere Verschlüsselung sowie Validierung der Daten zu entwickeln. Eine einwandfreie Funktionalität in jedem Browser und auf jedem Gerät ist sicher gestellt. Des Weiteren werden verschiedene Kampagnen sowie Mandaten unterstützt.</p>
+            <p>Nachdem ein Kunde das Formular vollständig ausgefüllt hat, werden die Daten in wenigen Minuten auf Richtigkeit und der Kunde auf Kreditwürdigkeit überprüft. Nach erfolgreichem Antrag (hier passiert die Validierung rein automatisch, nicht mehr manuell) erhält der Kunde nur einige Augenblicke später einen Code auf seine App, welcher ihn direkt zu Einkäufen berechtigt.</p>
+            <p>Bei diesem Projekt war es besonders wichtig, eine sehr sichere Verschlüsselung sowie Validierung der Daten zu entwickeln. Eine einwandfreie Funktionalität in jedem Browser und auf jedem Gerät ist sicher gestellt. Des Weiteren werden verschiedene Kampagnen sowie Mandaten unterstützt.</p>
       <p>Das Formular ging im November 2015 live und wurde in den ersten drei Tagen bereits von mehr als 5'000 Nutzern ausgefüllt.</p>
         </div>
     </div>
@@ -41,14 +41,14 @@ slider:
 
         <div>
             <p>Accarda AG<br>
-			   Birkenstrasse 21<br>
+               Birkenstrasse 21<br>
                8306 Brüttisellen<br></p>
 
             <p>Ansprechpersonen: Stefan Schurgast und Mirko Theodolz<br>
                Telefon  +41 44 805 56 56</p>
 
             <p>Link: <a href="https://www.manor.ch/u/manorkarte-antrag">http://www.manor.ch/u/manorkarte-antrag</a></p>
-			<p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von Juli bis November 2015.</p>
+            <p>Die Partnerschaft war ein einmaliger Auftrag und dauerte von Juli bis November 2015.</p>
 
             <div><%- @image_tag 'logoslider/accarda_logo.png' %></div>
         </div>

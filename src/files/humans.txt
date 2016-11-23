@@ -2,14 +2,14 @@
 # humanstxt.org
 
 /* TEAM */
-	Chef: Lukas Elmer
-	Contact: lukas.elmer@renuo.ch
-	Twitter: @lukaselmer
-	From: Zurich, Switzerland
+  Chef: Lukas Elmer
+  Contact: lukas.elmer@renuo.ch
+  Twitter: @lukaselmer
+  From: Zurich, Switzerland
 
-	Chef: Diego Steiner
-	Contact: diego.steiner@renuo.ch
-	From: Zurich, Switzerland
+  Chef: Diego Steiner
+  Contact: diego.steiner@renuo.ch
+  From: Zurich, Switzerland
 
 /* SITE */
 

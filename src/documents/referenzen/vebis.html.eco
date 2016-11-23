@@ -51,15 +51,15 @@ slider:
         <div>
             <p>VeBiS<br>
                 HXE B 25<br>
-				Postfach 142<br>
-				ETH Hönggerberg<br>
+                Postfach 142<br>
+                ETH Hönggerberg<br>
                 8093 Zürich<br></p>
 
             <p>Ansprechperson: Aline Renz<br>
                 Email: aline[at]vebis.ch</p>
 
             <p>Link: <a href="https://www.vebis.ch">https://www.vebis.ch</a></p>
-			<p>Die Partnerschaft dauert von März 2013 bis heute</p>
+            <p>Die Partnerschaft dauert von März 2013 bis heute</p>
 
             <div><%- @image_tag 'logoslider/vebis_logo.png' %></div>
         </div>

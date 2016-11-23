@@ -51,9 +51,9 @@ slider:
 
         <div>
             <p>Der entwickelte online Shop basiert auf der Grundlage der Ruby on Rails basierenden Open Source <a href="http://spreecommerce.com/">Shoplösung Spree</a>. Zahlreiche Standardfunktionen wurden auf die Bedürfnisse des Kundens zugeschnitten, damit letztendlich eine massgeschneiderte Lösung besteht.</p>
-			<p>Um die Verwaltung zu unterstützen, wurde auf Basis der vorhandenen Produkte eine Lagerverwaltung entwickelt. Ein Produkt kann nur dann gekauft werden, wenn genügend Exemplare vorhanden sind. Bei knapp werdenden Produkten wird Kingschair automatisch benachrichtigt. Es können jederzeit Inventarlisten mit dazugehörendem Umsatz-Reporting generiert werden.</p>
-			<p>Die Seite ist grundsätzlich responsiv, wobei der Optimierungsfokus auf Tablets und nicht auf Smartphones liegt. Das Design stammt von unserer Partnerfirma <a href="/web-entwicklung/design">Webeo GmbH</a>.</p>
-			<p>Im laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="/web-entwicklung/betrieb/">diversen Monitorings</a> und <a href="/pdfs/renuo_adwords.pdf">im Bereich online Werbung (Google AdWords)</a>.</p>
+            <p>Um die Verwaltung zu unterstützen, wurde auf Basis der vorhandenen Produkte eine Lagerverwaltung entwickelt. Ein Produkt kann nur dann gekauft werden, wenn genügend Exemplare vorhanden sind. Bei knapp werdenden Produkten wird Kingschair automatisch benachrichtigt. Es können jederzeit Inventarlisten mit dazugehörendem Umsatz-Reporting generiert werden.</p>
+            <p>Die Seite ist grundsätzlich responsiv, wobei der Optimierungsfokus auf Tablets und nicht auf Smartphones liegt. Das Design stammt von unserer Partnerfirma <a href="/web-entwicklung/design">Webeo GmbH</a>.</p>
+            <p>Im laufenden Betrieb unterstützt die Renuo den Kunden mit <a href="/web-entwicklung/betrieb/">diversen Monitorings</a> und <a href="/pdfs/renuo_adwords.pdf">im Bereich online Werbung (Google AdWords)</a>.</p>
         </div>
     </div>
 
@@ -62,14 +62,14 @@ slider:
 
         <div>
             <p>Newspeed AG<br>
-			Neue Winterthurerstrasse 30/36<br>
+            Neue Winterthurerstrasse 30/36<br>
             8304 Wallisellen<br></p>
 
             <p>Ansprechperson: Michael Züblin<br>
                Telefon +41 44 878 22 11</p>
 
             <p>Link: <a href="https://www.kingschair.ch">https://www.kingschair.ch</a></p>
-			<p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
+            <p>Die Partnerschaft dauert von Juli 2013 bis heute.</p>
 
             <div><%- @image_tag 'logoslider/kingschair_logo.jpg' %></div>
         </div>

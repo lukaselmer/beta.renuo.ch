@@ -31,7 +31,7 @@ slider:
 
         <div>
             <p>Das Institut für Software steht Software-Qualität, kooperatives Arbeiten und elegante Einfachheit der Software ein. Die dazu notwendigen Arbeitstechniken und modernen Technologien werden durch Beratung, Zusammenarbeit und Weiterbildung vermittelt.</p>
-			<p>Für ein vorliegendes <a href="https://www.kti.admin.ch/kti/de/home.html">KTI-Projekt</a> (<a href="http://www.agricircle.com/">Agricircle</a>) benötigte die HSR Ruby on Rails-Kenntnisse.</p>
+            <p>Für ein vorliegendes <a href="https://www.kti.admin.ch/kti/de/home.html">KTI-Projekt</a> (<a href="http://www.agricircle.com/">Agricircle</a>) benötigte die HSR Ruby on Rails-Kenntnisse.</p>
             <p>Die Renuo ist als Spezialistin in <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> bekannt. Aus diesem Grund ist die Renuo als externer Schulungspartner angefragt worden, um eine mehrtägige Schulung durch zu führen.</p>
         </div>
     </div>
@@ -40,8 +40,8 @@ slider:
         <h2>Lösung</h2>
 
         <div>
-			<p>Während zwei Seminarblöcken (im Sommer sowie im Herbst) sind die Institutsmitarbeiter in die Kenntnisse von Ruby on Rails eingeführt worden.</p>
-			<p>Die Schulung bestand sowohl aus theoretischen, als auch praktischen Blöcken, welche individuell auf das vorliegende Projekt abgestimmt und ausgerichtet worden sind.</p>
+            <p>Während zwei Seminarblöcken (im Sommer sowie im Herbst) sind die Institutsmitarbeiter in die Kenntnisse von Ruby on Rails eingeführt worden.</p>
+            <p>Die Schulung bestand sowohl aus theoretischen, als auch praktischen Blöcken, welche individuell auf das vorliegende Projekt abgestimmt und ausgerichtet worden sind.</p>
         </div>
     </div>
 
@@ -50,15 +50,15 @@ slider:
 
         <div>
             <p>HSR Hochschule für Technik<br>
-			   Institut für Software IFS<br>
-			   Oberseestrasse 10<br>
+               Institut für Software IFS<br>
+               Oberseestrasse 10<br>
                8640 Rapperswil<br></p>
 
             <p>Ansprechperson: Stefan Keller<br>
                Telefon  +41 55 222 46 30</p>
 
             <p>Link: <a href="http://www.ifs.hsr.ch/">http://www.ifs.hsr.ch/</a></p>
-			<p>Die Schulungen fanden 2014 statt</p>
+            <p>Die Schulungen fanden 2014 statt</p>
 
             <div><%- @image_tag 'logoslider/hsr-logo.jpg' %></div>
         </div>
