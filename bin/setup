@@ -21,10 +21,13 @@ Dir.chdir APP_ROOT do
   run 'Installing ruby dependencies' do
     system 'which sass || gem install sass'
     system 'which mdl || gem install mdl'
+    system 'which overcommit || gem install overcommit'
   end
 
   run 'Creating pre-commit hook link', '.git/hooks/pre-commit' do
-    system 'ln -s ../../bin/check .git/hooks/pre-commit'
+    system 'overcommit --install'
+    system 'overcommit --sign'
+    system 'overcommit --sign pre-commit'
   end
 
   run 'Setting dev host in /etc/hosts' do
