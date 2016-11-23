@@ -75,7 +75,7 @@ tags: ['project']
             </h1>
         </div>
         <p>Falls Sie vor Ihrer ersten Kontaktaufnahme mit uns ein NDA möchten, unterschreiben wir dieses gerne. Sie können hierzu <%- @link_to "unsere Vorlage", "/pdfs/nda.pdf" %> ausfüllen und diese zurück an <a href="mailto:info@renuo.ch">info@renuo.ch</a> senden. Wir haben eine Politik, dass wir alle Daten vertraulich behandeln und keine Geschäftsideen von potentiellen Kunden selber umsetzen. Wir halten an dieser Politik fest, unabhängig davon, ob ein NDA vorhanden ist oder nicht. Wir kommunizieren auch jegliche Interessenkonflikte, sobald wir uns diesen bewusst sind.</p>
-		    <p>Vielen Dank, dass Sie Renuo berücksichtigen.</p>
+        <p>Vielen Dank, dass Sie Renuo berücksichtigen.</p>
         <br/>
     </div>
 </div>

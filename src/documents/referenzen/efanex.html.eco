@@ -23,7 +23,7 @@ slider:
         image_alt: Ansicht des Backends
         title: Simple Administrierung per Drag und Drop
         subtitle: Fragen können auf einfache Weise angelegt und mutiert werden. Damit sich das Ganze auch noch gut anfühlt, wurde ein Drag und Drop Editor verwendet.
-	-
+    -
         image: /images/efanex/auswertung.png
         image_alt: Automatische Auswertung
         title: Automatische Auswertung mit Branchenvergleich
@@ -49,8 +49,8 @@ slider:
             <p>
                Die Renuo entwickelte eine kleinere Applikation, mit welcher ein Administrator verschiedene Umfragebereiche, dazu gehörende Fragen sowie Unternehmen erfassen kann. Pro Unternehmung können verschiedene Umfragen gestartet werden. Die Resultate werden in eine Datenbank gespeichert und mit anderen erzielten Resultaten verglichen. Die Resultate sind als *.csv downloadbar und werden aber auch automatisch grafisch aubereitet und als PDF zur Verfügung gestellt.
             </p>
-			<p>
-			   Weil man annehmen kann, dass die meisten Leute die Umfragen unterwegs ausfüllen, ist der Frontend-Bereich der Seite für mobile Geräte optimiert. Damit die Umfrageresultate sicher abgespeichert sind, wird die ganze Seite verschlüsselt betrieben.
+            <p>
+               Weil man annehmen kann, dass die meisten Leute die Umfragen unterwegs ausfüllen, ist der Frontend-Bereich der Seite für mobile Geräte optimiert. Damit die Umfrageresultate sicher abgespeichert sind, wird die ganze Seite verschlüsselt betrieben.
         </div>
     </div>
 
@@ -66,7 +66,7 @@ slider:
                 Telefon: +41 43 443 19 04</p>
 
             <p>Link: Da die Umfragen nur für ausgewählte Personen verfügbar sind, können wir keine Links zur Verfügung stellen</p>
-			<p>Die Partnerschaft dauert von August 2013 bis heute</p>
+            <p>Die Partnerschaft dauert von August 2013 bis heute</p>
 
             <div><%- @image_tag 'logoslider/efanex-logo.png' %></div>
         </div>
