@@ -22,7 +22,7 @@
  *		- A string selector, that will be relative to the element to scroll ( 'li:eq(2)', etc )
  *		- A hash { top:x, left:y }, x and y can be any kind of number/string like above.
  *		- A percentage of the container's dimension/s, for example: 50% to go to the middle.
- *		- The string 'max' for go-to-end. 
+ *		- The string 'max' for go-to-end.
  * @param {Number, Function} duration The OVERALL length of the animation, this argument can be the settings object instead.
  * @param {Object,Function} settings Optional set of settings or the onAfter callback.
  *	 @option {String} axis Which axis must be scrolled, use 'x', 'y', 'xy' or 'yx'.
@@ -32,7 +32,7 @@
  *	 @option {Object, Number} offset Add/deduct from the end position. One number for both axes or { top:x, left:y }.
  *	 @option {Object, Number} over Add/deduct the height/width multiplied by 'over', can be { top:x, left:y } when using both axes.
  *	 @option {Boolean} queue If true, and both axis are given, the 2nd axis will only be animated after the first one ends.
- *	 @option {Function} onAfter Function to be called after the scrolling ends. 
+ *	 @option {Function} onAfter Function to be called after the scrolling ends.
  *	 @option {Function} onAfterFirst If queuing is activated, this function will be called after the first scrolling ends.
  * @return {jQuery} Returns the same jQuery object, for chaining.
  *
@@ -48,7 +48,7 @@
  * @desc Scroll to a DOM element (same for jQuery object)
  * @example var second_child = document.getElementById('container').firstChild.nextSibling;
  *			$('#container').scrollTo( second_child, { duration:500, axis:'x', onAfter:function(){
- *				alert('scrolled!!');																   
+ *				alert('scrolled!!');
  *			}});
  *
  * @desc Scroll on both axes, to different values
