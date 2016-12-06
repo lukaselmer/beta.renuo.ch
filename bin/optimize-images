@@ -1,0 +1,26 @@
+#!/bin/zsh
+
+if ! which image_optim ; then
+  gem install image_optim image_optim_pack
+  brew install jonof/kenutils/pngout
+  brew install advancecomp gifsicle jhead jpegoptim jpeg optipng pngcrush pngquant
+  npm install -g svgo
+fi
+
+if read -q "?Do you want to optimize all images? (y/N) "; then
+  echo
+  echo "optimizing jpg files"
+  image_optim src/**/*.jpg
+  echo "optimizing png files"
+  image_optim src/**/*.png
+  echo "optimizing svg files"
+  image_optim src/**/*.svg
+else
+  echo
+  echo "specify path to image (e.g. src/image1.png src/image2.png src/image3.png src/dir/hello/**/*.png src/dir/*.png)"
+  read ans
+  echo
+  echo "optimizing $ans"
+  image_optim $ans
+fi
+

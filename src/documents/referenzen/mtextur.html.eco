@@ -36,7 +36,7 @@ slider:
 
         <div>
             <p>Die Applikation mtextur wurde bis 2014 in Brasilien entwickelt. Aufgrund einem unterschiedlichen Qualitätsverständnis sowie Kommunikationsschwierigkeiten (Sprache, Zeitverschiebung) entschied man sich dazu, die Applikation in die Schweiz zu zügeln. Aufgrund den technischen Qualifikationen sowie der Arbeitsweise konnte die Renuo die Entwicklung von mtextur im Sommer 2014 übernehmen.</p>
-			<p>Das Portal verzeichnet Seitenaufrufe in Millionenhöhe und muss dadurch hohen Ansprüchen bzgl. der Performance und Sicherheit genügen. Konkrete Arbeitspunkte, welche von Bedeutung sind, sind die Ladezeit sowie das einwandfreie Funktionieren der Statistik. Diese bilden nämlich die Verkaufsgrundlage von mtextur an die Hersteller.</p>
+            <p>Das Portal verzeichnet Seitenaufrufe in Millionenhöhe und muss dadurch hohen Ansprüchen bzgl. der Performance und Sicherheit genügen. Konkrete Arbeitspunkte, welche von Bedeutung sind, sind die Ladezeit sowie das einwandfreie Funktionieren der Statistik. Diese bilden nämlich die Verkaufsgrundlage von mtextur an die Hersteller.</p>
         </div>
     </div>
 
@@ -45,9 +45,9 @@ slider:
 
         <div>
             <p>mtextur ist eine individuell programmierte Applikation, welche auf <a href="/web-entwicklung/rubyonrails/">Ruby on Rails</a> basiert. </p>
-			<p>Das Fundament bildet eine grosse Datenbank, welcher der Administrator über ein Backend füllen kann. Den Texturen können verschiedene Parameter zugewiesen werden, damit diese im Frontend wiederum durchsucht, gefiltert und gefunden werden können.</p>
-			<p>Für den Administrator und auch den Hersteller gibt es ein Backend mit dazu gehörendem Rollenkonzept. Der Administrator verwaltet die Materialien und sieht die Statistiken, der Hersteller hat ausschliesslich Einsicht in seine Statistiken.</p>
-			<p>Nach der Übernahme mussten wir erst die bestehende Programmierung auf die neusten Versionen upgraden, dann verschiedene Tests schreiben (testgetriebene Entwicklung, test driven development) und anschliessend die Voraussetzungen für die Statistiken entwickeln. Nebst zahlreichen Fixes von Altlasten beschäftigen wir uns seither vor allem um die Neuentwicklung von Features sowie um das Design (responsive, etc.).</p>
+            <p>Das Fundament bildet eine grosse Datenbank, welcher der Administrator über ein Backend füllen kann. Den Texturen können verschiedene Parameter zugewiesen werden, damit diese im Frontend wiederum durchsucht, gefiltert und gefunden werden können.</p>
+            <p>Für den Administrator und auch den Hersteller gibt es ein Backend mit dazu gehörendem Rollenkonzept. Der Administrator verwaltet die Materialien und sieht die Statistiken, der Hersteller hat ausschliesslich Einsicht in seine Statistiken.</p>
+            <p>Nach der Übernahme mussten wir erst die bestehende Programmierung auf die neusten Versionen upgraden, dann verschiedene Tests schreiben (testgetriebene Entwicklung, test driven development) und anschliessend die Voraussetzungen für die Statistiken entwickeln. Nebst zahlreichen Fixes von Altlasten beschäftigen wir uns seither vor allem um die Neuentwicklung von Features sowie um das Design (responsive, etc.).</p>
         </div>
     </div>
 
@@ -56,14 +56,14 @@ slider:
 
         <div>
             <p>h2c GmbH<br>
-			   Sandweg 2<br>
+               Sandweg 2<br>
                5712 Beinwil am See<br></p>
 
             <p>Ansprechperson: Philipp Hauzinger<br>
                Telefon  +41 62 772 22 24</p>
 
             <p>Link: <a href="http://www.mtextur.ch">http://www.mtextur.ch</a></p>
-			<p>Die Partnerschaft dauert von Juli 2014 bis heute</p>
+            <p>Die Partnerschaft dauert von Juli 2014 bis heute</p>
 
             <div><%- @image_tag 'logoslider/h2c-logo.png' %></div>
         </div>

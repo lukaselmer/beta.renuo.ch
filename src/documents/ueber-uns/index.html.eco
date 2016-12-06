@@ -39,8 +39,8 @@ position: 4
         <p>Die Stärke von Renuo liegt in der Entwicklung von komplexen Webprojekten auf Grundlage modernster
         Technologien. Um diese Stärke zu bewahren, fokussieren wir uns ausschliesslich darauf und arbeiten in
         allen anderen Bereichen mit externen Partnern zusammen.</p>
-		<p>Renuo leitet sich vom englischen Wort <b>to renew</b> ab. Warum?<br>
-		Weil wir genau darin stark sind: Überarbeitung und Neuentwicklung von Systemen.</p>
+        <p>Renuo leitet sich vom englischen Wort <b>to renew</b> ab. Warum?<br>
+        Weil wir genau darin stark sind: Überarbeitung und Neuentwicklung von Systemen.</p>
     </div>
 
     <div class="span4">
@@ -103,6 +103,15 @@ position: 4
           <a href="https://github.com/<%= @employee_github employee.filename, employee.github %>"><i title="Zum Github Profil" class="icon-github-sign icon-4x"></i></a>
           <% if employee.xing: %>
             <a href="https://www.xing.com/profile/<%= employee.xing %>"><i title="Zum Xing Profil" class="icon-xing-sign icon-4x"></i></a>
+          <% end %>
+
+          <% if employee.stack_overflow: %>
+            <a href="https://stackoverflow.com/users/<%= employee.stack_overflow %>">
+              <span class="icon-stack icon-2x" style="vertical-align: -16%; margin-left: -4px;">
+                <i title="Zum Stack Overflow Profil" class="icon-sign-blank icon-stack-base"></i>
+                <i title="Zum Stack Overflow Profil" class="icon-stackexchange icon-light"></i>
+              </span>
+            </a>
           <% end %>
         </div>
       </div>
