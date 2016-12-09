@@ -261,7 +261,7 @@ homeSlider:
 
 <div class="row-fluid testimonial-quotations" style="margin-top: 30px;">
   <div class="span4 testimonial-box">
-    <a href='/referenzen/essrechner/'><img class='testimonial-logo' src='/images/logoslider/mtextur_logo.png' alt='mtextur' /></a>
+    <a href='/referenzen/mtextur/'><img class='testimonial-logo' src='/images/logoslider/mtextur_logo.png' alt='mtextur' /></a>
     <div class='testimonials-sentence'>
       <div>
         <p>“Der Umzug unserer Plattform zu einem Schweizer Entwicklungsteam hat sich nicht nur finanziell ausgezeichnet,
