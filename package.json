@@ -20,7 +20,7 @@
     "url": "http://github.com/renuo/beta.renuo.ch.git"
   },
   "engines": {
-    "node": "0.10.x",
+    "node": "0.12.x",
     "npm": "1.2.x"
   },
   "dependencies": {
