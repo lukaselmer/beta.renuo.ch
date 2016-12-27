@@ -37,7 +37,7 @@ slider:
             <p>Dank der neu erstellten Applikation (sowohl Mobile- wie auch Tabletversion für iOS und Android) kann der Betriebsprüfer die Prüfung auf einem Tablet oder Mobiltelefon erfassen und anschliessend abspeichern. Das Prüfungsdokument wird direkt in die Mitgliederverwaltung integriert. Der Aufwand wird auf Seite des Sekretariats und des Prüfers vermindert.</p>
             <p>Eine Besonderheit der App ist, dass das Ausfüllen der Qualitätskontrolle auch im Offline-Modus möglich ist. Dies bedeutet, dass kein WLAN und keine mobile Daten benötigt werden. Ausserdem ist die Anwendung mit dem Kaderabrechnungssystem verknüpft. Die Spesen für die Fachleute des VDRBs werden durch diese Verknüpfung automatisch generiert und vergütet.</p>
             <p>Die grösste Herausforderung bei der Entwicklung von “Bee Audit” bestand darin, die Berechtigungs- und Rollenverwaltung zu berücksichtigen und folglich jedem Prüfer die richtigen Imker zuzuweisen.</p>
-            <p>Das Projekt wurde mit <a href="/web-entwicklung/rubyonrails/">Rails</a> im Backend und <a href="http://ionic.io/" target="_blank">Ionic</a> im Frontend realisiert.</p>
+            <p>Das Projekt wurde mit <a href="/web-entwicklung/rubyonrails/">Rails</a> im Backend und <a href="http://ionic.io/">Ionic</a> im Frontend realisiert.</p>
         </div>
     </div>
 
