@@ -56,7 +56,7 @@ slider:
             (auf Wunsch des Kundens absichtlich ohne SSL)</p>
             <p>Die Partnerschaft dauert von März 2016 bis heute.</p>
 
-            <div><%- @image_tag 'logoslider/zhdk-logo.png' %></div>
+            <div><%- @image_tag 'logoslider/zhdk-logo.svg' %></div>
         </div>
     </div>
 </div>
