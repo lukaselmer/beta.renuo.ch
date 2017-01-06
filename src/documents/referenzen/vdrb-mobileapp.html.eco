@@ -25,8 +25,8 @@ slider:
         <h2>Ausgangslage</h2>
 
         <div>
-            <p>Alle vier Jahre werden Schweizer Imker von Fachleuten des VDRB (Verein Deutschschweizer und Rätoromanischer Bienenfreunde) auf saubere, rückstandsfreie Qualität, schonende Verarbeitung und artgerechte Bienenhaltung geprüft. Bei einem erfolgreichen Resultat erhalten sie ein Siegel und eine Urkunde. Bisher wurde der Prüfungsverlauf und das Resultat auf Papier notiert, eingescannt und dem Sekretariat des VDRBs zugesendet, wo die Daten anschliessend im System abgelegt wurden.</p>
-            <p>Unser Auftrag war es nun für den VDRB eine Applikation zu erstellen, welche die administrative Arbeit des Sekretariats vereinfacht und automatisiert, sowie einen zukunftsorientierten Weg für die Imker-Branche freilegt.</p>
+            <p>Alle vier Jahre werden Schweizer Siegelimker von Fachleuten des VDRB (Verein Deutschschweizerischer und Rätoromanischer Bienenfreunde) einer Betriebsprüfung unterzogen. Die Prüfung beinhält diverse Aspekte der Honigverarbeitung, Hygiene sowie Bienenhaltung. Bei einem erfolgreichen Resultat wird das Siegel erneuert und die 'Bewilligung' für 4 weitere Jahre erteilt. Bisher wurde der Prüfungsverlauf und das Resultat auf Papier notiert und dem Sekretariat des VDRBs zugesendet. Dort musste es eingescannt und im System abgelegt werden. Bei mehreren Tausend Siegelimkern fällt ein beträchtlicher Arbeitsaufwand an, zudem sind die Daten nicht strukturiert.</p>
+            <p>Unser Auftrag war es, eine Applikation zu erstellen, welche die administrative Arbeit des Sekretariats vereinfacht und automatisiert, sowie einen zukunftsorientierten Weg für die Imker-Branche freilegt.</p>
         </div>
     </div>
 
@@ -34,10 +34,10 @@ slider:
         <h2>Umsetzung</h2>
 
         <div>
-            <p>Dank der neu erstellten Applikation, kann die Fachperson die Prüfung auf einem Tablet oder Mobiltelefon erfassen und anschliessend abspeichern. Das Prüfungsdokument ist somit auf dem System hinterlegt und muss nur noch als Urkunde ausgedruckt werden. Der Aufwand wird auf Seite des Sekretariats und des Prüfers vermindert.</p>
-            <p>Eine Besonderheit der App ist, dass das Ausfüllen der Qualitätskontrolle auch im Offline Modus möglich ist, was bedeutet, dass kein WLAN und keine Mobile Daten benötigt werden. Ausserdem ist die Anwendung mit der Mitgliederverwaltung und dem Kaderabrechnungssystem verknüpft. Die Spesen für die Fachleute des VDRBs werden durch diese Verknüpfung automatisch generiert und vergütet.</p>
+            <p>Dank der neu erstellten Applikation (sowohl Mobile- wie auch Tabletversion für iOS und Android) kann der Betriebsprüfer die Prüfung auf einem Tablet oder Mobiltelefon erfassen und anschliessend abspeichern. Das Prüfungsdokument wird direkt in die Mitgliederverwaltung integriert. Der Aufwand wird auf Seite des Sekretariats und des Prüfers vermindert.</p>
+            <p>Eine Besonderheit der App ist, dass das Ausfüllen der Qualitätskontrolle auch im Offline-Modus möglich ist. Dies bedeutet, dass kein WLAN und keine mobile Daten benötigt werden. Ausserdem ist die Anwendung mit dem Kaderabrechnungssystem verknüpft. Die Spesen für die Fachleute des VDRBs werden durch diese Verknüpfung automatisch generiert und vergütet.</p>
             <p>Die grösste Herausforderung bei der Entwicklung von “Bee Audit” bestand darin, die Berechtigungs- und Rollenverwaltung zu berücksichtigen und folglich jedem Prüfer die richtigen Imker zuzuweisen.</p>
-            <p>Das Projekt wurde mit <a href="/web-entwicklung/rubyonrails/">Rails</a> im Backend und Ionic2 im Frontend realisiert.</p>
+            <p>Das Projekt wurde mit <a href="/web-entwicklung/rubyonrails/">Rails</a> im Backend und <a href="http://ionic.io/">Ionic</a> im Frontend realisiert.</p>
         </div>
     </div>
 
@@ -47,7 +47,7 @@ slider:
         <div>
             <p>
                 Verein Deutschschweizerischer und Rätoromanischer Bienenfreunde VDRB<br>
-                Oberbad 16<br>
+                Jakob Signer-Strasse 4<br>
                 9050 Appenzell
             </p>
 
