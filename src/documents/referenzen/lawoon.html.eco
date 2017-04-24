@@ -1,0 +1,87 @@
+---
+title: Lawoon AG
+box_name: Lawoon AG
+box_description: Vermittlungsportal für Arbeitssuchende und Auftraggeber
+short_description: Onlineportal für Arbeitsvermittlung
+image_path: /images/lawoon/lawoon.jpg
+layout: project
+position: 1
+tags: ['project']
+slider:
+    -
+        image: /images/lawoon/home.jpg
+        image_alt: Arbeitsvermittlung mit Lawoon
+        title: Wo Arbeit Talente findet
+        subtitle: Das attraktive Design und die nutzerfreundlichen Funktionen sprechen Arbeitssuchende und Auftraggeber an.
+    -
+        image: /images/lawoon/profil.jpg
+        image_alt: Arbeitsvermittlung mit Lawoon
+        title: Profilerstellung in wenigen Schritten
+        subtitle: Talente können sich bei Lawoon anmelden und mit wenig Aufwand ein eigenes Profil erstellen.
+    -
+        image: /images/lawoon/talente.jpg
+        image_alt: Arbeitsvermittlung mit Lawoon
+        title: Talente finden und Aufträge vermitteln
+        subtitle: Auftraggeber finden mittels Suchmaske schnell ein passendes Talent.
+    -
+        image: /images/lawoon/responsive.jpg
+        image_alt: Arbeitsvermittlung mit Lawoon
+        title: Responsive Design
+        subtitle: Die Applikation ist responsive und passt sich allen Geräten an.
+---
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Die Lawoon AG beauftragte uns mit der Entwicklung einer Web-Applikation,
+               auf welcher Dienstleistungen angeboten und gebucht werden können.</p>
+            <p>Arbeitssuchende bieten darauf beispielsweise Reinigungsarbeiten, Transporte,
+               Kurse, das Ausfüllen von Steuererklärungen usw. an und Auftraggeber können die
+               Dienstleistung für einen bestimmten Zeitraum beanspruchen. Nachdem eine Arbeit
+               ausgeführt wurde, wird der vereinbarte Betrag den Auftraggebern belastet
+               und den Auftragnehmenden überwiesen.</p>
+            <p>Lawoon erleichtert somit den sogenannten "Talenten" die
+               Kundenakquise, die Rechnungsabwicklung und garantiert eine rechtzeitige
+               Bezahlung.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Umsetzung</h2>
+
+        <div>
+            <p>Die Geschäftsidee von Lawoon ist vergleichbar mit der des Dienstleistungsanbieters
+               “Uber” und dementsprechend komplex. Hinter der einfachen und benutzerfreundlichen
+               Oberfläche steckt eine anspruchsvolle Businesslogik, die es unter anderem
+               ermöglicht, eine Jobausschreibung zu einem Auftrag, den Auftrag zu einer
+               Rechnung und diese wiederum zu einer Quittung zu transferieren.</p>
+            <p>Eine weitere Besonderheit der Applikation ist die geplante Grösse bzw.
+               die hohe Anzahl an erwarteter Nutzer. Diese Anforderung setzt eine hohe
+               Kapazität und ein höchstes Mass an Stabilität der Webseite voraus.</p>
+            <p>Aufgrund dieser Ansprüche und der Komplexität des Produktes entschieden wir
+               uns, das Backend mit <a href="/web-entwicklung/rubyonrails/">Rails</a>
+               und das Frontend mit Angular 2 und TypeScript zu realisieren. Dabei stiessen
+               wir auf eine weitere Herausforderung: Das Framework
+               <a href="https://angular.io/">Angular 2</a> wurde erst im September 2016
+               herausgegeben und setzte deshalb eine schnelle Aneignung unsererseits voraus.</p>
+            <p>Das Design der Applikation wurde von unserem Partner
+               <a href="http://henrygillis.com/">Henry Gillis</a> ausgeführt.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Lawoon AG<br>
+            Sägereistrasse 9<br>
+            8834 Schindellegi<br></p>
+            <p>Ansprechpersonen: Reto Städler und Patrick Jud</p>
+            <p>Link: <a href="https://www.lawoon.ch/">https://www.lawoon.com</a></p>
+            <p>Die Partnerschaft dauert von Mai 2016 bis heute.</p>
+            <div><%- @image_tag 'logoslider/lawoon.png' %></div>
+        </div>
+    </div>
+</div>
