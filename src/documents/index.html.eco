@@ -228,23 +228,20 @@ homeSlider:
       <a href="http://rubyonrails.org/">http://rubyonrails.org</a></p>
   </div>
   <div class="span4">
-    <h2>jQuery
+    <h2>AngularJS
       <br>
-      <small>DIE JavaScript Bibliothek</small>
+      <small>DAS JavaScript Framework</small>
     </h2>
     <p>Während früher Internetseiten meistens statisch und ohne JavaScript funktionierten, ist es heute nicht mehr
-      wegzudenken, ohne JavaScript zu arbeiten. Da viele
-      verschiedene Endgeräte und Browser unterstützt werden müssen, setzen wir jQuery ein.</p>
+      wegzudenken, ohne JavaScript zu arbeiten. Vielmehr werden immer komplexere Anwendungen verlangt, die an
+      Funktionalität mit Desktopapplikationen mithalten können. Um dem Rechnung zu tragen, setzen wir AngularJS ein.</p>
 
-    <p>jQuery vereinfacht die Bearbeitung von HTML direkt auf dem Endgerät. Dadurch ist es z.B. möglich, Animationen
-      oder Dialoge einzublenden. Weiter ermöglicht
-      jQuery sogenannte AJAX Abfragen, damit nicht immer die ganze Seite neu geladen werden muss, sondern nur ein
-      kleiner Teil bearbeitet wird.</p>
+    <p>Losgelöst von der Businesslogik kann AngularJS im Frontendbereich gewinnbringend eingesetzt werden.
+      AngularJS bietet die Möglichkeiten, die man von moderner Softwareentwicklung erwartet.
+      Der Fokus auf Testbarkeit und Wartbarkeit ermöglicht die Konstruktion von grossen und langlebigen Anwendungen.</p>
 
-    <p>Die Verbreitung von jQuery im Web spricht für sich (je nach Quelle bei 50% oder mehr Internetseiten
-      verwendet).
-      Die aktive Community entwickelt diese Bibliothek
-      auch stetig weiter, damit neue Browser und neue Standards stets unterstützt werden.</p>
+    <p>AngularJS wird von einigen grossen Firmen getragen, wie z. B. Google. Dies resultiert
+      in immer besserer Unterstützung von mobilen Plattformen (NativeScript und Ionic).</p>
   </div>
 </div>
 
