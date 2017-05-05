@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <meta name="description" content="Renuo AG, Internet solutions"/>
+  <meta name="keywords" content="Renuo, Internet soulutions, Web, Websites, Webseite, Internet Seite, Internetseite, Homepage, Homepages, Consulting, Software Engineering, Ruby, Ruby on Rails, mobile, mobile apps, javascript, nodejs, node, android, ipad, iphone, rails, professional, Webagentur, Websiten, Web 2.0, CMS, Web-Applikationen, E-Commerce Lösungen"/>
+  <meta name="author" content="Renuo AG | info@renuo.ch | http://www.renuo.ch"/>
+  <meta name="robots" content="index, follow"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Learning Week in Sicily | Internet Solutions</title>
+
+  <!--
+
+                    `..-    `///:-.`
+               `-:+oooooo:`  `/yhhhhyo/-`
+            .:+ooooooooooo/    -hhhhhhhhhs/`
+         `:+oooooooooooo+.   .ohhhhhhhhhhhhho-
+       `:ooooooooooo+/:.     -::/+syhhhhhhhhhhs.
+      .+oooooooo+/-`               `-/shhhhhhhhh+`        Wir suchen Web-Entwickler!
+     -oooooooo+-`                      -ohhhhhhhhs`
+    :oooooooo:`                          -yhhhhhhhs`      Besitzt Du Know-How in Ruby on Rails,
+   .oooooooo.                             `ohhhhhhho      HTML5 oder JavaScript?
+   +ooooooo.                               `yhhhhhhh-     Du möchtest parallel zum Studium arbeiten?
+  .ooooooo/                                 -hhhhhhho     Du möchtest auch von zu Hause aus arbeiten?
+  -ooooooo-                                  hhhhhhhy
+  -ooooooo-                                  hhhhhhhy
+  .ooooooo:                                 .hhhhhhhs     Dann sende uns Deine vollständigen
+  `oooooooo`                                ohhhhhhh/     Unterlagen an jobs@renuo.ch
+   :ooooooo+`                              /hhhhhhhy`
+    /ooooooo+.                           `+hhhhhhhh-      Wir freuen uns auf Dich!
+    `/oooooooo:`                       `:yhhhhhhhh-
+      :ooooooooo/.`                  ./yhhhhhhhhy.
+       .+ooooooooo+/:-.``       .-/oyhhhhhhhhhh/`
+         -+oooooooooooooo/`   .ohhhhhhhhhhhhh+`
+           .:+ooooooooo/.   -ohhhhhhhhhhhhs:`
+              .:/oooooo+-   .+hhhhhhhhy+:`
+                  `.-://+/.   `+o+/:.`
+
+
+  -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png?v=A0Rmm8nbNa">
+  <link rel="icon" type="image/png" href="/ico/favicon-32x32.png?v=A0Rmm8nbNa" sizes="32x32">
+  <link rel="icon" type="image/png" href="/ico/android-chrome-192x192.png?v=A0Rmm8nbNa" sizes="192x192">
+  <link rel="icon" type="image/png" href="/ico/favicon-16x16.png?v=A0Rmm8nbNa" sizes="16x16">
+  <link rel="manifest" href="/ico/manifest.json?v=A0Rmm8nbNa">
+  <link rel="mask-icon" href="/ico/safari-pinned-tab.svg?v=A0Rmm8nbNa" color="#4a90c3">
+  <link rel="shortcut icon" href="/ico/favicon.ico?v=A0Rmm8nbNa">
+  <meta name="msapplication-config" content="/ico/browserconfig.xml?v=A0Rmm8nbNa">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--[if ie]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+  <!--[if IE 7]>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+  <![endif]-->
+
+  
+  <link  rel="stylesheet" href="/styles/application.css" />
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-34098642-1', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script type="text/javascript" async defer src="https://apis.google.com/js/platform.js?publisherid=116149986375247666043"></script>
+
+  
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://www.renuo.ch/images/news/sicily15/sicily15_1.jpg" />
+    <meta property="og:title" content="Learning Week in Sicily" />
+  
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="/">
+        <img src="/images/logo.png" alt="Renuo Logo" style="height: 25px;"/>
+      </a>
+
+      <a class="btn btn-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+      <nav class="nav-big">
+        <ul class="nav pull-right">
+          
+            <li typeof="sioc:Page" about="/web-entwicklung" class="">
+              <a href="/web-entwicklung" property="dc:title">Kompetenzen</a>
+            </li>
+          
+            <li typeof="sioc:Page" about="/referenzen" class="">
+              <a href="/referenzen" property="dc:title">Referenzen</a>
+            </li>
+          
+            <li typeof="sioc:Page" about="/ueber-uns" class="">
+              <a href="/ueber-uns" property="dc:title">Über uns</a>
+            </li>
+          
+            <li typeof="sioc:Page" about="/jobs" class="">
+              <a href="/jobs" property="dc:title">Jobs</a>
+            </li>
+          
+            <li typeof="sioc:Page" about="/news" class="">
+              <a href="/news" property="dc:title">News</a>
+            </li>
+          
+            <li typeof="sioc:Page" about="/kontakt" class="">
+              <a href="/kontakt" property="dc:title">Kontakt</a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="center-main">
+  <div id="outer-main">
+    <section id="content" class="content">
+      <div class="row-fluid page-header-element">
+    <div class="span12">
+        <div>
+            <ul class="breadcrumb">
+              <li><a href="/">Home</a> <span class="divider">/</span></li>
+              <li><a href="/news">News</a> <span class="divider">/</span></li>
+              <li class="active">Learning Week in Sicily</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="page-header">
+            <h1>Learning Week in Sicily
+                <small>27.11.2015</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid news-item">
+    <div class="span8">
+        <div>
+            <p><i>We learnt a lot about software engineering and programming. We improved ourselves as a team. We decided as a team
+  in which
+  directions our company should develop and which tools we would like to work with to be efficient. We searched for
+  solutions how our work
+  can generate the highest value for our customers.</i></p>
+
+<p>We are back from Sicily. Sicily? Yes, we were in Italy, but rather than just to have a relaxing week of vacation, we
+  decided to organize a
+  learning week together and bring Renuo further. Therefore, we’d like to tell you something about the week and the
+  resulted values for our
+  clients.</p>
+
+<p>Since Renuo is growing and we are twice the persons compared to last year, we had to think about organizational
+  processes for being more
+  efficient in managing the daily tasks. Moreover the technical knowledge of each programmer is very important to us.
+  Because we have a lot of
+  different talents in our team, we wanted to arrange a knowledge exchange to reach that goal.</p>
+
+<p>Out of our evaluation of the week resulted, that we were really productive, it was great for our team cohesion,
+  learned a lot, all had
+  really fun and are really motivated to get better.</p>
+
+<p>But now more about our week…</p>
+
+<p><img align="right" src="/images/news/sicily15/sicily15_0.jpg" alt="Departure in Zürich"/><b>Day #1</b> was our
+  travelling day from <a href="https://goo.gl/maps/81bPVvvaAvs">Zürich Airport to
+    Catania (I)</a>
+  where we continued
+  driving to our bungalow by car. The organizers presented the scheduled program and we figured out a community
+  agreement with our rules for
+  living together. By the way we also cooked
+  ourselves; therefore every day a team of a few persons was responsible for the daily shopping.</p>
+
+
+<p><img align="right" src="/images/news/sicily15/sicily15_1.jpg" alt="The pool of our bungalow"/><b>Day #2</b> started
+  with each of us selecting a new technology, doing research and present it to the others. Like
+  that, we could get a short insight into a lot of interesting new stuff, discuss it and can now follow up the
+  interesting ones. The afternoon was spent for organizational questions, how we can organize ourselves in a
+  sustainable concept which scales also if we grow further. Also for this task, we split up in teams for finding
+  solutions and combined them in the afterwards.</p>
+
+<p><img align="left" src="/images/news/sicily15/sicily15_6.jpg" alt="Preparing lunch together"/>The morning of <b>Day
+  #3</b> started with repeating some common principles of software development used to write good
+  software. Like this, we could think again about our very important values when developing software. Before the week
+  we decided to release a project in the week together. Being many engineers, it’s reasonable to split such a project in
+  <a href="https://en.wikipedia.org/wiki/Microservices">microservices</a>. So we continued with a
+  clarification about the understanding of microservices and a discussion about
+  the pros and cons. We found a consensus in developing an internal dashboard to overview tasks, reminders, the status
+  of projects and so on. So we collected ideas, split the tasks up to each of us and after that we were ready to start
+  with the project in the afternoon.</p>
+
+<p><img src="/images/news/sicily15/sicily15_3.jpg" alt="Hiking on Etna"/><b>Day #4</b> started earlier than usual,
+  because we wanted to go hiking. After having eaten a quick bite during
+  these early hours, we hopped into our little cars and navigated towards the 3’350 m high, intimidatory monstrosity
+  called <a href="https://goo.gl/maps/BVfnDbQuHAN2">Mt Etna</a>.<br/>
+  Once we arrived at the base station of the bubble lift, we observed the small gondolas vanishing in the fog, and we
+  asked ourselves whether we chose the wrong day for our hiking trip. Nevertheless we hurdled our gloomy thoughts and
+  soon found ourselves surrounded by near-solid haze, which could have been sliced through by our Swiss army knifes.
+  <img src="/images/news/sicily15/sicily15_4.jpg" alt="Renuo group selfie"/>Arriving at the interstation we set our
+  goal: to climb up the the mountain together as a team. This was challenging
+  since some of our team were very eager to rush up the mountain, while others needed more time to slowly creep upwards.
+  Fast-forward to three hours later: we reached the top without losing a single member of our team - impressive! What
+  was also astonishing was that when we dug a 30 cm hole, the earth became hot - Mt Etna really must be a volcano. So
+  after digging random holes, we searched for a nice place to have lunch, where we unpacked our sandwiches and cosily
+  ate our meal. After lunch we started our descent, which went really well for everyone. Of course we were already
+  forging new ideas on the way down, and once we arrived at our bungalow, we were keen to having an intellectual
+  challenge again. And that was exactly what we did: we discussed the so called
+  <a href="https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)">GRASP patterns</a> by preparing
+  each pattern
+  in a small group, and thereafter presenting the pattern in front of the whole team. While this exercise was a
+  repetition for most of us, it showed once again how valuable these lectures were at the university, and that these
+  patterns and principles cannot be embraced enough during our daily software development.</p>
+<p><img align="right" src="/images/news/sicily15/sicily15_5.jpg" alt="Learning Session"/>On <b>Day #5</b> we focused on
+  <a href="https://en.wikipedia.org/wiki/Code_smell">code smells</a>
+  and <a href="https://en.wikipedia.org/wiki/Code_refactoring">code refactoring</a>, which will help us
+  building solid systems during the
+  daily
+  business without getting into <a href="https://en.wikipedia.org/wiki/Technical_debt">technical
+    debt</a> - or in other words help us being consistently fast during software
+  development. Furthermore, we established a common sense in our team about software engineering and its architecture.
+  We followed this up by working on our weekly project, where we already discovered some bad smells, which needed to be
+  refactored. In the afternoon, we reached out to find tools for our daily work considering project management and our
+  Scrum processes. We did that by conducting a short brainstorming together, and then individually or in small groups
+  trying out new tools which each of us found interesting. This was rather difficult to achieve since our internet
+  access bandwidth was limited. Despite these difficulties, we discovered and researched a large variety of (new) tools,
+  from which we found some tools which we would like to examine in more detail, namely
+  <a href="https://jira.atlassian.com/">JIRA</a>,
+  <a href="https://www.visualstudio.com/products/visual-studio-team-services-vs">Visual Studio
+    Online</a>,
+  <a href="https://www.pivotaltracker.com/">Pivotal Tracker</a> and <a href="https://trello.com/"
+                                                                                      >Trello</a>. In
+  the future, we hope that
+  this workshop will serve as a basis so we can use the right
+  tools for the job, and effectively serve our customers better. Last but not least, we also tested <a
+    href="https://slack.com/">Slack</a>, which seems
+  to be a great tool for team and project communication.
+  Later in the evening we visited the beautiful city of Catania, where we had a nice apéro around a tree stub. After a
+  cozy dinner, the evening ended for some of us, while the rest of our team had a great time enjoying the nightlife of
+  Catania.
+</p>
+<p>
+  <b>Day #6</b> started with a well prepared brunch, which was really tasty. Our goal of this day was to conclude the
+  organizational part of the week. Whilst the opinions of how our company should be organized were very diverse at the
+  beginning of the week, a common understanding emerged during the week, so that our opinions converged into a single
+  mindset. This was relieving for all of us, and we are looking forward to improving our way of working and providing
+  not only more value to our customers, but also to our employees. Later in the evening, we refreshed the vision,
+  <a href="/ueber-uns/#our-values">mission and values</a>, which all our employees at Renuo live.
+</p>
+<p>
+  The <b>Day #7</b> was a very interesting day. We did a so-called Code Retreat, which is solving the same problem
+  multiple
+  times in different groups, and presenting each solution in front of the whole team. Because the same problem was
+  tackled multiple times, after some round all engineers understood the business problem by heart, which allowed them to
+  fully focus on the technical side of things. Furthermore, it enforced creativity by repeating a single task multiple
+  times. It was also interesting to experience pair programming from different positions, and learning how to
+  communicate with each other. Finally, the solutions later on were much leaner and cleaner, because everyone could
+  profit from each other's knowledge. In conclusion, this exercise vastly helped spreading our already existing
+  knowledge. As a team, we feel competent and confident that together we will tackle even the hardest technical problems
+  in our bright looking future.
+</p>
+<p>
+  On <b>Day #8</b> we started the morning preparing everything for our travels back. After breakfast, we cleaned up the
+  house
+  and packed everything in our bags that we could carry. Some things which could be useful for the next rentee of the
+  house were left there, like spices and extra virgin olive oil. After leaving our
+  <a href="https://goo.gl/maps/Pnj6WawqXJ32">beautiful mansion</a>, we travelled
+  together to Catania, where we headed for a shopping mall near the airport to spend our last hours in Sicily. Next, we
+  travelled to the airport, returned our cars and printed our e-Tickets at the check-in desk. Finally we boarded the
+  flight to Zurich and took off: “Ciao ciao Sicilia!”. Two hours later, we arrived in Zurich, and we concluded that it
+  was a great, but also a very tough week. We learnt a lot about organizing, trusting in each other, getting better and
+  faster at architecting and programming, and we are looking forward to utilize the newly gathered knowledge during our
+  daily work!
+</p>
+        </div>
+
+        
+
+        <div>
+            
+                
+            
+                
+                    <span class="label label-info">Sicily</span>
+                
+            
+                
+                    <span class="label label-info">Team Building</span>
+                
+            
+                
+                    <span class="label label-info">Organization</span>
+                
+            
+                
+                    <span class="label label-info">Knowledge</span>
+                
+            
+                
+                    <span class="label label-info">Event</span>
+                
+            
+                
+                    <span class="label label-info">Wachstum</span>
+                
+            
+                
+                    <span class="label label-info">Hackathon</span>
+                
+            
+                
+                    <span class="label label-info">Coaching</span>
+                
+            
+        </div>
+    </div>
+
+    <div class="span1"></div>
+
+    <div class="span3 image">
+        <img src="/images/news/sicily15/sicily15_1.jpg"/>
+    </div>
+</div>
+    </section>
+  </div>
+</div>
+
+<footer>
+  <div class="container" style="padding: 100px 0 50px 10px;"></div>
+
+  
+  <div class="footer--main">
+    <div class="container" style="padding: 30px 0 50px 10px;">
+      <div class="row-fluid">
+        <div class="span4">
+          <div>
+            <div>
+              <address>
+                <h5>Renuo AG</h5>
+                <ul class="unstyled">
+                  <li>Industriestrasse 44</li>
+                  <li>8304 Wallisellen</li>
+                </ul>
+              </address>
+            </div>
+            <div>
+              <ul class="unstyled">
+                <li><a href="tel:+41443701536">+41 44 370 15 36</a></li>
+                <li><a href="mailto:info@renuo.ch">info@renuo.ch</a></li>
+                <li><a href="/">https://www.renuo.ch</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="unstyled">
+                <li>MWST-Nr: CHE-409.950.039 MWST</li>
+              </ul>
+            </div>
+            <div>
+              <ul class="unstyled">
+                <li>Unsere Geschäftsadresse in St. Gallen:</li>
+                <li>Gallusstrasse 43</li>
+                <li>9000 St. Gallen</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="span4">
+          <h5>Downloads</h5>
+          <ul class="unstyled">
+            <li><a href="/pdfs/agb.pdf">Allgemeine Geschäfts&shy;bedingungen (AGB)</a></li>
+            <li><a href="/pdfs/agbhosting.pdf">Allgemeine Geschäfts&shy;bedingungen Hosting</a></li>
+            <li><a href="/pdfs/monitoring-services.pdf">Monitoring-Services</a></li>
+            <li><a href="/pdfs/nda.pdf">NDA für Anfragen</a></li>
+          </ul>
+        </div>
+        <div class="span4 social-media">
+          <h5>Social</h5>
+          <a href="https://www.facebook.com/RenuoAG"><i class="icon-facebook-sign icon-4x"></i></a>
+          <a href="https://www.twitter.com/renuo"><i class="icon-twitter-sign icon-4x"></i></a>
+          <a href="https://www.instagram.com/renuoag"><i class="icon-instagram icon-4x"></i></a>
+          <a href="https://github.com/renuo"><i class="icon-github-sign icon-4x"></i></a>
+          <a href="https://www.linkedin.com/company/renuo-gmbh"><i class="icon-linkedin-sign icon-4x"></i></a>
+          <a href="https://www.xing.com/companies/renuoag"><i class="icon-xing-sign icon-4x"></i></a>
+
+          <div class="partners">
+            <h5>Partnerschaften</h5>
+            <a href="https://www.google.com/partners/#a_profile;idtf=2492208531"><img src="/images/google-partner-badge-grey.png"
+              alt="Renuo ist Google Partner"></a><br/><br/>
+            <a id="startfeld" href="http://www.startfeld.ch/uber-uns/akkreditierte-dienstleister/"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background: #fff;">
+    <div class="container" style="padding: 10px 0 0 10px;">
+      <div class="row-fluid">
+        <div class="span10">
+          ©
+          <script> document.write(new Date().getFullYear().toString()); </script>
+          Renuo AG. Alle Rechte vorbehalten.
+          <a href='/pdfs/agb.pdf'>AGB</a>.
+        </div>
+        <div class="span2" style="text-align: right;">
+          <a href="http://www.swissmadesoftware.org/"><img src="/images/swiss-made-software.png" alt="Logo Swiss Made Software"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/vendor/lib/jquery.min.js"><\/script>')</script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script  src="/scripts.js"></script>
+<script>function initMap() { $(document).trigger('google-maps-loaded'); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZeKAOyEFgq_IaAoGU4nsySxrttEFQuLY&callback=initMap" async defer></script>
+
+
+  
+    <link rel="prefetch" href="/web-entwicklung">
+  
+
+  
+    <link rel="prefetch" href="/referenzen">
+  
+
+  
+    <link rel="prefetch" href="/ueber-uns">
+  
+
+  
+    <link rel="prefetch" href="/jobs">
+  
+
+  
+    <link rel="prefetch" href="/news">
+  
+
+  
+    <link rel="prefetch" href="/kontakt">
+  
+
+
+</body>
+</html>

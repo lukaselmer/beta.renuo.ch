@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Internet Solutions</title>
+  <link href="https://www.renuo.ch/atom.xml" rel="self"/>
+  <link href="https://www.renuo.ch"/>
+  <updated>2017-05-05T10:27:30.615Z</updated>
+  <id>https://www.renuo.ch</id>
+  <author>
+    <name>Renuo AG | info@renuo.ch | http://www.renuo.ch</name>
+    <email>info@renuo.ch</email>
+  </author>
+
+  
+    <entry>
+      <title>This is a Blog Post</title>
+      <link href="https://www.renuo.ch//posts/hello"/>
+      <updated>2017-05-04T13:01:35.000Z</updated>
+      <id>https://www.renuo.ch//posts/hello</id>
+      <content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;de-CH&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;/&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;/&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;Renuo AG, Internet solutions&quot;/&gt;
+  &lt;meta name=&quot;keywords&quot; content=&quot;Renuo, Internet soulutions, Web, Websites, Webseite, Internet Seite, Internetseite, Homepage, Homepages, Consulting, Software Engineering, Ruby, Ruby on Rails, mobile, mobile apps, javascript, nodejs, node, android, ipad, iphone, rails, professional, Webagentur, Websiten, Web 2.0, CMS, Web-Applikationen, E-Commerce Lösungen&quot;/&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;Renuo AG | info@renuo.ch | http://www.renuo.ch&quot;/&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;index, follow&quot;/&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;/&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+
+  &lt;title&gt;This is a Blog Post | Internet Solutions&lt;/title&gt;
+
+  &lt;!--
+
+                    `..-    `///:-.`
+               `-:+oooooo:`  `/yhhhhyo/-`
+            .:+ooooooooooo/    -hhhhhhhhhs/`
+         `:+oooooooooooo+.   .ohhhhhhhhhhhhho-
+       `:ooooooooooo+/:.     -::/+syhhhhhhhhhhs.
+      .+oooooooo+/-`               `-/shhhhhhhhh+`        Wir suchen Web-Entwickler!
+     -oooooooo+-`                      -ohhhhhhhhs`
+    :oooooooo:`                          -yhhhhhhhs`      Besitzt Du Know-How in Ruby on Rails,
+   .oooooooo.                             `ohhhhhhho      HTML5 oder JavaScript?
+   +ooooooo.                               `yhhhhhhh-     Du möchtest parallel zum Studium arbeiten?
+  .ooooooo/                                 -hhhhhhho     Du möchtest auch von zu Hause aus arbeiten?
+  -ooooooo-                                  hhhhhhhy
+  -ooooooo-                                  hhhhhhhy
+  .ooooooo:                                 .hhhhhhhs     Dann sende uns Deine vollständigen
+  `oooooooo`                                ohhhhhhh/     Unterlagen an jobs@renuo.ch
+   :ooooooo+`                              /hhhhhhhy`
+    /ooooooo+.                           `+hhhhhhhh-      Wir freuen uns auf Dich!
+    `/oooooooo:`                       `:yhhhhhhhh-
+      :ooooooooo/.`                  ./yhhhhhhhhy.
+       .+ooooooooo+/:-.``       .-/oyhhhhhhhhhh/`
+         -+oooooooooooooo/`   .ohhhhhhhhhhhhh+`
+           .:+ooooooooo/.   -ohhhhhhhhhhhhs:`
+              .:/oooooo+-   .+hhhhhhhhy+:`
+                  `.-://+/.   `+o+/:.`
+
+
+  --&gt;
+
+  &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; href=&quot;/ico/apple-touch-icon.png?v=A0Rmm8nbNa&quot;&gt;
+  &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;/ico/favicon-32x32.png?v=A0Rmm8nbNa&quot; sizes=&quot;32x32&quot;&gt;
+  &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;/ico/android-chrome-192x192.png?v=A0Rmm8nbNa&quot; sizes=&quot;192x192&quot;&gt;
+  &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;/ico/favicon-16x16.png?v=A0Rmm8nbNa&quot; sizes=&quot;16x16&quot;&gt;
+  &lt;link rel=&quot;manifest&quot; href=&quot;/ico/manifest.json?v=A0Rmm8nbNa&quot;&gt;
+  &lt;link rel=&quot;mask-icon&quot; href=&quot;/ico/safari-pinned-tab.svg?v=A0Rmm8nbNa&quot; color=&quot;#4a90c3&quot;&gt;
+  &lt;link rel=&quot;shortcut icon&quot; href=&quot;/ico/favicon.ico?v=A0Rmm8nbNa&quot;&gt;
+  &lt;meta name=&quot;msapplication-config&quot; content=&quot;/ico/browserconfig.xml?v=A0Rmm8nbNa&quot;&gt;
+  &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot;&gt;
+
+  &lt;!--[if ie]&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;/&gt;
+  &lt;![endif]--&gt;
+  &lt;!--[if lt IE 9]&gt;
+  &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;
+
+  &lt;link href=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link href=&quot;//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link href='//fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'&gt;
+  &lt;!--[if IE 7]&gt;
+  &lt;link href=&quot;//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;![endif]--&gt;
+
+  
+  &lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/application.css&quot; /&gt;
+
+  &lt;script&gt;
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-34098642-1', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  &lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot; async defer src=&quot;https://apis.google.com/js/platform.js?publisherid=116149986375247666043&quot;&gt;&lt;/script&gt;
+
+  
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+  &lt;div class=&quot;navbar-inner&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;
+        &lt;img src=&quot;/images/logo.png&quot; alt=&quot;Renuo Logo&quot; style=&quot;height: 25px;&quot;/&gt;
+      &lt;/a&gt;
+
+      &lt;a class=&quot;btn btn-navbar&quot;&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+      &lt;/a&gt;
+
+      &lt;nav class=&quot;nav-big&quot;&gt;
+        &lt;ul class=&quot;nav pull-right&quot;&gt;
+          
+            &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/web-entwicklung&quot; class=&quot;&quot;&gt;
+              &lt;a href=&quot;/web-entwicklung&quot; property=&quot;dc:title&quot;&gt;Kompetenzen&lt;/a&gt;
+            &lt;/li&gt;
+          
+            &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/referenzen&quot; class=&quot;&quot;&gt;
+              &lt;a href=&quot;/referenzen&quot; property=&quot;dc:title&quot;&gt;Referenzen&lt;/a&gt;
+            &lt;/li&gt;
+          
+            &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/ueber-uns&quot; class=&quot;&quot;&gt;
+              &lt;a href=&quot;/ueber-uns&quot; property=&quot;dc:title&quot;&gt;Über uns&lt;/a&gt;
+            &lt;/li&gt;
+          
+            &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/jobs&quot; class=&quot;&quot;&gt;
+              &lt;a href=&quot;/jobs&quot; property=&quot;dc:title&quot;&gt;Jobs&lt;/a&gt;
+            &lt;/li&gt;
+          
+            &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/news&quot; class=&quot;&quot;&gt;
+              &lt;a href=&quot;/news&quot; property=&quot;dc:title&quot;&gt;News&lt;/a&gt;
+            &lt;/li&gt;
+          
+            &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/kontakt&quot; class=&quot;&quot;&gt;
+              &lt;a href=&quot;/kontakt&quot; property=&quot;dc:title&quot;&gt;Kontakt&lt;/a&gt;
+            &lt;/li&gt;
+          
+        &lt;/ul&gt;
+      &lt;/nav&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;container&quot; id=&quot;center-main&quot;&gt;
+  &lt;div id=&quot;outer-main&quot;&gt;
+    &lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+      &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+  &lt;h1&gt;This is a Blog Post&lt;/h1&gt;
+  &lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+  
+&lt;/footer&gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;footer&gt;
+  &lt;div class=&quot;container&quot; style=&quot;padding: 100px 0 50px 10px;&quot;&gt;&lt;/div&gt;
+
+  
+  &lt;div class=&quot;footer--main&quot;&gt;
+    &lt;div class=&quot;container&quot; style=&quot;padding: 30px 0 50px 10px;&quot;&gt;
+      &lt;div class=&quot;row-fluid&quot;&gt;
+        &lt;div class=&quot;span4&quot;&gt;
+          &lt;div&gt;
+            &lt;div&gt;
+              &lt;address&gt;
+                &lt;h5&gt;Renuo AG&lt;/h5&gt;
+                &lt;ul class=&quot;unstyled&quot;&gt;
+                  &lt;li&gt;Industriestrasse 44&lt;/li&gt;
+                  &lt;li&gt;8304 Wallisellen&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/address&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;ul class=&quot;unstyled&quot;&gt;
+                &lt;li&gt;&lt;a href=&quot;tel:+41443701536&quot;&gt;+41 44 370 15 36&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;mailto:info@renuo.ch&quot;&gt;info@renuo.ch&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;/&quot;&gt;https://www.renuo.ch&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;ul class=&quot;unstyled&quot;&gt;
+                &lt;li&gt;MWST-Nr: CHE-409.950.039 MWST&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;ul class=&quot;unstyled&quot;&gt;
+                &lt;li&gt;Unsere Geschäftsadresse in St. Gallen:&lt;/li&gt;
+                &lt;li&gt;Gallusstrasse 43&lt;/li&gt;
+                &lt;li&gt;9000 St. Gallen&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;span4&quot;&gt;
+          &lt;h5&gt;Downloads&lt;/h5&gt;
+          &lt;ul class=&quot;unstyled&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;/pdfs/agb.pdf&quot;&gt;Allgemeine Geschäfts&amp;shy;bedingungen (AGB)&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;/pdfs/agbhosting.pdf&quot;&gt;Allgemeine Geschäfts&amp;shy;bedingungen Hosting&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;/pdfs/monitoring-services.pdf&quot;&gt;Monitoring-Services&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;/pdfs/nda.pdf&quot;&gt;NDA für Anfragen&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;span4 social-media&quot;&gt;
+          &lt;h5&gt;Social&lt;/h5&gt;
+          &lt;a href=&quot;https://www.facebook.com/RenuoAG&quot;&gt;&lt;i class=&quot;icon-facebook-sign icon-4x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;a href=&quot;https://www.twitter.com/renuo&quot;&gt;&lt;i class=&quot;icon-twitter-sign icon-4x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;a href=&quot;https://www.instagram.com/renuoag&quot;&gt;&lt;i class=&quot;icon-instagram icon-4x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;a href=&quot;https://github.com/renuo&quot;&gt;&lt;i class=&quot;icon-github-sign icon-4x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;a href=&quot;https://www.linkedin.com/company/renuo-gmbh&quot;&gt;&lt;i class=&quot;icon-linkedin-sign icon-4x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;a href=&quot;https://www.xing.com/companies/renuoag&quot;&gt;&lt;i class=&quot;icon-xing-sign icon-4x&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+          &lt;div class=&quot;partners&quot;&gt;
+            &lt;h5&gt;Partnerschaften&lt;/h5&gt;
+            &lt;a href=&quot;https://www.google.com/partners/#a_profile;idtf=2492208531&quot;&gt;&lt;img src=&quot;/images/google-partner-badge-grey.png&quot;
+              alt=&quot;Renuo ist Google Partner&quot;&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+            &lt;a id=&quot;startfeld&quot; href=&quot;http://www.startfeld.ch/uber-uns/akkreditierte-dienstleister/&quot;&gt;&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div style=&quot;background: #fff;&quot;&gt;
+    &lt;div class=&quot;container&quot; style=&quot;padding: 10px 0 0 10px;&quot;&gt;
+      &lt;div class=&quot;row-fluid&quot;&gt;
+        &lt;div class=&quot;span10&quot;&gt;
+          ©
+          &lt;script&gt; document.write(new Date().getFullYear().toString()); &lt;/script&gt;
+          Renuo AG. Alle Rechte vorbehalten.
+          &lt;a href='/pdfs/agb.pdf'&gt;AGB&lt;/a&gt;.
+        &lt;/div&gt;
+        &lt;div class=&quot;span2&quot; style=&quot;text-align: right;&quot;&gt;
+          &lt;a href=&quot;http://www.swissmadesoftware.org/&quot;&gt;&lt;img src=&quot;/images/swiss-made-software.png&quot; alt=&quot;Logo Swiss Made Software&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;window.jQuery || document.write('&lt;script src=&quot;/vendor/lib/jquery.min.js&quot;&gt;&lt;\/script&gt;')&lt;/script&gt;
+&lt;script src=&quot;//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;script  src=&quot;/scripts.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;function initMap() { $(document).trigger('google-maps-loaded'); }&lt;/script&gt;
+&lt;script src=&quot;https://maps.googleapis.com/maps/api/js?key=AIzaSyCZeKAOyEFgq_IaAoGU4nsySxrttEFQuLY&amp;callback=initMap&quot; async defer&gt;&lt;/script&gt;
+
+
+  
+    &lt;link rel=&quot;prefetch&quot; href=&quot;/web-entwicklung&quot;&gt;
+  
+
+  
+    &lt;link rel=&quot;prefetch&quot; href=&quot;/referenzen&quot;&gt;
+  
+
+  
+    &lt;link rel=&quot;prefetch&quot; href=&quot;/ueber-uns&quot;&gt;
+  
+
+  
+    &lt;link rel=&quot;prefetch&quot; href=&quot;/jobs&quot;&gt;
+  
+
+  
+    &lt;link rel=&quot;prefetch&quot; href=&quot;/news&quot;&gt;
+  
+
+  
+    &lt;link rel=&quot;prefetch&quot; href=&quot;/kontakt&quot;&gt;
+  
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+    </entry>
+  
+</feed>

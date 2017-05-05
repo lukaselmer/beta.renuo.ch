@@ -1,0 +1,51 @@
+# The humans responsible & technology colophon
+# humanstxt.org
+
+/* TEAM */
+  Chef: Lukas Elmer
+  Contact: lukas.elmer@renuo.ch
+  Twitter: @lukaselmer
+  From: Zurich, Switzerland
+
+  Chef: Diego Steiner
+  Contact: diego.steiner@renuo.ch
+  From: Zurich, Switzerland
+
+/* SITE */
+
+    Docpad
+    HTML5, CSS3
+    Modernizr
+    Twitter Bootstrap
+    jQuery
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software:
+
+
+
+                               -o/-
+                               +oo//-
+                              :ooo+//:
+                             -ooooo///-
+                             /oooooo//:
+                            :ooooooo+//-
+                           -+oooooooo///-
+           -://////////////+oooooooooo++////////////::
+            :+ooooooooooooooooooooooooooooooooooooo+:::-
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-
+                     -:+ooooooooooooooooo+:://////:--
+                       /ooooooooooooooooo+//////:-
+                      -ooooooooooooooooooo////-
+                      /ooooooooo+oooooooooo//:
+                     :ooooooo+/::/+oooooooo+//-
+                    -oooooo/::///////+oooooo///-
+                    /ooo+::://////:---:/+oooo//:
+                   -o+/::///////:-      -:/+o+//-
+                   :-:///////:-            -:/://
+                     -////:-                 --//:
+                       --                       -:

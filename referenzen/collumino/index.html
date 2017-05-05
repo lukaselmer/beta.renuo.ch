@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <meta name="description" content="Renuo AG, Internet solutions"/>
+  <meta name="keywords" content="Renuo, Internet soulutions, Web, Websites, Webseite, Internet Seite, Internetseite, Homepage, Homepages, Consulting, Software Engineering, Ruby, Ruby on Rails, mobile, mobile apps, javascript, nodejs, node, android, ipad, iphone, rails, professional, Webagentur, Websiten, Web 2.0, CMS, Web-Applikationen, E-Commerce Lösungen"/>
+  <meta name="author" content="Renuo AG | info@renuo.ch | http://www.renuo.ch"/>
+  <meta name="robots" content="index, follow"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Collumino | Internet Solutions</title>
+
+  <!--
+
+                    `..-    `///:-.`
+               `-:+oooooo:`  `/yhhhhyo/-`
+            .:+ooooooooooo/    -hhhhhhhhhs/`
+         `:+oooooooooooo+.   .ohhhhhhhhhhhhho-
+       `:ooooooooooo+/:.     -::/+syhhhhhhhhhhs.
+      .+oooooooo+/-`               `-/shhhhhhhhh+`        Wir suchen Web-Entwickler!
+     -oooooooo+-`                      -ohhhhhhhhs`
+    :oooooooo:`                          -yhhhhhhhs`      Besitzt Du Know-How in Ruby on Rails,
+   .oooooooo.                             `ohhhhhhho      HTML5 oder JavaScript?
+   +ooooooo.                               `yhhhhhhh-     Du möchtest parallel zum Studium arbeiten?
+  .ooooooo/                                 -hhhhhhho     Du möchtest auch von zu Hause aus arbeiten?
+  -ooooooo-                                  hhhhhhhy
+  -ooooooo-                                  hhhhhhhy
+  .ooooooo:                                 .hhhhhhhs     Dann sende uns Deine vollständigen
+  `oooooooo`                                ohhhhhhh/     Unterlagen an jobs@renuo.ch
+   :ooooooo+`                              /hhhhhhhy`
+    /ooooooo+.                           `+hhhhhhhh-      Wir freuen uns auf Dich!
+    `/oooooooo:`                       `:yhhhhhhhh-
+      :ooooooooo/.`                  ./yhhhhhhhhy.
+       .+ooooooooo+/:-.``       .-/oyhhhhhhhhhh/`
+         -+oooooooooooooo/`   .ohhhhhhhhhhhhh+`
+           .:+ooooooooo/.   -ohhhhhhhhhhhhs:`
+              .:/oooooo+-   .+hhhhhhhhy+:`
+                  `.-://+/.   `+o+/:.`
+
+
+  -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png?v=A0Rmm8nbNa">
+  <link rel="icon" type="image/png" href="/ico/favicon-32x32.png?v=A0Rmm8nbNa" sizes="32x32">
+  <link rel="icon" type="image/png" href="/ico/android-chrome-192x192.png?v=A0Rmm8nbNa" sizes="192x192">
+  <link rel="icon" type="image/png" href="/ico/favicon-16x16.png?v=A0Rmm8nbNa" sizes="16x16">
+  <link rel="manifest" href="/ico/manifest.json?v=A0Rmm8nbNa">
+  <link rel="mask-icon" href="/ico/safari-pinned-tab.svg?v=A0Rmm8nbNa" color="#4a90c3">
+  <link rel="shortcut icon" href="/ico/favicon.ico?v=A0Rmm8nbNa">
+  <meta name="msapplication-config" content="/ico/browserconfig.xml?v=A0Rmm8nbNa">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--[if ie]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+  <!--[if IE 7]>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+  <![endif]-->
+
+  
+  <link  rel="stylesheet" href="/styles/application.css" />
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-34098642-1', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script type="text/javascript" async defer src="https://apis.google.com/js/platform.js?publisherid=116149986375247666043"></script>
+
+  
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="/">
+        <img src="/images/logo.png" alt="Renuo Logo" style="height: 25px;"/>
+      </a>
+
+      <a class="btn btn-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+      <nav class="nav-big">
+        <ul class="nav pull-right">
+          
+            <li typeof="sioc:Page" about="/web-entwicklung" class="">
+              <a href="/web-entwicklung" property="dc:title">Kompetenzen</a>
+            </li>
+          
+            <li typeof="sioc:Page" about="/referenzen" class="">
+              <a href="/referenzen" property="dc:title">Referenzen</a>
+            </li>
+          
+            <li typeof="sioc:Page" about="/ueber-uns" class="">
+              <a href="/ueber-uns" property="dc:title">Über uns</a>
+            </li>
+          
+            <li typeof="sioc:Page" about="/jobs" class="">
+              <a href="/jobs" property="dc:title">Jobs</a>
+            </li>
+          
+            <li typeof="sioc:Page" about="/news" class="">
+              <a href="/news" property="dc:title">News</a>
+            </li>
+          
+            <li typeof="sioc:Page" about="/kontakt" class="">
+              <a href="/kontakt" property="dc:title">Kontakt</a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="center-main">
+  <div id="outer-main">
+    <section id="content" class="content">
+      <div class="row-fluid page-header-element">
+    <div class="span12">
+        <div>
+            <ul class="breadcrumb">
+              <li><a href="/">Home</a> <span class="divider">/</span></li>
+              <li><a href="/referenzen">Referenzen</a> <span class="divider">/</span></li>
+              <li class="active">Collumino</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span12">
+        <div>
+            <div class="page-header">
+                <h1>Collumino
+                    <small>Ruby Consulting für Collumino GmbH</small>
+                </h1>
+            </div>
+            <p>
+                
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="row-fluid">
+    <div class="span12">
+        <div id="projectCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+        
+        
+        <li data-target="#projectCarousel" data-slide-to="0" class="active"></li>
+        
+        
+        <li data-target="#projectCarousel" data-slide-to="1"></li>
+        
+        
+        <li data-target="#projectCarousel" data-slide-to="2"></li>
+        
+        
+        <li data-target="#projectCarousel" data-slide-to="3"></li>
+        
+        
+    </ol>
+    <div class="carousel-inner">
+        
+        
+        <div class="item active">
+            
+            <img src="/images/dvmportal/client_dashboard.png" alt="Ansprechendes Dashboard" />
+            
+                <div class="carousel-caption">
+                    <h4>Ansprechendes Dashboard für den Kunden</h4>
+                    <p>Ein übersichtliches Dashboard informiert den Kunden über seine Zahlungen und lässt ihn diese effizient planen.</p>
+                </div>
+            
+            
+        </div>
+        
+        
+        <div class="item">
+            
+            <img src="/images/dvmportal/client_documents.png" alt="Dokumentsübersicht" />
+            
+                <div class="carousel-caption">
+                    <h4>Dokumentsübersicht</h4>
+                    <p>Der Kunde kann seine mit den Zahlungen in Zusammenhang stehende Dokumente nach Datum sortiert verwalten, editieren oder exportieren.</p>
+                </div>
+            
+            
+        </div>
+        
+        
+        <div class="item">
+            
+            <img src="/images/dvmportal/client_invoice.png" alt="Bearbeitungsmodus einer Rechnung" />
+            
+                <div class="carousel-caption">
+                    <h4>Bearbeitunsmodus einer Rechnung</h4>
+                    <p>Über einen simplen Editor kann der Kunde seine Rechnungen verwalten und editieren. Durch das Automatisieren entstehen keine Fehler.</p>
+                </div>
+            
+            
+        </div>
+        
+        
+        <div class="item">
+            
+            <img src="/images/dvmportal/admin_activity_filter.png" alt="Aktivitäten Log" />
+            
+                <div class="carousel-caption">
+                    <h4>Aktivitäten Log</h4>
+                    <p>Über einen Log lässt sich verfolgen, wann was erstellt oder bearbeitet wurde. Zahlreiche Filter unterstützen den Kunden.</p>
+                </div>
+            
+            
+        </div>
+        
+        
+    </div>
+    <a class="left carousel-control" href="#projectCarousel" data-slide="prev">‹</a>
+    <a class="right carousel-control" href="#projectCarousel" data-slide="next">›</a>
+</div>
+
+
+    </div>
+</div>
+
+
+<div class="row-fluid">
+    <div class="span4">
+        <h2>Ausgangslage</h2>
+
+        <div>
+            <p>Collumino GmbH entwickelt hochstehende Applikationen im Web- sowie Mobilbereich. Für ein Finanzportal der Deutschen Verrechnungsstelle Mittelland brauchte collumino GmbH
+            zusätzliche Ruby on Rails Entwickler, welche dem bestehenden Team unter die Arme greifen können.</p>
+            <p>Das Ziel der Partnerschaft ist es, das Entwicklungsteam kurzfristig und ohne Verpflichtungen für
+            Collumino GmbH zu unterstützen. </p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Lösung</h2>
+
+        <div>
+            <p>Die Renuo hat Collumino GmbH während einer bestimmten Dauer Mitarbeiter ausgeliehen, welche
+            sowohl vor Ort wie auch remote im Projekt mitwirken. Die Aufgaben waren mehrheitlich im Frontend-Bereich angesiedelt und erforderten fundierte Kenntnisse in Ruby on Rails, HTML, CSS, JavaScript sowie highchart. Die Projektleitung sowie dessen Administration
+            bleiben bei Collumino GmbH.</p>
+        </div>
+    </div>
+
+    <div class="span4">
+        <h2>Auftraggeber</h2>
+
+        <div>
+            <p>Collumino GmbH<br>
+            Industriestrasse 78<br>
+            4600 Olten<br></p>
+            <p>Ansprechperson: Ettore Weilenmann<br>
+            Tel: +41 62 296 10 50 </p>
+            <p>Link: <a href="http://www.collumino.com">http://www.collumino.com</a></p>
+            <p>Die Partnerschaft dauert von Mai 2013 bis Juli 2013.</p>
+            <div><img src='/images/logoslider/collumino_logo.png' /></div>
+        </div>
+    </div>
+</div>
+    </section>
+  </div>
+</div>
+
+<footer>
+  <div class="container" style="padding: 100px 0 50px 10px;"></div>
+
+  
+  <div class="footer--main">
+    <div class="container" style="padding: 30px 0 50px 10px;">
+      <div class="row-fluid">
+        <div class="span4">
+          <div>
+            <div>
+              <address>
+                <h5>Renuo AG</h5>
+                <ul class="unstyled">
+                  <li>Industriestrasse 44</li>
+                  <li>8304 Wallisellen</li>
+                </ul>
+              </address>
+            </div>
+            <div>
+              <ul class="unstyled">
+                <li><a href="tel:+41443701536">+41 44 370 15 36</a></li>
+                <li><a href="mailto:info@renuo.ch">info@renuo.ch</a></li>
+                <li><a href="/">https://www.renuo.ch</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="unstyled">
+                <li>MWST-Nr: CHE-409.950.039 MWST</li>
+              </ul>
+            </div>
+            <div>
+              <ul class="unstyled">
+                <li>Unsere Geschäftsadresse in St. Gallen:</li>
+                <li>Gallusstrasse 43</li>
+                <li>9000 St. Gallen</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="span4">
+          <h5>Downloads</h5>
+          <ul class="unstyled">
+            <li><a href="/pdfs/agb.pdf">Allgemeine Geschäfts&shy;bedingungen (AGB)</a></li>
+            <li><a href="/pdfs/agbhosting.pdf">Allgemeine Geschäfts&shy;bedingungen Hosting</a></li>
+            <li><a href="/pdfs/monitoring-services.pdf">Monitoring-Services</a></li>
+            <li><a href="/pdfs/nda.pdf">NDA für Anfragen</a></li>
+          </ul>
+        </div>
+        <div class="span4 social-media">
+          <h5>Social</h5>
+          <a href="https://www.facebook.com/RenuoAG"><i class="icon-facebook-sign icon-4x"></i></a>
+          <a href="https://www.twitter.com/renuo"><i class="icon-twitter-sign icon-4x"></i></a>
+          <a href="https://www.instagram.com/renuoag"><i class="icon-instagram icon-4x"></i></a>
+          <a href="https://github.com/renuo"><i class="icon-github-sign icon-4x"></i></a>
+          <a href="https://www.linkedin.com/company/renuo-gmbh"><i class="icon-linkedin-sign icon-4x"></i></a>
+          <a href="https://www.xing.com/companies/renuoag"><i class="icon-xing-sign icon-4x"></i></a>
+
+          <div class="partners">
+            <h5>Partnerschaften</h5>
+            <a href="https://www.google.com/partners/#a_profile;idtf=2492208531"><img src="/images/google-partner-badge-grey.png"
+              alt="Renuo ist Google Partner"></a><br/><br/>
+            <a id="startfeld" href="http://www.startfeld.ch/uber-uns/akkreditierte-dienstleister/"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background: #fff;">
+    <div class="container" style="padding: 10px 0 0 10px;">
+      <div class="row-fluid">
+        <div class="span10">
+          ©
+          <script> document.write(new Date().getFullYear().toString()); </script>
+          Renuo AG. Alle Rechte vorbehalten.
+          <a href='/pdfs/agb.pdf'>AGB</a>.
+        </div>
+        <div class="span2" style="text-align: right;">
+          <a href="http://www.swissmadesoftware.org/"><img src="/images/swiss-made-software.png" alt="Logo Swiss Made Software"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/vendor/lib/jquery.min.js"><\/script>')</script>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script  src="/scripts.js"></script>
+<script>function initMap() { $(document).trigger('google-maps-loaded'); }</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZeKAOyEFgq_IaAoGU4nsySxrttEFQuLY&callback=initMap" async defer></script>
+
+
+  
+    <link rel="prefetch" href="/web-entwicklung">
+  
+
+  
+    <link rel="prefetch" href="/referenzen">
+  
+
+  
+    <link rel="prefetch" href="/ueber-uns">
+  
+
+  
+    <link rel="prefetch" href="/jobs">
+  
+
+  
+    <link rel="prefetch" href="/news">
+  
+
+  
+    <link rel="prefetch" href="/kontakt">
+  
+
+
+</body>
+</html>
